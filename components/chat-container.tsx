@@ -3,7 +3,6 @@
 import { useState, useRef, useEffect } from "react"
 import { ChatMessage } from "./chat-message"
 import { ChatInput } from "./chat-input"
-import { ScrollArea } from "@/components/ui/scroll-area"
 import { Atom } from "lucide-react"
 
 interface Message {
@@ -16,7 +15,7 @@ const initialMessages: Message[] = [
   {
     id: "1",
     role: "assistant",
-    content: `¡Hola! Soy tu tutor de física con IA. Puedo ayudarte con cualquier tema de física, desde mecánica clásica hasta física cuántica.
+    content: `Hola, Soy HAL-2026, tu asistente de física. Puedo ayudarte con cualquier tema de física, mientras que pertenezca a los temas dados en la materia Fisica I.
 
 Puedo explicarte conceptos complejos y mostrarte las ecuaciones matemáticas de forma clara. Por ejemplo, las **ecuaciones de Maxwell** que describen el electromagnetismo:
 
@@ -32,55 +31,47 @@ $$\\nabla \\times \\mathbf{B} = \\mu_0\\mathbf{J} + \\mu_0\\varepsilon_0\\frac{\
   },
 ]
 
-const assistantResponses: Record<string, string> = {
-  default: `Excelente pregunta. Déjame explicarte este concepto de física.
+interface SavedQuestion {
+  id: string
+  text: string
+  createdAt: string
+}
 
-La **ecuación de Schrödinger** es fundamental en mecánica cuántica y describe cómo evoluciona el estado cuántico de un sistema físico con el tiempo:
+interface RetrievedContext {
+  source: string
+  content: string
+}
 
-$$i\\hbar\\frac{\\partial}{\\partial t}\\Psi(\\mathbf{r},t) = \\hat{H}\\Psi(\\mathbf{r},t)$$
+async function saveQuestionToDatabase(question: string): Promise<SavedQuestion> {
+  // TODO: Reemplazar por insercion real en base de datos.
+  return {
+    id: crypto.randomUUID(),
+    text: question,
+    createdAt: new Date().toISOString(),
+  }
+}
 
-Donde:
-- $\\Psi$ es la función de onda
-- $\\hbar$ es la constante de Planck reducida
-- $\\hat{H}$ es el operador Hamiltoniano
+async function searchContextInDatabase(_savedQuestion: SavedQuestion): Promise<RetrievedContext[]> {
+  // TODO: Reemplazar por busqueda semantica/contextual en base de datos.
+  return []
+}
 
-Para una partícula libre, el Hamiltoniano toma la forma:
+async function generateAnswerWithAI(
+  _question: SavedQuestion,
+  context: RetrievedContext[]
+): Promise<string> {
+  // TODO: Integrar proveedor/modelo de IA cuando se defina.
+  if (context.length === 0) {
+    return "Recibi tu pregunta y la guarde correctamente. Aun no hay base de contexto ni proveedor de IA configurados para generar una respuesta final."
+  }
 
-$$\\hat{H} = -\\frac{\\hbar^2}{2m}\\nabla^2 + V(\\mathbf{r})$$
+  return "Recibi tu pregunta, encontre contexto en la base y quedo lista para enviarse al modelo de IA elegido."
+}
 
-¿Te gustaría que profundice en algún aspecto específico de esta ecuación?`,
-  energia: `La **energía** es una de las cantidades más fundamentales en física. La famosa ecuación de Einstein relaciona masa y energía:
-
-$$E = mc^2$$
-
-En mecánica clásica, la energía total de un sistema es la suma de la energía cinética y potencial:
-
-$$E_{total} = E_c + E_p = \\frac{1}{2}mv^2 + mgh$$
-
-El **principio de conservación de la energía** establece que en un sistema aislado, la energía total permanece constante:
-
-$$\\frac{dE}{dt} = 0$$
-
-¿Quieres que exploremos algún tipo específico de energía o sus aplicaciones?`,
-  ondas: `Las **ondas** son perturbaciones que transportan energía sin transportar materia. La ecuación de onda general es:
-
-$$\\frac{\\partial^2 u}{\\partial t^2} = v^2 \\frac{\\partial^2 u}{\\partial x^2}$$
-
-Para una onda armónica, la solución tiene la forma:
-
-$$u(x,t) = A\\sin(kx - \\omega t + \\phi)$$
-
-Donde:
-- $A$ es la amplitud
-- $k = \\frac{2\\pi}{\\lambda}$ es el número de onda
-- $\\omega = 2\\pi f$ es la frecuencia angular
-- $\\phi$ es la fase inicial
-
-La **relación de dispersión** conecta $\\omega$ y $k$:
-
-$$\\omega = vk$$
-
-¿Te interesa aprender sobre ondas electromagnéticas, ondas sonoras o algún otro tipo?`,
+async function runQuestionPipeline(questionText: string): Promise<string> {
+  const savedQuestion = await saveQuestionToDatabase(questionText)
+  const context = await searchContextInDatabase(savedQuestion)
+  return generateAnswerWithAI(savedQuestion, context)
 }
 
 export function ChatContainer() {
@@ -104,29 +95,32 @@ export function ChatContainer() {
     setMessages((prev) => [...prev, userMessage])
     setIsLoading(true)
 
-    // Simulate AI response
-    await new Promise((resolve) => setTimeout(resolve, 1500))
+    try {
+      const answer = await runQuestionPipeline(content)
 
-    const lowerContent = content.toLowerCase()
-    let responseKey = "default"
-    if (lowerContent.includes("energía") || lowerContent.includes("energia")) {
-      responseKey = "energia"
-    } else if (lowerContent.includes("onda") || lowerContent.includes("wave")) {
-      responseKey = "ondas"
+      const assistantMessage: Message = {
+        id: (Date.now() + 1).toString(),
+        role: "assistant",
+        content: answer,
+      }
+
+      setMessages((prev) => [...prev, assistantMessage])
+    } catch {
+      const errorMessage: Message = {
+        id: (Date.now() + 1).toString(),
+        role: "assistant",
+        content:
+          "Hubo un error al procesar tu pregunta en el flujo pregunta -> base de datos -> contexto -> IA. Revisa la configuracion del backend.",
+      }
+
+      setMessages((prev) => [...prev, errorMessage])
+    } finally {
+      setIsLoading(false)
     }
-
-    const assistantMessage: Message = {
-      id: (Date.now() + 1).toString(),
-      role: "assistant",
-      content: assistantResponses[responseKey],
-    }
-
-    setMessages((prev) => [...prev, assistantMessage])
-    setIsLoading(false)
   }
 
   return (
-    <main className="flex flex-1 flex-col h-full overflow-hidden">
+    <main className="flex h-full min-h-0 flex-1 flex-col overflow-hidden">
       {/* Header */}
       <header className="flex items-center gap-3 border-b border-border bg-card/80 backdrop-blur-sm px-6 py-4">
         <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-primary/10">
@@ -141,8 +135,8 @@ export function ChatContainer() {
       </header>
 
       {/* Messages */}
-      <ScrollArea className="flex-1 px-4 py-6" ref={scrollRef}>
-        <div className="mx-auto max-w-3xl space-y-6">
+      <div ref={scrollRef} className="min-h-0 flex-1 overflow-y-auto px-4 py-6">
+        <div className="mx-auto max-w-3xl space-y-6 pb-24">
           {messages.map((message) => (
             <ChatMessage key={message.id} message={message} />
           ))}
@@ -159,10 +153,10 @@ export function ChatContainer() {
             </div>
           )}
         </div>
-      </ScrollArea>
+      </div>
 
       {/* Input */}
-      <div className="border-t border-border bg-card/80 backdrop-blur-sm p-4">
+      <div className="sticky bottom-0 z-20 border-t border-border bg-card/90 p-4 backdrop-blur-sm">
         <div className="mx-auto max-w-3xl">
           <ChatInput onSendMessage={handleSendMessage} isLoading={isLoading} />
         </div>
