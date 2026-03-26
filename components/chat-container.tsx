@@ -133,9 +133,9 @@ export function ChatContainer() {
           <Atom className="h-5 w-5 text-primary" />
         </div>
         <div>
-          <h1 className="font-semibold text-foreground">Tutoría de Física</h1>
+          <h1 className="font-semibold text-foreground">HAL-2026</h1>
           <p className="text-sm text-muted-foreground">
-            Aprende física con explicaciones claras y fórmulas en LaTeX
+            Pregunte solo acerca de Fisica, o se va por la escotilla de ventilacion
           </p>
         </div>
       </header>

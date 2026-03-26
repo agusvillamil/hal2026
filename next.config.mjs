@@ -1,11 +1,13 @@
 /** @type {import('next').NextConfig} */
-const isGithubPages = process.env.GITHUB_ACTIONS === "true"
+const repoName = process.env.GITHUB_REPOSITORY?.split("/")[1] ?? ""
+const useRepoBasePath = process.env.GITHUB_PAGES_USE_REPO_BASE_PATH === "true"
+const basePath = useRepoBasePath && repoName ? `/${repoName}` : ""
 
 const nextConfig = {
   output: "export",
   trailingSlash: true,
-  basePath: isGithubPages ? "/hal2026" : "",
-  assetPrefix: isGithubPages ? "/hal2026/" : "",
+  basePath,
+  assetPrefix: basePath ? `${basePath}/` : "",
   typescript: {
     ignoreBuildErrors: true,
   },
