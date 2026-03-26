@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'PhysTutor AI - Tu Tutor de Física con IA',
-  description: 'Aprende física con un tutor de inteligencia artificial. Explicaciones claras con fórmulas matemáticas renderizadas en LaTeX.',
+  title: 'HAL-2026',
+  description: 'Pregunte solo acerca de Fisica, o se va por la escotilla de ventilacion',
   generator: 'v0.app',
   icons: {
     icon: [

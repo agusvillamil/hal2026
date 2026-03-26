@@ -66,7 +66,7 @@ export function ChatInput({ onSendMessage, isLoading = false }: ChatInputProps) 
         </Button>
       </div>
       <p className="mt-2 text-center text-xs text-muted-foreground">
-        PhysTutor AI puede cometer errores. Verifica siempre la información importante.
+        HAL-2026 puede cometer errores. Verifica siempre la información importante.
       </p>
     </form>
   )
