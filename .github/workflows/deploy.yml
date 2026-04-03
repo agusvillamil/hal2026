@@ -42,6 +42,8 @@ jobs:
 
       - name: Build static export
         run: pnpm build
+        env:
+          NEXT_PUBLIC_API_URL: https://strangledly-unmuscular-ileana.ngrok-free.dev
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
