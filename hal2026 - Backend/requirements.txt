@@ -1,0 +1,7 @@
+fastapi==0.135.3
+uvicorn==0.43.0
+ollama==0.6.1
+pydantic==2.12.5
+python-dotenv==1.2.2
+docling==2.84.0
+langchain-text-splitters==1.1.1

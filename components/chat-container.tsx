@@ -57,15 +57,25 @@ async function searchContextInDatabase(_savedQuestion: SavedQuestion): Promise<R
 }
 
 async function generateAnswerWithAI(
-  _question: SavedQuestion,
-  context: RetrievedContext[]
+  question: SavedQuestion,
+  _context: RetrievedContext[]
 ): Promise<string> {
-  // TODO: Integrar proveedor/modelo de IA cuando se defina.
-  if (context.length === 0) {
-    return "Recibi tu pregunta y la guarde correctamente. Aun no hay base de contexto ni proveedor de IA configurados para generar una respuesta final."
-  }
+  const apiUrl = process.env.NEXT_PUBLIC_API_URL
+  if (!apiUrl) throw new Error("NEXT_PUBLIC_API_URL no está configurada en .env")
 
-  return "Recibi tu pregunta, encontre contexto en la base y quedo lista para enviarse al modelo de IA elegido."
+  const res = await fetch(`${apiUrl}/chat`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      "ngrok-skip-browser-warning": "true",
+    },
+    body: JSON.stringify({ mensaje: question.text }),
+  })
+
+  if (!res.ok) throw new Error(`Error del servidor: ${res.status}`)
+
+  const data = await res.json()
+  return data.respuesta
 }
 
 async function runQuestionPipeline(questionText: string): Promise<string> {
