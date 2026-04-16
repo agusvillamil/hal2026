@@ -34,3 +34,11 @@ build/
 # Logs
 *.log
 npm-debug.log*
+
+# Bibliografía (archivos grandes / derechos de autor)
+hal2026 - Backend/Libros/Libros_Markdown/
+hal2026 - Backend/Libros/Libros_Chunks/
+hal2026 - Backend/Libros/*.pdf
+
+# Base de datos vectorial (se regenera con indexado.py)
+hal2026 - Backend/chroma_db/
