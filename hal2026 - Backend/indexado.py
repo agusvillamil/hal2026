@@ -138,6 +138,23 @@ def extraerMetadatosGroq(chunk: str) -> dict:
     return {'tipo_contenido': 'otro', 'conceptos': ''}
 
 
+def leerChunksDesdeTxt(ruta_txt: Path) -> list:
+    """
+    Lee y devuelve los chunks almacenados en un .txt generado por guardarChunks().
+
+    El formato alterna: header-archivo / "Chunk N" / texto / "Chunk N+1" / texto...
+    Al hacer split por el separador (─×60), los textos quedan en índices pares ≥ 2.
+    """
+    contenido = ruta_txt.read_text(encoding='utf-8')
+    partes = contenido.split('─' * 60)
+    # partes[0]  = cabecera (Archivo / Chunks)
+    # partes[1]  = "Chunk 1 (X chars)"   ← descartar
+    # partes[2]  = texto chunk 1          ← guardar
+    # partes[3]  = "Chunk 2 (Y chars)"   ← descartar
+    # partes[4]  = texto chunk 2          ← guardar  …
+    return [partes[i].strip() for i in range(2, len(partes), 2) if partes[i].strip()]
+
+
 def indexarTodos(
     dirPersistente: str    = './chroma_db',
     coleccion: str      = 'fisica_chunks',
@@ -181,31 +198,31 @@ def indexarTodos(
 
         print(f'[{i}/{len(rutas)}] Ochoa-{metaArchivo["chapter_num"]}-{tema}')
 
-        # Chequeo a nivel archivo: si ya existe algún chunk de este file_id,
-        # el archivo fue procesado en una ejecución anterior → saltar indexado.
-        # Si además falta el .txt, lo reconstruye desde ChromaDB (sin llamar Groq).
-        existentes = coleccionDatabase.get(
-            where={'file_id': idArchivo},
-            include=['documents', 'metadatas'],
-        )
-        if existentes['ids']:
-            if not nombreTxt(ruta).exists():
-                pares = sorted(
-                    zip(existentes['metadatas'], existentes['documents']),
-                    key=lambda x: x[0].get('chunk_index', 0),
-                )
-                guardarChunks(ruta, [doc for _, doc in pares])
-            else:
-                print(f'  → Ya indexado ({len(existentes["ids"])} chunks), saltando\n')
-            continue
+        # Si el .txt existe, el chunking completó correctamente en una ejecución
+        # anterior → leer chunks desde disco sin llamar Groq para imágenes.
+        # Si no existe → pipeline completo (Groq vision + guardar .txt).
+        ruta_txt = nombreTxt(ruta)
+        if ruta_txt.exists():
+            chunks = leerChunksDesdeTxt(ruta_txt)
+        else:
+            chunks = chunkear(ruta, tamanioChunk, ratio, enriquecer)
 
-        # Generar chunks (llama Groq para imágenes si enriquecer=True)
-        chunks = chunkear(ruta, tamanioChunk, ratio, enriquecer)
+        # Chequeo incremental por chunk ID: omite los ya indexados,
+        # retoma los faltantes aunque el archivo esté parcialmente indexado.
+        existentes = coleccionDatabase.get(where={'file_id': idArchivo}, include=[])
+        ids_existentes = set(existentes['ids'])
+
+        if len(ids_existentes) == len(chunks):
+            print(f'  → Completo ({len(chunks)} chunks), saltando\n')
+            continue
 
         docs, metas, ids = [], [], []
 
         for idx, chunk in enumerate(chunks):
             docID = f'{idArchivo}_{idx:04d}'
+
+            if docID in ids_existentes:
+                continue
 
             # Metadatos detectados desde el texto (sin API)
             tieneFormulas  = '$$' in chunk
