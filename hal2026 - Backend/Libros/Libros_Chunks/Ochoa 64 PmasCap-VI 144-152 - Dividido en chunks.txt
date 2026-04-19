@@ -1,0 +1,540 @@
+Archivo  : Libros/Libros_Markdown/MinerU_markdown_Ochoa-64-PmasCap-VI-144-152_2042434497941204992.md
+Chunks   : 22
+
+────────────────────────────────────────────────────────────
+Chunk 1 (2096 chars)
+────────────────────────────────────────────────────────────
+# Problema 6.1
+
+El disco circular rueda sin deslizar entre las placas paralelas A y B que se muestran en la figura y deslizan en sentidos opuestos. Si la velocidad de la placa A es de 2 m/seg. y la de placa B es de 4m/seg. Localizar el centro instantáneo de rotación del disco y determinar la velocidad angulas, la velocidad de desplazamiento del punto O y la velocidad del punto D en el instante representado.
+
+# Problema 6.2
+
+El vástago del pistón del cilindro hidráulico se mueve con velocidad constante de $0 { , } 2 ~ \mathrm { m / s e g }$ . en la dirección indicada. Calcular la aceleración B en el instante en el que el vástago AB alcanza la posición vertical con $\theta = 4 5 ^ { o }$
+
+[Descripción de imagen: La imagen muestra una esfera en contacto con dos superficies planas, con vectores de velocidad V_A y V_B aplicados tangencialmente en los puntos de contacto superior e inferior, respectivamente. El centro de la esfera está etiquetado como O, y el punto D se encuentra sobre el eje vertical que pasa por O. Se observa un sistema de ejes cartesianos centrado en O.]
+
+[Descripción de imagen: La imagen muestra un sistema de palancas con un ángulo de 45 grados en la base y una altura de 38 cm. Se puede observar un vector de fuerza aplicado a lo largo de la palanca inclinada y su punto de aplicación en la parte superior. El ángulo theta se encuentra entre la palanca inclinada y la vertical.]
+
+# Problema 6.3
+
+Los collares A y C deslizan a lo largo de las varillas verticales y B de la horizontal. Si C tiene una velocidad hacia debajo de $0 { , } 2 ~ \mathrm { m / s e g }$ . cuando alcanza la posición graficada determinar la velocidad angular de la varilla AB.
+
+[Descripción de imagen: La imagen muestra un sistema de poleas con cuerdas inclinadas que forman ángulos de 45° y 30° con la vertical, con longitudes de 25 cm cada una. Se identifican los puntos de aplicación A y C, con un vector velocidad Vc aplicado en C en dirección vertical hacia abajo. No se observan fuerzas explícitamente etiquetadas, pero se infiere la presencia de tensiones a lo largo de las cuerdas.]
+
+────────────────────────────────────────────────────────────
+Chunk 2 (2101 chars)
+────────────────────────────────────────────────────────────
+[Descripción de imagen: La imagen muestra un sistema de poleas con cuerdas formando un ángulo de 45° y 30° con respecto a la vertical en los puntos C y A respectivamente. Se observa que las fuerzas actuantes en las cuerdas forman vectores que se pueden descomponer en componentes a lo largo de los ejes vertical y horizontal. En el punto C, la velocidad Vc indica movimiento vertical.]
+
+# Problema 6.4
+
+A la caja rectangular homogénea de masa m se le aplica una fuerza horizontal F de la forma en que se indica en la figura. Si es f el coeficiente de rozamiento entre la caja y el piso, determinar los valores límites de h tales que hagan deslizar la caja sin volcarla hacia delante ni hacia atrás.
+
+[Descripción de imagen: La imagen muestra un rectángulo con una fuerza F aplicada horizontalmente a una altura h sobre el suelo. Los ejes y las dimensiones del rectángulo están indicados por las letras b, c y h. La fuerza F se aplica en un punto a la derecha del rectángulo.]
+
+# Problema 6.5
+
+La varilla de $4 5 \ \mathrm { c m }$ . pesa $^ { 7 , 5 \mathrm { ~ k g } }$ . y gira libremente alrededor del eje vertical que pasa por O. Si a la barra que inicialmente se encuentra en reposo se le aplica una fuerza horizontal F de 135,5 Nw. Calcular el valor máximo de la componente horizontal de reacción en O en la dirección de la fuerza F.
+
+[Descripción de imagen: La imagen muestra una barra horizontal apoyada en un punto O, con una fuerza F aplicada en un punto de la barra. La distancia desde el punto O hasta la línea de acción de la fuerza F forma un brazo de palanca. 
+
+La barra tiene marcas que indican una división en tres secciones iguales de 15 cm cada una.]
+
+# Problema 6.6
+
+Una barra uniforme de masa m y longitud l se suelta desde el reposo cuando el ángulo $\beta$ es de 60 grados. Si el rozamiento entre la barra y la superficie es el necesario para evitar el deslizamiento de la misma obtener: 
+
+a. La aceleración angular de la barra en el instante de soltarse. 
+
+b. La fuerza de contacto N y la de rozamiento en A. 
+
+c. El mínimo coeficiente de rozamiento que garantice el movimiento.
+
+────────────────────────────────────────────────────────────
+Chunk 3 (2508 chars)
+────────────────────────────────────────────────────────────
+La aceleración angular de la barra en el instante de soltarse. 
+
+b. La fuerza de contacto N y la de rozamiento en A. 
+
+c. El mínimo coeficiente de rozamiento que garantice el movimiento.
+
+[Descripción de imagen: La imagen muestra una barra inclinada que forma un ángulo β con la horizontal, con un extremo en el punto A en contacto con el suelo. Se puede considerar un sistema de ejes coordenados con el origen en A y los ejes x e y orientados convencionalmente. Sobre la barra actúa al menos la fuerza de gravedad, cuyo vector apunta hacia abajo y se aplica en el centro de masas de la barra, no representado en la imagen.]
+
+# Problema 6.7
+
+Ambos tornos tienen una masa de 90,7 Kg. cada uno, sus cubos tienen un radio de 25,4 cm. y un radio de giro respecto de su eje de $3 8 \mathrm { c m }$ . calcular la aceleración angular de ambos tornos si el rozamiento en ambos ejes es despreciable.
+
+[Descripción de imagen: La imagen muestra un sistema de polea con un radio de 25,4 cm, con un bloque de masa m = 18 Kg suspendido. La fuerza de gravedad actúa hacia abajo sobre el bloque, que se puede representar como un vector vertical hacia abajo con punto de aplicación en el centro de masa del bloque. El eje de rotación de la polea es perpendicular al plano de la imagen, pasando por el centro de la polea.]
+
+[Descripción de imagen: La imagen muestra una polea con un radio de 25,4 cm, sobre la que se aplica una fuerza F de 18 kgf en sentido vertical hacia abajo. El punto de aplicación de la fuerza se encuentra en la parte inferior de la polea. No se observan ejes explícitos, pero el sistema parece estar en el plano cartesiano con orientación estándar.]
+
+# Problema 6.8
+
+Calcular la aceleración hacia arriba del centro O del disco macizo circular de $^ { 1 8 , 1 \mathrm { ~ k g } }$ . de masa y 20,3 cm. de radio cuando se deja en libertad sometido al movimiento del cilindro de $^ { 1 1 , 3 \mathrm { ~ k g } }$ . que es sujetado por una cuerda inextensible y sin masa, según se indica en la figura.
+
+[Descripción de imagen: La imagen muestra un sistema de poleas con dos masas, una de 18,1 kg y otra de 11,3 kg. La fuerza de gravedad actúa verticalmente hacia abajo en ambas masas, representadas por vectores que apuntan hacia el centro de la Tierra, y se puede considerar que las tensiones en la cuerda actúan a lo largo de ella, con puntos de aplicación en el centro de cada masa y en el punto de sujeción de la cuerda a la polea. El sistema tiene un eje de rotación en el centro de la polea grande.]
+
+────────────────────────────────────────────────────────────
+Chunk 4 (1944 chars)
+────────────────────────────────────────────────────────────
+[Descripción de imagen: La imagen muestra un sistema de poleas con dos masas, una de 18,1 kg y otra de 11,3 kg. El peso de la masa de 18,1 kg actúa en el centro de la polea grande, mientras que el peso de la masa de 11,3 kg actúa hacia abajo en el extremo de la cuerda. Los vectores de fuerza relevantes incluyen el peso de cada masa, que actúa en dirección vertical a lo largo del eje Y, y la tensión en la cuerda.]
+
+# Problema 6.9
+
+La barra uniforme delgada AB tiene $3 ~ \mathrm { k g }$ . de masa y una longitud de 1,2 metros. Si se suelta desde el reposo para la posición graficada determinar: 
+
+a. La aceleración angular de la barra. 
+
+b. La aceleración del extremo A. 
+
+c. La reacción de vínculo en el apoyo A. 
+
+Despreciar el rozamiento y la masa del rodillo en A.
+
+[Descripción de imagen: La imagen muestra un sistema con un punto de aplicación A, donde una barra o viga se articula con una superficie inclinada que forma un ángulo de 30 grados con la horizontal. En el punto A, se puede asumir la presencia de fuerzas de reacción que podrían descomponerse en componentes a lo largo de los ejes x e y.]
+
+# Problema 10
+
+Se fija a un aro circular de radio l una varilla de longitud l y masa m. La masa del aro es despreciable. Si barra y aro se sueltan desde el reposo desde la posición graficada para que rueden sobre una superficie horizontal. Determinar los valores de las fuerzas de contacto N y rozamiento en el instante inicial si el rodamiento se produce sin deslizamiento.
+
+[Descripción de imagen: La imagen muestra una rueda apoyada sobre una superficie horizontal, con un radio definido por una línea sólida. Un eje horizontal y otro vertical, representados por líneas discontinuas, se cruzan en el centro de la rueda; este último coincide con el eje de simetría de la rueda. Un segmento recto, que puede interpretarse como una barra, se extiende horizontalmente a través del centro de la rueda, perpendicular al eje vertical.]
+
+────────────────────────────────────────────────────────────
+Chunk 5 (1363 chars)
+────────────────────────────────────────────────────────────
+(https://cdn-mineru.openxlab.org.cn/result/2026-04-06/27d05abd-a17c-4070-a68b-c44e5ad5c8ac/c2f6a95957aa32e50a26df396289a68e9ff8af526a6e6514ac582843b531ff15.jpg)
+
+# Problema 6.11
+
+El cilindro macizo de radio r se encuentra en reposo sobre la cinta horizontal cuando a la cinta se le aplica una fuerza F. 
+
+Suponiendo que la fuerza aplicada es la necesaria para que haya deslizamiento entre el cilindro y la cinta en cualquier instante determinar t requerido para que el cilindro alcance la posición señalada por trazos. 
+
+Calcular además la velocidad angular del cilindro para la posición representada por trazos. El coeficiente de rozamiento entre el cilindro y la cinta es f.
+
+# Problema 6.12
+
+El cilindro macizo de $1 5 \ \mathrm { c m }$ . de radio se suelta partiendo desde el reposo, sobre un plano inclinado a $6 0 ^ { \mathrm { o } }$ con la horizontal. Calcular la velocidad angular ω y la velocidad lineal V de su centro C después de descender 3 metros por el plano inclinado. El coeficiente de rozamiento entre plano y cilindro es de 0,3.
+
+# Problema 6.13
+
+La placa vertical pesa $7 3 0 \mathrm { k g }$ . siendo su centro de masa O. Si está sostenida en la posición en que se muestra en la figura por dos cables paralelos A y B y por el cable horizontal C, si se corta el cable C, determinar el esfuerzo del cable B inmediatamente después de la rotura.
+
+────────────────────────────────────────────────────────────
+Chunk 6 (1761 chars)
+────────────────────────────────────────────────────────────
+se muestra en la figura por dos cables paralelos A y B y por el cable horizontal C, si se corta el cable C, determinar el esfuerzo del cable B inmediatamente después de la rotura.
+
+# Problema 6.14
+
+La barra uniforme OA y BC de masas de $2 2 , 7 \ \mathrm { k g } .$ y $^ { 4 5 , 3 } \mathrm { ~ k g }$ . respectivamente, están soldadas en ángulo recto entre sí en A. Si el sistema parte desde el reposo en la posición mostrada en la figura, calcular la fuerza inicial ejercida en OA por el perno en O y el momento flector $\mathbf { M } _ { \mathrm { F } }$ aplicado a la barra BC por OA a través de la soldadura en A. Despreciar el rozamiento en el cojinete O.
+
+# Problema 6.15
+
+La viga de acero se está colocando mediante una fuerza F que a lo largo de un cable actúa en B. 
+
+Si el cable se rompe en la posición indicada, cuando la cuerda AC se encuentra horizontal, determinar la velocidad del extremo A cuando alcanza la posición A 
+
+Despreciar el rozamiento
+
+# Problema 6.16
+
+Calcular la velocidad angular inicial de la varilla maciza OA de 29,2 kg. y 2,4 metros de largo en la posición vertical graficada, tal que alcance la posición horizontal señalada en línea de trazos, con velocidad nula bajo la acción del muelle de constante elástica $2 6 , 3 ~ \mathrm { N / c m }$ que la sujeta en su centro. 
+
+En la posición inicial el muelle está sin deformar.
+
+[Descripción de imagen: La imagen muestra un sistema con dos círculos, representando probablemente ruedas, donde uno está en reposo y el otro gira con velocidad angular ω. Se observa una fuerza F aplicada horizontalmente hacia la derecha y una distancia S entre los centros de los círculos. El punto de aplicación de la fuerza F parece estar sobre la superficie sobre la que se apoyan los círculos.]
+
+────────────────────────────────────────────────────────────
+Chunk 7 (3277 chars)
+────────────────────────────────────────────────────────────
+[Descripción de imagen: La imagen muestra un sistema con un cilindro sometido a una fuerza F aplicada horizontalmente. El punto de aplicación de la fuerza F se encuentra sobre la superficie de apoyo, en el extremo derecho de la misma. Se observa también un desplazamiento denotado como S, así como una velocidad angular ω, asociada a la rotación del cilindro.]
+
+[Descripción de imagen: La imagen muestra un objeto circular, etiquetado como C, en contacto con una superficie inclinada que forma un ángulo de 60 grados con el eje horizontal. Se puede asumir que el centro del círculo es el punto de aplicación de la fuerza peso del objeto. No se observan vectores ni fuerzas explícitamente dibujados en la imagen.]
+
+[Descripción de imagen: La imagen muestra un sistema de vectores y fuerzas aplicado a un objeto con forma rectangular. El punto O parece ser el centro de gravedad del objeto rectangular. Se observan fuerzas actuando en los puntos A, B y C, formando un ángulo de 60 grados con la horizontal en A y B.]
+
+[Descripción de imagen: La imagen muestra una estructura en forma de T con un extremo empotrado en O y fuerzas aplicadas en los puntos A, B y C. Los vectores de posición indican distancias de 1,2 metros desde el punto O hasta A, y desde A hasta B y desde A hasta C, ambos de 1,2 metros de magnitud. No se observan flechas que indiquen dirección de fuerzas.]
+
+[Descripción de imagen: La imagen muestra un sistema mecánico con una barra inclinada que forma un triángulo rectángulo con las paredes y el suelo. El punto de aplicación de la fuerza F se encuentra en la base de la barra y el vector de fuerza F se dirige horizontalmente hacia la derecha. Se pueden identificar también los ejes x e y implicitos, aunque no se visualizan.]
+
+[Descripción de imagen: La imagen muestra un sistema físico que involucra un resorte y un péndulo. El resorte está conectado a un punto fijo en un extremo y al punto O en el otro, mientras que un péndulo simple de 1.2 metros de longitud está conectado al mismo punto O. 
+
+El punto A se encuentra a 1.2 metros por encima de O, lo que sugiere una posible posición de equilibrio o referencia vertical. El resorte parece estar en una posición inclinada con respecto al suelo horizontal, extendiéndose desde el punto O hasta un punto situado a 1.2 metros hacia la derecha de O. 
+
+No se aprecian vectores explícitos de fuerzas en la imagen; sin embargo, se puede inferir la presencia de fuerzas como la tensión en el péndulo, la fuerza ejercida por el resorte y la gravedad actuando sobre la masa en O.]
+
+# Problema 6.17
+
+El centro de la rueda de 90,7 kg. de masa y radio de giro de $1 0 \mathrm { c m }$ . tiene una velocidad de descenso de 61 cm/seg. en el plano inclinado en la posición que se muestra Calcular la reacción normal N bajo la rueda cuando pasa por la posición A. Suponer que en todo el movimiento de la rueda no hay rozamiento.
+
+[Descripción de imagen: La imagen muestra un sistema con un objeto circular sobre una superficie inclinada con un ángulo de 30 grados respecto al eje horizontal. Se identifican vectores de desplazamiento con magnitudes de 30,5 cm a lo largo de la superficie inclinada y 15 cm perpendicular a ella, así como una altura de 61 cm. El punto A se encuentra en el extremo inferior de la curva.]
+
+────────────────────────────────────────────────────────────
+Chunk 8 (1845 chars)
+────────────────────────────────────────────────────────────
+[Descripción de imagen: La imagen muestra un sistema con un objeto circular sobre una superficie inclinada y una curva. Se observan vectores de desplazamiento con magnitudes de 30,5 cm en la dirección horizontal y 15 cm en la vertical, con un ángulo de inclinación de 30 grados respecto a la horizontal. La altura total del sistema es de 61 cm.]
+
+# Problema 6.18
+
+La figura muestra una varilla de longitud H y masa m conocida que se mantiene apoyada sobre una superficie horizontal libre de rozamiento. Si la varilla se deja en libertad, obtener: 
+
+a. La aceleración del centro de masa y la fuerza de contacto en el piso en el instante posterior. 
+
+b. La velocidad del centro de masa y la velocidad angular de la varilla en el instante que llega a la superficie horizontal.
+
+[Descripción de imagen: La imagen muestra un objeto inclinado con un ángulo $\theta$ respecto al suelo, donde $H$ denota la longitud del objeto. Se puede considerar un sistema de ejes cartesianos con el origen en el punto de contacto con el suelo. La fuerza de gravedad se puede descomponer en componentes paralela y perpendicular al objeto.]
+
+# Problema 6.19
+
+La figura muestra un rodillo de masa 4m y radio R que rueda sin deslizar entre dos placas de masa m que se trasladan respecto de tierra con velocidades de 6 m/seg. y 4 m/seg. respectivamente. Obtener: 
+
+a. La velocidad del centro de masa y la velocidad angular del rodillo respecto de un sistema fijo en tierra. 
+
+b. La energía cinética total del sistema respecto de tierra.
+
+[Descripción de imagen: La imagen muestra un sistema con un círculo de radio $R$ = 4 m y dos barras con velocidades $v_1$ = 6 m/s y $v_2$ = 4 m/s. Se puede observar que las fuerzas actuantes son paralelas a los ejes de las velocidades. No hay información sobre la masa de las barras ni sobre los puntos de aplicación de las fuerzas.]
+
+────────────────────────────────────────────────────────────
+Chunk 9 (2096 chars)
+────────────────────────────────────────────────────────────
+[Descripción de imagen: La imagen muestra un sistema con un círculo de radio 4m y dos barras horizontales que se mueven tangencialmente en sentidos opuestos. Los vectores velocidad de las barras tienen magnitudes 6 m/s y 4 m/s. No se observan fuerzas explícitamente representadas, pero el punto de aplicación de las velocidades es tangencial al círculo en el punto de contacto con cada barra.]
+
+# Problema 6.20
+
+La figura muestra un rodillo de radio R y masa m que puede girar alrededor de su eje de simetría, libre de rozamiento con el mismo, como consecuencia de la interacción con un resorte de constante k inicialmente deformado en la cantidad indicada: 
+
+a. Obtener una expresión para el coeficiente de rozamiento mínimo que deberá existir entre el rodillo y la superficie horizontal, si deseamos que al dejar el sistema en libertad, el rodillo ruede sin deslizar. 
+
+b. Obtener una expresión para la energía cinética del sistema en el instante que el resorte está sin deformar.
+
+[Descripción de imagen: La imagen muestra un sistema físico que consiste en una masa m en forma de disco o cilindro de radio R unido a un resorte. El resorte está sujeto a la masa en un punto situado a una distancia R de su centro y a una pared, estando el conjunto sobre una superficie horizontal. Se identifican el desplazamiento inicial $\delta_0$ y la elongación del resorte.]
+
+# Problema 6.21
+
+La figura muestra una barra cilíndrica uniforme, con forma semicircular de masa m y radio R que puede girar libre de rozamiento alrededor de un eje horizontal que pasa por O. Suponiendo que el sistema se deja en libertad desde el reposo en la posición indicada, obtener para dicho instante, expresiones para la aceleración angular de la barra y para el módulo de la fuerza que resulta de la interacción entre la barra y el soporte en O.
+
+[Descripción de imagen: La imagen muestra un objeto puntual en O sujeto a una trayectoria curva de radio R. En el punto O, se aplican fuerzas hacia el centro de curvatura y tangencial a la trayectoria. El eje relevante es el que pasa por el centro de curvatura y el punto O.]
+
+────────────────────────────────────────────────────────────
+Chunk 10 (1898 chars)
+────────────────────────────────────────────────────────────
+[Descripción de imagen: La imagen muestra un objeto puntual en la posición O sujeto a una trayectoria curva de radio R. En el punto O, se aplican fuerzas que se pueden descomponer en ejes tangencial y normal a la curva. El vector posición del objeto se dirige hacia el centro de curvatura de la trayectoria.]
+
+# Problema 6.22
+
+Un engranaje con una masa de $1 8 0 0 \mathrm { k g }$ . tiene un radio de giro de 0,75 m. Se observa que se requieren 2500 revoluciones para que el engranaje se detenga partiendo de una velocidad angular de $4 5 0 \mathrm { r p m }$ . Calcular el valor promedio del par resistente debido al rozamiento cinético en los ejes.
+
+# Problema 6.23
+
+La figura muestra una varilla de masa y longitud conocida que se deja en libertad desde el reposo cuando el ángulo θ con la superficie horizontal es de 45 grados. Suponiendo nulos los rozamientos en todas las superficies de contacto y mediante consideraciones energéticas, Obtener: 
+
+a. Una expresión para la velocidad angular de la varilla en función del ángulo con la superficie horizontal. 
+
+b. El trabajo de cada una de las fuerzas que actúa sobre la varilla en su movimiento
+
+[Descripción de imagen: La imagen muestra una barra apoyada en un punto en el suelo y en otro en una pared vertical. Sobre la barra actúan varias fuerzas cuyo punto de aplicación sería importante determinar para un análisis detallado. La barra forma un ángulo θ con el suelo y su longitud se denota como L.]
+
+# Problema 6.24
+
+Una varilla de masa y longitud conocida puede rotar libre de rozamiento alrededor de un eje horizontal pasante por el extremo O de la misma. Si se la deja en libertad desde el reposo para la posición graficada, obtener: 
+
+a. La energía cinética orbital y spin en el instante que la varilla pasa por la posición vertical. 
+
+b. Para el instante indicado en a, calcular la fuerza de interacción entre varilla y eje vertical.
+
+────────────────────────────────────────────────────────────
+Chunk 11 (2214 chars)
+────────────────────────────────────────────────────────────
+La energía cinética orbital y spin en el instante que la varilla pasa por la posición vertical. 
+
+b. Para el instante indicado en a, calcular la fuerza de interacción entre varilla y eje vertical.
+
+[Descripción de imagen: La imagen muestra un sistema físico que consiste en una barra rígida de longitud L y masa m, pivotada en un extremo O. El punto de aplicación de la fuerza o restricción se encuentra en el extremo derecho de la barra, en el punto O, donde se ubica el eje de rotación. Se observa un objeto puntual en una posición intermedia de la barra.]
+
+# Problema 6.25
+
+La figura muestra un aro de radio R y masa m conocida que puede girar suspendido en un plano vertical. Si el sistema se lo deja en libertad luego de apartarlo un pequeño ángulo de su posición de equilibrio, haciendo planteo energético calcular: 
+
+a. La ecuación diferencial que permita describir el movimiento del sistema. 
+
+b. El periodo con que oscilará el sistema al dejarlo en libertad.
+
+[Descripción de imagen: La imagen muestra un objeto dentro de un círculo, sometido a una fuerza que parece estar centrada en el punto O y orientada hacia abajo. El radio del círculo está representado por el vector R, que se extiende desde el centro del círculo hasta su periferia. No se observan fuerzas explícitamente etiquetadas aparte de la dirección indicada por el vector R.]
+
+# Problema 6.26
+
+La figura muestra una chapa de masa m suspendida en un plano vertical, mediante dos cuerdas oblicuas paralelas A y B y una tercer cuerda horizontal C, todas son inextensibles y de masas despreciables. 
+
+a. Calcular el esfuerzo de cada cuerda. 
+
+b. Si se corta la cuerda C, calcular la aceleración del centro de masa de la placa y el esfuerzo a que se verán sometidas las cuerdas en el instante inmediatamente posterior al corte.
+
+[Descripción de imagen: La imagen muestra un bloque de masa $m = 30$ kg sometido a fuerzas de contacto en los puntos $A$, $B$ y $C$. Los vectores de fuerza en $A$ y $B$ forman un ángulo de $30^\circ$ con la horizontal, mientras que en $C$ la fuerza es vertical. El sistema de ejes no está explicitado, pero puede asumirse un sistema cartesiano con origen en $C$ y ejes $x$ e $y$指向 derecha y arriba, respectivamente.]
+
+────────────────────────────────────────────────────────────
+Chunk 12 (2620 chars)
+────────────────────────────────────────────────────────────
+[Descripción de imagen: La imagen muestra un bloque de masa m = 30 kg sometido a fuerzas de reacción en los puntos A, B y C, donde las fuerzas en A y B forman ángulos de 30 grados con la horizontal. El sistema de ejes coordenados no se muestra explícitamente, pero se puede asumir un sistema cartesiano con ejes x e y. Las fuerzas actuantes son el peso del bloque y las fuerzas de reacción en los puntos de contacto A, B y C.]
+
+# Problema 6.27
+
+Un cilindro macizo homogéneo de $^ { 3 , 6 \ \mathrm { k g } }$ de masa, se suelta desde el reposo sobre el plano inclinado. Si $\theta = 4 0 ^ { \mathrm { o } }$ $\mu _ { \mathrm { e } } =  0 , 3 0 \mathrm { ~ y ~ } \mu _ { \mathrm { d } } =  0 , 2 0 $ . Hallar la aceleración del centro de masa G y hallar la fuerza de rozamiento que el plano ejerce sobre el cilindro. 
+
+Repetir los cálculos si: $\theta = 3 0 ^ { \circ } { \mu _ { \mathrm { e } } } = 0 , 1 5 { \mathrm { ~ y ~ } } \mu _ { \mathrm { d } } { = } 0 , 1 0$
+
+[Descripción de imagen: La imagen muestra un círculo de 150 mm de diámetro en contacto con un plano inclinado que forma un ángulo θ con la horizontal. El punto de contacto entre el círculo y el plano inclinado es el punto de aplicación de la fuerza normal y la fuerza de fricción, que pueden representarse como vectores perpendicular y paralelo al plano inclinado, respectivamente. El centro del círculo se encuentra en el extremo superior del diámetro horizontal, y el eje de referencia es el ángulo θ que forma el plano inclinado con la horizontal.]
+
+# Problema 6.28
+
+El radio de giro de la rueda de $3 0 ^ { \circ } \mathrm { k g }$ . es de $1 5 0 ~ \mathrm { m m }$ . Si el rozamiento es suficiente para evitar el deslizamiento, calcular la fuerza de rozamiento $\mathrm { F }$ que actúa sobre la rueda durante su rodada cuesta abajo. 
+
+¿Cuál es el coeficiente de rozamiento mínimo capaz de impedir el deslizamiento?
+
+# Problema 6.29
+
+La barra delgada uniforme se suelta desde el reposo en la posición horizontal indicada. Hallar el valor de x que hace que la aceleración angular sea máxima. 
+
+¿Cuál es este valor de aceleración angular?
+
+[Descripción de imagen: La imagen muestra una rueda en una posición estática sobre un plano inclinado que forma un ángulo de 22 grados con respecto al eje horizontal. Se puede asumir que el peso de la rueda actúa en su centro y que la fuerza normal ejercida por el plano inclinado actúa en el punto de contacto entre la rueda y el plano. Los ejes de referencia relevantes son el eje x (paralelo al plano inclinado) y el eje y (perpendicular al plano inclinado), así como los ejes cartesianos estándar x e y.]
+
+────────────────────────────────────────────────────────────
+Chunk 13 (2271 chars)
+────────────────────────────────────────────────────────────
+¿Cuál es este valor de aceleración angular?
+
+[Descripción de imagen: La imagen muestra un cilindro en una superficie inclinada 22 grados respecto al eje horizontal. Se puede observar que el punto de contacto entre la rueda y el suelo, así como los ejes x e y  forman un sistema de referencia. La fuerza de gravedad y la normal serían las fuerzas incidentes en este sistema.]
+
+[Descripción de imagen: La imagen muestra una barra horizontal con un punto G, que parece ser su centro de gravedad, y un punto de apoyo O, donde se aplica una fuerza hacia arriba. Se observa un vector de distancia X que indica la longitud desde el centro de gravedad G hasta el punto de aplicación de una fuerza no mostrada. El sistema parece dispuesto para analizar condiciones de equilibrio.]
+
+# Problema 6.30
+
+El carrete de cable telefónico rueda sin deslizamiento por la superficie horizontal producto de una fuerza F constante que mueve al punto A con velocidad también constante de $0 { , } 8 ~ \mathrm { m / s e g }$ . hacia la derecha. Calcular la velocidad del centro de masa y la velocidad angular ω del carrete. Si la masa de este es de $3 8 ~ \mathrm { k g }$ . determinar la fuerza que se hace sobre el cable de masa despreciable.
+
+[Descripción de imagen: La imagen muestra un sistema con un objeto vertical sujeto entre dos guías, con una altura total de 1,8 metros y un segmento intermedio de 0,6 metros. Se puede observar un vector de fuerza vertical aplicado en el extremo superior. El punto de aplicación de esta fuerza coincide con el extremo superior del sistema.]
+
+[Descripción de imagen: La imagen muestra una rueda con un radio interno y externo definidos por los círculos concéntricos, con una fuerza F aplicada en el punto A, que se encuentra sobre el eje horizontal que pasa por el centro de la rueda. El vector de fuerza F se dirige horizontalmente hacia la derecha.]
+
+# Problema 6.31
+
+La barra uniforme AB de masa m y longitud l se mueve a lo largo de la horizontal con velocidad constante V sobre los rodillos de masa despreciables ubicados en sus extremos. Cuando el extremo A pasa por el punto C y empieza a moverse por la porción curva de radio r. Determinar la fuerza ejercida por el piso sobre el rodillo A en el instante inmediato posterior de que pase por C.
+
+────────────────────────────────────────────────────────────
+Chunk 14 (2455 chars)
+────────────────────────────────────────────────────────────
+Determinar la fuerza ejercida por el piso sobre el rodillo A en el instante inmediato posterior de que pase por C.
+
+[Descripción de imagen: La imagen muestra un sistema de transporte con movimiento en dirección horizontal indicado por el vector velocidad v. El punto de aplicación de fuerzas o movimiento se centra en los puntos A, B y C, donde A y B representan ruedas que interactúan con un objeto que sigue una trayectoria curva en C, con un radio de giro r. El eje de movimiento principal es horizontal.]
+
+# Problema 6.32
+
+La figura muestra dos discos montados sobre un eje vertical tales que inicialmente el inferior giraba con velocidad angular indicada mientras que el superior estaba en reposo. Suponiendo que el disco superior se deja caer acoplándose al inferior a través del rozamiento de ambos, obtener:
+
+[Descripción de imagen: La imagen muestra un sistema de dos discos coaxiales con masas $m_1$ y $m_2$ y radios $R_1$ y $R_2$, respectivamente. El disco superior gira con una velocidad angular no especificada alrededor del eje vertical, mientras que el disco inferior gira con una velocidad angular $\omega_1$ en el mismo sentido. Los vectores de posición de los centros de masa de cada disco coinciden con el eje de rotación.]
+
+a. La velocidad angular del sistema de ambos discos girando solidariamente. 
+
+b. Una expresión para la energía cinética disipada en el proceso.
+
+# Problema 6.33
+
+Para la situación y para el instante mostrado en la figura la rueda gira con velocidad angular constante de 70 rad/seg. 
+
+a. Obtener expresiones para las velocidades angulares de cada una de las barras involucradas en el sistema. 
+
+b. Calcular además la energía cinética del sistema. 
+
+c. Donde se encuentran las coordenadas del centro de velocidad nula de la barra AB.
+
+[Descripción de imagen: La imagen muestra un sistema mecánico con un disco circular de masa $m = 5$ kg y radio $R = 20$ cm, con un momento de inercia que no se proporciona. Sobre el disco se enrolla una cuerda con masas $m = 2$ kg en el extremo A y un sistema de masas $m = 1$ kg en el extremo B, posicionado en un plano inclinado $51^\circ$ respecto al eje horizontal, con altura $H = 90$ cm y distancia al punto de apoyo C de $25$ cm. Se identifican vectores de fuerzas como peso y tensión, con puntos de aplicación en los centros de masa de cada objeto y en el borde del disco, respectivamente, y ejes de rotación en el centro del disco O y posible movimiento en el punto C.]
+
+────────────────────────────────────────────────────────────
+Chunk 15 (2803 chars)
+────────────────────────────────────────────────────────────
+[Descripción de imagen: La imagen muestra un sistema de poleas y masas interconectadas. El punto O es el centro de una polea circular de radio R = 20 cm y masa m = 5 kg que rota con velocidad angular ω. En el extremo A hay una masa de 2 kg y en el extremo B una varilla con masas en los puntos B y C de 1 kg cada una, formando un ángulo de 51° con la horizontal. Se identifican vectores de fuerzas de tensión y peso actuando en los puntos A, B y C, así como la altura H = 90 cm.]
+
+# Problema 6.34
+
+La figura muestra una esfera de masa m y radio R apoyada sobre la cuña de apertura α rígidamente vinculada al piso. 
+
+a. Obtener el coeficiente de rozamiento mínimo que evite el deslizamiento de la esfera en la cuña. 
+
+b. Obtener en estas condiciones la aceleración del centro de masa y la aceleración angular de la esfera en el instante inicial. 
+
+c. Obtener expresiones para la velocidad angular de la esfera cuando esta ha descendido una altura H.
+
+[Descripción de imagen: La esfera de masa m se encuentra en lo alto de un plano inclinado de ángulo α. Sobre la esfera actúa la fuerza de la gravedad, que puede descomponerse en los ejes X e Y del plano cartesiano. El punto de aplicación de estas fuerzas es el centro de la esfera.]
+
+# Problema 6.35
+
+Un disco A enrolla en su circunferencia una cuerda de la que pende una masa m de $5 ~ \mathrm { \ k g }$ . Este disco A está solidariamente unido a un disco B (ambos de masa 2m). Estos discos ruedan interactuando con otro disco C. Para la situación mostrada en la figura y suponiendo que los discos ruedan sin deslizar producto de la fricción entre ellos. Obtener expresiones para: 
+
+a. La aceleración del cuerpo suspendido. 
+
+b. La aceleración angular de los discos. 
+
+c. La fuerza de rozamiento entre los mismos. 
+
+d. El esfuerzo a que se ve sometida la cuerda.
+
+[Descripción de imagen: La imagen muestra un sistema de poleas compuesto por discos de diferentes radios y un cilindro. El sistema está configurado con un marco de referencia implícito con ejes x e y, aunque no se muestra explícitamente. 
+
+En la parte izquierda, hay una polea grande con un radio de 40 cm (diametro de 80 cm) y una polea concéntrica más pequeña con un radio de 20 cm (diametro de 40 cm, etiquetado como 80 cm en el problema pero asumiendo la mitad). 
+
+En el centro de la polea grande se aplica una fuerza hacia abajo debido al peso de un objeto de masa m suspendido. 
+
+A la derecha, hay otra polea simple con un radio de 40 cm (diametro de 80 cm) y masa m. 
+
+Las distancias entre centros de las poleas y otros elementos sugieren que hay restricciones cinemáticas y posibles movimientos rotacionales y lineales, pero sin vectores de fuerza explícitos aparte de la masa colgando, se asume que las fuerzas actuantes son principalmente gravitatorias y tensiones en cuerdas.]
+
+────────────────────────────────────────────────────────────
+Chunk 16 (1870 chars)
+────────────────────────────────────────────────────────────
+[Descripción de imagen: La imagen muestra un sistema de poleas compuesto por discos de diferentes radios y un cilindro. Dos de los discos tienen una masa "m"  y el cilindro también tiene una masa "m". No se pueden visualizar las fuerzas, pero se puede inferir que están presentes el peso de cada elemento y las tensiones ejercidas en la cuerda.]
+
+# Problema 6.36
+
+El cilindro macizo de masa m y radio r se encuentra en reposo sobre la superficie plana horizontal cuando a la misma se le aplica una fuerza P. Si P es suficiente para que haya deslizamiento en todo momento entre la cinta y el cilindro, determinar el tiempo t requerido para que el cilindro alcance la posición representada en trazos. Cuál es la velocidad angular del cilindro en esta posición. El coeficiente de rozamiento entre cinta y cilindro es f.
+
+[Descripción de imagen: La esfera sólida se encuentra en contacto con el suelo y presenta una distancia "s" hasta el punto de aplicación de una fuerza o desplazamiento. A su lado, se muestra un círculo discontinuo que indica una trayectoria o giro con velocidad angular ω. La flecha "p" señala una fuerza aplicada en dirección horizontal sobre una superficie.]
+
+# Problema 6.37
+
+Una bola de jugar bolos se lanza con una velocidad inicial $\mathrm { V } _ { 0 }$ pero sin velocidad angular cuando establece contacto con la pista. Si la bola tiene masa m y radio r, determine la distancia recorrida por la bola en el plano horizontal mientras dura el deslizamiento con la pista. El radio de giro de la bola es k y el coeficiente de rozamiento dinámico es f.
+
+[Descripción de imagen: La imagen muestra una esfera con un vector velocidad inicial v0 que actúa en dirección horizontal hacia la derecha. El punto de aplicación de este vector es el centro de la esfera. No se observan otras fuerzas representadas explícitamente aparte de la velocidad inicial.]
+
+────────────────────────────────────────────────────────────
+Chunk 17 (1777 chars)
+────────────────────────────────────────────────────────────
+[Descripción de imagen: La esfera tiene un vector de velocidad inicial v0 que apunta hacia la derecha. No se observan fuerzas actuando explícitamente sobre la esfera, aunque se puede inferir la presencia de la fuerza de gravedad y la normal, que se cancelan entre sí al moverse sobre una superficie horizontal. El punto de aplicación de estas fuerzas no se muestra gráficamente.]
+
+# Problema 6.38
+
+La figura muestra un aro de masa m y radio r que está suspendido en un plano vertical como indica la figura. Suponiendo que el sistema se aparta de la posición de equilibrio un pequeño ángulo y se lo deja en libertad, obtener una expresión para el periodo con que oscilará el sistema al dejarlo en libertad, utilizando el formalismo energético.
+
+# Problema 6.39
+
+A un extremo de una barra de $4 0 \mathrm { c m }$ . de longitud se fija una masa m1 de 3 kg.. y al otro extremo una masa $\mathbf { m } _ { 2 }$ de $1 \mathrm { k g }$ . 
+
+Si la barra se coloca en posición vertical sobre una superficie horizontal libre de rozamiento como indica la figura y se suelta. Determinar: 
+
+a. Qué trayectoria sigue el centro de masa del sistema. 
+
+b. A qué distancia del punto $\mathrm { P }$ de apoyo chocará la masa $\mathfrak { m } _ { 1 }$ con la superficie.
+
+[Descripción de imagen: La imagen muestra un sistema físico que involucra un disco circular con un radio R y un eje de rotación en el punto O, con un objeto de masa m1 conectado a una cuerda que pasa por el disco y está unida a otro objeto de masa m2 en el punto P. El vector de fuerza de gravedad actúa sobre las masas m1 y m2, mientras que la tensión de la cuerda ejerce fuerzas en los puntos de aplicación correspondientes. El sistema parece estar configurado para demostrar conceptos de dinámica rotacional y newtoniana.]
+
+────────────────────────────────────────────────────────────
+Chunk 18 (1250 chars)
+────────────────────────────────────────────────────────────
+s://cdn-mineru.openxlab.org.cn/result/2026-04-06/27d05abd-a17c-4070-a68b-c44e5ad5c8ac/683d08f1c8a08a2f67e92cadc926d093b98aa112b72283c34c928987ab026e40.jpg)
+
+# Problema 6.40
+
+La figura muestra un sistema formado por dos cuerpos puntuales de masa $\mathrm { m } _ { 1 } \mathrm { = } 1 0 ~ \mathrm { k g }$ . y $\mathrm { m } _ { 2 } = 2 0 ~ \mathrm { k g }$ . unidos por una varilla rígida de masa despreciable que rota con velocidad angular constante alrededor de un eje vertical que pasa por el centro de la varilla. En el instante mostrado: 
+
+a. Determinar el vector posición del centro de masa respecto del centro de giro O. 
+
+b. Calcular el vector velocidad del centro de masa. 
+
+c. Dibujar la trayectoria descripta por el centro de masa. 
+
+d. Obtener el valor de la resultante de las fuerzas exteriores a que se encuentra sometido el sistema.
+
+[Descripción de imagen: La imagen muestra un sistema físico con dos círculos, uno pequeño y otro grande, unidos por una barra rígida. El punto de aplicación de las fuerzas no es explícito, pero se puede asumir simetría respecto al eje central horizontal. Se observan medidas de 22 cm a cada lado del centro de la barra.]
+
+$$
+\dot {\theta} = 1 0 \frac {\text {r a d}}{\text {s e g}}
+$$
+
+# Problema 6.41
+
+────────────────────────────────────────────────────────────
+Chunk 19 (2322 chars)
+────────────────────────────────────────────────────────────
+a296824b38a762366595ba4c7dbe5289fc1f571560dff07d2afa2c3.jpg)
+
+$$
+\dot {\theta} = 1 0 \frac {\text {r a d}}{\text {s e g}}
+$$
+
+# Problema 6.41
+
+La figura muestra un sistema formado por dos cuerpos de masa m y 3m respectivamente, y una varilla de longitud H y masa despreciable apoyados sobre una superficie horizontal libre de rozamiento. Si el cuerpo de masa m se desplaza con velocidad constante como indica la figura, para luego quedar rígidamente vinculado con el restante a través de la varilla y en el extremo opuesto de la misma. Determinar: La energía cinética orbital e intrínseca del sistema antes y después de la colisión. La energía mecánica perdida durante la colisión.
+
+[Descripción de imagen: La imagen muestra una esfera de masa m que se acerca con velocidad inicial v0 hacia un tubo vertical de altura H que termina en una curva semicircular. El punto de aplicación de la fuerza de gravedad es el centro de cada esfera y su dirección es hacia abajo, alineada con el eje vertical de simetría. La longitud del tubo vertical es H y la esfera que está en el extremo inferior tiene un radio de 3 m.]
+
+# Problema 6.42
+
+La figura muestra un sistema formado por 4 esferas de igual masa m unidas de a pares por varillas de longitud 2H y masa despreciable que giran en el mismo sentido con velocidad constante ω alrededor de un eje que pasa por su centro. 
+
+Obtener: La energía cinética total del sistema, el momento angular del mismo respecto del punto A.
+
+[Descripción de imagen: La imagen muestra un sistema de palancas o vigas con masas en los extremos, con dimensiones de 2H. El punto A parece ser el punto de referencia o centro de rotación. No hay vectores ni fuerzas explícitas representadas.]
+
+# Problema 6.43
+
+Dos esferas sólidas de 8 cm de radio y 2 kg. de masa cada una de ellas están montadas en A y B de la barra horizontal de masa despreciable que gira libremente alrededor de la vertical con velocidad angular de 6 rad/seg. en sentido contrario a las manecillas del reloj. 
+
+Las esferas se mantienen en esa posición por una cuerda que las sostiene. Si la cuerda de pronto es cortada, las esferas se trasladan a la posición A´ y B´, determinar: 
+
+a. La nueva velocidad angular de la barra para esta posición. 
+
+b. La energía perdida a causa del choque plástico de las esferas con los topes en A´ y B´.
+
+────────────────────────────────────────────────────────────
+Chunk 20 (1403 chars)
+────────────────────────────────────────────────────────────
+Si la cuerda de pronto es cortada, las esferas se trasladan a la posición A´ y B´, determinar: 
+
+a. La nueva velocidad angular de la barra para esta posición. 
+
+b. La energía perdida a causa del choque plástico de las esferas con los topes en A´ y B´.
+
+# Problema 6.44
+
+Una barra uniforme de masa m y longitud L está soldad por un extremo al interior de un aro circular ligero de radio L. El otro extremo de la barra está en el centro del aro. Determinar el periodo de las pequeñas oscilaciones en torno a la posición vertical de la barra si el aro rueda sin deslizar sobre la superficie horizontal.
+
+# Problema 6.45
+
+La esfera maciza de masa m y radio r rueda sin deslizamiento en su oscilación sobre una superficie cilíndrica de revolución de radio R. Si el movimiento se limita a pequeñas amplitudes determinar el periodo de oscilación de la esfera.
+
+# Problema 6.46
+
+La figura muestra una esfera de radio r y masa m que desde el reposo rueda sin deslizar a lo largo del tramo curvo formado por un casquete esférico de masa M y radio R que se encuentra apoyado en una balanza a la que se encuentra rígidamente vinculada. Si el rodamiento es sin deslizamiento, determinar la velocidad angular de la esfera en su posición más baja del casquete. Para el instante de la pregunta anterior determinar la lectura de la balanza y el momento angular de la esfera respecto del centro de curvatura del casquete.
+
+────────────────────────────────────────────────────────────
+Chunk 21 (2543 chars)
+────────────────────────────────────────────────────────────
+Para el instante de la pregunta anterior determinar la lectura de la balanza y el momento angular de la esfera respecto del centro de curvatura del casquete.
+
+# Problema 6.47
+
+La figura muestra un rueda de masa m y radio R que rueda sin deslizar a lo largo de una superficie horizontal, mientras precesiona alrededor de un eje vertical con velocidad n conocida. Determinar la velocidad y aceleración angular de la rueda respecto de tierra. Determinar el momento angular de la rueda respecto del punto Q. Calcular los términos orbital y de spin de la energía cinética de la rueda respecto de tierra.
+
+# Problema 6.48
+
+La figura muestra una barra esbelta de $4 ~ \mathrm { { K g } }$ que está articulada a un deslizador A de 2 Kg y a un disco homogéneo cilíndrico de $5 ~ \mathrm { K g }$ . Ignorando la fuerza de fricción entre deslizador y cilindro, y que el disco gira sin deslizar, determinar la velocidad angular de la barra cuando se encuentra en posición horizontal si parte del reposo para un ángulo θ de 60 grados.
+
+[Descripción de imagen: La imagen muestra un sistema de rotación con dos masas, A y B, unidas a un eje vertical mediante una barra horizontal. Los puntos de aplicación de las fuerzas son los centros de las masas A y B, situadas a 60 cm y 60 cm del eje de rotación, respectivamente; si asumimos que las masas son iguales, los vectores de fuerza centrífuga son de igual magnitud y dirección opuesta, estaría en el plano horizontal, con direcciones radiales hacia afuera. El sistema tiene un vector de velocidad angular ω que se dirige perpendicularmente al plano de rotación.]
+
+[Descripción de imagen: La imagen muestra un sistema físico que consiste en un círculo con un radio discontinuo que podría indicar movimiento o posición inicial, y un segmento recto L que parece representar una barra o un brazo que podría estar unido a un punto fijo en el círculo. El punto de aplicación de esta barra parece estar en la parte inferior del círculo. No se observan vectores ni fuerzas explícitamente representados.]
+
+[Descripción de imagen: La esfera se encuentra en el interior de una superficie cóncava semicircular de radio R. Sobre la esfera actúan al menos dos fuerzas, su peso que actúa hacia abajo y la fuerza normal ejercida por la superficie que actúa hacia el centro de curvatura de la trayectoria. En el punto de contacto entre la esfera y la superficie, se puede considerar un sistema de ejes tangente y normal a la trayectoria en ese punto, donde la aceleración de la esfera tendrá componentes tangencial y normal.]
+
+────────────────────────────────────────────────────────────
+Chunk 22 (1875 chars)
+────────────────────────────────────────────────────────────
+3bd665308da1888f2e165fe5350f19.jpg)
+
+[Descripción de imagen: La esfera se encuentra en el interior de una superficie cóncava semicircular de radio R. Sobre la esfera actúan al menos dos fuerzas: su peso, aplicado en su centro, y la fuerza normal ejercida por la superficie, aplicada en el punto de contacto entre la esfera y la superficie. El vector posición de la esfera respecto al centro de curvatura de la superficie puede representarse en un sistema de ejes cartesianos con origen en dicho centro.]
+
+[Descripción de imagen: La esfera se encuentra en un punto elevado respecto a la balanza, que ejerce una fuerza de reacción normal perpendicular a su superficie. La esfera experimenta la fuerza de la gravedad, que actúa hacia abajo, y la normal ejercida por la superficie curva, que actúa hacia el centro de curvatura de la trayectoria circular. El radio de curvatura se denota como R.]
+
+[Descripción de imagen: La imagen muestra un sistema físico con un vector de distancia D que une un punto Q, situado en el extremo izquierdo de una barra horizontal, con un bloque de masa m ubicado en el extremo derecho. La fuerza de gravedad actúa verticalmente hacia abajo sobre el bloque, cuyo peso está representado por su masa m, y el punto de aplicación de esta fuerza es el centro de masa del bloque, aunque no está explícitamente marcado. También se observa la altura R del bloque y un eje de giro o pivote en el punto Q.]
+
+[Descripción de imagen: La imagen muestra un sistema mecánico con un bloque A unido a una cuerda que pasa por una polea circular. La cuerda forma un ángulo θ con la vertical y se puede considerar que las fuerzas actuantes incluyen la tensión en la cuerda y el peso del bloque A, que actúan en direcciones distintas. El punto de aplicación de la tensión en el bloque A y la normal con la pared son relevantes para el análisis de las fuerzas en juego.]

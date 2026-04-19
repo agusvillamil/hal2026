@@ -1,0 +1,772 @@
+Archivo  : Libros/Libros_Markdown/MinerU_markdown_Ochoa-15-Problemas-I-044-057_2042434330051604480.md
+Chunks   : 28
+
+────────────────────────────────────────────────────────────
+Chunk 1 (1069 chars)
+────────────────────────────────────────────────────────────
+# Problema 1.01
+
+Un cuerpo se mueve a lo largo de una trayectoria recta sometido a una aceleración en dicha dirección, que varía en el tiempo como se muestra en la figura siguiente.
+
+[Descripción de imagen: La imagen muestra una gráfica de aceleración en función del tiempo. 
+
+En el eje vertical se observa la aceleración (a) en unidades de m/s^2 y en el eje horizontal el tiempo (t) en segundos. 
+
+Entre los 0 s y 6 s, la aceleración es constante con un valor de 2 m/s^2. 
+
+Entre los 6 s y 12 s, la aceleración es constante con un valor de -3 m/s^2.]
+
+Suponiendo que en el instante en el que su coordenada era nula, el cuerpo se encontraba en reposo: 
+
+a. Obtener expresiones para la posición y velocidad del cuerpo en función del tiempo, válidas para cada uno de los intervalos indicados en la figura. 
+
+b. Obtener la posición del cuerpo y su velocidad a los 10 segundos de iniciar el movimiento. 
+
+c. Realizar gráficas cualitativas para la velocidad y posición del cuerpo en función del tiempo, válidas para los intervalos considerados en la figura.
+
+# Problema 1.02
+
+────────────────────────────────────────────────────────────
+Chunk 2 (2116 chars)
+────────────────────────────────────────────────────────────
+# Problema 1.02
+
+En un experimento de laboratorio se obtiene que la aceleración de un cuerpo que se mueve a lo largo de una trayectoria recta varía con el tiempo como se muestra en la figura. 
+
+a. Determinar la máxima velocidad alcanzada, suponiendo que el cuerpo parte del reposo. 
+
+b. Determinar el camino recorrido por el cuerpo en los primeros 20 segundos de movimiento. 
+
+c. Obtener qué aceleración constante habría que aplicarle a los 25 segundos del movimiento para detenerlo en los próximos 7 segundos.
+
+[Descripción de imagen: La imagen muestra una gráfica de aceleración en función del tiempo, donde se observan tres intervalos de tiempo con diferentes pendientes. En el eje vertical se representa la aceleración (a) en m/s^2 y en el eje horizontal el tiempo (t) en segundos. No se aprecian vectores ni fuerzas explícitas.]
+
+# Problema 1.03
+
+Una partícula se mueve a lo largo de una trayectoria recta, sometida a una aceleración que varía con el tiempo como se muestra en la figura siguiente.
+
+[Descripción de imagen: La imagen muestra una gráfica de aceleración en función del tiempo. 
+
+El eje horizontal representa el tiempo (t) en segundos y el eje vertical representa la aceleración (a) en m/s^2. 
+
+Se observan 3 tramos en la grafica: 
+
+*   De 0 a 4 s, la aceleración aumenta linealmente de 0 a 1.8 m/s^2 
+*   De 4 a 7 s, la aceleración permanece constante en 1.8 m/s^2 
+*   De 7 a 13 s, la aceleración disminuye linealmente de 0 a -3.6 m/s^2.]
+
+Suponiendo que en el instante inicial la partícula pasaba por un punto 18 metros a la izquierda de un punto de referencia, con una velocidad de $2 { , } 4 \mathrm { m } / \mathrm { s }$ , acelerándose hacia dicho punto de referencia. 
+
+a. Obtener expresiones en función del tiempo para la velocidad y posición de la partícula, válidas para los intervalos de tiempo indicados en la figura. 
+
+b. Determinar la velocidad de la partícula en el instante en que pasa por el punto de referencia y el camino recorrido en los 13 segundos indicados en la figura. 
+
+c. Realizar gráficas cualitativas para la velocidad y posición de la partícula en función del tiempo.
+
+────────────────────────────────────────────────────────────
+Chunk 3 (1418 chars)
+────────────────────────────────────────────────────────────
+c. Realizar gráficas cualitativas para la velocidad y posición de la partícula en función del tiempo.
+
+# Problema 1.04
+
+Un automóvil está en reposo esperando que encienda la luz verde de un semáforo, cuando esto ocurre acelera a razón de $2 ~ \mathrm { m } / \mathrm { s } ^ { 2 }$ a lo largo de una trayectoria recta durante 6 segundos para luego mantener constante la velocidad alcanzada. Si en el instante en que el auto empieza a moverse, un camión lo pasa con velocidad constante de $1 0 \mathrm { m / s }$ en el mismo sentido en que se acelera el auto, determinar: 
+
+a. A qué distancia del semáforo, el automóvil da alcance al camión. 
+
+b. En qué instante el auto alcanzó la misma velocidad que el camión, y qué distancia separaba a los vehículos en ese momento. 
+
+c. Realizar gráficas cualitativas para la aceleración, velocidad y posición de ambos vehículos, en función del tiempo.
+
+# Problema 1.05
+
+Una partícula que parte del reposo, se mueve a lo largo de una trayectoria recta sometida a una aceleración que expresada en $\mathrm { m } / \mathrm { s } ^ { 2 }$ , varía en el tiempo según:
+
+$$
+\ddot {x} (t) = 3. t - 0, 3. t ^ {2}
+$$
+
+a. Determinar el camino recorrido por la partícula desde su partida hasta el instante en el que se invierte el sentido del movimiento. 
+
+b. Determinar el instante en el que cambia el sentido de la aceleración y la posición de la partícula en ese instante.
+
+# Problema 1.06
+
+────────────────────────────────────────────────────────────
+Chunk 4 (1968 chars)
+────────────────────────────────────────────────────────────
+b. Determinar el instante en el que cambia el sentido de la aceleración y la posición de la partícula en ese instante.
+
+# Problema 1.06
+
+Un cuerpo se mueve a lo largo de una trayectoria recta sometido a una aceleración que varia en el tiempo como se muestra en la figura.
+
+[Descripción de imagen: La imagen muestra una gráfica de aceleración en función del tiempo, donde la aceleración se representa como un vector que varía en magnitud y dirección. En el eje vertical se representa la aceleración (en m/s^2) y en el eje horizontal el tiempo (en segundos). Entre 0 y 3 segundos la aceleración es de 2 m/s^2 y de 3 a 9 segundos la aceleración es de -2 m/s^2.]
+
+a. Obtener expresiones en función del tiempo, para la velocidad y posición del cuerpo, válidas para cada uno de los intervalos indicados en la figura. 
+
+b. Realizar gráficas cualitativas de las funciones requeridas anteriormente. 
+
+c. Determinar la máxima velocidad alcanzada por el cuerpo y su posición en ese instante. 
+
+d. Calcular el camino recorrido por el cuerpo en el intervalo de tiempo en el que la aceleración se opone al sentido en que se mueve.
+
+# Problema 1.07
+
+En el instante en que un auto pasa por un puesto de control con una velocidad de $8 0 ~  { \mathrm { \ k m / h } }$ , se lo somete a una aceleración que disminuye en el tiempo como se muestra en la figura lateral. 
+
+a. Determinar el instante en el que alcanza su máxima velocidad y el valor de la misma. 
+
+b. Determinar la aceleración k a la que se lo debería someter para detenerlo a los 25 segundos de pasar por el puesto de control.
+
+[Descripción de imagen: La gráfica muestra la aceleración $\ddot{x}$ en función del tiempo $t$. En el intervalo de $0$ a $10$ segundos, la aceleración pasa de $1.8$ $m/s^{2}$ a $0$ $m/s^{2}$ linealmente. A partir de los $13$ segundos, la aceleración es constante con un valor de $-k$ $m/s^{2}$. No se observan vectores, fuerzas, ejes adicionales o puntos de aplicación específicos en la gráfica.]
+
+────────────────────────────────────────────────────────────
+Chunk 5 (1997 chars)
+────────────────────────────────────────────────────────────
+[Descripción de imagen: La imagen muestra una gráfica de aceleración en función del tiempo, donde la aceleración se representa en el eje vertical con valores que van desde -k m/s^2 hasta 1.8 m/s^2, y el tiempo en el eje horizontal con marcas en 0, 10, 13 y 25 segundos. La gráfica comienza en 1.8 m/s^2 y disminuye linealmente hasta -k m/s^2 entre los 10 y 13 segundos, permaneciendo constante en -k m/s^2 desde los 13 hasta los 25 segundos.]
+
+# Problema 1.08
+
+Un automóvil A está en reposo cuando otro auto B que está 115 metros delante de A se mueve a 18 $\mathrm { m } / \mathrm { s }$ , con una aceleración de $- 0 , 9 \ \mathrm { m } / \mathrm { s } ^ { 2 }$ . Al cabo de 4 segundos el auto A queda sometido a una aceleración constante de $2 ~ \mathrm { m } / \mathrm { s } ^ { 2 }$ en el sentido en que B se mueve. Si los automóviles se mueven en trayectoria recta, determinar: 
+
+a. Qué tiempo tardará el automóvil A en alcanzar a B, y cual será su velocidad, en ese instante. 
+
+b. Una vez que se produce el encuentro, ¿cuánto recorre el auto B hasta detenerse? 
+
+c. Realizar gráficas cualitativas para la aceleración, velocidad y posición de ambos vehículos en función del tiempo.
+
+# Problema 1.09
+
+La velocidad de una partícula que se mueve en línea recta varía con su posición, desde los $5 0 \ \mathrm { m / s }$ hasta un valor aproximadamente nulo cuando su posición es de $1 0 \mathrm { ~ m ~ }$ , como se sugiere en la figura. 
+
+a. Obtener una expresión para la posición de la partícula en función del tiempo y verificar que se requeriría un tiempo infinito para que pueda alcanzar los 100 metros. 
+
+b. Determinar la aceleración a la que está sometida cuando su posición es de 60 metros.
+
+[Descripción de imagen: La gráfica muestra la relación entre la velocidad v y el tiempo t. En el eje vertical se representa la velocidad en m/s y en el eje horizontal el tiempo en segundos. La velocidad inicial es de 50 m/s y de detiene en 100 s. La pendiente de la recta indica la aceleración.]
+
+────────────────────────────────────────────────────────────
+Chunk 6 (1760 chars)
+────────────────────────────────────────────────────────────
+[Descripción de imagen: La imagen muestra una grafica de velocidad en funcion del tiempo. El vector velocidad inicial es 50 m/s y el tiempo final es de 100 s cuando la velocidad es 0 m/s. El eje x representa el tiempo en segundos y el eje y la velocidad en m/s.]
+
+# Problema 1.10
+
+Una partícula se mueve a lo largo de una trayectoria recta, sometida a una aceleración que, en $\mathrm { m } / \mathrm { s } ^ { 2 }$ , depende de su velocidad, en $\mathrm { m } / \mathrm { s }$ , como se indica a continuación:
+
+$$
+\ddot {\mathrm {x}} (\mathrm {x}) = 3 - 0, 0 8. \dot {\mathrm {x}} ^ {2}
+$$
+
+a. Demostrar que si bien la aceleración llega a ser nula para una determinada velocidad, el cuerpo nunca alcanza esa velocidad. 
+
+b. Realizar la gráfica del cuadrado de la velocidad en función de la posición, para analizar el tipo de movimiento. 
+
+c. Dejar planteada la integral que permita expresar la posición en función del tiempo. 
+
+Los valores $\epsilon y \ : 0 , \ : 0 \ : 8$ que intervienen en la expresión, dependen de la forma del cuerpo, y de las condiciones del medio viscoso, en que se está moviendo.
+
+# Problema 1.11
+
+Un automóvil A parte del reposo desde el semáforo O, con aceleración tangencial constante de 1,6 $\mathrm { m } / \mathrm { s e g } ^ { 2 }$ , en el preciso instante en que un camión B, lo pasa moviéndose a una velocidad de 93,6 km./hora, y con una aceleración tangencial tal que se detiene cuando el automóvil, lo alcanza. Determinar:
+
+[Descripción de imagen: La imagen muestra una trayectoria curva con un radio de 60 metros y una distancia recta inicial de 150 metros. El punto de aplicación de la trayectoria curva se encuentra en el extremo derecho de la distancia recta. No se observan vectores ni fuerzas explícitas en la imagen.]
+
+────────────────────────────────────────────────────────────
+Chunk 7 (1949 chars)
+────────────────────────────────────────────────────────────
+Determinar:
+
+[Descripción de imagen: La imagen muestra una trayectoria curva que combina un tramo recto y uno curvo. El punto de aplicación de inicio de la trayectoria se encuentra en O. Se identifican los vectores de posición y distancia, con un vector de distancia de 150 metros en el eje horizontal y un radio de curvatura de 60 metros.]
+
+a. La aceleración tangencial del camión y a qué distancia del semáforo se detiene. 
+
+b. La aceleración a que está sometido el automóvil A en el instante de encuentro.
+
+# Problema 1.12
+
+La velocidad de un automóvil aumenta uniformemente desde $7 2 ~ \mathrm { k m . / h }$ hasta $1 0 8 ~ \mathrm { k m . / h }$ en una distancia de 120 metros. Su punto de partida es el comienzo de una curva de 150 metros de radio, y la aceleración tangencial actuante sobre el automóvil está presente en todo su movimiento. Determinar: 
+
+a. El valor de la aceleración del automóvil después de recorrer 80 metros a lo largo de la curva. 
+
+b. Si la trayectoria curva es una semicircunferencia; $\it { i } \mathrm { { C u } \dot { a } l }$ es la diferencia de aceleración que siente el piloto, en el instante que sale de la curva e ingresa en tramo recto? 
+
+c. Realizar gráficas en función del tiempo para la posición, velocidad, aceleración tangencial y aceleración normal a la que estuvo sometido el automóvil.
+
+# Problema 1.13
+
+Un cuerpo que parte del reposo en el punto A recorre un tramo recto AB, para luego seguir la trayectoria curva BD. Si la componente tangencial de su vector aceleración es de $1 { , } 6 \ \mathrm { m } / \mathrm { s } ^ { 2 }$ durante todo el movimiento, determinar:
+
+[Descripción de imagen: La imagen muestra una trayectoria curva con un radio de 1.20 metros. El segmento recto AB tiene una longitud de 4R, equivalente a 4.80 metros. El punto O es el centro de curvatura y el vector posición de un objeto en el punto C puede ser descrito en términos de sus componentes respecto a los ejes X e Y.]
+
+────────────────────────────────────────────────────────────
+Chunk 8 (1913 chars)
+────────────────────────────────────────────────────────────
+{ 2 }$ durante todo el movimiento, determinar:
+
+[Descripción de imagen: La imagen muestra un sistema de trayectoria formado por una recta y una curva semicircular, con un radio de 1,20 metros. El punto A se encuentra en el extremo izquierdo de la recta, el punto B es el punto de unión entre la recta y la curva, y el punto O es el centro de la curva semicircular. Se observa un vector de posición R que une los puntos O y C.]
+
+a. La velocidad con la que llega al punto B y el tiempo empleado para llegar a dicho punto. 
+
+b. La velocidad del cuerpo en el punto C, y el tiempo necesario para recorrer el tramo BC. 
+
+c. La aceleración del cuerpo en el punto C. 
+
+d. El tiempo que emplea en recorrer el tramo BD.
+
+# Problema 1.14
+
+Un motociclista parte del reposo, desde un punto de una pista circular cuyo radio es de 250 metros, y lo hace de manera que el módulo de su vector velocidad varía a razón de $2 , 6 \ m / \mathrm { s } ^ { 2 }$ . Determinar la distancia recorrida a lo largo de la trayectoria y el tiempo empleado por la moto hasta que el módulo de su vector aceleración es de $1 5 , 7 5 \mathrm { m } / \mathrm { s } ^ { 2 }$ .
+
+# Problema 1.15
+
+Dos autos se mueven en sentidos contrarios en una pista circular de 80 metros de radio. En el instante inicial uno de los autos parte desde el reposo del punto A, sometido a una aceleración tangencial constante desconocida, el segundo pasa por B con velocidad constante de módulo de $4 \mathrm { m / s }$ y se dirige al encuentro del otro móvil. Que se produce cuando el móvil que salió de A, alcanza el triple de velocidad, que el móvil que pasó por el punto B. Determinar:
+
+[Descripción de imagen: La imagen muestra un círculo con dos puntos marcados, A y B, y un ángulo α de 120 grados formado por las líneas que conectan estos puntos con el centro del círculo. Se observan vectores o direcciones de movimiento en sentido antihorario desde A y hacia B.]
+
+────────────────────────────────────────────────────────────
+Chunk 9 (1981 chars)
+────────────────────────────────────────────────────────────
+Determinar:
+
+[Descripción de imagen: La imagen muestra un círculo con dos puntos A y B en su periferia. El ángulo α formado por los radios que conectan el centro del círculo con los puntos A y B es de 120 grados. No se observan vectores ni fuerzas explícitos, pero el contexto sugiere un posible movimiento circular con direcciones indicadas por las flechas curvas junto a los puntos A y B.]
+
+a. El instante en el que produce el encuentro y la aceleración de cada automóvil en dicho instante. 
+
+b. El camino recorrido por cada automóvil desde el instante inicial hasta el encuentro.
+
+# Problema 1.16
+
+Se lanza un cohete desde Tierra seguido en su vuelo por un radar como se sugiere en la figura siguiente. Si el cohete se debe mover a lo largo de una trayectoria vertical con aceleración constante tal que al alcanzar una altura de 100 km. su velocidad es de $5 . 0 0 0 \mathrm { k m . / h }$ . 
+
+a. Determinar la velocidad y aceleración del cohete cundo alcanza una altura de $6 0 \mathrm { k m }$ . 
+
+b. Para el instante indicado anteriormente obtener determinar las derivadas primera y segunda de la coordenada angular y de la coordenada radial del cohete respecto del radar.
+
+[Descripción de imagen: La imagen muestra un cohete y un observador en tierra, con la trayectoria del cohete representada por una línea punteada que forma un ángulo θ con la horizontal. La distancia horizontal entre el observador y el punto de aplicación de la fuerza de gravedad que actúa sobre el cohete (o su proyección vertical) es de 10.270 metros.]
+
+# Problema 1.17
+
+Una partícula se mueve a lo largo de una trayectoria plana de manera que sus coordenadas polares varían en el tiempo según.
+
+$$
+r = 0, 8 3 3. t ^ {3} + 5. t \quad y \quad \theta = 0, 3. t ^ {2}
+$$
+
+Donde r está dado en centímetros, θ en radianes y t en segundos. 
+
+Determinar el módulo de los vectores velocidad y aceleración de la partícula y el radio de curvatura de su trayectoria en el instante $\mathrm { t } = 2$ segundos.
+
+────────────────────────────────────────────────────────────
+Chunk 10 (1533 chars)
+────────────────────────────────────────────────────────────
+Determinar el módulo de los vectores velocidad y aceleración de la partícula y el radio de curvatura de su trayectoria en el instante $\mathrm { t } = 2$ segundos.
+
+# Problema 1.18
+
+En la figura lateral se muestra una barra que rota en un plano vertical, alrededor de un eje horizontal que pasa por O y lo hace de manera que la coordenada angular, expresada en radianes e indicada en la figura, varía con el tiempo, expresado en segundos, según:
+
+$$
+\theta (t) = t ^ {3} - 4 t
+$$
+
+Simultáneamente, el collar desliza de manera que su distancia al eje O, medida en centímetros, varía en el tiempo según.
+
+$$
+\mathrm {r (t)} = 5 0 \mathrm {t} ^ {2} - 2 5 \mathrm {t} ^ {3}
+$$
+
+a. Determinar las componentes polares de los vectores velocidad y aceleración del collar, 1 segundo después de iniciado el movimiento. 
+
+b. Determinar la velocidad y aceleración del collar respecto de la barra y el radio de curvatura de su trayectoria respecto de tierra, en el instante indicado anteriormente.
+
+[Descripción de imagen: La imagen muestra un sistema mecánico con un brazo articulado que gira alrededor de un punto fijo denominado Polo O. El vector de posición del extremo del brazo tiene una magnitud r y forma un ángulo θ con respecto al eje horizontal. No se observan fuerzas explícitamente representadas en la imagen.]
+
+# Problema 1.19
+
+La figura lateral muestra una partícula que se mueve a lo largo de una trayectoria circular, de manera que la coordenada angular indicada, varía linealmente con el tiempo según.
+
+$$
+\theta (t) = 0, 8 t
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 11 (1501 chars)
+────────────────────────────────────────────────────────────
+$$
+\theta (t) = 0, 8 t
+$$
+
+Considerando al punto Q como polo: 
+
+a. Obtener expresiones en función del tiempo, para las componentes transversal y radial del vector velocidad. 
+
+b. Obtener expresiones para las mencionadas componentes, cuando el cuerpo pasa por los puntos A, y B. 
+
+c. Obtener expresiones en función del tiempo para las componentes del vector aceleración y graficar a las mismas, en los puntos A y B.
+
+[Descripción de imagen: La imagen muestra un círculo con un radio $r$ y un objeto en movimiento circular, con su posición representada por un círculo rojo. El vector de posición del objeto forma un ángulo $\theta$ con el eje $x$ (eje $A$), y su punto de aplicación es el centro del círculo $Q$. No se observan fuerzas explícitamente representadas en la imagen.]
+
+# Problema 1.20
+
+A un cuerpo cuya masa es de $1 0 ~ \mathrm { k g }$ se le aplica el par de fuerzas que se indica en la figura, de manera que el ángulo entre las rectas de acción de las fuerzas es de $3 2 ^ { \circ }$ .
+
+[Descripción de imagen: La imagen muestra un bloque de masa 10Kg sometido a dos fuerzas: una fuerza de 8Kg en un ángulo hacia abajo y hacia la izquierda, y una fuerza horizontal de 25Kg hacia la derecha. Se puede asumir que las fuerzas estan dadas en unidades de fuerza (Kgf) y aplicadas en el centro del bloque.]
+
+Suponiendo nulo el rozamiento entre el cuerpo y la superficie horizontal, obtener el vector aceleración del centro de masa del cuerpo, respecto de un sistema de referencia fijo a tierra.
+
+────────────────────────────────────────────────────────────
+Chunk 12 (1794 chars)
+────────────────────────────────────────────────────────────
+el rozamiento entre el cuerpo y la superficie horizontal, obtener el vector aceleración del centro de masa del cuerpo, respecto de un sistema de referencia fijo a tierra.
+
+# Problema 1.21
+
+El disco que se emplea para jugar jockey sobre hielo es de forma cilíndrica, de escasa altura y podemos considerar que desliza sobre la pista libre de rozamiento. 
+
+Si la masa del disco es de 300 gramos y sobre dicho cuerpo se aplican las fuerzas $\mathrm { F } _ { 1 } = 5 \mathrm { ~ N ~ }$ y $\mathrm { F } _ { 2 } = 8 ~ \mathrm { N } ,$ , determinar la resultante de las fuerzas de interacción a la que está sometido el disco y el vector aceleración de su centro de masa.
+
+[Descripción de imagen: La imagen muestra un sistema de fuerzas en un plano cartesiano con dos fuerzas, F1 y F2, aplicadas en un punto. La fuerza F1 forma un ángulo de 20 grados con el eje X en el cuarto cuadrante, mientras que la fuerza F2 forma un ángulo de 60 grados con el eje X en el primer cuadrante.]
+
+# Problema 1.22
+
+Suponiendo que el cuerpo de masa m1 mostrado en la figura lateral, está sometido a una fuerza horizontal y considerando nulo el rozamiento para todas las superficies en contacto. 
+
+a. Realizar diagramas de cuerpo aislado identificando las fuerzas que actúan sobre cada cuerpo e indicando cuales de ellas forman un par acción y reacción. 
+
+b. Obtener la aceleración del centro de masa del sistema.
+
+[Descripción de imagen: La imagen muestra dos bloques de masas $m_1$ y $m_2$  unidos y situados sobre una superficie horizontal. Sobre el bloque de masa $m_1$ se aplica una fuerza $F$ en dirección horizontal hacia la derecha. El punto de aplicación de la fuerza $F$ se encuentra en el lado izquierdo del bloque $m_1$.]
+
+$$
+m _ {I} = 1 0 k g
+$$
+
+$$
+m _ {2} = 2 0 k g
+$$
+
+$$
+F = 1 0 0 N
+$$
+
+# Problema 1.23
+
+────────────────────────────────────────────────────────────
+Chunk 13 (2378 chars)
+────────────────────────────────────────────────────────────
+-04-06/9b881240-b4fd-4948-a641-dc3f3019ffce/aec39ecdb7e9516e585215a8a9f4a67a3ca444ddd8351606f1e19b5bfad37657.jpg)
+
+$$
+m _ {I} = 1 0 k g
+$$
+
+$$
+m _ {2} = 2 0 k g
+$$
+
+$$
+F = 1 0 0 N
+$$
+
+# Problema 1.23
+
+Suponiendo nulo el rozamiento para todas las superficies en contacto correspondientes al sistema que se muestra en la figura siguiente.
+
+[Descripción de imagen: La imagen muestra un sistema de tres masas, $m_1$, $m_2$ y $m_3$, donde las masas $m_1$ y $m_2$ están situadas sobre planos inclinados que convergen en la masa $m_3$. Los vectores relevantes incluyen el peso de cada masa actuando hacia abajo y las fuerzas normales ejercidas por los planos inclinados sobre $m_1$ y $m_2$. No se observan vectores explícitos de fuerzas de rozamiento en la imagen.]
+
+a. Realizar diagramas indicando las fuerzas de interacción a las que se verán sometidos los cuerpos involucrados. 
+
+b. Obtener una expresión para la relación que deberá haber entre $\mathfrak { m } _ { 1 }$ y m2 si deseamos que al dejar en libertad ambos cuerpos, no se acelere el de masa $\mathfrak { m } _ { 3 }$ 
+
+c. Suponiendo que la relación fuera la requerida anteriormente, obtener expresión para la fuerza que resulta de la interacción con la superficie horizontal.
+
+# Problema 1.24
+
+El carro de masa $\mathfrak { m } _ { 2 }$ mostrado en la figura siguiente se somete a una fuerza horizontal e interactúa mediante una cuerda inextensible y de masa despreciable, con el cuerpo de masa m1. 
+
+Obtener expresiones para la aceleración de los cuerpos respecto de tierra y para el esfuerzo al que se verá sometida la cuerda.
+
+[Descripción de imagen: La imagen muestra un bloque de masa $m_1$ sobre una plataforma móvil que se encuentra sometida a una fuerza $F$ horizontal aplicada en sentido horizontal hacia la izquierda. El punto de aplicación de la fuerza $F$ parece estar en el extremo izquierdo de la plataforma. No se observan fuerzas explícitamente etiquetadas actuando sobre el bloque $m_1$ aparte de la tensión en la cuerda que lo conecta a la plataforma y que se encuentra sujeta a la pared, pero se asume que existe una fuerza de rozamiento que actúa sobre la plataforma y el bloque, aunque no está representada. Considerando un sistema de coordenadas cartesiano con origen en el centro de la masa $m_1$, el eje $x$ se orientaría horizontalmente hacia la derecha y el eje $y$ verticalmente hacia arriba.]
+
+────────────────────────────────────────────────────────────
+Chunk 14 (2480 chars)
+────────────────────────────────────────────────────────────
+[Descripción de imagen: La imagen muestra un bloque de masa $m_1$ sobre una plataforma móvil horizontal, sometido a una fuerza $F$ horizontal hacia la izquierda aplicada en un punto a la izquierda del bloque, presumiblemente a través de una cuerda o cable tenso. Considerando un sistema de coordenadas cartesiano con el eje $x$ alineado horizontalmente con la plataforma y el eje $y$ perpendicular a ella, la fuerza $F$ se encuentra orientada en la dirección negativa del eje $x$. No se observan otras fuerzas representadas explícitamente en la imagen.]
+
+# Problema 1.25
+
+a. Obtener una expresión para la aceleración a la que está sometido cada uno de los cuerpos mostrados en la figura siguiente y para el esfuerza en la cuerda. 
+
+b. Determinar las magnitudes solicitadas anteriormente, suponiendo $ { \mathbf { m } } _ { 1 } = 5 0 ~  { \mathrm { k g } }$ , $ { \mathbf { m } } _ { 2 } = 8 0 ~  { \mathrm { k g } }$ , $\textrm { F } =$ $1 0 0 0 \mathrm { N }$ y que es nulo el rozamiento entre $\mathfrak { m } _ { 2 }$ y la superficie horizontal.
+
+[Descripción de imagen: La imagen muestra un sistema de poleas con dos masas, $m$ y $m_2$, conectadas por cuerdas. La masa $m$ cuelga verticalmente mientras que la masa $m_2$ se encuentra sobre una superficie horizontal y experimenta una fuerza $F$ aplicada horizontalmente hacia la derecha. El sistema tiene un punto de apoyo en la polea superior y otro en el punto de contacto entre la cuerda y la superficie horizontal.]
+
+[Descripción de imagen: La imagen muestra un sistema de poleas con una masa $m_1$ suspendida y una fuerza $F$ aplicada horizontalmente. El punto de aplicación de la fuerza $F$ se encuentra en la polea inferior, mientras que el peso de la masa $m_1$ actúa verticalmente hacia abajo en el punto de sujeción de la cuerda. Los vectores de interés son la tensión en la cuerda y la fuerza $F$ aplicada horizontalmente.]
+
+# Problema 1.26
+
+Como se muestra en la figura lateral, dos cuerpos de masa diferente están conectados mediante una cuerda inextensible y de masa despreciable. Suponiendo nulo el rozamiento entre el cuerpo y la superficie inclinada: 
+
+a. Obtener expresiones para la aceleración de los cuerpos y el esfuerzo al que estará sometido la cuerda. 
+
+b. Determinar los valores de las magnitudes solicitadas anteriormente, suponiendo que $\mathfrak { m } _ { 1 }$ $= 1 0 \ \mathrm { k g }$ , $\mathbf { m } _ { 2 } = 5 \mathrm { ~ k g ~ }$ y para la coordenada angular un valor de $4 5 ^ { \circ }$ .
+
+────────────────────────────────────────────────────────────
+Chunk 15 (2274 chars)
+────────────────────────────────────────────────────────────
+gnitudes solicitadas anteriormente, suponiendo que $\mathfrak { m } _ { 1 }$ $= 1 0 \ \mathrm { k g }$ , $\mathbf { m } _ { 2 } = 5 \mathrm { ~ k g ~ }$ y para la coordenada angular un valor de $4 5 ^ { \circ }$ .
+
+[Descripción de imagen: La imagen muestra un sistema de poleas con dos masas, $m_1$ y $m_2$, conectadas por una cuerda inextensible que pasa por una polea fija. La masa $m_2$ se encuentra sobre un plano inclinado con ángulo $\theta$ respecto al eje horizontal, y experimenta una fuerza de gravedad componente $m_2g\sin\theta$ en dirección al eje del plano inclinado y $m_2g\cos\theta$ perpendicular a éste; mientras que $m_1$ está sometida a la fuerza de gravedad vertical $-m_1g$ en el eje Y.]
+
+# Problema 1.27
+
+Suponiendo a la cuerda inextensible y de masa despreciable, al igual que la de las poleas, determinar la aceleración de la masa de 136 kg, para cada una de las configuraciones que se representan en la figura lateral.
+
+[Descripción de imagen: Se observa un sistema de poleas con dos bloques de masas desiguales, uno de 136 kg y otro de masa desconocida. Los vectores de tensión en las cuerdas y la fuerza de gravedad que actúa sobre los bloques son elementos clave. El eje de referencia no está explícitamente indicado, pero se puede asumir un sistema de coordenadas vertical y horizontal para analizar las fuerzas.]
+
+181kg
+
+[Descripción de imagen: La imagen muestra un sistema de poleas con un bloque rectangular suspendido, conectado a través de una cuerda que pasa por dos poleas. La tensión en la cuerda se puede descomponer en vectores de fuerza actuando en diferentes direcciones en los puntos de aplicación sobre las poleas y el bloque. El eje vertical de coordenadas podría alinearse con la dirección de la fuerza de gravedad actuando sobre el bloque.]
+
+136kg
+
+
+
+181kgf.
+
+# Problema 1.28
+
+Un péndulo puntual de 4 metros de longitud se mueve a lo largo de un arco de circunferencia contenida en un plano vertical. Para el instante en que el ángulo entre la cuerda y la vertical es de treinta grados, dicha cuerda está sometida a un esfuerzo 2,5 veces mayor que el peso del cuerpo suspendido. 
+
+Determinar la velocidad y aceleración del cuerpo en el instante mencionado y el máximo esfuerzo a que se verá sometida la cuerda en su movimiento.
+
+────────────────────────────────────────────────────────────
+Chunk 16 (1572 chars)
+────────────────────────────────────────────────────────────
+Determinar la velocidad y aceleración del cuerpo en el instante mencionado y el máximo esfuerzo a que se verá sometida la cuerda en su movimiento.
+
+# Problema 1.29
+
+El cuerpo de masa W que se muestra en la figura siguiente y el hilo que lo soporta constituyen un péndulo simple al cortar el cordón horizontal. 
+
+Obtener la razón entre esfuerzo a que estará sometida la cuerda inmediatamente después de cortar el cordón y el existente antes de hacerlo.
+
+[Descripción de imagen: La imagen muestra un sistema de fuerzas que involucra un peso W, una cuerda y un cordón. El peso W está sometido a la fuerza de gravedad y a la tensión de la cuerda, que actúa en un ángulo θ respecto al eje vertical. El punto de aplicación de la fuerza de tensión de la cuerda se encuentra en el centro del círculo, y la dirección de esta fuerza forma un ángulo θ con el eje vertical.]
+
+# Problema 1.30
+
+Un avión se mueve a lo largo de una trayectoria circular de 150 metros de radio, contenida en un plano vertical, con velocidad de módulo constante de $2 0 0 \mathrm { K m }$ ./hora. 
+
+a. Determinar la fuerza que resulta de la interacción, entre el asiento y el piloto, cuya masa es de 80 kg, en el punto inferior de la trayectoria. 
+
+b. Suponiendo que el avión tiene una masa de $1 0 0 0 ~ \mathrm { k g }$ . determinar la fuerza de sustentación requerida en el punto al que se hace referencia en la pregunta anterior. 
+
+c. Determinar la fuerza que resulta de la interacción, entre el asiento y el piloto, en el punto de mayor altura o sea cuando el piloto se encuentra en posición invertida
+
+────────────────────────────────────────────────────────────
+Chunk 17 (1080 chars)
+────────────────────────────────────────────────────────────
+c. Determinar la fuerza que resulta de la interacción, entre el asiento y el piloto, en el punto de mayor altura o sea cuando el piloto se encuentra en posición invertida
+
+# Problema 1.31
+
+Una corredera cuya masa es de $^ { 0 , 9 \mathrm { k g } }$ , se mueve a lo largo de la guía libre de rozamiento, curvada en un plano vertical. Si la corredera tiene una velocidad de $2 { , } 4 4 \ \mathrm { m } / \mathrm { s }$ en el punto B de la guía, donde su radio de curvatura es de $^ { 2 5 , 4 \mathrm { c m } }$ , determinar: 
+
+a. La fuerza R ejercida sobre la partícula por la guía en dicho punto y la dirección y sentido en que la fuerza actúa. 
+
+b. La velocidad con que se debería mover la partícula en ese punto para que el esfuerzo sobre la guía sea nulo.
+
+[Descripción de imagen: La imagen muestra un objeto en forma de bloque, etiquetado como B, situado sobre una curva semicircular. Sobre el bloque actúa una fuerza en dirección horizontal hacia la derecha, representada mediante una flecha. El punto de aplicación de esta fuerza se encuentra en el bloque.]
+
+# Problema 1.32
+
+────────────────────────────────────────────────────────────
+Chunk 18 (2135 chars)
+────────────────────────────────────────────────────────────
+-b4fd-4948-a641-dc3f3019ffce/bf5b9a83d95d8f0ed637618310bdd7ebc2c8a7e054da347142dd1d132ce77531.jpg)
+
+# Problema 1.32
+
+A un cohete que se mueve en un plano vertical se le proporciona un empuje T de 32000 N; además se encuentra sometido a una resistencia que le produce la atmósfera de $9 6 0 0 \mathrm { N }$ . 
+
+Si el cohete tiene una velocidad de $3 0 0 0 ~ \mathrm { ~ m / s ~ }$ y la aceleración de la gravedad en ese punto es de $6 \ \mathrm { m } / \mathrm { s } ^ { 2 }$ determinar: 
+
+a. El radio de curvatura de la trayectoria del cohete para la posición representada en la figura lateral. 
+
+b. Qué dirección debería tener la fuerza de empuje con la vertical para que el cohete se mueva sobre la trayectoria recta sugerida en la figura.
+
+[Descripción de imagen: Se observan los vectores R y T, donde el vector T forma un ángulo de 30 grados respecto al eje de dirección. El vector R es la resultante y se encuentra en el primer cuadrante. El punto de aplicación de los vectores no es claro en la imagen.]
+
+# Problema 1.33
+
+Una esfera de masa m se sujeta al extremo de una cuerda de longitud R, se hace girar con una velocidad V a lo largo de la trayectoria circular contenida en el plano vertical mostrado en la figura siguiente. Obtener una expresión para el esfuerzo al que estará sometida la cuerda en el instante indicado, cuando la coordenada angular tiene un valor de $5 0 ^ { \circ }$ .
+
+[Descripción de imagen: La imagen muestra un objeto de masa m que se mueve en una trayectoria circular de radio R. El vector de posición del objeto forma un ángulo θ con el eje horizontal. No se observan fuerzas explícitamente representadas, pero se puede inferir la presencia de una fuerza centrípeta dirigida hacia el centro del círculo.]
+
+# Problema 1.34
+
+La figura lateral muestra un péndulo cónico formado por un cuerpo suspendido de una cuerda de longitud L que se mueve con una velocidad constante V a lo largo de una trayectoria circular de radio R contenida en un plano horizontal. 
+
+Obtener una expresión para el esfuerzo al que estará sometida la cuerda en función de los parámetros indicados en la figura.
+
+# Problema 1.35
+
+────────────────────────────────────────────────────────────
+Chunk 19 (2300 chars)
+────────────────────────────────────────────────────────────
+Obtener una expresión para el esfuerzo al que estará sometida la cuerda en función de los parámetros indicados en la figura.
+
+# Problema 1.35
+
+Se desea diseñar el peralte de una curva de manera tal que un camión no requiera del rozamiento para circular por ella sin deslizar, cuando su velocidad es de $1 3 , 4 \mathrm { m } / \mathrm { s }$ . Suponiendo que el radio de la curva es de 50 metros, Determinar el ángulo que se le debería dar al peralte para obtener lo indicado anteriormente.
+
+[Descripción de imagen: La imagen muestra un sistema de un péndulo cónico, donde una masa puntual se mueve en una trayectoria circular horizontal con velocidad constante (V = cte) a una distancia R del eje vertical. El ángulo de inclinación del péndulo respecto a la vertical se denota como θ, y la tensión en la cuerda actúa a lo largo de la línea que forma este ángulo.]
+
+[Descripción de imagen: La imagen muestra un objeto con una base rectangular que se encuentra sobre un plano inclinado con un ángulo theta, donde se puede apreciar la proyección de las fuerzas actuantes en el eje de coordenadas implicado,  así como un vector que representa una fuerza aplicada en un punto específico del objeto.]
+
+# Problema 1.36
+
+Un cuerpo de masa m descansa sobre un plano inclinado libre de rozamiento, que puede girar en torno a un eje vertical con velocidad angular constante. 
+
+a. Obtener una expresión para el esfuerzo al que se verá sometida la cuerda, en función de la velocidad angular alrededor del eje vertical. 
+
+b. Obtener una expresión para la velocidad angular máxima admitida si deseamos que el bloque permanezca en contacto con el plano inclinado. 
+
+c. Atender numéricamente las preguntas anteriores suponiendo que la masa del cuerpo es de $1 0 \mathrm { k g }$ , la longitud de la cuerda de 2 metros y la velocidad angular del plano y el bloque, de 10 revoluciones/minuto.
+
+[Descripción de imagen: La imagen muestra un bloque en un plano inclinado con un ángulo de 30 grados respecto a la horizontal, conectado a una pared vertical mediante una barra de longitud L. Se puede identificar la fuerza peso del bloque actuando hacia abajo, la normal del plano inclinado sobre el bloque, y la tensión en la barra. El punto de aplicación de la tensión en la barra se encuentra en el bloque y en la pared.]
+
+────────────────────────────────────────────────────────────
+Chunk 20 (2285 chars)
+────────────────────────────────────────────────────────────
+[Descripción de imagen: La imagen muestra un bloque de masa no especificada en un plano inclinado con ángulo $\theta$ = 30 grados respecto a la horizontal, conectado a una pared vertical mediante una barra rígida de longitud L. Se puede observar que el punto de aplicación de la fuerza de gravedad es el centro de masa del bloque, mientras que la barra ejerce una fuerza en el punto de conexión con el bloque y la pared. No se muestran explícitamente los vectores de fuerza, pero se infiere la presencia de fuerzas como la normal, el peso y la tensión en la barra.]
+
+# Problema 1.37
+
+Un piloto de pruebas de un avión de acrobacia cuya masa es de $8 0 ~ \mathrm { k g }$ ejecuta un rizo vertical (vuelta de campana). Cuando la velocidad del avión es de $3 2 0 ~ \mathrm { k m / h }$ para la posición en que se encuentra cabeza hacia abajo, la fuerza entre él y su asiento se reduce a una cuarta parte de su peso, determinar el radio de curvatura de la trayectoria en esa parte superior del rizo.
+
+# Problema 1.38
+
+Una partícula de masa m, descansa sobre la parte superior de una esfera sin rozamiento de radio R. Admitiendo que parte desde el reposo para la posición indicada en la figura a lo largo de una trayectoria contenida en un plano vertical. 
+
+Obtener el valor de la coordenada angular en el instante en que el cuerpo abandona la superficie de la esfera.
+
+[Descripción de imagen: La imagen muestra un círculo con un radio R y un ángulo θ que define la posición de un objeto puntual en la parte superior del círculo. El vector de posición del objeto se puede representar en coordenadas polares con magnitud R y ángulo θ respecto al eje vertical. No se observan fuerzas explícitas, pero se puede asumir una fuerza de gravedad actuando hacia abajo y una fuerza centrípeta hacia el centro del círculo.]
+
+# Problema 1.39
+
+La esfera de masa m está sostenida por una varilla de masa despreciable que gira alrededor de un eje horizontal. 
+
+Si la distancia entre eje y el centro de la esfera es r, y se la deja en libertad desde el reposo cuando es nula la coordenada angular para que luego se desplace a lo largo de una trayectoria contenida en el plano vertical. 
+
+Determinar el valor de la coordenada angular para el cuál la fuerza que le ejerce la barra a la masa cambia de sentido.
+
+────────────────────────────────────────────────────────────
+Chunk 21 (1333 chars)
+────────────────────────────────────────────────────────────
+Determinar el valor de la coordenada angular para el cuál la fuerza que le ejerce la barra a la masa cambia de sentido.
+
+[Descripción de imagen: La imagen representa un péndulo simple, donde una masa puntual m está unida a un extremo de una varilla rígida de longitud r, cuyo otro extremo está fijo en el punto O. El sistema forma un ángulo θ con respecto al eje vertical, y se identifican los ejes coordenados con origen en O.]
+
+# Problema 1.40
+
+La corredera A cuya masa es de $3 \ \mathrm { k g } .$ , encaja holgadamente en la ranura lisa que está a $4 5 ^ { \circ }$ labrada en el disco. 
+
+El disco gira en un plano horizontal en torno a su centro mientras la corredera se mantiene en posición mediante una cuerda sujeta al punto B. 
+
+Calcular el esfuerzo al que se verá sometida la cuerda, para una velocidad angular constante de 300 r.p.m. e indicar si genera alguna diferencia, cambiar el sentido con el que rota el disco.
+
+[Descripción de imagen: La imagen muestra un disco con un bloque unido a un resorte en el punto A, formando un ángulo de 45 grados con el eje horizontal. La fuerza del resorte se puede descomponer en vectores a lo largo de los ejes x e y, y su punto de aplicación se encuentra en el extremo del resorte en contacto con el bloque en A. El radio del disco es de 7.65 cm ya que el diámetro es de 15.3 cm.]
+
+────────────────────────────────────────────────────────────
+Chunk 22 (1854 chars)
+────────────────────────────────────────────────────────────
+/result/2026-04-06/9b881240-b4fd-4948-a641-dc3f3019ffce/ae20c9b66ad5eb6e6ebd37c19f97d7e1a0c7ddc55f7ad18baf00b17affd4618b.jpg)
+
+# Problema 1.41
+
+En la figura lateral se muestra a una partícula de masa m que se deja caer desde el reposo a lo largo de la superficie interior libre de rozamiento, de un casquete de radio R. 
+
+a. Obtener expresiones en función de la coordenada angular, para el módulo de la componente transversal del vector velocidad de la partícula y para el módulo de la componente transversal de su vector aceleración. 
+
+b. Obtener una expresión para la fuerza que resulta de la interacción de la partícula con el casquete. 
+
+c. Suponiendo que el casquete tiene una masa M y que está rígidamente unido a una balanza, obtener una expresión para la lectura en la misma, cuando el cuerpo pasa por el punto inferior de la trayectoria.
+
+[Descripción de imagen: La imagen muestra un sistema físico que involucra una masa puntual (representada por un círculo rojo) en el interior de una superficie semicircular de radio $R$ (etiquetado como $M$), con la masa situada a un ángulo $\theta$ respecto a la vertical. Se observa la presencia de una balanza debajo de la superficie semicircular.]
+
+# Problema 1.42
+
+La figura siguiente muestra la órbita elíptica a lo largo de la cual se desplaza un satélite alrededor de nuestro planeta. Si en el momento en que pasa por el punto indicado en la figura, tiene una velocidad de $1 7 9 0 0 \mathrm { k m / h }$ , determinar el radio de curvatura de la órbita en dicho punto.
+
+[Descripción de imagen: La imagen muestra una órbita elíptica de un objeto alrededor de la Tierra. El punto A  tiene una velocidad V_A tangente a la trayectoria en ese punto. Se observan medidas en kilómetros que indican las distancias desde el centro de la Tierra hasta el punto A, así como los ejes mayor y menor de la elipse.]
+
+────────────────────────────────────────────────────────────
+Chunk 23 (1866 chars)
+────────────────────────────────────────────────────────────
+[Descripción de imagen: La imagen muestra una órbita elíptica de un objeto alrededor de la Tierra, con el punto A en la parte superior de la elipse. El vector de velocidad V_A se encuentra en dirección tangente a la órbita en el punto A. Se observan también medidas de distancia en kilómetros en los ejes mayor y menor de la elipse.]
+
+# Problema 1.43
+
+Un satélite cuyo peso en el instante de lanzamiento es de $1 4 6 \ \mathrm { k g f } ,$ es puesto en órbita elíptica alrededor de la Tierra. En el instante mostrado en la figura, tiene una velocidad de $2 6 . 7 2 0 ~ \mathrm { k m } . / \mathrm { h }$ formando un ángulo de 60 grados con la línea radial que pasa por el centro de la Tierra y la única fuerza a la que está sometido es la que resulta de su interacción gravitatoria con nuestro planeta. 
+
+Para las condiciones indicadas, obtener el valor de la derivada segunda de su coordenada radial en dicho instante.
+
+[Descripción de imagen: La imagen muestra un objeto en trayectoria curva alrededor de la Tierra, con un vector velocidad V formando un ángulo β de 60 grados con el eje cθ. El punto de aplicación de la fuerza F, presumably la gravedad, se encuentra en el centro de la Tierra, y el vector posición del objeto forma un ángulo con los ejes cθ y cr. La distancia desde el centro de la Tierra a la trayectoria del objeto es de 10.729 Km.]
+
+# Problema 1.44
+
+Una partícula se deja caer desde 2 metros de altura en el interior de un ascensor que se eleva con una velocidad constante de $3 \mathrm { m / s }$ . 
+
+Determinar al cabo de cuanto tiempo la partícula llega al piso del ascensor y su velocidad respecto de tierra en ese instante.
+
+# Problema 1.45
+
+De un grifo cae agua a razón de 6 gotas por segundo. El grifo está a 20 centímetros del fondo de una pileta. En el instante que una gota choca contra el fondo: ¿A qué altura esta la gota siguiente?
+
+────────────────────────────────────────────────────────────
+Chunk 24 (1635 chars)
+────────────────────────────────────────────────────────────
+El grifo está a 20 centímetros del fondo de una pileta. En el instante que una gota choca contra el fondo: ¿A qué altura esta la gota siguiente?
+
+# Problema 1.46
+
+Un proyectil es lanzado desde el origen de un sistema de coordenadas cartesianas, con una velocidad inicial de $2 9 { , } 4 \mathrm { m / s e g } .$ , formando un ángulo de $3 0 ^ { \circ }$ con la dirección horizontal, determinar: 
+
+a. El tiempo de vuelo del proyectil. 
+
+b. Las componentes cartesianas de su vector velocidad al cabo del tiempo indicado anteriormente. 
+
+c. La altura máxima alcanzada por el proyectil. 
+
+d. Las componentes cartesianas del vector posición del proyectil 1,5 s después del lanzamiento. 
+
+e. Realizar gráficas cualitativas que muestren como varían en el tiempo las componentes cartesianas de los vectores velocidad y posición del proyectil.
+
+# Problema 1.47
+
+La figura siguiente muestra un cuerpo que se mueve a lo largo del tramo recto AB sometido a una aceleración constante para luego caer en el punto C a lo largo de una trayectoria parabólica sometido al campo gravitatorio. Determinar: 
+
+a. La velocidad del cuerpo en el punto B 
+
+b. La aceleración a la que estuvo sometido el cuerpo en el tramo recto. 
+
+c. El tiempo requerido para recorrer el tramo AC.
+
+[Descripción de imagen: La imagen muestra un objeto (representado por un círculo rosa) en el punto A, desde el cual se desplaza horizontalmente hasta el punto B, iniciando un movimiento parabólico. En el punto B, se identifican el vector posición y la aceleración de gravedad (g) actuando verticalmente hacia abajo. El movimiento describe una trayectoria curva hasta el punto C.]
+
+────────────────────────────────────────────────────────────
+Chunk 25 (2070 chars)
+────────────────────────────────────────────────────────────
+[Descripción de imagen: La imagen muestra un objeto rosa en el punto A, desde el cual se desplaza horizontalmente hasta el punto B, donde inicia una trayectoria curva que termina en el punto C. Sobre el objeto actúan fuerzas como la gravedad, que se dirige verticalmente hacia abajo con un vector que apunta al centro de la Tierra, y la normal, que es perpendicular a la superficie en cada punto de contacto. El sistema de coordenadas tiene su origen en el punto A, con el eje x+ hacia la derecha y el eje y+ hacia abajo.]
+
+# Problema 1.48
+
+Como se sugiere en la figura lateral, una piedra se lanza verticalmente desde una torre de 30 metros de altura en el mismo instante en que otra piedra se lanza también verticalmente desde la base del edificio. 
+
+a. Determinar a que altura del piso se encuentra la piedra 2 en el instante en que la piedra 1 alcanza su máxima altura. 
+
+b. Determinar el tiempo al cabo del cual las piedras están a la misma altura del suelo. 
+
+c. Realizar gráficas cualitativas para la velocidad y posición de cada cuerpo en función del tiempo.
+
+[Descripción de imagen: La imagen muestra un edificio con dos vectores de velocidad, V01 y V02, aplicados en puntos diferentes. El vector V01, con magnitud de 15 m/s, se aplica en la parte superior del edificio y apunta hacia arriba, mientras que el vector V02, con magnitud de 22,5 m/s, se aplica en el suelo y también apunta hacia arriba. No se observan fuerzas, ejes coordenados ni otros elementos físicos adicionales en la imagen.]
+
+# Problema 1.49
+
+Un cuerpo se arroja verticalmente con una velocidad de $3 6 \mathrm { m } / \mathrm { s }$ . Después de 3 segundos se lanza otro cuerpo también verticalmente, desde mismo lugar de donde se lanzó el primero. 
+
+a. Con que velocidad deberíamos lanzar el segundo cuerpo si deseamos que alcance al primero a 30 m del punto de lanzamiento. 
+
+Suponiendo dadas las condiciones requeridas anteriormente: 
+
+b. Determinar la altura máxima alcanzada por cada proyectil. 
+
+c. Realizar gráficas cualitativas para la posición de cada cuerpo en función del tiempo.
+
+────────────────────────────────────────────────────────────
+Chunk 26 (1493 chars)
+────────────────────────────────────────────────────────────
+Determinar la altura máxima alcanzada por cada proyectil. 
+
+c. Realizar gráficas cualitativas para la posición de cada cuerpo en función del tiempo.
+
+# Problema 1.50
+
+Desde un globo que asciende con una velocidad constante de $4 ~ \mathrm { m / s }$ se deja caer una piedra en el instante en que el globo se encuentra a 100 metros de altura. 
+
+a. Determinar la máxima altura alcanzada por la piedra y la distancia entre ella y el globo en ese instante. 
+
+b. Determinar al cabo de cuanto tiempo la piedra llega a tierra y a que altura se encuentra el globo en ese instante. 
+
+c. Realizar gráficas cualitativas para la posición de ambos cuerpos en función del tiempo.
+
+# Problema 1.51
+
+Un globo asciende verticalmente con una velocidad constante de $3 ~ \mathrm { m / s }$ , habiendo partido desde un punto a 300 metros de donde se encuentra una plataforma para lanzamiento de proyectiles. 
+
+Si doce segundos después se lanza un proyectil con un ángulo de $5 0 ^ { \circ }$ respecto de la horizontal y suponiendo despreciables las dimensiones del globo, con que velocidad se lo deberá lanzar para impactar sobre el globo y a que altura del punto de lanzamiento se producirá el impacto de ambos cuerpos.
+
+[Descripción de imagen: La imagen muestra un objeto lanzado con una velocidad inicial V0 formando un ángulo de 50 grados respecto al eje horizontal. El vector V0 tiene dos componentes, una horizontal y otra vertical.  A su vez, se observa un globo aerostático que se eleva con velocidad Vg.]
+
+────────────────────────────────────────────────────────────
+Chunk 27 (2078 chars)
+────────────────────────────────────────────────────────────
+[Descripción de imagen: La imagen representa un problema de lanzamiento de proyectiles, donde un objeto es lanzado con una velocidad inicial V0 formando un ángulo de 50 grados respecto al eje horizontal. El vector velocidad inicial V0 se puede descomponer en componentes horizontal y vertical, que influirán en la trayectoria curva mostrada, alcanzando una distancia de 300 metros.]
+
+# Problema 1.52
+
+Un globo se eleva desde la superficie de la tierra con aceleración constante de $0 , 9 \ m / \mathrm { s } ^ { 2 }$ Cinco segundos más tarde una piedra se lanza verticalmente hacia arriba desde el sitio de lanzamiento del globo. 
+
+Determinar la velocidad que se le deberá dar a la piedra para que alcance a tocar al globo en el instante en que ambos alcanzan la misma velocidad.
+
+# Problema 1.53
+
+Un jugador de béisbol golpea la bola a 0,6 metros de altura. Producto del impacto esta alcanza una velocidad de $1 8 ~ \mathrm { m / s }$ formando un ángulo de $3 0 ^ { 0 }$ con la horizontal. Un segundo jugador parado a 28 metros del bateador, y en el mismo plano de trayectoria de la bola, comienza a correr horizontalmente en el mismo instante en que el primero golpea la bola. 
+
+a. Determinar la velocidad con la que deberá correr si desea alcanzar la bola a 1,5 metros del piso. 
+
+b. Determinar la distancia que ha debido correr para lograr lo indicado en la pregunta anterior.
+
+# Problema 1.54
+
+Como se sugiere en la figura lateral, el piloto de un avión que viaja a una altura de 6877 pies, con una velocidad de 564,78 pies/s, debe lanzar un proyectil para dar en el obstáculo A. 
+
+Determinar el ángulo que deberá formar con la horizontal la visual al obstáculo, en el instante del lanzamiento. 
+
+1 pie = 0,304 metros
+
+[Descripción de imagen: La imagen muestra un objeto que se mueve con una velocidad inicial V en dirección horizontal, desde una altura h, con un ángulo de disparo α. El punto de aplicación de la trayectoria es la intersección de la línea oblicua con el obstáculo A en el suelo. Se identifican los ejes horizontal y vertical implicados en la trayectoria.]
+
+────────────────────────────────────────────────────────────
+Chunk 28 (2134 chars)
+────────────────────────────────────────────────────────────
+1 pie = 0,304 metros
+
+[Descripción de imagen: La imagen muestra un objeto que se desplaza horizontalmente con una velocidad V y que en un momento dado deja caer un objeto que cae en un punto que forma un triangulo rectángulo con el punto de lanzamiento y el obstáculo A. 
+El vector velocidad de lanzamiento forma un angulo alfa con la horizontal.
+El punto de aplicación de la altura de caída es el obstáculo A.]
+
+# Problema 1.55
+
+Una pelota se lanza desde el punto A con una velocidad perpendicular al plano inclinado mostrado en la figura siguiente. Si la pelota golpea en el punto B del plano, obtener:
+
+[Descripción de imagen: La imagen muestra un proyectil que se lanza desde un punto con una velocidad inicial Vo en dirección perpendicular a un plano inclinado que forma un ángulo β con la horizontal. El proyectil sigue una trayectoria curva y choca con el plano inclinado en el punto B. Se identifican los vectores de velocidad inicial, el alcance R a lo largo del plano inclinado, y los respectivos ejes de referencia.]
+
+a. Una expresión para el alcance R en función de la velocidad inicial de la pelota y el ángulo que forma el plano inclinado con la horizontal. 
+
+b. El alcance logrado, suponiendo para la pelota una velocidad inicial de $1 0 \ \mathrm { \ m / s }$ y para la coordenada angular un valor de $3 0 ^ { \circ }$ .
+
+# Problema 1.56
+
+Calcular el ángulo de disparo de un cañón antiaéreo cuyo proyectil sale con una velocidad de $5 5 0 \mathrm { m / s }$ y debe alcanzar un avión que vuela horizontalmente a $9 6 5 ~ \mathrm { k m / h }$ y a una altura de 6096 metros, suponiendo que el disparo se realiza en el instante en que el avión vuela sobre la vertical del cañón y determinar el tiempo requerido para que el proyectil impacte el avión.
+
+# Problema 1.57
+
+Un proyectil se dispara con una velocidad de $9 0 \mathrm { m / s }$ 
+
+a. Determinar los dos ángulos de disparo que permiten dar en un blanco situado en el horizonte del proyectil y a 300 metros de este. 
+
+b. Calcular la altura máxima de cada una de las trayectorias y el tiempo que está en el aire el proyectil en cada una de las situaciones indicadas.

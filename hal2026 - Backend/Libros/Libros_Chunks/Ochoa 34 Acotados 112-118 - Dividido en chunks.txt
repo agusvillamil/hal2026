@@ -1,0 +1,389 @@
+Archivo  : Libros/Libros_Markdown/MinerU_markdown_Ochoa-34-Acotados-112-118_2042434204595777536.md
+Chunks   : 17
+
+────────────────────────────────────────────────────────────
+Chunk 1 (1303 chars)
+────────────────────────────────────────────────────────────
+# 3.09 ZONAS CLÁSICAMENTE PROHIBIDAS Y PERMITIDAS.
+
+Considerando una partícula sometida a un conjunto de fuerzas conservativas y designando con $( \Phi )$ a la función energía potencial asociada con el sistema de fuerzas indicado, de lo desarrollado anteriormente es claro que la energía mecánica de la partícula permanecerá constante y por lo tanto:
+
+$$
+\mathrm {T} + \Phi (\vec {\mathrm {r}}) = \mathrm {E}
+$$
+
+Donde recordemos que:
+
+$$
+\mathrm {E} = \mathrm {E} _ {\circ}
+$$
+
+De la anterior resulta que la energía cinética será una función de las coordenadas del punto tal que:
+
+$$
+\mathrm {T} (\vec {\mathrm {r}}) = \mathrm {E} - \Phi (\vec {\mathrm {r}}) \tag {3.32}
+$$
+
+Puesto que dicha función deberá ser necesariamente positiva, de lo contrario daría lugar a una velocidad imaginaria, que carece de significado físico, la igualdad anterior nos indica que, de acuerdo con éste formalismo, la partícula solamente podrá encontrarse en puntos con coordenadas espaciales tales que:
+
+$$
+\mathrm {E} \geq \Phi (\vec {\mathbf {r}})
+$$
+
+Conjunto de puntos que en general definirán una zona en el espacio, a la que en adelante reconoceremos como Zona Clásicamente Permitida. 
+
+Análogamente el conjunto de puntos cuyas coordenadas espaciales sean tales que:
+
+$$
+\mathrm {E} <   \Phi (\vec {\mathrm {r}})
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 2 (976 chars)
+────────────────────────────────────────────────────────────
+Análogamente el conjunto de puntos cuyas coordenadas espaciales sean tales que:
+
+$$
+\mathrm {E} <   \Phi (\vec {\mathrm {r}})
+$$
+
+Definirán una zona en el espacio donde, y de acuerdo con este formalismo, será imposible encontrar la partícula y que en adelante reconoceremos como Zona Clásicamente Prohibida. 
+
+Así en el ejemplo que se ofrece en la página 96 la zona permitida para la partícula está definida por el conjunto de puntos pertenecientes al volumen de una esfera con radio $\mathrm { ( r _ { m } ) }$ . Si deseáramos ampliar la zona permitida para la partícula sería necesario incrementar su energía mecánica, tal como se menciona en el tratamiento del ejemplo de referencia. 
+
+Análogamente para la situación considerada en el ejemplo ofrecido en la página 98, la zona permitida está definida por el conjunto de puntos para los cuales la deformación del resorte es menor o igual que $( \delta _ { \mathrm { m } } )$ indicada con doble trazo sobre el eje horizontal.
+
+────────────────────────────────────────────────────────────
+Chunk 3 (824 chars)
+────────────────────────────────────────────────────────────
+eformación del resorte es menor o igual que $( \delta _ { \mathrm { m } } )$ indicada con doble trazo sobre el eje horizontal.
+
+Ejecutando el archivo 18-Acotados.htm, podrá acceder a una simulación que le permitirá visualizar, para diferentes valores de la energía mecánica, las características del movimiento de una partícula en un campo de fuerza que deriva de un potencial elástico y luego, en la segunda simulación, en un campo de fuerza que deriva de un potencial de Morse, que le permitirá observar la interesante semejanza que existe entre las variaciones temporales en el estado de movimiento de partícula incluida en dicha simulación, con las variaciones temporales observadas en la coordenada radial del satélite en órbita elíptica alrededor de la tierra que se muestra en la primer parte del video 10- Orbitas.wmv
+
+────────────────────────────────────────────────────────────
+Chunk 4 (1513 chars)
+────────────────────────────────────────────────────────────
+te en órbita elíptica alrededor de la tierra que se muestra en la primer parte del video 10- Orbitas.wmv
+
+# Fracasos del Formalismo Clásico.
+
+Las conclusiones indicadas anteriormente son compatibles con el formalismo en desarrollo y describen adecuadamente el comportamiento de los sistemas macroscópicos no así el de aquellos sistemas formados por partículas con masas sumamente pequeñas que conocemos como sistemas microscópicos, en los que puede verificarse experimentalmente que existe una probabilidad no nula de encontrar una partícula en puntos pertenecientes a una zona clásicamente prohibida, esto es, prohibida según el formalismo que actualmente estamos tratando, lo que nos muestra una nueva limitación en cuanto al alcance del formalismo en consideración. 
+
+Así, en el proceso de decaimiento espontaneo mediante el cuál un núcleo se fisiona emitiendo una partícula alfa para dar lugar a un nucleo con una configuración mas estable, y como consecuencia de la interacción nuclear y coulombiana, dicha partícula se ve sometida a un campo de fuerzas que deriva de una función energía potencial que depende de la coordenada radial como la indicada cualitativamente en la figura, donde $\mathbf { R } _ { \mathbf { N } }$ es el radio nuclear. 
+
+Dicha gráfica muestra que la energía mecánica de la partícula emitida durante el decaimiento es inferior a la energía potencial del sistema en aquellos puntos pertenecientes al casquete esférico de radios extremos (R1) y $\left( \mathbf { R } _ { 2 } \right)$ .
+
+────────────────────────────────────────────────────────────
+Chunk 5 (1841 chars)
+────────────────────────────────────────────────────────────
+a partícula emitida durante el decaimiento es inferior a la energía potencial del sistema en aquellos puntos pertenecientes al casquete esférico de radios extremos (R1) y $\left( \mathbf { R } _ { 2 } \right)$ .
+
+Puesto que inicialmente la partícula se "encontraba" en el interior del núcleo, esto es en la zona con coordenada radial inferior a (R1) y posteriormente la detectamos fuera del núcleo, o sea en la zona con coordenada radial superior a $\left( \mathbf { R } _ { 2 } \right)$ es claro que el proceso no puede ser 
+
+explicado por el formalismo que estamos desarrollando, atendiendo que lo mencionado requiere el "pasaje" de la partícula por puntos pertenecientes a una zona clásicamente prohibida, motivo por el que al fenómeno se lo conoce como efecto túnel.
+
+[Descripción de imagen: La imagen representa una gráfica de un potencial  $\Phi(r)$  en función de la distancia $r$, mostrando una barrera de potencial. La energía $E_\alpha$ es constante y representada por una línea horizontal roja. Se identifican zonas clásicamente permitidas y prohibidas según la relación entre la energía de la partícula y el potencial.]
+
+Procesos como el indicado juntamente con otros de naturaleza semejante, llevaron a la necesidad de pensar en un nuevo formalismo capaz de explicar adecuadamente el comportamiento de dichos sistemas y que actualmente conocemos como Mecánica Cuántica. Según este formalismo, la probabilidad de encontrar una partícula en una zona clásicamente prohibida ya no es nula y está relacionada con la masa de la partícula y con las energías involucradas en el proceso.
+
+# 3.10 MOVIMIENTO EN UN CAMPO DE FUERZA RADIAL ESFÉRICAMENTE SIMÉTRICO.
+
+A lo largo de este tema consideraremos nuevamente el caso de una partícula sometida a un campo de fuerza radial esféricamente simétrico, que formalmente podemos expresar como:
+
+────────────────────────────────────────────────────────────
+Chunk 6 (1675 chars)
+────────────────────────────────────────────────────────────
+A lo largo de este tema consideraremos nuevamente el caso de una partícula sometida a un campo de fuerza radial esféricamente simétrico, que formalmente podemos expresar como:
+
+$$
+\vec {\mathrm {F}} = \mathrm {f} (\mathrm {r}) \vec {\mathrm {e}} _ {\mathrm {r}}
+$$
+
+Teniendo en cuenta lo indicado y teniendo presente lo desarrollado anteriormente, es claro que se conservará el vector momento angular de la partícula y se desplazará a lo largo de una trayectoria plana que contiene el centro de fuerzas, de manera que su velocidad angular, determinada respecto del mencionado punto, dependerá de la coordenada radial según:
+
+$$
+\dot {\theta} = \frac {L _ {\circ}}{m r ^ {2}} \tag {3.33}
+$$
+
+Por otro lado, teniendo en cuenta que se trata de un campo conservativo que deriva de una función energía potencial que depende únicamente de la coordenada radial, como se indica a continuación.
+
+$$
+\Phi = \Phi (\mathbf {r})
+$$
+
+La energía mecánica de la partícula permanecerá constante y podrá ser expresada en todo momento como:
+
+$$
+\mathrm {T} + \Phi (\mathrm {r}) = \mathrm {E} _ {\circ}
+$$
+
+Teniendo en cuenta que la partícula se desplazará a lo largo de una trayectoria plana y expresando a su vector velocidad en componentes polares, de la anterior resulta:
+
+$$
+\frac {1}{2} \mathrm {m} \left(\dot {\mathrm {r}} ^ {2} + \mathrm {r} ^ {2} \dot {\theta} ^ {2}\right) + \Phi (\mathrm {r}) = \mathrm {E} 。
+$$
+
+De donde luego de tener en cuenta (4.33) obtenemos:
+
+$$
+\frac {1}{2} \mathrm {m i r} ^ {2} = \mathrm {E} _ {\circ} - \left[ \Phi (\mathrm {r}) + \frac {\mathrm {L} _ {\circ} ^ {2}}{2 \mathrm {m r} ^ {2}} \right]
+$$
+
+Definiendo la función energía potencial ficticia, como:
+
+────────────────────────────────────────────────────────────
+Chunk 7 (496 chars)
+────────────────────────────────────────────────────────────
+mos:
+
+$$
+\frac {1}{2} \mathrm {m i r} ^ {2} = \mathrm {E} _ {\circ} - \left[ \Phi (\mathrm {r}) + \frac {\mathrm {L} _ {\circ} ^ {2}}{2 \mathrm {m r} ^ {2}} \right]
+$$
+
+Definiendo la función energía potencial ficticia, como:
+
+$$
+\Phi^ {*} (\mathrm {r}) = \Phi (\mathrm {r}) + \frac {\mathrm {L} _ {\circ} ^ {2}}{2 \mathrm {m r} ^ {2}} \tag {3.34}
+$$
+
+La ecuación anterior puede expresarse como:
+
+$$
+\frac {1}{2} \mathrm {m r} ^ {2} = \mathrm {E} _ {\circ} - \Phi^ {*} (\mathrm {r}) \tag {3.35}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 8 (1530 chars)
+────────────────────────────────────────────────────────────
+- \Phi^ {*} (\mathrm {r}) \tag {3.35}
+$$
+
+Con lo que, en lo que a la componente radial se refiere, todo sucederá como si la partícula estuviera sometida a un campo de fuerza ficticio que deriva de la función (3.34), que como podemos notar depende únicamente de la coordenada radial y de las condiciones iniciales, a través del momento angular inicial. Por lo tanto, al movimiento en la dirección radial podremos estudiarlo a partir de (3.35), mientras que al comportamiento en lo que a la coordenada angular se refiere, a partir de (3.33). En particular de (3.35) resulta que la zona permitida para la partícula estará definida por el conjunto de puntos cuya coordenada radial sea tal que la función dada por (3.34) sea inferior o igual a la energía mecánica de la mencionada partícula, con lo que zona permitida resultará independiente del valor que tome la coordenada angular, con la única condición de que se satisfaga lo mencionado anteriormente, y por lo tanto, dichas zonas tendrán simetría esférica. 
+
+Finalmente, y siempre en lo que a la coordenada radial se refiere, resulta interesante destacar que la ecuación (3.35) es formalmente equivalente a la ecuación que obtendríamos para el caso de una partícula que se mueva en una dimensión sometida a un campo de fuerzas que deriva de una función energía potencial que dependa únicamente de dicha coordenada, en cuyo caso la energía cinética de la partícula sería tal que:
+
+$$
+\frac {1}{2} \mathrm {m} \dot {\mathrm {x}} ^ {2} = \mathrm {E} _ {\circ} - \Phi (\mathrm {x})
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 9 (1892 chars)
+────────────────────────────────────────────────────────────
+gía potencial que dependa únicamente de dicha coordenada, en cuyo caso la energía cinética de la partícula sería tal que:
+
+$$
+\frac {1}{2} \mathrm {m} \dot {\mathrm {x}} ^ {2} = \mathrm {E} _ {\circ} - \Phi (\mathrm {x})
+$$
+
+Teniendo presente ésta semejanza formal entre el planteo de un problema unidimensional conservativo y el del problema que estamos considerando en esta oportunidad, en lo que a su componente radial se refiere, se suele identificar a este último como problema unidimensional equivalente.
+
+# Tiro Oblicuo de Largo Alcance.
+
+Como una aplicación de lo tratado anteriormente, consideremos el caso de una partícula que es lanzada oblicuamente con una velocidad (Vo) desde un punto cuya coordenada radial, respecto del centro de la tierra, es (ro) como se indica en la figura siguiente.
+
+[Descripción de imagen: En la imagen se observa un esquema de un problema de mecánica clásica, con un vector de posición inicial $\vec{r_0}$ que une el centro de una masa esférica y la posición puntual de una partícula, que se dirige con una velocidad inicial $\vec{v_0}$ formando un ángulo $\theta_0$ con el vector $\vec{r_0}$. El sistema de ejes no está explícitamente indicado, pero se puede asumir que $\vec{r_0}$ está orientado según uno de los ejes.]
+
+Suponiendo que posteriormente queda sometida únicamente a la interacción con el campo gravitatorio la función definida mediante (3.34) resulta:
+
+$$
+\Phi^ {*} (\mathrm {r}) = \frac {\mathrm {L} _ {\circ} ^ {2}}{2 \mathrm {m r} ^ {2}} - \mathrm {G} \frac {\mathrm {m M}}{\mathrm {r}} \tag {3.36}
+$$
+
+Con las condiciones iniciales que se indican a continuación:
+
+$$
+\mathrm {L} _ {\circ} = \mathrm {m r} _ {\circ} \mathrm {v} _ {\circ} \operatorname {s e n} \theta_ {\circ}
+$$
+
+$$
+\mathrm {L} _ {\circ} = \mathrm {m r} _ {\circ} ^ {2} \dot {\theta} _ {\circ}
+$$
+
+$$
+E _ {o} = \frac {1}{2} m v _ {o} ^ {2} - G \frac {m M}{r _ {o}}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 10 (1984 chars)
+────────────────────────────────────────────────────────────
+_ {\circ} \operatorname {s e n} \theta_ {\circ}
+$$
+
+$$
+\mathrm {L} _ {\circ} = \mathrm {m r} _ {\circ} ^ {2} \dot {\theta} _ {\circ}
+$$
+
+$$
+E _ {o} = \frac {1}{2} m v _ {o} ^ {2} - G \frac {m M}{r _ {o}}
+$$
+
+Con lo que, la zona clásicamente permitida para la partícula estará integrada por el conjunto de puntos cuya coordenada radial sea tal que la función (3.36) sea menor o igual que su energía mecánica, tal como se indica en la primera de las gráficas que se muestran en la página siguiente, con trazo marrón sobre el eje horizontal, para el caso de una partícula cuya energía mecánica es negativa y superior al mínimo de la función definida anteriormente. 
+
+Teniendo en cuenta que la zona permitida está referida a la coordenada radial, independiente del valor que tome la coordenada angular, para la situación en consideración dicha zona será una corona esférica limitada por las superficies con los radios extremos rp y ra indicados en la gráfica siguiente, tal como se representa en la figura lateral y puesto que la trayectoria de la partícula estará contenida en un plano resulta que la misma estará acotada por circunferencias concéntricas cuyos radios son los indicados anteriormente, que nos identifican la máxima y mínima distancia a la que se podrá encontrar la partícula del centro de fuerza y que conocemos como apogeo y perigeo, respectivamente.
+
+[Descripción de imagen: La imagen muestra un gráfico con varias curvas que representan la energía potencial efectiva y la energía cinética de un objeto en función de la distancia radial. El gráfico incluye vectores y fuerzas como la energía potencial $\Phi^{*}(r)$, la energía cinética $\frac{L_{o}^{2}}{2mr^{2}}$, la energía total $E_{0}$ y la fuerza gravitatoria $-G\frac{mM}{r}$. Los puntos de aplicación relevantes son $r_{p}$ y $r_{a}$.]
+
+[Descripción de imagen: La imagen muestra un área gris circular con un radio exterior $r_{a}$  y un radio interior $r_{p}$ . No se observan fuerzas ni vectores en la imagen.]
+
+────────────────────────────────────────────────────────────
+Chunk 11 (1809 chars)
+────────────────────────────────────────────────────────────
+031625e9dbe295be37134165784873a00481303d1161664b0.jpg)
+
+[Descripción de imagen: La imagen muestra un disco gris con un agujero circular blanco en su centro. Se aprecian los vectores de posición $r_a$ y $r_p$ que señalan desde el centro del disco hacia la frontera exterior e interior, respectivamente. No se observan fuerzas ni ejes coordenados explícitos en la imagen.]
+
+En este momento resulta oportuno observar que el análisis efectuado no nos proporciona información sobre la forma de la trayectoria a lo largo de la que se desplazará la partícula, solamente nos indica que estará contenida en la zona mencionada anteriormente y deberá ser tal que, de alcanzar los valores extremos para la coordenada radial, lo hará de manera que la componente radial del vector velocidad será nula ya que en dichos puntos la función energía potencial definida por (3.36) coincidirá con la energía mecánica de la partícula y por lo tanto bajo esas condiciones, la ecuación (3.35) nos arroja un valor nulo para dicha componente. Sin embargo y teniendo en cuenta (3.33) su velocidad angular y por lo tanto la componente transversal de su velocidad, no será nula. Con lo que la trayectoria a lo largo de la que se desplazará la partícula podría tener un aspecto tan caprichoso como el indicado en la figura siguiente, que claramente satisface los requisitos recientemente mencionados.
+
+[Descripción de imagen: La imagen muestra un objeto circular con un hueco central, sometido a fuerzas que generan tensiones internas representadas por líneas magenta. Estas líneas sugieren la distribución de esfuerzos dentro del material, probablemente debido a cargas externas aplicadas en puntos específicos del contorno. No se observan vectores explícitos de fuerza, pero las líneas magenta indican direcciones principales de tensión.]
+
+────────────────────────────────────────────────────────────
+Chunk 12 (1672 chars)
+────────────────────────────────────────────────────────────
+[Descripción de imagen: La imagen muestra un objeto circular con un hueco central, sometido a fuerzas que generan tensiones internas. Se observan líneas de magenta que representan las trayectorias de los esfuerzos principales, mientras que el contorno marrón indica el perímetro del objeto y define los puntos de aplicación de las fuerzas externas.]
+
+Sin embargo, resolviendo la Ecuación Diferencial de Binet, que se ofrece en el primer capítulo del siguiente volumen, es posible demostrar que la trayectoria a lo largo de la que se desplazará la partícula será una elipse con foco en el centro de fuerzas y puntos apsidales coincidentes con los valores extremos indicados anteriormente e identificados como apogeo y perigeo, como se sugiere en la figura siguiente y como lo podrá apreciar en la primera parte del video 10-Orbitas.wmv que se recomienda correr nuevamente, donde además podrá observar que los cambios temporales en la coordenada radial son lentos en el apogeo y rápidos en el perigeo, como también lo podrá observar en la segunda simulación que se ofrece en la página a la que puede acceder ejecutando el archivo 18- Acotados.htm, donde la partícula se mueve a sometida a un campo de fuerza que deriva de una función energía potencial con características similares a las de aquella definida por (3.36).
+
+[Descripción de imagen: La imagen muestra un objeto con simetría circular que podría representar un disco o una sección transversal de un objeto toroidal. No se observan vectores ni fuerzas explícitas. El contorno del objeto y el área sombreada sugieren un posible análisis de momentos de inercia o distribución de masa alrededor de los ejes centrales.]
+
+────────────────────────────────────────────────────────────
+Chunk 13 (1782 chars)
+────────────────────────────────────────────────────────────
+[Descripción de imagen: La imagen muestra un objeto con simetría circular, con un círculo interior vacío. No se observan vectores, fuerzas, ejes ni puntos de aplicación explícitos en la imagen. La línea roja representa posiblemente una trayectoria o contorno.]
+
+Suponiendo para la partícula diferentes estados energéticos, conseguidos mediante variaciones en su vector velocidad inicial, sin alterar su componente transversal, a los efectos de mantener el mismo valor de su momento angular, resultaran situaciones como las que se indican en la figura siguiente, donde se puede observar que la mínima energía mecánica, necesaria para que el radio del apogeo sea infinito, o sea para que la partícula pueda llegar infinitamente lejos del centro de fuerza, será nula.
+
+[Descripción de imagen: La imagen muestra diferentes tipos de trayectorias que puede seguir un objeto bajo la influencia de una fuerza central, como la gravedad. Las trayectorias representadas incluyen una trayectoria circular, elíptica, parabólica e hiperbólica, cada una asociada a un nivel de energía total (E00, E01, E02, E03). No se observan vectores de fuerza explícitos, pero se asume la presencia de una fuerza central atractiva que origina estas trayectorias.]
+
+De lo mencionado anteriormente, resulta que la mínima velocidad con la que deberemos lanzar la partícula para que pueda llegar infinitamente lejos del centro de fuerza, que hemos identificado como velocidad de escape, deberá ser tal que:
+
+$$
+\frac {1}{2} \mathrm {m v} _ {\circ} ^ {2} - \mathrm {G} \frac {\mathrm {m M}}{\mathrm {r} _ {\circ}} = 0
+$$
+
+De donde obtenemos que la mencionada velocidad de escape vendrá dada por:
+
+$$
+\mathrm {v} _ {\mathrm {o} - \text {e s c a p e}} = \sqrt {\frac {2 \mathrm {G M}}{\mathrm {r} _ {\mathrm {o}}}}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 14 (1835 chars)
+────────────────────────────────────────────────────────────
+tenemos que la mencionada velocidad de escape vendrá dada por:
+
+$$
+\mathrm {v} _ {\mathrm {o} - \text {e s c a p e}} = \sqrt {\frac {2 \mathrm {G M}}{\mathrm {r} _ {\mathrm {o}}}}
+$$
+
+Claramente coincidente con la obtenida al considerar un tiro vertical y horizontal, como una aplicación de la conservación del vector momento angular, siendo posible demostrar que para la situación en consideración la partícula se desplazará a lo largo de una parábola, con el vértice en el punto de lanzamiento cuando se lo realiza horizontalmente. 
+
+Suponiendo lanzamientos con velocidades mayores que la indicada anteriormente, realizados sin alterar la componente transversal del vector velocidad, como se sugiere en la figura siguiente, puesto que de lo contrario alteraríamos el valor del momento angular inicial y por lo tanto la función (3.36), la partícula “escapará” del campo gravitatorio a lo largo de una trayectoria hiperbólica.
+
+[Descripción de imagen: La imagen muestra un vector de posición $\overrightarrow{r_0}$  y un vector velocidad $\overrightarrow{v_0}$ en un punto de aplicación, junto con vectores que representan diferentes componentes o variaciones de $\overrightarrow{v_0}$. No se observan ejes coordenados ni fuerzas representadas explícitamente.]
+
+El movimiento a lo largo de una trayectoria circular requerirá que el lanzamiento sea horizontal y se realice con una velocidad tal que, la fuerza gravitatoria proporcione la componente normal necesaria para dicha trayectoria, con lo que su velocidad deberá ser tal que:
+
+$$
+\mathrm {m} \frac {\mathrm {v} _ {\circ} ^ {2}}{\mathrm {r} _ {\circ}} = \mathrm {G} \frac {\mathrm {m M}}{\mathrm {r} _ {\circ} ^ {2}}
+$$
+
+De donde resulta que la partícula deberá ser lanzada horizontalmente con una velocidad dada por:
+
+$$
+v _ {0 - c} = \sqrt {\frac {G M}{r _ {o}}} \tag {3.37}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 15 (1184 chars)
+────────────────────────────────────────────────────────────
+athrm {G} \frac {\mathrm {m M}}{\mathrm {r} _ {\circ} ^ {2}}
+$$
+
+De donde resulta que la partícula deberá ser lanzada horizontalmente con una velocidad dada por:
+
+$$
+v _ {0 - c} = \sqrt {\frac {G M}{r _ {o}}} \tag {3.37}
+$$
+
+Y por lo tanto con una energía mecánica dada por:
+
+$$
+E _ {o c} = - G \frac {m M}{2 r _ {o}}
+$$
+
+Suponiendo ahora que deseáramos que la partícula se mueva a lo largo de una órbita circular, contenida en el plano del ecuador terrestre y permaneciendo sobre un mismo punto del planeta, conocida como órbita geoestacionaria, como la que podrá observar en la segunda parte del video 10- Orbitas.wmv, que es el tipo de órbita a lo largo de las cuales se desplazan los satélites de comunicaciones, su velocidad angular (w) deberá coincidir con la del planeta y por lo tanto de (3.37) resulta que el radio de dicha órbita deberá ser tal que:
+
+$$
+w r _ {g} = \sqrt {\frac {G M}{r _ {g}}}
+$$
+
+De donde obtenemos que dicho radio, en función del período con el que rota el planeta, vendrá dado por:
+
+$$
+r _ {g} = (G M) ^ {1 / 3} \left(\frac {T}{2 \pi}\right) ^ {2 / 3}
+$$
+
+Que para el caso de nuestro planeta, resulta:
+
+$$
+\mathrm {r _ {g}} = 3 6. 0 0 0 \mathrm {k m}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 16 (2549 chars)
+────────────────────────────────────────────────────────────
+0 0 0 \mathrm {k m}
+$$
+
+Como se indica en el video 11-Comunicacion.avi que se recomienda ejecutar. 
+
+Finalmente, considerando un cuerpo sometido a un campo gravitatorio, como un satélite alrededor de la Tierra o los planetas alrededor del Sol, la coordenada vectorial de su centro de masa respecto del centro de fuerza barrera áreas como las que se sugieren en la figura siguiente, con una velocidad que llamaremos velocidad areal y que vendrá dada por:
+
+[Descripción de imagen: La imagen muestra una elipse con dos áreas sombreadas etiquetadas como A, situadas en lados opuestos y simétricos respecto al eje mayor de la elipse. No se observan vectores ni fuerzas explícitas representados en la imagen, pero se puede inferir que el eje mayor de la elipse podría estar relacionado con un vector que lo representa. Los puntos de aplicación relevantes parecen ser aquellos donde se encuentran las áreas sombreadas.]
+
+$$
+v _ {A} = \frac {d A}{d t}
+$$
+
+Con lo que.
+
+$$
+v _ {A} = \lim  _ {\Delta t \rightarrow 0} \frac {\Delta A}{\Delta t}
+$$
+
+Por otro lado, teniendo en cuenta que el área del paralelogramo entre dos vectores como los que se muestran en la figura siguiente, viene dada por:
+
+[Descripción de imagen: La imagen muestra un paralelogramo formado por dos vectores, $\vec{r}$ y $\Delta \vec{r}$, que representan el desplazamiento inicial y el cambio en el desplazamiento, respectivamente. El vector $\vec{r}$ se encuentra en el eje horizontal y el vector $\Delta \vec{r}$ se encuentra en la parte superior izquierda. El área del paralelogramo formado por estos vectores puede ser interpretada como una medida del cambio en la posición o trayectoria.]
+
+$$
+| \vec {\mathbf {r}} \times \Delta \vec {\mathbf {r}} |
+$$
+
+Resulta que el área de la mitad del paralelogramo indicado anteriormente, vendrá dada por:
+
+[Descripción de imagen: La imagen muestra dos vectores, $\vec{r}$ y $\Delta \vec{r}$, que forman un paralelogramo. El vector $\vec{r}$ se encuentra en la parte inferior izquierda y $\Delta \vec{r}$ en la parte superior derecha. La suma de estos vectores puede estar representada por la diagonal del paralelogramo, aunque esta no se muestra.]
+
+$$
+\frac {1}{2} | \vec {\mathrm {r}} \times \Delta \vec {\mathrm {r}} |
+$$
+
+Con lo que a la velocidad areal podremos expresarla en términos del módulo del momento angular, como:
+
+$$
+\mathrm {v _ {A}} = \frac {1}{2} | \vec {\mathrm {r}} \times \vec {\mathrm {v}} | = \frac {1}{2 \mathrm {m}} | \vec {\mathrm {r}} \times \mathrm {m} \vec {\mathrm {v}} | = \frac {1}{2 \mathrm {m}} \mathrm {L}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 17 (632 chars)
+────────────────────────────────────────────────────────────
+n términos del módulo del momento angular, como:
+
+$$
+\mathrm {v _ {A}} = \frac {1}{2} | \vec {\mathrm {r}} \times \vec {\mathrm {v}} | = \frac {1}{2 \mathrm {m}} | \vec {\mathrm {r}} \times \mathrm {m} \vec {\mathrm {v}} | = \frac {1}{2 \mathrm {m}} \mathrm {L}
+$$
+
+Puesto que la masa de la partícula y el módulo del momento angular permanecen constante, es claro entonces que la velocidad areal permanecerá constante, resultado este conocido como segunda ley de Keppler, que en términos del momento angular por unidad de masa ( lo ) podemos expresar como:
+
+$$
+\mathbf {v} _ {\mathrm {A}} = \frac {\mathbf {l} _ {\mathrm {o}}}{2}
+$$

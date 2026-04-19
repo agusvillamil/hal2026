@@ -1,0 +1,637 @@
+Archivo  : Libros/Libros_Markdown/MinerU_markdown_Ochoa-63-SisRigMovPlano-III-136-143_2042434786467381248.md
+Chunks   : 20
+
+────────────────────────────────────────────────────────────
+Chunk 1 (1478 chars)
+────────────────────────────────────────────────────────────
+# 6.06 CONSIDERACIONES ENERGÉTICAS
+
+# Energía Cinética.
+
+Teniendo en cuenta lo desarrollado en el capítulo anterior, en general, la energía cinética de un sistema de cuerpos puntuales, rígido o no, puede expresarse como la suma de un término orbital directamente vinculado con el movimiento del centro de masa del sistema, mas un término intrínseco que nos tiene en cuenta el movimiento de cada una de las partículas respecto del sistema de referencia centroidal, esto es:
+
+$$
+\mathrm {T} = \frac {1}{2} \mathrm {m v} _ {\mathrm {c}} ^ {2} + \sum \frac {1}{2} \mathrm {m} _ {\mathrm {i}} \mathrm {v} _ {\mathrm {i}} ^ {\prime 2}
+$$
+
+Que obtuvimos a partir de definir la energía cinética de un sistema como la suma de las energías cinéticas de cada una de las partículas respecto del sistema de referencia involucrado, o sea:
+
+$$
+\mathrm {T} = \sum \frac {1}{2} \mathrm {m} _ {\mathrm {i}} \mathrm {v} _ {\mathrm {i}} ^ {2}
+$$
+
+Suponiendo ahora que el sistema en consideración es un sistema rígido, la velocidad de cada una de las partículas puede ser expresada en términos del vector que caracteriza el estado de movimiento del centro de masa y el que caracteriza el estado de rotación del cuerpo, como:
+
+$$
+\vec {\mathrm {v}} _ {\mathrm {i}} = \vec {\mathrm {v}} _ {\mathrm {c}} + \vec {\mathrm {w}} \times \vec {\mathrm {r}} _ {\mathrm {i / c}}
+$$
+
+Teniendo en cuenta esta relación en la definición general de la energía cinética de un sistema indicada anteriormente, resulta:
+
+────────────────────────────────────────────────────────────
+Chunk 2 (1632 chars)
+────────────────────────────────────────────────────────────
+m {v}} _ {\mathrm {c}} + \vec {\mathrm {w}} \times \vec {\mathrm {r}} _ {\mathrm {i / c}}
+$$
+
+Teniendo en cuenta esta relación en la definición general de la energía cinética de un sistema indicada anteriormente, resulta:
+
+$$
+\mathrm {T} = \frac {1}{2} \mathrm {m v} _ {\mathrm {c}} ^ {2} + \sum \frac {1}{2} \mathrm {m} _ {\mathrm {i}} (\vec {\mathrm {w}} \times \vec {\mathrm {r}} _ {\mathrm {i / c}}) ^ {2} + \vec {\mathrm {v}} _ {\mathrm {c}} \cdot \vec {\mathrm {w}} \times \sum \mathrm {m} _ {\mathrm {i}} \vec {\mathrm {r}} _ {\mathrm {i / c}}
+$$
+
+Donde recordemos que la coordenada vectorial de cada una de las partículas está determinada respecto del centro de masa del sistema, con lo que es clara la nulidad de la última sumatoria, y por lo tanto la anterior nos queda:
+
+$$
+\mathrm {T} = \frac {1}{2} \mathrm {m v} _ {\mathrm {c}} ^ {2} + \sum \frac {1}{2} \mathrm {m i} (\vec {\mathrm {w}} \times \vec {\mathrm {r}} _ {\mathrm {i / c}}) \cdot (\vec {\mathrm {w}} \times \vec {\mathrm {r}} _ {\mathrm {i / c}})
+$$
+
+De donde resulta que, el término intrínseco de la energía cinética queda expresado como:
+
+$$
+\mathrm {T} ^ {\prime} = \sum \frac {1}{2} m _ {\mathrm {i}} (\vec {w} \times \vec {r} _ {\mathrm {i / c}}) \cdot (\vec {w} \times \vec {r} _ {\mathrm {i / c}})
+$$
+
+Conclusión que era de esperar si en la primera expresión de este tema, tenemos en cuenta que al considerar un sistema rígido, el estado de movimiento de cada una de las partículas respecto del sistema centroidal vendrá dado por:
+
+$$
+\vec {\mathrm {v}} _ {\mathrm {i}} ^ {\prime} = \vec {\mathrm {w}} \times \vec {\mathrm {r}} _ {\mathrm {i / c}}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 3 (1593 chars)
+────────────────────────────────────────────────────────────
+e movimiento de cada una de las partículas respecto del sistema centroidal vendrá dado por:
+
+$$
+\vec {\mathrm {v}} _ {\mathrm {i}} ^ {\prime} = \vec {\mathrm {w}} \times \vec {\mathrm {r}} _ {\mathrm {i / c}}
+$$
+
+Y que nos muestra al término intrínseco de la energía cinética, directamente vinculado con el estado de rotación del cuerpo, por lo que en adelante lo identificaremos como término de “spin” o termino asociado a la rotación del cuerpo, de donde, permutando cíclicamente las magnitudes vectoriales involucradas y simplificando la notación de la coordenada vectorial de las partículas respecto del centro de masa, obtenemos:
+
+$$
+\mathrm {T} ^ {\prime} = \sum \frac {1}{2} \mathrm {m} _ {\mathrm {i}} \vec {\mathrm {w}} \cdot \left[ \vec {\mathrm {r}} _ {\mathrm {i}} \times (\vec {\mathrm {w}} \times \vec {\mathrm {r}} _ {\mathrm {i}}) \right]
+$$
+
+De donde:
+
+$$
+\mathrm {T} ^ {\prime} = \frac {1}{2} \vec {\mathrm {w}} \cdot \sum \mathrm {m _ {i}} \big [ \vec {\mathrm {r}} _ {\mathrm {i}} \times (\vec {\mathrm {w}} \times \vec {\mathrm {r}} _ {\mathrm {i}}) \big ]
+$$
+
+Teniendo en cuenta que la coordenada vectorial involucrada esta determinada respecto del centro de masa del sistema y considerando la forma vectorial que obtuviéramos para la componente de "spin" del vector momento angular, es claro que el término de "spin" de la energía cinética puede ser expresado como:
+
+$$
+\mathrm {T} ^ {\prime} = \frac {1}{2} \vec {\mathrm {w}} \cdot \vec {\mathrm {L}} _ {\mathrm {c}}
+$$
+
+Con lo que finalmente y en general, la energía cinética de un sistema rígido queda expresada como:
+
+────────────────────────────────────────────────────────────
+Chunk 4 (1486 chars)
+────────────────────────────────────────────────────────────
+o:
+
+$$
+\mathrm {T} ^ {\prime} = \frac {1}{2} \vec {\mathrm {w}} \cdot \vec {\mathrm {L}} _ {\mathrm {c}}
+$$
+
+Con lo que finalmente y en general, la energía cinética de un sistema rígido queda expresada como:
+
+$$
+\mathrm {T} = \frac {1}{2} \mathrm {m v _ {c}} ^ {2} + \frac {1}{2} \vec {\mathrm {w}} \cdot \vec {\mathrm {L}} _ {\mathrm {c}}
+$$
+
+Que en términos de su vector cantidad de movimiento resulta:
+
+$$
+\mathrm {T} = \frac {1}{2} \vec {\mathrm {v}} _ {\mathrm {c}} \cdot \vec {\mathrm {P}} + \frac {1}{2} \vec {\mathrm {w}} \cdot \vec {\mathrm {L}} _ {\mathrm {c}}
+$$
+
+Forma esta última que nos muestra una fuerte analogía entre el término orbital y el término intrínseco de la energía cinética. 
+
+Suponiendo ahora que existe un punto (Q) perteneciente al cuerpo o a una extensión rígida del mismo tal que, su velocidad es nula durante el intervalo de tiempo de interés, el vector velocidad de cada una de las partículas involucradas puede expresarse como:
+
+$$
+\vec {\mathrm {v}} _ {\mathrm {i}} = \vec {\mathrm {w}} \times \vec {\mathrm {r}} _ {\mathrm {i}}
+$$
+
+Donde ahora la coordenada vectorial está determinada respecto del punto (Q) mencionado anteriormente. Teniendo en cuenta esta relación en la expresión general mediante la que definimos la energía cinética de un sistema, resulta:
+
+$$
+\mathrm {T} = \sum \frac {1}{2} m _ {\mathrm {i}} (\vec {\mathrm {w}} \times \vec {\mathrm {r}} _ {\mathrm {i}}) \cdot (\vec {\mathrm {w}} \times \vec {\mathrm {r}} _ {\mathrm {i}})
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 5 (1191 chars)
+────────────────────────────────────────────────────────────
+a:
+
+$$
+\mathrm {T} = \sum \frac {1}{2} m _ {\mathrm {i}} (\vec {\mathrm {w}} \times \vec {\mathrm {r}} _ {\mathrm {i}}) \cdot (\vec {\mathrm {w}} \times \vec {\mathrm {r}} _ {\mathrm {i}})
+$$
+
+Operando en forma análoga a como lo hiciéramos con el término intrínseco de la energía cinética y teniendo en cuenta que en esta oportunidad la coordenada vectorial de las partículas están determinadas respecto del punto fijo identificado con (Q), es claro que la energía cinética podrá ser expresada en términos del vector momento angular respecto del punto mencionado, como:
+
+$$
+\mathrm {T} = \frac {1}{2} \vec {\mathrm {w}} \cdot \vec {\mathrm {L}} _ {\mathrm {Q}}
+$$
+
+# Movimiento Plano.
+
+Suponiendo ahora al cuerpo animado de un movimiento plano y teniendo en cuenta la expresión obtenida en ese caso para el vector momento angular, el término de "spin" de la energía cinética vendrá dado por:
+
+$$
+\mathrm {T} ^ {\prime} = \frac {1}{2} \mathrm {I} _ {\mathrm {c}} \mathrm {w} ^ {2}
+$$
+
+Con lo que la energía cinética expresada como la suma del término orbital y de "spín" nos queda:
+
+$$
+\mathrm {T} = \frac {1}{2} \mathrm {m v _ {c}} ^ {2} + \frac {1}{2} \mathrm {I _ {c}} \mathrm {w} ^ {2}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 6 (1645 chars)
+────────────────────────────────────────────────────────────
+término orbital y de "spín" nos queda:
+
+$$
+\mathrm {T} = \frac {1}{2} \mathrm {m v _ {c}} ^ {2} + \frac {1}{2} \mathrm {I _ {c}} \mathrm {w} ^ {2}
+$$
+
+Siendo interesante destacar que las anteriores no requieren que el plano del movimiento sea un plano de simetría, solamente requieren que el movimiento sea plano. 
+
+Finalmente en el caso de un movimiento plano y teniendo en cuenta la expresión obtenida en dicho caso para el vector momento angular respecto de un punto fijo, perteneciente al cuerpo o a una extensión rígida del mismo, podemos obtener una expresión para la energía cinética en términos del momento de inercia respecto de un eje paralelo al eje de rotación, pasante por el mencionado punto, que resulta:
+
+$$
+\mathrm {T} = \frac {1}{2} \mathrm {I} _ {\mathrm {Q}} \mathrm {w} ^ {2}
+$$
+
+# Trabajo Mecánico y Energía Cinética.
+
+Teniendo presente las conclusiones obtenidas en el capítulo anterior, el trabajo mecánico realizado sobre un sistema por la totalidad de las fuerzas de interacción, externas e internas, venía dado por:
+
+$$
+W = \int F \cdot d \vec {r} _ {c} + \sum_ {i} \int_ {t r / i} \left(\vec {F} _ {i} + \vec {f} _ {i}\right) \cdot d \vec {r} _ {i} ^ {\prime}
+$$
+
+Donde recordemos que las integrales incluidas en la sumatoria del segundo término están calculadas sobre las trayectorias a lo largo de las que se desplazan las partículas respecto del sistema de referencia centroidal, ya que en dicho término la coordenada vectorial de cada partícula está determinada respecto del origen del mencionado sistema. Teniendo esto en cuenta, el diferencial incluido en las integrales de referencia, puede ser expresado como:
+
+────────────────────────────────────────────────────────────
+Chunk 7 (1476 chars)
+────────────────────────────────────────────────────────────
+Teniendo esto en cuenta, el diferencial incluido en las integrales de referencia, puede ser expresado como:
+
+$$
+d \vec {r} _ {i} ^ {\prime} = \vec {v} _ {i} ^ {\prime} d t
+$$
+
+Donde el vector velocidad de la partícula en consideración está determinado respecto del sistema de referencia centroidal, que por lo tanto, en el caso de un sistema rígido, puede ser expresado en términos del vector que caracteriza la rotación del sistema, con lo que de la anterior resulta:
+
+$$
+d \vec {r} _ {i} ^ {\prime} = (\vec {w} \times \vec {r} _ {i}) d t
+$$
+
+Con lo que el trabajo mecánico puede expresarse como:
+
+$$
+W = \int F \cdot d \vec {r} _ {c} + \sum_ {i} \int_ {t r / i} \left(\vec {F} _ {i} + \vec {f} _ {i}\right) \cdot (\vec {w} \times \vec {r} _ {i}) d t
+$$
+
+Teniendo presente como fuera definido el vector que caracteriza la rotación de un sistema rígido, y operando en el segundo término de la anterior, éste puede expresarse como:
+
+$$
+\sum_ {i} \int_ {t r / i} \left(\vec {F} _ {i} + \vec {f} _ {i}\right) \cdot (\vec {w} \times \vec {r} _ {i}) d t = \sum_ {i} \int_ {t r / i} \left(\vec {F} _ {i} + \vec {f} _ {i}\right) \cdot (d \vec {\theta} \times \vec {r} _ {i})
+$$
+
+Que luego de efectuar permutaciones cíclicas nos queda:
+
+$$
+\sum_ {i} \int_ {t r / i} \left(\vec {F} _ {i} + \vec {f} _ {i}\right) \cdot (\vec {w} \times \vec {r} _ {i}) d t = \sum_ {i} \int_ {t r / i} \vec {r} _ {i} ^ {\prime} \times \left(\vec {F} _ {i} + \vec {f} _ {i}\right) \cdot d \vec {\theta}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 8 (1465 chars)
+────────────────────────────────────────────────────────────
+} _ {i} + \vec {f} _ {i}\right) \cdot (\vec {w} \times \vec {r} _ {i}) d t = \sum_ {i} \int_ {t r / i} \vec {r} _ {i} ^ {\prime} \times \left(\vec {F} _ {i} + \vec {f} _ {i}\right) \cdot d \vec {\theta}
+$$
+
+Donde podemos observar que ahora la totalidad de las integrales incluidas en la sumatoria contienen un diferencial que es común a todas las partículas que integran nuestro sistema, es independiente del índice de la sumatoria, y por lo tanto podemos intercambiar los símbolos, con lo que resulta:
+
+$$
+\sum_ {i} \int_ {t r / i} \left(\vec {F} _ {i} + \vec {f} _ {i}\right) \cdot (\vec {w} \times \vec {r} _ {i}) d t = \int \left[ \sum_ {i} \vec {r} _ {i} ^ {\prime} \times (\vec {F} _ {i} + \vec {f} _ {i}) \right] \cdot d \vec {\theta}
+$$
+
+La que a su vez puede desdoblarse en la suma de las integrales que se indican a continuación:
+
+$$
+\int \left(\sum_ {i} \vec {r} _ {i} ^ {\prime} \times \vec {F} _ {i}\right) \cdot d \vec {\theta} + \int \left(\sum_ {i} \vec {r} _ {i} ^ {\prime} \times \vec {f} _ {i}\right) \cdot d \vec {\theta}
+$$
+
+Desarrollando el integrando de la segunda y teniendo en cuenta que el principio de acción y reacción requiere que las rectas de acción de las fuerzas internas sean coincidentes con el vector posición relativo entre las partículas involucradas, luego de reagrupar términos es inmediato que dicho integrando se anula, ya que en virtud de lo mencionado:
+
+$$
+\sum_ {i} \vec {r} _ {i} ^ {\prime} \times \vec {f} _ {i} = 0
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 9 (1117 chars)
+────────────────────────────────────────────────────────────
+nvolucradas, luego de reagrupar términos es inmediato que dicho integrando se anula, ya que en virtud de lo mencionado:
+
+$$
+\sum_ {i} \vec {r} _ {i} ^ {\prime} \times \vec {f} _ {i} = 0
+$$
+
+Por otro lado, los términos de la sumatoria incluida en la primera integral no son otra cosa que el momento que las fuerzas externas generan respecto del centro de masa (recordar que la coordenada vectorial está determinada respecto de dicho punto), y por lo tanto:
+
+$$
+\sum_ {i} \vec {r} _ {i} ^ {\prime} \times \vec {F} _ {i} = \vec {M} _ {c}
+$$
+
+Con lo que finalmente, el segundo término de la expresión lograda para el trabajo mecánico nos queda:
+
+$$
+\sum_ {i} \int_ {t r / i} \left(\vec {F} _ {i} + \vec {f} _ {i}\right) \cdot (\vec {w} \times \vec {r} _ {i}) d t = \int \vec {M} _ {c} \cdot d \vec {\Theta}
+$$
+
+Y por lo tanto, en el caso de un sistema rígido, el trabajo mecánico que realizan la totalidad de las fuerzas a que dicho sistema está sometido, queda expresado como la suma de los dos términos que se detallan a continuación:
+
+$$
+W = \int F \cdot d \vec {r} _ {c} + \int \vec {M} _ {c} \cdot d \vec {\Theta}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 10 (1641 chars)
+────────────────────────────────────────────────────────────
+ma de los dos términos que se detallan a continuación:
+
+$$
+W = \int F \cdot d \vec {r} _ {c} + \int \vec {M} _ {c} \cdot d \vec {\Theta}
+$$
+
+Donde resulta importante destacar que las fuerzas internas a que pudiera estar sometido el sistema no intervienen en la expresión recientemente obtenida y por lo tanto estamos en condiciones de 
+
+afirmar que en el caso de un sistema rígido, las fuerzas internas no realizan trabajo mecánico, situación esta claramente compatible con la condición de rigidez. 
+
+Finalmente, teniendo en cuenta la expresión anterior y las conclusiones obtenidas en el capítulo anterior en cuanto a la relación entre dichos términos y los cambios observados en los términos orbital e intrínsecos de la energía cinética, resulta:
+
+$$
+\int \vec {\mathrm {F}} \cdot \mathrm {d} \vec {\mathrm {r}} _ {\mathrm {c}} = \Delta \mathrm {T} _ {\mathrm {o r}}
+$$
+
+$$
+\int \vec {\mathrm {M}} _ {\mathrm {c}} \cdot \mathrm {d} \vec {\theta} = \Delta \mathrm {T} ^ {\prime}
+$$
+
+# Ejemplo (6.17)
+
+Consideremos el caso de un rodillo como el sugerido en la figura, que rueda sin deslizar a lo largo de una superficie horizontal, sometido a una fuerza constante aplicada en su centro de masa mediante un eje coincidente con su eje de simetría.
+
+[Descripción de imagen: La imagen muestra un disco sometido a fuerzas externas representadas por vectores. El vector F se aplica en el punto C, que se encuentra a una distancia R del centro del disco, mientras que el vector f se aplica en el punto Q en la parte inferior del disco. Los ejes y puntos de aplicación relevantes incluyen el radio R y los puntos C y Q donde se aplican las fuerzas.]
+
+────────────────────────────────────────────────────────────
+Chunk 11 (1747 chars)
+────────────────────────────────────────────────────────────
+[Descripción de imagen: La imagen muestra un disco sometido a fuerzas externas representadas por vectores. El vector $\vec F$ representa una fuerza aplicada en el punto C, cuyo brazo de palanca respecto al centro del disco es $R$.  En el punto de contacto con el suelo, la fuerza de rozamiento $\vec f$ ejerce un momento que provoca la rotación del disco en sentido antihorario.]
+
+Nos proponemos obtener expresiones para el trabajo mecánico realizado por las fuerzas a que se encuentra sometido el cuerpo. Con este propósito buscaremos inicialmente una expresión para la fuerza de rozamiento estática que resulta de la interacción entre el rodillo y la superficie horizontal, mediante la aplicación de las ecuaciones de movimiento consideradas a lo largo de este capítulo, según las cuales resulta:
+
+$$
+\mathrm {F} - \mathrm {f} = \mathrm {m a} _ {\mathrm {c}}
+$$
+
+$$
+- \mathrm {f R} = \mathrm {I _ {c}} \alpha
+$$
+
+Donde:
+
+$$
+a _ {c} = - R \alpha
+$$
+
+De las que obtenemos:
+
+$$
+\mathrm {f} \left(1 + \frac {\mathrm {m R} ^ {2}}{\mathrm {I} _ {\mathrm {c}}}\right) = \mathrm {F}
+$$
+
+Con lo que:
+
+$$
+\mathrm {f} = \frac {\mathrm {I} _ {\mathrm {c}}}{\mathrm {I} _ {\mathrm {Q}}} \mathrm {F}
+$$
+
+Y por lo tanto la fuerza de rozamiento será en todo momento inferior a la fuerza aplicada, lo que claramente era de esperar si tenemos en cuenta que la aceleración del centro de masa del rodillo tendrá el sentido de la fuerza aplicada sobre dicho punto. 
+
+Teniendo en cuenta las conclusiones obtenidas recientemente, resulta que el trabajo mecánico realizado por las fuerzas de interacción sobre el rodillo vendrá expresado por:
+
+$$
+\mathrm {W} = \int \mathrm {F d x} _ {\mathrm {c}} - \int \mathrm {f d x} _ {\mathrm {c}} + \int \mathrm {f R d} \theta
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 12 (1417 chars)
+────────────────────────────────────────────────────────────
+alizado por las fuerzas de interacción sobre el rodillo vendrá expresado por:
+
+$$
+\mathrm {W} = \int \mathrm {F d x} _ {\mathrm {c}} - \int \mathrm {f d x} _ {\mathrm {c}} + \int \mathrm {f R d} \theta
+$$
+
+Suponiendo dada la condición de no deslizamiento, para lo cuál el rozamiento existente entre el rodillo y la superficie horizontal deberá ser capaz de proporcionar la fuerza determinada anteriormente, entonces:
+
+$$
+\mathrm {d x} _ {\mathrm {c}} = \mathrm {R d} \theta
+$$
+
+Con lo que el trabajo mecánico nos queda expresado como:
+
+$$
+\mathrm {W} = \int \mathrm {F d x} _ {\mathrm {c}}
+$$
+
+Y por lo tanto estamos en condiciones de afirmar que la fuerza de rozamiento no realiza trabajo mecánico sobre el rodillo. Sin embargo esta afirmación no debe confundirnos en cuanto a que esta 
+
+fuerza es precisamente la responsable de los cambios observados en el término de spin de la energía cinética puesto que es la única capaz de generar momento respecto del centro de masa del rodillo y por lo tanto suponiendo al sistema inicialmente en reposo resulta:
+
+$$
+\int \mathrm {f R} \mathrm {d} \theta = \frac {1}{2} \mathrm {I} _ {\mathrm {c}} \mathrm {w} ^ {2}
+$$
+
+Por lo tanto:
+
+$$
+\int f d x _ {c} = \frac {1}{2} I _ {c} w ^ {2}
+$$
+
+De donde, luego de tener en cuenta la expresión obtenida para la fuerza de rozamiento, resulta:
+
+$$
+\mathrm {w} ^ {2} = \frac {2 \mathrm {D}}{\mathrm {I} _ {\mathrm {Q}}} \mathrm {F}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 13 (1504 chars)
+────────────────────────────────────────────────────────────
+onde, luego de tener en cuenta la expresión obtenida para la fuerza de rozamiento, resulta:
+
+$$
+\mathrm {w} ^ {2} = \frac {2 \mathrm {D}}{\mathrm {I} _ {\mathrm {Q}}} \mathrm {F}
+$$
+
+Siendo (D) la distancia recorrida por el centro de masa del rodillo y por lo tanto, límite superior en la determinación de la integral involucrada en el cálculo anterior. 
+
+El resultado recientemente obtenido es coincidente con el que podemos conseguir a partir de considerar nuevamente la ecuación de momento, de donde:
+
+$$
+\alpha = \frac {\mathrm {f R}}{\mathrm {I} _ {\mathrm {c}}}
+$$
+
+Que en términos de la fuerza aplicada sobre el eje del rodillo nos queda:
+
+$$
+\alpha = \frac {\mathrm {R}}{\mathrm {I} _ {\mathrm {Q}}} \mathrm {F}
+$$
+
+De donde la aceleración del centro de masa resulta:
+
+$$
+\mathrm {a} _ {\mathrm {c}} = \frac {\mathrm {R} ^ {2}}{\mathrm {I} _ {\mathrm {Q}}} \mathrm {F}
+$$
+
+Puesto que se trata de una aceleración constante, la velocidad del centro de masa del rodillo estará relacionada con su camino recorrido, mediante:
+
+$$
+\mathbf {v} ^ {2} = \mathbf {v} _ {\circ} ^ {2} + 2 \mathbf {a} _ {\mathrm {c}} \mathbf {D}
+$$
+
+Teniendo en cuenta que hemos supuesto al cilindro inicialmente en reposo y considerando la expresión obtenida para la aceleración de su centro de masa, de la anterior resulta:
+
+$$
+\mathrm {v} ^ {2} = \frac {2 \mathrm {D R} ^ {2}}{\mathrm {I} _ {\mathrm {Q}}} \mathrm {F}
+$$
+
+Con lo que
+
+$$
+\mathrm {w} ^ {2} = \frac {2 \mathrm {D}}{\mathrm {I} _ {\mathrm {Q}}} \mathrm {F}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 14 (1698 chars)
+────────────────────────────────────────────────────────────
+$$
+\mathrm {v} ^ {2} = \frac {2 \mathrm {D R} ^ {2}}{\mathrm {I} _ {\mathrm {Q}}} \mathrm {F}
+$$
+
+Con lo que
+
+$$
+\mathrm {w} ^ {2} = \frac {2 \mathrm {D}}{\mathrm {I} _ {\mathrm {Q}}} \mathrm {F}
+$$
+
+Coincidente con la que obtuviéramos anteriormente a partir de considerar la relación entre el segundo término de la expresión dada para el trabajo mecánico y los cambios observados en la energía cinética de spin. 
+
+Finalmente resulta interesante destacar que si bien el trabajo mecánico realizado por la fuerza de rozamiento es nulo, esto se debe a que en la expresión del trabajo mecánico, dicha interacción aporta con un término negativo y uno positivo de igual magnitud, que no se verificaría en caso de existir deslizamiento, estando éste último directamente relacionado con los cambios observados en la energía cinética de spin.
+
+# Ejemplo (6.18)
+
+Considerando nuevamente la situación planteada en el ejemplo (6.14), y teniendo en cuenta las conclusiones obtenidas en esa oportunidad y la relación entre el primer término del trabajo mecánico y los cambios observados en el término orbital de la energía cinética, resulta que la distancia al cabo de la cuál la esfera deja de deslizar será tal que:
+
+$$
+\int_ {0} ^ {D} f d x _ {c} = \frac {1}{2} m v _ {c} ^ {2}
+$$
+
+Donde:
+
+$$
+v _ {c} = \frac {1}{2} R w 。
+$$
+
+Con lo que:
+
+$$
+D = \frac {1}{8} \frac {R ^ {2} w _ {\circ} ^ {2}}{\mu_ {d} g}
+$$
+
+En este caso la variación observada en la energía cinética de spin, como consecuencia de la presencia de la fuerza de rozamiento dinámica será tal que:
+
+$$
+\int \mathrm {f R} \mathrm {d} \theta = \frac {1}{2} \mathrm {I} _ {\mathrm {c}} \left(\mathrm {w} _ {\circ} ^ {2} - \mathrm {w} ^ {2}\right)
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 15 (1657 chars)
+────────────────────────────────────────────────────────────
+secuencia de la presencia de la fuerza de rozamiento dinámica será tal que:
+
+$$
+\int \mathrm {f R} \mathrm {d} \theta = \frac {1}{2} \mathrm {I} _ {\mathrm {c}} \left(\mathrm {w} _ {\circ} ^ {2} - \mathrm {w} ^ {2}\right)
+$$
+
+De donde, luego de haber recorrido la distancia necesaria para iniciar el rodamiento sin deslizamiento, el ángulo barrido por una recta perpendicular al eje de rotación vendrá dado por:
+
+$$
+\theta = \frac {3}{8} \frac {\mathrm {I} _ {\mathrm {c}} \mathrm {w} _ {\circ} ^ {2}}{\mu_ {\mathrm {d}} \mathrm {m g R}}
+$$
+
+Que para el caso de una esfera nos queda:
+
+$$
+\theta = \frac {3}{1 6} \frac {\mathrm {R w} _ {\circ} ^ {2}}{\mu_ {\mathrm {d}} \mathrm {g}}
+$$
+
+Con lo que:
+
+$$
+R \theta = \frac {3}{2} D
+$$
+
+Y por lo tanto:
+
+$$
+\mathrm {R} \theta > \mathrm {D}
+$$
+
+Como era de esperar si tenemos en cuenta el deslizamiento de la esfera sobre la superficie horizontal. Finalmente, la energía disipada durante el recorrido puede determinarse como diferencia de la energía cinética entre el instante inicial y el instante a partir del que se inicia la rodadura sin deslizamiento. 
+
+Como aplicaciones del tema en consideración, se recomienda trabajar con las simulaciones a las que puede acceder mediante los archivos Rototraslacion-3.htm, Discos.htm y Rotacion-2.htm
+
+# 6.07 CONSERVACIÓN DE LA ENERGÍA MECÁNICA
+
+Considerando un sistema rígido sometido a un conjunto de fuerza conservativas y no conservativas, el trabajo mecánico realizado sobre dicho sistema estará relacionado con los cambios observados en su energía cinética, por:
+
+$$
+\mathrm {W} _ {\mathrm {c o n s}} + \mathrm {W} _ {\mathrm {n o c o n s}} = \Delta \mathrm {T}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 16 (1476 chars)
+────────────────────────────────────────────────────────────
+ecánico realizado sobre dicho sistema estará relacionado con los cambios observados en su energía cinética, por:
+
+$$
+\mathrm {W} _ {\mathrm {c o n s}} + \mathrm {W} _ {\mathrm {n o c o n s}} = \Delta \mathrm {T}
+$$
+
+Teniendo en cuenta que al trabajo mecánico realizado por las fuerza conservativas lo podemos expresar en término de la variación observada en una función escalar de las coordenadas del punto, a la que continuaremos identificando como función energía potencial, de las anteriores resulta que el trabajo mecánico realizado por el conjunto de fuerzas no conservativas estará relacionado con los cambios observados en la energía cinética y potencial del sistema, mediante:
+
+$$
+\Delta \mathrm {T} + \Delta \Phi = \mathrm {W} _ {\mathrm {n o c o n s}}
+$$
+
+Definiendo la energía mecánica del sistema como la suma de las energías cinética y potencial, es claro que la anterior puede expresarse en término de ésta magnitud, como:
+
+$$
+\Delta \mathrm {E} = \mathrm {W} _ {\mathrm {n o c o n s}}
+$$
+
+Donde, como siempre:
+
+$$
+\mathbf {E} = \mathbf {T} + \boldsymbol {\Phi}
+$$
+
+Que, en el caso de un movimiento plano, podemos expresar como:
+
+$$
+\mathrm {E} = \frac {1}{2} \mathrm {m v} _ {\mathrm {c}} ^ {2} + \frac {1}{2} \mathrm {I} _ {\mathrm {c}} \mathrm {w} ^ {2} + \Phi
+$$
+
+Finalmente y suponiendo nulo el trabajo mecánico realizado por las fuerzas no conservativas, de las anteriores resulta que la energía mecánica recientemente obtenida deberá permanecer constante.
+
+────────────────────────────────────────────────────────────
+Chunk 17 (1613 chars)
+────────────────────────────────────────────────────────────
+mente y suponiendo nulo el trabajo mecánico realizado por las fuerzas no conservativas, de las anteriores resulta que la energía mecánica recientemente obtenida deberá permanecer constante.
+
+# Ejemplo (6.19)
+
+Consideremos nuevamente un péndulo físico como el estudiado anteriormente, y que se muestra en la figura lateral. 
+
+Suponiendo al sistema libre de rozamiento, en cuyo caso su energía mecánica permanecerá constante, y que en el instante inicial se lo deja en libertad desde el reposo y desde aquella posición en la que el eje que pasa por el centro de suspención y el centro de masa del cuerpo esta dirigido horizontalmente, teniendo en cuenta las conclusiones anteriores, resulta:
+
+[Descripción de imagen: La imagen muestra un sólido rígido con un eje de rotación en el punto O, sometido a la acción de fuerzas que producen una rotación en el plano de la figura. Se identifican los puntos C, que parece ser el centro de masa del objeto, y R, que podría ser un vector posición o un brazo de palanca, y los ángulos θ y β, asociados a la posición y orientación del objeto respecto al eje de rotación.]
+
+$$
+\mathrm {m g R} (1 - \mathrm {s e n} \theta) + \frac {1}{2} \mathrm {I} _ {\mathrm {Q}} \mathrm {w} ^ {2} = \mathrm {m g R}
+$$
+
+Donde la energía potencial gravitatoria está determinada desde el vértice de la trayectoria a lo largo de la que se desplazará el centro de masa del péndulo. 
+
+Operando algebraicamente, de la anterior obtenemos que la velocidad angular del péndulo en función de la coordenada angular en consideración, vendrá dada por:
+
+$$
+w ^ {2} = \frac {2 m g R}{I _ {Q}} s e n \theta
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 18 (1045 chars)
+────────────────────────────────────────────────────────────
+ior obtenemos que la velocidad angular del péndulo en función de la coordenada angular en consideración, vendrá dada por:
+
+$$
+w ^ {2} = \frac {2 m g R}{I _ {Q}} s e n \theta
+$$
+
+Coincidente con la que obtuviéramos en el tratamiento del tema mediante las ecuaciones de movimiento. 
+
+Con el propósito de mostrar un método útil para el tratamiento de problemas que involucran sistemas conservativos, plantearemos nuevamente la conservación de la energía en términos de la coordenada angular determinada respecto de la vertical que se indica en la figura, en cuyo caso:
+
+$$
+\mathrm {m g R} (1 - \cos \beta) + \frac {1}{2} \mathrm {I} _ {\mathrm {Q}} \dot {\beta} ^ {2} = \mathrm {E}
+$$
+
+Derivando temporalmente en ambos miembro y teniendo en cuenta que como lo dijéramos, la energía mecánica del sistema permanece constante, de la anterior resulta:
+
+$$
+\ddot {\beta} + \frac {\mathrm {m g R}}{\mathrm {I} _ {\mathrm {Q}}} \mathrm {s e n} \beta = 0
+$$
+
+Coincidente con la ecuación diferencial que obtuviéramos planteando las ecuaciones de movimiento.
+
+────────────────────────────────────────────────────────────
+Chunk 19 (1791 chars)
+────────────────────────────────────────────────────────────
+}} \mathrm {s e n} \beta = 0
+$$
+
+Coincidente con la ecuación diferencial que obtuviéramos planteando las ecuaciones de movimiento.
+
+# Ejemplo (6.20)
+
+Finalmente y como otra aplicación del método indicado anteriormente consideraremos la situación planteada en el ejemplo (6.12), donde una varilla de masa y longitud conocidas deslizaba libre de rozamiento con sus extremos apoyados a lo largo de una superficie vertical y de una superficie horizontal, como se sugiere en la figura lateral, en cuyo caso teniendo en cuenta que la energía mecánica del sistema permanece constante y expresando la energía cinética en término del momento de inercia respecto de un eje paralelo al eje de rotación pasante por el centro de velocidad nula y luego de eliminar el factor $( \% )$ resulta:
+
+[Descripción de imagen: La imagen muestra un diagrama de un objeto en un plano inclinado con un ángulo θ, donde se indican los ejes coordenados y un vector de longitud 2H que actúa a lo largo del plano inclinado. El punto de aplicación del vector parece estar en el extremo inferior izquierdo del plano inclinado. Se menciona un coeficiente de fricción μ igual a 0, lo que implica ausencia de fricción.]
+
+$$
+\mathrm {m g H} \cos \theta + \mathrm {I} _ {\mathrm {Q}} \dot {\theta} ^ {2} = \mathrm {m g H} \cos \theta_ {\circ}
+$$
+
+De donde:
+
+$$
+\dot {\theta} ^ {2} = \frac {\mathrm {m g H}}{\mathrm {I} _ {\mathrm {Q}}} (\cos \theta_ {\circ} - \cos \theta)
+$$
+
+Teniendo en cuenta el teorema de Steiner y que la distancia entre el centro de velocidad nula y el centro de masa de la varilla es coincidente en todo momento con la mitad de su longitud, de la anterior resulta:
+
+$$
+\dot {\theta} ^ {2} = \frac {\mathrm {m g H}}{\mathrm {I} _ {\mathrm {c}} + \mathrm {m H} ^ {2}} (\cos \theta_ {\circ} - \cos \theta)
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 20 (483 chars)
+────────────────────────────────────────────────────────────
+nte en todo momento con la mitad de su longitud, de la anterior resulta:
+
+$$
+\dot {\theta} ^ {2} = \frac {\mathrm {m g H}}{\mathrm {I} _ {\mathrm {c}} + \mathrm {m H} ^ {2}} (\cos \theta_ {\circ} - \cos \theta)
+$$
+
+Coincidente con la obtenida en el tratamiento del original. 
+
+Como aplicaciones del tema considerado, se recomienda trabajar con las simulaciones que se ofrecen en las páginas a las que puede acceder mediante los archivos Atwood.htm, Yoyo.htm, Muelles.htm y Caja-2.htm

@@ -1,0 +1,342 @@
+# 3.04 TRABAJO MECÁNICO.
+
+Considerando el caso de una partícula que se mueve a lo largo de una trayectoria como la sugerida en la figura siguiente, sometida a un campo de fuerza que en general pueda depender de las tres coordenadas espaciales, caracterizado mediante una función del tipo. 
+
+![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-06/c310941a-686b-4348-91aa-c3fd17455848/37b3fe482487288caae33baace526d58b64fdd001c915b3f9b0c8cc13c98975c.jpg)
+
+
+$$
+\vec {\mathrm {F}} = \vec {\mathrm {F}} (\vec {\mathrm {r}})
+$$
+
+Definiremos el Trabajo Mecánico que dicho campo de fuerzas realiza sobre la partícula, o sobre el centro de masa de un cuerpo, a lo largo la trayectoria, entre dos puntos A y B pertenecientes a la misma, como: 
+
+$$
+\mathrm {W} _ {\mathrm {A}, \mathrm {B}} = \int_ {\mathrm {A}} ^ {\mathrm {B}} \vec {\mathrm {F}} (\vec {\mathrm {r}}) \cdot \mathrm {d} \vec {\mathrm {r}} \tag {3.16}
+$$
+
+Designando con (α) es el ángulo entre el vector que caracteriza la fuerza a la que está sometida la partícula en cada punto, con (dr) al vector desplazamiento tangente a la trayectoria, cuyo sentido coincide con el sentido del movimiento y expresando en componentes intrínsecas a las magnitudes involucradas en el integrando de la anterior, como se indica a continuación: 
+
+$$
+\vec {\mathrm {F}} (\vec {\mathrm {r}}) = (\mathrm {F} \cos \alpha) \vec {\mathrm {e}} _ {\mathrm {t}} + (\mathrm {F} \sin \alpha) \vec {\mathrm {e}} _ {\mathrm {n}}
+$$
+
+$$
+\mathrm {d} \vec {\mathrm {r}} = \vec {\mathrm {v}} \mathrm {d t} \quad \therefore \quad \mathrm {d} \vec {\mathrm {r}} = \dot {\mathrm {s}} \vec {\mathrm {e}} _ {\mathrm {t}} \mathrm {d t} \quad \therefore \quad \mathrm {d} \vec {\mathrm {r}} = \mathrm {d s} \vec {\mathrm {e}} _ {\mathrm {t}}
+$$
+
+El integrando de (1.42) nos quedará expresado como: 
+
+$$
+\vec {\mathrm {F}} (\vec {\mathrm {r}}) \cdot \mathrm {d} \vec {\mathrm {r}} = (\mathrm {F} \cos \alpha) \mathrm {d s}
+$$
+
+Con lo que, el trabajo mecánico a lo largo de la trayectoria en consideración, nos queda: 
+
+$$
+\mathrm {W} _ {\mathrm {A}, \mathrm {B}} = \int_ {\mathrm {A}} ^ {\mathrm {B}} \mathrm {F} \cos \alpha \mathrm {d s} \tag {3.17}
+$$
+
+Siendo interesante destacar, que la componente tangencial (Fcosα), es la única que aporta al trabajo realizado por el campo de fuerza. Por lo tanto una fuerza normal a la trayectoria a lo largo de la que se desplace la partícula o el centro de masa de un cuerpo no realizará trabajo mecánico sobre el mismo, independiente de cual sea la longitud sobre la que estuviera aplicada. 
+
+Considerando el caso muy particular de un cuerpo que se desplaza a lo largo de una trayectoria recta sometido a una fuerza cuyo módulo y dirección permanece constante, como se sugiere en la figura lateral, de (3.17) resulta que para dicha situación y designando con D a la distancia entre los puntos a y b de la trayectoria, el trabajo realizado por el campo de fuerza entre los puntos considerados vendrá dado por: 
+
+![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-06/c310941a-686b-4348-91aa-c3fd17455848/51770a045e4e8aa585881b106f83a383e0d139db7db43ecd0ed9f93147333817.jpg)
+
+
+$$
+\mathrm {W _ {a b} = F \cos \alpha \int_ {a} ^ {b} d s}
+$$
+
+$$
+\mathrm {W} _ {\mathrm {a b}} = \mathrm {F D} \cos \alpha
+$$
+
+Puesto que en general, tanto el módulo de la fuerza como el ángulo entre esta y el vector desplazamiento dependerán de la trayectoria a lo largo de la que se calcula la integral anterior, es claro entonces que el trabajo mecánico realizado por dicho campo de fuerza, entre dos puntos comunes a trayectorias distintas, dependerá de la trayectoria a lo largo de la que se lo calcule, como se indica a continuación. 
+
+$$
+\int_ {A} ^ {B} F \cos \alpha d s _ {1} \neq \int_ {A} ^ {B} F \cos \alpha d s _ {2}
+$$
+
+![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-06/c310941a-686b-4348-91aa-c3fd17455848/b609e397c32db5f6393c239a2c663a9e92cbe29b9e144a48b8de71e0f102afa0.jpg)
+
+
+Considerando el caso de una partícula sometida a un campo de fuerza tal que sus componentes cartesianas vienen dadas por: 
+
+$$
+\vec {\mathrm {F}} (\vec {\mathrm {r}}) = \mathrm {F} _ {\mathrm {x}} (\mathrm {x y z}) \vec {\mathrm {i}} + \mathrm {F} _ {\mathrm {y}} (\mathrm {x y z}) \vec {\mathrm {j}} + \mathrm {F} _ {\mathrm {z}} (\mathrm {x y z}) \vec {\mathrm {k}}
+$$
+
+Y expresando al vector desplazamiento en dichas componentes.  
+
+$$
+\mathrm {d} \vec {\mathrm {r}} = \mathrm {d x} \vec {\mathrm {i}} + \mathrm {d y} \vec {\mathrm {j}} + \mathrm {d z} \vec {\mathrm {k}}
+$$
+
+El trabajo mecánico realizado por este campo de fuerza quedará expresado como: 
+
+$$
+\mathrm {W} _ {\mathrm {A}, \mathrm {B}} = \int_ {\mathrm {A}} ^ {\mathrm {B}} \mathrm {F} _ {\mathrm {x}} (\mathrm {x y z}) \mathrm {d x} + \mathrm {F} _ {\mathrm {y}} (\mathrm {x y z}) \mathrm {d y} + \mathrm {F} _ {\mathrm {z}} (\mathrm {x y z}) \mathrm {d z}
+$$
+
+Que también podemos expresar como: 
+
+$$
+\mathrm {W} _ {\mathrm {A}, \mathrm {B}} = \int_ {\mathrm {A}} ^ {\mathrm {B}} \mathrm {F} _ {\mathrm {x}} (\mathrm {x y z}) \mathrm {d x} + \int_ {\mathrm {A}} ^ {\mathrm {B}} \mathrm {F} _ {\mathrm {y}} (\mathrm {x y z}) \mathrm {d y} + \int_ {\mathrm {A}} ^ {\mathrm {B}} \mathrm {F} _ {\mathrm {z}} (\mathrm {x y z}) \mathrm {d z} \tag {3.18}
+$$
+
+Donde cada una de las integrales deberá calcularse a lo largo de la trayectoria de interés, y que para el caso de una trayectoria contenida en el plano (x y) se reduce a: 
+
+$$
+\mathrm {W} _ {\mathrm {A B}} = \int_ {\mathrm {A}} ^ {\mathrm {B}} \mathrm {F} _ {\mathrm {x}} (\mathrm {x y z}) \mathrm {d x} + \int_ {\mathrm {A}} ^ {\mathrm {B}} \mathrm {F} _ {\mathrm {y}} (\mathrm {x y z}) \mathrm {d y} \tag {3.19}
+$$
+
+# Ejemplo.
+
+Consideraremos el caso de una partícula que se desplaza a lo largo de una trayectoria contenida en el plano (x y), entre los puntos de coordenadas (0,0) y (2,4), sometida a un campo de fuerzas que en componentes cartesianas viene dado por: 
+
+$$
+\vec {\mathrm {F}} (\mathrm {x y z}) = \left(\mathrm {k} _ {1} \mathrm {x} + \mathrm {k} _ {2} \mathrm {y}\right) \vec {\mathrm {i}} + \mathrm {k} _ {3} \mathrm {x y} \vec {\mathrm {j}}
+$$
+
+Donde las constantes tienen unidades tales que las componentes del campo de fuerza queden expresadas en Newton. 
+
+Inicialmente calcularemos el trabajo realizado por dicho campo de fuerzas cuando la partícula se desplaza a lo largo de la recta que une los puntos indicados anteriormente, esto es, a lo largo de la recta $( \mathrm { y } = 2 \mathrm { x } )$ , en cuyo caso de (4.19) obtenemos que: 
+
+$$
+\mathrm {W} = \int_ {(0, 0)} ^ {(2, 4)} \left(\mathrm {k} _ {1} \mathrm {x} + \mathrm {k} _ {2} \mathrm {y}\right) \mathrm {d x} + \int_ {(0, 0)} ^ {(2, 4)} \mathrm {k} _ {3} \mathrm {x y} \mathrm {d y}
+$$
+
+Teniendo en cuenta la trayectoria a lo largo de la que se pretende determinar el trabajo realizado por el campo de fuerza, entonces: 
+
+$$
+y = 2 x \quad \therefore \quad d y = 2 d x
+$$
+
+Con lo que, el trabajo mecánico nos queda expresado como: 
+
+$$
+\mathrm {W} = \int_ {0} ^ {2} \left(\mathrm {k} _ {1} \mathrm {x} + \mathrm {k} _ {2} 2 \mathrm {x}\right) \mathrm {d x} + \int_ {0} ^ {2} \mathrm {k} _ {3} 4 \mathrm {x} ^ {2} \mathrm {d x}
+$$
+
+Resultando que dicha magnitud vendrá dada por: 
+
+$$
+\left. \mathrm {W} = \frac {1}{2} \mathrm {k} _ {1} \mathrm {x} ^ {2} + \mathrm {k} _ {2} \mathrm {x} ^ {2} + \frac {4}{3} \mathrm {k} _ {3} \mathrm {x} ^ {3} \right] _ {0} ^ {2}
+$$
+
+Suponiendo para las constantes los valores que se indican a continuación: 
+
+$$
+\mathrm {k} _ {1} = 1 \mathrm {N} / \mathrm {m} \quad \mathrm {k} _ {2} = 2 \mathrm {N} / \mathrm {m} \quad \mathrm {k} _ {3} = 3 \mathrm {N} / \mathrm {m} ^ {2}
+$$
+
+El trabajo mecánico realizado por el campo de fuerza a lo largo de la trayectoria propuesta, resulta: 
+
+$$
+\mathrm {W} = 4 2 \mathrm {N m}
+$$
+
+Supongamos ahora que la partícula se desplaza entre los mismos puntos a lo largo de la trayectoria (y $\mathbf { \Lambda } = \mathbf { X \Lambda } ^ { 2 } ,$ ) en cuyo caso, mediante el mismo procedimiento y teniendo en cuenta que en esta oportunidad: 
+
+$$
+\mathrm {y} = \mathrm {x} ^ {2} \quad \therefore \quad \mathrm {d y} = 2 \mathrm {x d x}
+$$
+
+Obtenemos que el trabajo mecánico realizado por el campo de fuerza en consideración a lo largo de esta nueva trayectoria y suponiendo para las constantes los mismos valores, viene dado por: 
+
+$$
+\mathrm {W} = \frac {5 8}{3} \mathrm {N m}
+$$
+
+Claramente diferente del resultado obtenido en el caso anterior. 
+
+Considerando ahora una situación similar pero suponiendo en esta oportunidad que el campo de fuerza al que se ve sometida la partícula viene expresado por: 
+
+$$
+\vec {\mathrm {F}} (\mathbf {x y z}) = \left(\mathbf {k} _ {1} \mathbf {x} + \mathbf {k} _ {2} \mathbf {y} ^ {2}\right) \vec {\mathrm {i}} + \mathbf {k} _ {3} \mathbf {x y} \vec {\mathrm {j}}
+$$
+
+Ligeramente diferente al considerado recientemente y donde ahora las constantes tienen los valores y unidades que se indican a continuación. 
+
+$$
+\mathbf {k} _ {1} = 1 \mathrm {N / m} \quad \mathbf {k} _ {2} = 1 \mathrm {N / m ^ {2}} \quad \mathbf {k} _ {3} = 2 \mathrm {N / m ^ {2}}
+$$
+
+Operando en forma análoga al caso anterior, se puede verificar fácilmente que el trabajo realizado por este nuevo campo de fuerza a lo largo de las trayectorias consideradas anteriormente, será el mismo en ambos casos. En realidad, como posteriormente lo demostraremos, el trabajo mecánico realizado por este nuevo campo de fuerza será el mismo cualquiera sea la trayectoria seleccionada entre dos puntos extremos comunes a las mismas, o sea que es independiente de la trayectoria a lo largo de la que se lo calcule. 
+
+# 3.05 ENERGÍA CINÉTICA.
+
+Pensando en una partícula (o en el centro de masa de un cuerpo) que se mueve respecto de un sistema de referencia (xyz) entre dos puntos (A y B) a lo largo de una determinada trayectoria, consideraremos ahora el trabajo mecánico realizado por la resultante de las fuerzas de interacción a que está sometida la partícula o el centro de masa del sistema y que formalmente indicaremos como: 
+
+$$
+\mathrm {W} = \int_ {\mathrm {A}} ^ {\mathrm {B}} \vec {\mathrm {F}} (\vec {\mathrm {r}}) \cdot \mathrm {d} \vec {\mathrm {r}}
+$$
+
+Suponiendo que el sistema de referencia (xyz) involucrado es un Sistema Inercial y puesto que (F) es la Resultante de las fuerzas de interacción, teniendo en cuenta la Ecuación de Newton, es claro que la anterior puede expresarse como: 
+
+$$
+\mathrm {W} = \int_ {\mathrm {A}} ^ {\mathrm {B}} \mathrm {m} \vec {\mathrm {a}} _ {\mathrm {x y z}} \cdot \mathrm {d} \vec {\mathrm {r}}
+$$
+
+O bien, como: 
+
+$$
+\mathrm {W} = \int_ {\mathrm {A}} ^ {\mathrm {B}} \mathrm {m} \frac {\mathrm {d} \vec {\mathrm {v}} _ {\mathrm {x y z}}}{\mathrm {d t}} \cdot \mathrm {d} \vec {\mathrm {r}}
+$$
+
+Que puede llevarse a la forma: 
+
+$$
+\mathrm {W} = \int_ {\mathrm {v} _ {\mathrm {A}}} ^ {\mathrm {v} _ {\mathrm {B}}} \mathrm {m} \vec {\mathrm {v}} _ {\mathrm {x y z}} \cdot \mathrm {d} \vec {\mathrm {v}} _ {\mathrm {x y z}}
+$$
+
+Y que finalmente, teniendo en cuenta que la masa de la partícula es independiente de su estado de movimiento, aspecto que deberá revisarse al considerar partículas que se muevan con velocidades comparables con la velocidad de la luz, el trabajo mecánico podrá expresarse como: 
+
+$$
+\mathrm {W} = \frac {1}{2} \mathrm {m} \int_ {\mathrm {V} _ {\mathrm {A}}} ^ {\mathrm {V} _ {\mathrm {B}}} \mathrm {d v} _ {\mathrm {x y z}} ^ {2}
+$$
+
+De donde resulta que el trabajo mecánico realizado por la resultante de las fuerzas de interacción estará relacionado con las velocidades de la partícula en los puntos extremos, mediante: 
+
+$$
+\mathrm {W} = \frac {1}{2} \mathrm {m v} _ {\mathrm {B} / \mathrm {x y z}} ^ {2} - \frac {1}{2} \mathrm {m v} _ {\mathrm {A} / \mathrm {x y z}} ^ {2} \tag {3.20}
+$$
+
+Por lo tanto, cuando las velocidades están determinadas respecto de un sistema de referencia inercial, entonces el trabajo mecánico realizado por la resultante de las fuerzas de interacción estará directamente vinculado con los cambios observados en la función: 
+
+$$
+\mathrm {T} = \frac {1}{2} \mathrm {m v} ^ {2}
+$$
+
+Que en adelante reconoceremos como función Energía Cinética o simplemente energía cinética de la partícula o del centro de masa del sistema en consideración. 
+
+A pesar de que ya fuera mencionado, resulta importante destacar que la validez de la relación (3.20), que a menudo suele identificarse como Teorema de las Fuerzas Vivas, requiere que el trabajo considerado sea el realizado por la resultante de las fuerzas de interacción, y que la energía cinética de la partícula esté determinada respecto de un sistema de referencia inercial. 
+
+Suponiendo que la energía cinética estuviera determinada respecto de un sistema de referencia no inercial, en traslación respecto de un sistema inercial, teniendo en cuenta lo desarrollado al considerar la ecuación de movimiento para sistemas no inerciales, podemos obtener una relación análoga a la (3.20) si en el trabajo mecánico se considera el realizado por las fuerzas de interacción mas el realizado por la correspondiente fuerza inercial. 
+
+Finalmente resulta oportuno observar que si el campo de fuerza realiza un trabajo mecánico positivo, esto estará directamente asociado con un incremento en la energía cinética de la partícula, como sucede al dejar caer un cuerpo, en cuyo caso el campo de fuerza gravitatorio realiza un trabajo positivo que se traduce en un incremento de la energía cinética de dicho cuerpo. Inversamente en un tiro vertical, el trabajo mecánico del campo gravitatorio será negativo y la energía cinética disminuirá a medida que se incrementa la altura alcanzada por la partícula o centro de masa de un cuerpo. 
+
+En la naturaleza existen campos de fuerza que pueden realizar trabajo positivo, negativo o nulo, como es el caso del campo gravitatorio. En cambio existen otros campos de fuerza que por su naturaleza siempre realizarán trabajo mecánico negativo, como es el caso de las fuerzas de rozamiento, que siempre tienen sentido opuesto al movimiento. Otras fuerzas son incapaces de realizar trabajo mecánico y por lo tanto no pueden modificar la energía cinética de una partícula, como sucede con la fuerza a la que se ve sometida una partícula cargada que interactua con un campo magnético estacionario, en cuyo caso la fuerza resulta siempre normal a la trayectoria y por lo tanto el trabajo mecánico realizado por dicho campo de fuerza será siempre nulo. 
+
+# Ejemplo.
+
+Para la situación planteada en la página 93 y teniendo en cuenta la relación (4.20), el trabajo mecánico realizado sobre la partícula por la fuerza que resulta de su interacción con la cuerda desde el instante inicial hasta el instante en que su coordenada radial se reduce a la mitad, vendrá dado por: 
+
+$$
+\mathrm {W} = \frac {1}{2} \mathrm {m} \left(\mathrm {v} _ {1} ^ {2} - \mathrm {v} _ {\circ} ^ {2}\right)
+$$
+
+Suponiendo aplicada una fuerza (3) veces mayor que la requerida para mantener la trayectoria inicial, en cuyo caso, como ya lo demostráramos en el planteo original del mencionado ejemplo, la partícula alcanza la coordenada $( { \bf r } _ { 1 } = { \bf r } _ { \mathrm { o } } / 2$ ) con una velocidad dada por: 
+
+$$
+\mathbf {v} _ {1} = 2 \mathbf {v} _ {\circ}
+$$
+
+El trabajo mecánico realizado resultará: 
+
+$$
+\mathrm {W} = \frac {3}{2} \mathrm {m v} _ {\circ} ^ {2}
+$$
+
+Y por lo tanto: 
+
+$$
+\mathrm {W} = 3 \mathrm {T} _ {\circ}
+$$
+
+Siendo interesante destacar la simplicidad del método, si lo comparamos con los inconvenientes que deberíamos sortear si deseáramos efectuar el cálculo directamente a partir de la definición dada para el trabajo mecánico. 
+
+# 3.06 CAMPO DE FUERZA RADIAL ESFÉRICAMENTE SIMÉTRICO.
+
+Considerando el trabajo mecánico realizado por un campo de fuerza radial esféricamente simétrico como el que se indica a continuación: 
+
+$$
+\vec {\mathrm {F}} (\vec {\mathrm {r}}) = \mathrm {f} (\mathrm {r}) \vec {\mathrm {e}} _ {\mathrm {r}}
+$$
+
+En cuyo caso expresando al vector desplazamiento como: 
+
+$$
+\mathrm {d} \vec {\mathrm {r}} = \vec {\mathrm {v}} d t
+$$
+
+Y al vector velocidad en componentes polares, ya que para esta situación la trayectoria a lo largo de la que se desplazará la partícula será plana. 
+
+$$
+\mathrm {d} \vec {\mathrm {r}} = (\dot {\mathrm {r e}} _ {\mathrm {r}} + \mathrm {r} \dot {\theta} \vec {\mathrm {e}} _ {\theta}) \mathrm {d t}
+$$
+
+El vector desplazamiento nos queda. 
+
+$$
+\mathrm {d} \vec {\mathrm {r}} = \mathrm {d r} \vec {\mathrm {e}} _ {\mathrm {r}} + \mathrm {r d} \theta \vec {\mathrm {e}} _ {\theta}
+$$
+
+Con lo que, para esta situación, el integrando de (4.16) resulta: 
+
+$$
+\vec {\mathrm {F}} \cdot \mathrm {d} \vec {\mathrm {r}} = \mathrm {f} (\mathrm {r}) \mathrm {d r}
+$$
+
+Y el trabajo mecánico realizado por este campo de fuerza vendrá dado por: 
+
+$$
+\mathrm {W} = \int_ {\mathrm {r} _ {\mathrm {A}}} ^ {\mathrm {r} _ {\mathrm {B}}} \mathrm {f} (\mathrm {r}) \mathrm {d r} \tag {3.21}
+$$
+
+Claramente independiente de la trayectoria a lo largo de la que se lo calcule. Así en el caso de una partícula de masa (m) que interactúa con el campo gravitatorio de un planeta de masa (M), el campo de fuerza a que se verá sometida la partícula viene expresado por: 
+
+$$
+\vec {\mathrm {F}} (\vec {\mathrm {r}}) = - \mathrm {G} \frac {\mathrm {m M}}{\mathrm {r} ^ {2}} \vec {\mathrm {e}} _ {\mathrm {r}}
+$$
+
+Con lo que el trabajo mecánico realizado sobre la partícula por dicho campo de fuerza resulta: 
+
+$$
+\mathrm {W} = - \int_ {\mathrm {r} _ {\mathrm {A}}} ^ {\mathrm {r} _ {\mathrm {B}}} \mathrm {G} \frac {\mathrm {m M}}{\mathrm {r} ^ {2}} \mathrm {d r}
+$$
+
+Que por lo tanto será independiente de la trayectoria a lo largo de la que se lo calcule y vendrá dado por: 
+
+$$
+\mathrm {W} = - \mathrm {G m M} \left[ \left(- \frac {1}{\mathrm {r} _ {\mathrm {B}}}\right) - \left(- \frac {1}{\mathrm {r} _ {\mathrm {A}}}\right) \right] \tag {3.22}
+$$
+
+Análogamente, considerando una partícula sometida a un campo de fuerza elástico: 
+
+$$
+\vec {\mathrm {F}} (\mathrm {r}) = - \mathrm {k r} \vec {\mathrm {e}} _ {\mathrm {r}}
+$$
+
+El trabajo realizado por este campo sobre una partícula vendrá expresado por: 
+
+$$
+\mathrm {W} = - \int_ {\mathrm {r} _ {\mathrm {A}}} ^ {\mathrm {r} _ {\mathrm {B}}} \mathrm {k r d r}
+$$
+
+Que nuevamente resulta independiente de la trayectoria, y viene dado por: 
+
+$$
+\mathrm {W} = - \frac {1}{2} \mathrm {k} \left(\mathrm {r} _ {\mathrm {B}} ^ {2} - \mathrm {r} _ {\mathrm {A}} ^ {2}\right) \tag {3.23}
+$$
+
+Resultando interesante observar que para las situaciones consideradas el trabajo mecánico puede ser expresado como la diferencia, cambiada de signo, de una función escalar de la coordenada radial. Así en el caso de un campo gravitatorio la función a la que hacemos referencia, vendrá dada por: 
+
+$$
+\Phi (\mathrm {r}) = - \mathrm {G} \frac {\mathrm {m M}}{\mathrm {r}}
+$$
+
+Y en el caso de un campo de fuerzas elásticas, por: 
+
+$$
+\Phi (\mathbf {r}) = \frac {1}{2} \mathrm {k r} ^ {2}
+$$
+
+Con lo que en ambos casos, el trabajo mecánico realizado por el campo de fuera es independiente de la trayectoria y puede ser expresado como: 
+
+$$
+\mathbf {W} = - \left[ \Phi \left(\mathbf {r} _ {\mathrm {B}}\right) - \Phi \left(\mathbf {r} _ {\mathrm {A}}\right) \right]
+$$
+
+Donde $( \Phi )$ es la correspondiente función escalar a la que hacemos referencia anteriormente. 

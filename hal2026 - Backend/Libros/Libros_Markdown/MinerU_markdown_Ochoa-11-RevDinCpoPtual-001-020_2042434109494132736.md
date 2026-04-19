@@ -1,0 +1,1059 @@
+Mecánica Clásica 
+
+Volumen II 
+
+Ochoa 
+
+- 2008 - 
+
+Revisión y Ampliación de la 
+
+Dinámica para un Cuerpo Puntual 
+
+ISBN de la Versión Analógica 
+
+987-95038-0-5 
+
+# 1.01 ECUACIÓN DE NEWTON
+
+Considerando una partícula sometida a un conjunto de interacciones, la ecuación que nos relaciona al vector aceleración de dicha partícula con la resultante de las fuerzas de interacción a la que esta sometida, conocida como Ecuación de Newton, viene dada por: 
+
+$$
+\vec {\mathrm {F}} = \mathrm {m} \vec {\mathrm {a}}
+$$
+
+Donde recordemos que (F) es la resultante de las fuerzas de interacción a la que está sometida la partícula o la resultante de las fuerzas externas a la que está sometido un sistema, como si esta estuviera aplicada en su centro de masa, (m) la magnitud que nos caracteriza la inercia de la partícula o la inercia del sistema involucrado y (a) la magnitud que nos caracteriza los cambios temporales observados en el estado de movimiento de la partícula o en el centro de masa del sistema en consideración. 
+
+Video recomendado: Newton.wmv 
+
+# Componentes Ortogonales de la Ecuación de Newton.
+
+Considerando una partícula que se mueve a lo largo de una trayectoria plana y orientando los ejes del sistema de referencia de manera que el plano (xy) coincida con el plano del movimiento, como se sugiere en la figura siguiente, y expresando al vector aceleración en componentes según direcciones fijas al mencionado sistema de referencia, que generalmente conocemos como componentes cartesianas, la ecuación de Newton nos queda expresada como: 
+
+![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-05/a134e6c0-b7d5-4447-9d0c-436319d1cf9d/32b790cc3b61e0e3aa9e5a78700bcb8498cbb332b3b0c1ed5d4ecccd1d972a2e.jpg)
+
+
+$$
+\vec {\mathrm {F}} = \mathrm {m} \ddot {\mathrm {x}} \vec {\mathrm {i}} + \mathrm {m} \dot {\mathrm {y}} \vec {\mathrm {j}}
+$$
+
+Que en término de las componentes cartesianas de la resultante de las fuerzas de interacción nos proporcionas las siguientes ecuaciones escalares: 
+
+$$
+F _ {x} = m \ddot {x}
+$$
+
+$$
+F _ {y} = m \ddot {y}
+$$
+
+Expresando al vector aceleración en componentes intrínsecas, o sea en componentes según una dirección tangente a la trayectoria y una dirección normal a la misma, como las mostradas en la figura siguiente, la ecuación de Newton nos que expresada como: 
+
+![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-05/a134e6c0-b7d5-4447-9d0c-436319d1cf9d/557db9226df06f00dff8d7e27d69e585ed8e544687308d3bb38e20af4c46e598.jpg)
+
+
+$$
+\vec {\mathrm {F}} = \mathrm {m} \ddot {\mathrm {s}} \vec {\mathrm {e}} _ {\mathrm {t}} + \mathrm {m} \frac {\dot {\mathrm {s}} ^ {2}}{\rho} \vec {\mathrm {e}} _ {\mathrm {n}}
+$$
+
+Que luego de expresar a la resultante de las fuerzas de interacción en componentes según las direcciones de los vectores unitarios tangente y normal a la trayectoria, dará lugar a las ecuaciones escalares: 
+
+$$
+\mathrm {F} _ {\mathrm {t}} = \mathrm {m} \ddot {\mathrm {s}}
+$$
+
+$$
+F _ {n} = m \frac {\dot {s} ^ {2}}{\rho}
+$$
+
+Donde ρ es el radio de curvatura de la trayectoria en el punto considerado. 
+
+Expresando al vector aceleración en componentes polares, o sea según una dirección coincidente con la del vector posición, conocida como dirección radial, y una dirección ortogonal a la anterior, conocida como dirección transversal, asociada con la coordenada angular que se muestra en la figura siguiente, la ecuación de Newton nos queda expresada como: 
+
+![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-05/a134e6c0-b7d5-4447-9d0c-436319d1cf9d/16d823bc5a5dd167af710c611c4db2544679854c3ae681f55e2ce5459174e65f.jpg)
+
+
+$$
+\vec {\mathrm {F}} = \mathrm {m} (\ddot {\mathrm {r}} - \mathrm {r} \dot {\theta} ^ {2}) \vec {\mathrm {e}} _ {\mathrm {r}} + \mathrm {m} (\mathrm {r} \ddot {\theta} + 2 \dot {\mathrm {r}} \dot {\theta}) \vec {\mathrm {e}} _ {\theta}
+$$
+
+Que, luego de expresar a la resultante de las fuerzas de interacción en componentes según dichas direcciones, dará lugar a las ecuaciones escalares: 
+
+$$
+\mathrm {F} _ {\mathrm {r}} = \mathrm {m} (\ddot {\mathrm {r}} - \mathrm {r} \dot {\theta} ^ {2})
+$$
+
+$$
+\mathrm {F} _ {\theta} = \mathrm {m} (\mathrm {r} \ddot {\theta} + 2 \dot {\mathrm {r}} \dot {\theta})
+$$
+
+Finalmente, recordemos que toda interacción dará lugar a un par de fuerzas, cada una de ellas aplicadas sobre los cuerpos involucrados, como lo podrá apreciar en el video AyR.wmv que se recomienda ejecutar. 
+
+# 1.02 CONDICIONES INICIALES Y PRINCIPIO DE INCERTEZA
+
+Teniendo en cuenta como fueron definidos los vectores posición, velocidad y aceleración, si disponemos de una expresión para el vector aceleración en función del tiempo, las restantes magnitudes podremos obtenerlas a partir de la anterior mediante el cálculo integral teniendo en cuenta las relaciones que simbólicamente se indican a continuación: 
+
+$$
+\vec {\mathrm {v}} (\mathrm {t}) = \vec {\mathrm {v}} _ {\circ} + \int_ {\circ} ^ {\mathrm {t}} \vec {\mathrm {a}} (\mathrm {t}) \mathrm {d t}
+$$
+
+$$
+\vec {\mathrm {r}} (\mathrm {t}) = \vec {\mathrm {r}} _ {\circ} + \int_ {\circ} ^ {\mathrm {t}} \vec {\mathrm {v}} (\mathrm {t}) \mathrm {d t}
+$$
+
+Por lo tanto, si conocemos las interacciones a las que está sometido un cuerpo, mediante la ecuación de Newton podremos obtener una expresión formal para su vector aceleración, y luego mediante el cálculo integral podremos obtener expresiones para sus vectores velocidad y posición en función del tiempo y por lo tanto una descripción del futuro comportamiento del cuerpo, como se sugiere en el diagrama siguiente. 
+
+![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-05/a134e6c0-b7d5-4447-9d0c-436319d1cf9d/8e9745546652cb0519b0c66c966ed753f3a2d231604a5d51069138d459e5daa6.jpg)
+
+
+Sin embargo lo mencionado anteriormente no es totalmente cierto, ya que, según este formalismo, para obtener el vector velocidad a partir del vector aceleración necesitamos conocer el vector velocidad en el instante inicial, o sea en el instante a partir del cual la partícula queda sometida a las interacciones involucradas. Análogamente para obtener una expresión del vector posición a partir del vector velocidad, necesitamos su vector posición en el instante inicial, o sea lo que generalmente conocemos como Condiciones Iniciales del problema en consideración, tal como se sugiere en el siguiente diagrama. 
+
+![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-05/a134e6c0-b7d5-4447-9d0c-436319d1cf9d/6d33133456f9c0c4f0f820b1bb18898bf79cdda83481de8769bd884902afd429.jpg)
+
+
+Si por algún motivo no pudiéramos especificar con precisión y simultáneamente la posición y velocidad de la partícula en el instante inicial, mediante este formalismo, sería imposible prever su comportamiento futuro, y por lo tanto es necesario tener presente el importante papel que en este formalismo, juegan las condiciones iniciales asociadas con el problema en consideración. 
+
+# Principio de Incerteza.
+
+Lo indicado recientemente está fuertemente vinculado con unas de las grandes limitaciones que este formalismo presenta cuando se lo pretende emplear en la descripción del comportamiento de sistemas microscópicos, como consecuencia de que en estos casos, es imposible determinar con precisión y simultáneamente la posición y velocidad de una partícula, enunciado que conocemos como Principio de Incerteza. 
+
+Lo mencionado llevó a la necesidad de desarrollar un formalismo compatible con dicho principio que actualmente se conoce como Mecánica Cuántica, siendo interesante destacar que dicho formalismo solamente nos permite obtener una descripción probabilística del comportamiento de tales sistemas. 
+
+# 1.03 SISTEMAS DE REFERENCIA NO INERCIALES
+
+Considerando un sistema de referencia (XYZ) en el que, experimentalmente hemos verificado que es válida la ecuación de Newton y que por lo tanto puede ser considerado un sistema de referencia inercial y un sistema de referencia auxiliar (xyz) que se traslada respecto del inercial, con una 
+
+aceleración constante, como se sugiere en la figura siguiente, y teniendo en cuenta la relación que vincula las aceleraciones determinadas respecto de sistemas de referencia con traslación relativa, entonces, la resultante de las fuerzas de interacción estará relacionada con la aceleración del centro de masa del cuerpo determinada respecto del sistema de referencia (XYZ) mediante: 
+
+$$
+\vec {\mathrm {F}} = \mathrm {m} \vec {\mathrm {a}} _ {\mathrm {X Y Z}}
+$$
+
+Y con la aceleración determinada respecto del sistema auxiliar, mediante: 
+
+$$
+\vec {\mathrm {F}} = \mathrm {m} \vec {\mathrm {a}} _ {\mathrm {x y z}} + \mathrm {m} \vec {\mathrm {A}} _ {\mathrm {X Y Z}}
+$$
+
+![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-05/a134e6c0-b7d5-4447-9d0c-436319d1cf9d/b64dd2a73cdf3d153a260da05d336f5f9ab381ccaa05b6b3b1d05fbea17e6919.jpg)
+
+
+Que obviamente no coincide con la forma requerida para que el sistema pueda ser considerado inercial, en particular podemos observar que en el sistema de referencia auxiliar indicado anteriormente y que en adelante reconoceremos como un sistema de referencia no inercial, las aceleraciones observadas en una partícula o en el centro de masa de un cuerpo ya NO serán necesariamente consecuencia de una resultante de fuerzas de interacción no nula, si tenemos presente que en dicho sistema la ecuación de movimiento para una partícula o para el centro de masa de un cuerpo tendrá la forma indicada recientemente. 
+
+Teniendo presente las conclusiones obtenidas resulta entonces que, todos los sistemas que se trasladen con velocidad constante respecto de un sistema inercial, serán también inerciales y por lo tanto en ellos será válida la ecuación de Newton en su forma original. 
+
+# Fuerza Inercial.
+
+Mediante una simple operación algebraica es inmediato que la ecuación de movimiento, válida en un sistema de referencia no inercial puede expresarse como: 
+
+$$
+\vec {\mathrm {F}} + \left(- \mathrm {m} \vec {\mathrm {A}} _ {\mathrm {X Y Z}}\right) = \mathrm {m} \vec {\mathrm {a}} _ {\mathrm {x y z}}
+$$
+
+Donde, si bien el término entre paréntesis tiene unidades de fuerza, es destacable que no es una fuerza, en cuanto a que no resulta de ninguna interacción y no responde al principio de acción y reacción. Sin embargo y teniendo en cuenta la anterior, es claro que a la aceleración del centro de masa de un cuerpo, determinada respecto del sistema de referencia no inercial (xyz), podremos pensarla como consecuencia de la presencia de un conjunto de interacciones, con una resultante de fuerzas no nula y además, del término entre paréntesis al que hacemos referencia inicialmente. 
+
+Lo mencionado nos indica que al trabajar en un sistema de referencia no inercial, los cambios observados en el estado de movimiento de un cuerpo, caracterizados por su vector aceleración, sucederán como si dicho cuerpo estuviera sometido entre otras, a una “fuerza” dada por: 
+
+$$
+\vec {\mathrm {f}} = - \mathrm {m} \vec {\mathrm {A}} _ {\mathrm {X Y Z}}
+$$
+
+Que en adelante identificaremos como Fuerza Inercial, y en términos de la cual la ecuación de movimiento, para el observador no inercial puede expresarse como: 
+
+$$
+\vec {\mathrm {F}} + \vec {\mathrm {f}} = \mathrm {m} \vec {\mathrm {a}} _ {\mathrm {x y z}}
+$$
+
+Finalmente resulta interesante observar que, considerando un cuerpo libre de interacciones, su vector aceleración respecto de un sistema no inercial (xyz), que se traslada con una aceleración constante respecto de un sistema inercial (XYZ), vendrá dada por: 
+
+$$
+\vec {\mathrm {a}} _ {\mathrm {x y z}} = - \vec {\mathrm {A}} _ {\mathrm {X Y Z}}
+$$
+
+![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-05/a134e6c0-b7d5-4447-9d0c-436319d1cf9d/18b632b99074a2d9574034347d69c45f039b652468b1e1bf08fe084c1951a7b3.jpg)
+
+
+Que como podemos observar es independiente de la masa del cuerpo considerado y por lo tanto, todos los cuerpos, libres de interacciones, independiente del valor que tenga su masa, se verán sometidos a la misma aceleración respecto de un sistema de referencia no inercial. 
+
+# 1.04 GRAVITACIÓN UNIVERSAL
+
+Considerando la interacción gravitatoria entre dos cuerpos, resulta que la fuerza a la que se verá sometido un cuerpo de masa (m) como resultado de su interacción con un Planeta de masa (M), como se sugiere en la figura siguiente, podremos expresarla como: 
+
+$$
+\vec {\mathrm {F}} = - \mathrm {G} \frac {\mathrm {m M}}{\mathrm {r} ^ {2}} \vec {\mathrm {e}} _ {\mathrm {r}}
+$$
+
+Donde (r) es la distancia entre el centro de masa del cuerpo y el del planeta con el que interactúa y (er) el vector unitario en la dirección radial, que se muestra en la figura siguiente. En particular suponiendo al cuerpo sobre la superficie del planeta y pensando a éste como una esfera de radio (R), la fuerza gravitatoria a la que se verá sometido el cuerpo, que conocemos como peso del cuerpo en la superficie del planeta, vendrá dada por: 
+
+$$
+\vec {\mathrm {F}} = - \mathrm {G} \frac {\mathrm {m M}}{\mathrm {R} ^ {2}} \vec {\mathrm {e}} _ {\mathrm {r}}
+$$
+
+Que en el caso de considerar la interacción con la Tierra y suponiendo a esta como una esfera, de la anterior obtenemos que al peso del cuerpo en la superficie del planeta podremos expresarlo como: 
+
+$$
+\vec {\mathrm {F}} = \mathrm {m} \vec {\mathrm {g}}
+$$
+
+Donde: 
+
+![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-05/a134e6c0-b7d5-4447-9d0c-436319d1cf9d/c6a48bc78e63929d33857fa690a02c25453cdb65bbf70a6b069d0b9db6844a6b.jpg)
+
+
+$$
+\vec {\mathrm {g}} = - \mathrm {G} \frac {\mathrm {M}}{\mathrm {R} ^ {2}} \vec {\mathrm {e}} _ {\mathrm {r}}
+$$
+
+Magnitud vectorial que conocemos como “aceleración de la gravedad”, cuyo valor es independiente de la masa del cuerpo involucrado, y está dirigida hacia el centro del planeta, y que para el caso de la Tierra resulta: 
+
+$$
+\mathrm {g} = 9, 8 1 \frac {\mathrm {m}}{\mathrm {s} ^ {2}}
+$$
+
+Siendo oportuno destacar que la fuerza como consecuencia de esta interacción estará aplicada sobre todas y cada una de las partículas que forman los cuerpos interactuantes, sin embargo y en virtud de la conclusión obtenida al considerar un sistema de cuerpos puntuales, a los efectos de describir el comportamiento del centro de masa del cuerpo involucrado, podemos suponer a la totalidad de estas fuerzas aplicadas en el centro de masa de cada uno de estos cuerpos, como se sugiere en la figura anterior. 
+
+Teniendo en cuenta lo indicado anteriormente y considerando un cuerpo de masa (m) que interactúa gravitatoriamente con un planeta de masa (M), como el sugerido en la figura siguiente, en donde experimentalmente hemos verificado la validez de la ecuación de Newton, el módulo de la aceleración del centro de masa del cuerpo respecto de un sistema de referencia fijo al planeta será tal que. 
+
+$$
+\mathrm {m a} = \mathrm {G} \frac {\mathrm {m M}}{\mathrm {r} ^ {2}}
+$$
+
+De donde obtenemos que dicha aceleración vendrá dada por. 
+
+$$
+\mathbf {a} = \mathbf {G} \frac {\mathbf {M}}{\mathbf {r} ^ {2}}
+$$
+
+![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-05/a134e6c0-b7d5-4447-9d0c-436319d1cf9d/5fd070591d692999f5fad9bee953ee23d003bb302809ea2a2c8cfe0c7782acf8.jpg)
+
+
+Que resulta independiente de la masa del cuerpo involucrado, siendo este el motivo por el que los objetos y astronautas flotan respecto de su nave espacial en órbita alrededor de un planeta, ya que la nave y todo su contenido estarán sometidos a la misma aceleración y como todo el sistema partió con 
+
+iguales condiciones iniciales, la nave espacial, su contenido y los astronautas se moverán con la misma velocidad dando lugar al fenómeno de aparente ingravidez, que puede observar en el video Ingravidez.wmv y que nada tiene que ver con la ausencia de gravedad como se suele creer comúnmente. 
+
+# 1.05 PRINCIPIO DE EQUIVALENCIA
+
+Teniendo en cuenta las conclusiones finales obtenidas en los dos últimos temas y considerando un observador en el interior de un recinto, como el sugerido en la figura (a) de las que se muestran en la página siguiente, quién experimentalmente verifica que al dejar en libertad cuerpos de diferentes masas, se mueven sometidos a la misma aceleración respecto de su sistema de referencia, es claro que dicho observador se preguntará si el fenómeno es consecuencia de la interacción gravitatoria con un planeta como se sugiere en la figura (b), o es consecuencia de que los cuerpos están libres de interacción y su recinto se acelera respecto de un sistema de referencia (XYZ) inercial, como se sugiere en la figura (c). 
+
+![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-05/a134e6c0-b7d5-4447-9d0c-436319d1cf9d/379a5d85a412656356db5977c048151109f424824dec48fd382c66a056a323d0.jpg)
+
+
+
+(a)
+
+
+![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-05/a134e6c0-b7d5-4447-9d0c-436319d1cf9d/058ca45dee8a127a58e426297293d078d8c3cdb9106f57d51049312392dbdc08.jpg)
+
+
+
+(b)
+
+
+![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-05/a134e6c0-b7d5-4447-9d0c-436319d1cf9d/fa9556fd380591a287081ccc55d4657447e6db39c9dc3900be453df8841f5e0c.jpg)
+
+
+
+(c)
+
+
+Lamentablemente, la naturaleza está hecha de manera que nuestro observador no podrá encontrar un mecanismo que le permita contestar su pregunta sin abandonar su recinto, lo que podemos enunciar como que: 
+
+Es imposible diferenciar entre los efectos dinámicos asociados con una interacción gravitatoria, de los que resultan como consecuencia de las fuerzas inerciales que existen en un sistema no inercial. 
+
+Enunciado que en adelante reconoceremos como Principio de Equivalencia, que en realidad no es un principio, ya que es una consecuencia de un principio más general, relacionado con la diferencia entre masa inercial y gravitatoria que no se ha sido en cuenta a lo largo de los temas tratados anteriormente. 
+
+# Masa Inercial y Masa Gravitatoria.
+
+Al considerar las características de las fuerzas que resultan de la interacción gravitatoria entre dos partículas de masas $\left( \mathbf { m } _ { 1 } \right)$ y $\left( \mathbf { m } _ { 2 } \right)$ hemos dicho que el módulo de las mismas viene dado por: 
+
+$$
+\mathrm {F} = \mathrm {G} \frac {\mathrm {m} _ {1} \mathrm {m} _ {2}}{\mathrm {r} _ {2 1} ^ {2}}
+$$
+
+Donde aún cuando no lo manifestáramos explícitamente, hemos supuesto que las masas involucradas en la expresión son las masas inerciales de cada una de las partículas, siendo éste, un aspecto que requiere revisión, ya que estrictamente, las magnitudes involucradas en la expresión anterior NO caracterizan la inercia de cada una de las partículas, caracterizan una propiedad diferente que los cuerpos poseen y que está relacionada con la "capacidad" de interactuar gravitatoriamente a distancia, motivo por lo que en adelante las identificaremos como masas gravitatorias, por lo que en principio, al igualar la anterior con la ecuación de Newton no deberíamos simplificar las masas involucradas en dicha igualdad como lo hicimos cuando llegamos a la conclusión de que “la aceleración del centro de masa de un cuerpo respecto de un sistema de referencia fijo a un planeta inercial es independiente de la masa del cuerpo considerado. 
+
+Sin embargo le ley de caída de los cuerpos enunciada en 1600 por Galileo Galilei, según la cual “todos los cuerpos independiente de la masa que tengan caen con la misma aceleración” requiere que sea posible realizar la simplificación a la que hacemos referencia en el párrafo anterior, a pesar de que 
+
+las masas involucradas caractericen propiedades diferentes, interpretando a la masa gravitatoria $\mathrm { ( m _ { g } ) }$ como una magnitud proporcional a la masa inercial (mi). 
+
+$$
+m _ {g} = k m _ {i}
+$$
+
+Donde (k) es una constante universal independiente del cuerpo considerado, con lo que el módulo de las fuerzas que resultan de la interacción gravitatoria entre dos partículas debería expresarse, en término de las masas inerciales como: 
+
+$$
+\mathrm {F} = \mathrm {G k} ^ {2} \frac {\mathrm {m} _ {1} \mathrm {m} _ {2}}{\mathrm {r} _ {2 1} ^ {2}}
+$$
+
+Teniendo en cuenta que la constante de proporcionalidad es una constante universal, es claro que eligiendo el mismo cuerpo patrón como unidad de masa gravitatoria e inercial, la mencionada constante resultará unitaria y adimensional, y por lo tanto no será necesario diferenciar entre ambas masas, con lo que el módulo de las fuerzas que resultan de la interacción gravitatoria entre dos partículas puede continuar expresándose en términos de las masas inerciales como: 
+
+$$
+\mathrm {F} = \mathrm {G} \frac {\mathrm {m} _ {1} \mathrm {m} _ {2}}{\mathrm {r} _ {2 1} ^ {2}}
+$$
+
+Sin embargo y a pesar de que bajo las condiciones indicadas, ambas masas pueden “identificarse”, es necesario remarcar que caracterizan propiedades diferentes y por lo tanto son conceptualmente diferentes. 
+
+Teniendo en cuenta lo mencionado y tal como lo adelantáramos anteriormente, veremos que el principio de equivalencia enunciado en dicha oportunidad es en realidad una consecuencia de la proporcionalidad existente entre la masa inercial y gravitatoria, más específicamente, una consecuencia de que la constante de proporcionalidad entre dichas masas es una constante universal. Con este propósito supongamos como válido lo opuesto a lo indicado, esto es que la constante de proporcionalidad entre ambas masas no fuera una constante universal, en cuyo caso es claro que la relación formal entre dichas masas quedaría expresada como: 
+
+$$
+\mathbf {m} _ {\mathrm {g l}} = \mathbf {k} _ {1} \mathbf {m} _ {\mathrm {i l}}
+$$
+
+$$
+\mathrm {m} _ {\mathrm {g} 2} = \mathrm {k} _ {2} \mathrm {m} _ {\mathrm {i} 2}
+$$
+
+Con lo que el módulo de la fuerza gravitatoria entre las partículas resultaría: 
+
+$$
+\mathrm {F} = \mathrm {G k} _ {1} \mathrm {k} _ {2} \frac {\mathrm {m} _ {1} \mathrm {m} _ {2}}{\mathrm {r} _ {2 1} ^ {2}}
+$$
+
+Y por lo tanto el módulo de la fuerza gravitatoria a que se vería sometida una partícula de masa inercial (m), como consecuencia de su interacción con un planeta de masa inercial (M) vendría dado por: 
+
+$$
+\mathrm {F} = \mathrm {G k K} \frac {\mathrm {m M}}{\mathrm {r} ^ {2}}
+$$
+
+Donde, (k) y (K) serían las correspondientes constantes de proporcionalidad entre las masas, gravitatoria e inercial, del cuerpo y del planeta respectivamente. Con lo que la aceleración del centro de masa del cuerpo respecto de un sistema de referencia fijo al planeta (supuestamente inercial) sería: 
+
+$$
+\mathrm {a = G k K} \frac {\mathrm {M}}{\mathrm {r} ^ {2}}
+$$
+
+Claramente dependiente del cuerpo considerado a través de la constante de proporcionalidad entre su masa gravitatoria e inercial. Por lo tanto ya no sería imposible diferenciar entre los efectos dinámicos generados por fuerzas gravitatorias de aquellos asociados con fuerzas inerciales, ya que las aceleraciones que resulten como consecuencia de estas últimas continuarían siendo independientes de la masa del cuerpo considerado. 
+
+De lo expuesto resulta entonces correcto afirmar que lo indicado como principio de equivalencia es en realidad una consecuencia de la proporcionalidad entre masa inercial y gravitatoria, o más específicamente: 
+
+# Una consecuencia de que la constante de proporcionalidad entre ambas masas es una constante universal
+
+Como una ilustración del tema considerado se recomienda ejecutar el video Equivalencia.dcr y como una adecuada introducción a la relatividad general, publicada por Einsten alrededor del año 1905, el video IntroRelaGral.wmv, y finalmente, como una ilustración de sus aplicaciones a los problemas cosmológicos, se recomienda el video Hawking.wmv 
+
+# 1.06 ENERGÍA, MOMENTO ANGULAR Y TEOREMAS DE CONSERVACIÓN
+
+Considerando el caso de una partícula (o centro de masa de un cuerpo) que se mueve a lo largo de una trayectoria como la sugerida en la figura siguiente, sometida a un campo de fuerza que en general pueda depender de las tres coordenadas espaciales y que caracterizaremos mediante una función del tipo. 
+
+$$
+\vec {\mathrm {F}} = \vec {\mathrm {F}} (\vec {\mathrm {r}})
+$$
+
+Definiremos al Trabajo Mecánico que el campo de fuerzas realiza sobre la partícula, o sobre el centro de masa de un cuerpo, como la circulación de dicho campo a lo largo de la trayectoria de interés entre los puntos A y B de la misma, lo que formalmente podemos expresar como: 
+
+$$
+\mathbf {W} _ {\mathrm {A , B}} = \int_ {\mathrm {A}} ^ {\mathrm {B}} \vec {\mathsf {F}} (\vec {\mathsf {r}}) \cdot \mathrm {d} \vec {\mathsf {r}}
+$$
+
+![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-05/a134e6c0-b7d5-4447-9d0c-436319d1cf9d/e6d5e865e1e9c69432b25bf233eada457f077730be44b1f173d1348a93f0c1d5.jpg)
+
+
+Que cuando lo calculamos a lo largo de una trayectoria contenida en un plano, en coordenadas intrínsecas o cartesianas, nos queda expresado, respectivamente, como: 
+
+$$
+\mathrm {W} _ {\mathrm {A}, \mathrm {B}} = \int_ {\mathrm {A}} ^ {\mathrm {B}} \mathrm {F} \cos \alpha \mathrm {d s}
+$$
+
+$$
+\mathrm {W} _ {\mathrm {A B}} = \int_ {\mathrm {A}} ^ {\mathrm {B}} \mathrm {F} _ {\mathrm {x}} (\mathrm {x y z}) \mathrm {d x} + \int_ {\mathrm {A}} ^ {\mathrm {B}} \mathrm {F} _ {\mathrm {y}} (\mathrm {x y z}) \mathrm {d y}
+$$
+
+Y para aquellas situaciones en donde la partícula está sometida a un campo de fuerza radial esféricamente simétrico, nos queda expresado como: 
+
+$$
+\mathrm {W} = \int_ {\mathrm {r} _ {\mathrm {A}}} ^ {\mathrm {r} _ {\mathrm {B}}} \mathrm {f} (\mathrm {r}) \mathrm {d r}
+$$
+
+En cuyo caso resulta claramente independiente de la trayectoria a lo largo de la cual se lo calcula. 
+
+# Trabajo Mecánico y Energía Cinética.
+
+Pensando en una partícula (o en el centro de masa de un cuerpo) que se mueve respecto de un sistema de referencia (xyz), entre dos puntos (A y B) a lo largo de una determinada trayectoria, el trabajo mecánico realizado por la resultante de las fuerzas de interacción a que está sometida la partícula o el centro de masa de un sistema, vendrá dado por: 
+
+$$
+\mathrm {W} = \int_ {\mathrm {A}} ^ {\mathrm {B}} \vec {\mathrm {F}} (\vec {\mathrm {r}}) \cdot \mathrm {d} \vec {\mathrm {r}}
+$$
+
+Suponiendo que el sistema de referencia (xyz) involucrado es un Sistema Inercial y puesto que (F) es la Resultante de las fuerzas de interacción, teniendo en cuenta la Ecuación de Newton, es claro que la anterior puede expresarse como: 
+
+$$
+\mathrm {W} = \int_ {\mathrm {A}} ^ {\mathrm {B}} \mathrm {m} \vec {\mathrm {a}} _ {\mathrm {x y z}} \cdot \mathrm {d} \vec {\mathrm {r}}
+$$
+
+De donde resulta que dicha magnitud vendrá dada por: 
+
+$$
+W = \frac {1}{2} m v _ {B / x y z} ^ {2} - \frac {1}{2} m v _ {A / x y z} ^ {2}
+$$
+
+Por lo tanto, cuando las velocidades están determinadas respecto de un sistema de referencia inercial, entonces el trabajo mecánico realizado por la resultante de las fuerzas de interacción estará directamente vinculado con los cambios observados en la función. 
+
+$$
+\mathrm {T} = \frac {1}{2} \mathrm {m v} ^ {2}
+$$
+
+Que en adelante reconoceremos como función Energía Cinética o simplemente energía cinética de la partícula o del centro de masa del sistema en consideración. 
+
+# Campo de Fuerza Conservativo.
+
+En general diremos que un campo de fuerzas es un Campo Conservativo cuando, el trabajo mecánico realizado por dicho campo es independiente de la trayectoria a lo largo de la que se lo calcula, y puede ser expresado como la diferencia, cambiada de signo, de una función escalar de las coordenadas de los puntos extremos, tal como se indica a continuación: 
+
+$$
+\int_ {a} ^ {b} \vec {\mathrm {F}} (\vec {\mathrm {r}}) \cdot \mathrm {d} \vec {\mathrm {r}} = - \left[ \Phi (\vec {\mathrm {r}} _ {b}) - \Phi (\vec {\mathrm {r}} _ {a}) \right]
+$$
+
+En cuyo caso, a la función escalar de las coordenadas del punto, asociada con el campo de fuerza considerado, la reconoceremos como Función Energía Potencial, que en general identificaremos con: 
+
+$$
+\Phi = \Phi (\vec {\mathrm {r}})
+$$
+
+Así en el caso de una partícula sometida a un campo de fuerza radial esféricamente simétrico, como podría ser un campo de fuerza gravitatorio, el trabajo mecánico realizado por dicho campo de fuerza sobre la partícula vendrá dado por: 
+
+$$
+\mathrm {W} = - \mathrm {G m M} \left[ \left(- \frac {1}{r _ {\mathrm {B}}}\right) - \left(- \frac {1}{r _ {\mathrm {A}}}\right) \right]
+$$
+
+Y por lo tanto se tratará de un campo de fuerza conservativo tal que la función energía potencial vendrá dada por: 
+
+$$
+\Phi (\mathrm {r}) = - \mathrm {G} \frac {\mathrm {m M}}{\mathrm {r}}
+$$
+
+Análogamente, para el caso de una partícula sometida al campo de fuerza que resulta de su interacción con un muelle lineal de longitud propia $\left( \Gamma _ { 0 } \right)$ , en cuyo caso: 
+
+$$
+\vec {\mathrm {F}} (\vec {\mathrm {r}}) = - \mathrm {k} (\mathrm {r} - \mathrm {r} _ {\circ}) \vec {\mathrm {e}} _ {\mathrm {r}}
+$$
+
+Obtenemos que la función energía potencial asociada con dicho campo de fuerza vendrá expresada por: 
+
+$$
+\Phi_ {\mathrm {m}} (\mathrm {r}) = \frac {1}{2} \mathrm {k} \left(\mathrm {r} - \mathrm {r} _ {\circ}\right) ^ {2}
+$$
+
+Que en términos de la deformación (δ) del muelle podemos indicar como. 
+
+$$
+\Phi_ {\mathrm {m}} (\mathbf {r}) = \frac {1}{2} \mathrm {k} \delta^ {2}
+$$
+
+Considerando la interacción de una partícula con un campo de fuerza gravitatorio constante, de la forma: 
+
+$$
+\vec {\mathrm {F}} (\vec {\mathrm {r}}) = - \mathrm {m g} \vec {\mathrm {j}}
+$$
+
+Resulta que la función energía potencial asociada con dicho campo vendrá dada por: 
+
+$$
+\Phi_ {\mathrm {g c}} (\mathbf {r}) = \mathrm {m g y}
+$$
+
+Resulta importante destacar que la Función Energía Potencial a la que estamos haciendo referencia no está unívocamente definida, en realidad, está definida a menos de una constante arbitraria, en cuanto a la relación original nos define la diferencia de la función energía potencial y no la función misma, por lo que a cada una de las funciones obtenidas recientemente podríamos sumarle una constante 
+
+arbitraria y su diferencia cambiada de signo continuaría satisfaciendo la mencionada relación original. Así a las funciones asociadas con cada uno de los campos considerados recientemente podríamos expresarlas como: 
+
+$$
+\Phi_ {\mathrm {g}} (\mathbf {r}) = - \mathbf {G} \frac {\mathrm {m M}}{\mathbf {r}} + \mathrm {c t e}
+$$
+
+$$
+\Phi_ {\mathrm {e}} (\mathbf {r}) = \frac {1}{2} \mathbf {k r} ^ {2} + \mathbf {c t e}
+$$
+
+$$
+\Phi_ {\mathrm {m}} (\mathrm {r}) = \frac {1}{2} \mathrm {k} \left(\mathrm {r} - \mathrm {r} _ {\circ}\right) ^ {2} + \mathrm {c t e}
+$$
+
+$$
+\Phi_ {\mathrm {g c}} (\mathrm {r}) = \mathrm {m g y} + \mathrm {c t e}
+$$
+
+Y continuarían satisfaciendo la relación original, lo que puede parecer un serio inconveniente, sin embargo no lo es, puesto que en general estaremos interesados no en el valor que toma dicha función sino en la diferencia de dicha función entre dos estados determinados, o sea en el trabajo mecánico realizado por el campo de fuerza en consideración, que es el que producirá cambios en la energía cinética de la partícula o centro de masa de un cuerpo. 
+
+Sin embargo resulta cómodo para el manejo de información, ponernos de acuerdo en asignar a dichas constantes un determinado valor, siendo indudablemente el valor nulo el más recomendable, lo que para cada uno de los casos considerados implica asignar arbitrariamente el valor nulo a la función energía potencial para puntos del espacio según los criterios que se detallan a continuación: 
+
+# Campo Gravitatorio.
+
+Asignaremos arbitrariamente el valor nulo a la función energía potencial cuando la coordenada radial involucrada tiende a infinito, con lo que la constante será nula y la función nos queda: 
+
+$$
+\Phi_ {\mathrm {g}} (\mathbf {r}) = - \mathrm {G} \frac {\mathrm {m M}}{\mathbf {r}}
+$$
+
+# Campo de Fuerza Elástico.
+
+Asignaremos arbitrariamente el valor nulo a la función energía potencial cuando la coordenada radial involucrada es nula, con lo que la constante será nula y la función nos queda: 
+
+$$
+\Phi_ {\mathrm {e}} (\mathrm {r}) = \frac {1}{2} \mathrm {k r} ^ {2}
+$$
+
+# Interacción con un Muelle Lineal.
+
+Asignaremos arbitrariamente el valor nulo a la función energía potencial cuando la coordenada radial coincida con la longitud propia del muelle, o sea cuando el muelle está sin deformar, con lo que: 
+
+$$
+\Phi_ {\mathrm {m}} (\mathbf {r}) = \frac {1}{2} \mathbf {k} (\mathbf {r} - \mathbf {r} _ {\circ}) ^ {2}
+$$
+
+# Campo Gravitatorio Constante.
+
+Asignaremos arbitrariamente el valor nulo a la función energía potencial cuando la coordenada vertical es nula, con lo que la constante será nula y la función nos queda: 
+
+$$
+\Phi_ {\mathrm {g c}} (\mathbf {r}) = \mathrm {m g y}
+$$
+
+Aceptando estas condiciones, en adelante podremos referirnos sin ambigüedades a la función energía potencial asociada con los campos de fuerza mencionados anteriormente. 
+
+Finalmente cabe destacar que si un campo de fuerzas es conservativo y por ende satisface la relación original, entonces el trabajo mecánico realizado por dicho campo a lo largo de una trayectoria cerrada será nulo, ya que en ese caso los extremos de integración serán coincidentes y por lo tanto también lo serán los valores de la función energía potencial, con lo que: 
+
+$$
+\oint \vec {\mathrm {F}} (\vec {\mathrm {r}}) \cdot \mathrm {d} \vec {\mathrm {r}} = 0
+$$
+
+# Relaciones Puntuales para un Campo Conservativo.
+
+Considerando un campo de fuerza conservativo, en cuyo caso de su definición resulta: 
+
+$$
+\vec {\mathrm {F}} (\vec {\mathrm {r}}) \cdot \mathrm {d} \vec {\mathrm {r}} = - \mathrm {d} \Phi
+$$
+
+Obtenemos que en general, las componentes cartesianas de dicho campo de fuerza estarán relacionadas con las derivadas temporales de la correspondiente función energía potencial mediante: 
+
+$$
+\mathrm {F _ {x}} = - \frac {\partial \Phi}{\partial x} \quad \mathrm {F _ {y}} = - \frac {\partial \Phi}{\partial y} \quad \mathrm {F _ {z}} = - \frac {\partial \Phi}{\partial z}
+$$
+
+Con lo que al campo de fuerza podremos expresarlo como: 
+
+$$
+\vec {\mathrm {F}} = - \left(\frac {\partial \Phi}{\partial \mathrm {x}} \vec {\mathrm {i}} + \frac {\partial \Phi}{\partial \mathrm {y}} \vec {\mathrm {j}} + \frac {\partial \Phi}{\partial \mathrm {z}} \vec {\mathrm {k}}\right)
+$$
+
+Y por lo tanto podremos decir que dicho campo de fuerza deriva de la función energía potencial, en tanto y en cuento, podremos expresarlo como: 
+
+$$
+\vec {\mathrm {F}} = - \nabla \Phi
+$$
+
+De donde resulta que si el campo es conservativo, entonces: 
+
+$$
+\nabla \times \vec {\mathrm {F}} = 0
+$$
+
+Así en el caso de una partícula sometida a un campo de fuerza tal que la función energía potencial depende de una única coordenada espacial, como podría ser el caso de una partícula está sometida a un campo de fuerza radial esféricamente simétrico, en cuyo caso: 
+
+$$
+\Phi = \Phi (\mathbf {r})
+$$
+
+El campo de fuerza vendrá dado por: 
+
+$$
+f (r) = - \frac {d \Phi}{d r}
+$$
+
+Con lo que, en una representación gráfica de la energía potencial en función de la coordenada radial, la pendiente de la misma en cada punto nos proporcionará información sobre la fuerza en dicho punto, como se sugiere en la figura siguiente, donde se representa gráficamente una función energía potencial arbitraria dependiente únicamente de la coordenada radial y el sentido que tendrá la fuerza a la que se vería sometida una partícula en puntos del espacio con diferentes valores de la mencionada coordenada. 
+
+![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-05/a134e6c0-b7d5-4447-9d0c-436319d1cf9d/50cbc241854b5f025414979ae95f093b09125fb9284487450920212ff69b947e.jpg)
+
+
+En particular resulta interesante destacar que los puntos (A) y (B) son puntos de equilibrio, en cuanto a que la fuerza a la que se vería sometida una partícula en dichos puntos será nula, puesto que en los mismos la pendiente de la función se anula. Sin embargo existe una importante diferencia entre ambas situaciones, ya que en el punto (A) un pequeño apartamiento de la posición de equilibrio dará lugar a fuerzas que alejarán definitivamente la partícula de dicho punto, en cambio en (B), las fuerzas tenderán a restituir la partícula a la posición de equilibrio, por lo que en el primer caso diremos que se encuentra en un punto de equilibrio inestable, en cambio en el segundo caso diremos que se encuentra en un punto de equilibrio estable. 
+
+# Energía Mecánica.
+
+Considerando el caso de una partícula que se desplaza a lo largo de una determinada trayectoria entre dos puntos (A) y (B) de la misma, sometida a la interacción con diferentes campos de fuerza conservativos cuya resultante identificaremos con (FC) y no conservativos, cuya resultante identificaremos con $( \mathrm { F _ { N C } } )$ , de las conclusiones obtenidas anteriormente, resulta: 
+
+$$
+\int_ {\mathrm {A}} ^ {\mathrm {B}} \left(\vec {\mathrm {F}} _ {\mathrm {C}} + \vec {\mathrm {F}} _ {\mathrm {N C}}\right) \cdot \mathrm {d} \vec {\mathrm {r}} = \mathrm {T} _ {\mathrm {B}} - \mathrm {T} _ {\mathrm {A}}
+$$
+
+De donde obtenemos que el trabajo realizado por las fuerzas no conservativas vendrá dado por: 
+
+$$
+\int_ {\mathrm {A}} ^ {\mathrm {B}} \vec {\mathrm {F}} _ {\mathrm {N C}} \cdot \mathrm {d} \vec {\mathrm {r}} = \left(\mathrm {T} _ {\mathrm {B}} + \Phi_ {\mathrm {B}}\right) - \left(\mathrm {T} _ {\mathrm {A}} + \Phi_ {\mathrm {B}}\right)
+$$
+
+Definiendo la Energía Mecánica del Sistema, como: 
+
+$$
+\mathrm {E} = \mathrm {T} + \Phi
+$$
+
+Es claro que la anterior puede expresarse en términos de esta nueva magnitud, como: 
+
+$$
+\int_ {\mathrm {A}} ^ {\mathrm {B}} \vec {\mathrm {F}} _ {\mathrm {N C}} \cdot \mathrm {d} \vec {\mathrm {r}} = \mathrm {E} _ {\mathrm {B}} - \mathrm {E} _ {\mathrm {A}}
+$$
+
+Que nos muestra a los cambios observados en la energía mecánica de un sistema directamente vinculados con el trabajo mecánico que realizan las fuerzas no conservativas a que esta sometido. 
+
+Con lo que, si el trabajo realizado por la resultante de las fuerzas no conservativas es nulo o bien si la totalidad de las fuerzas actuantes son conservativas, en cuyo caso diremos que el sistema es conservativo, entonces la energía mecánica del sistema permanecerá constante e igual al valor que tenia en el instante inicial. 
+
+$$
+\mathrm {E} = \mathrm {E} _ {\circ}
+$$
+
+Conclusión que en adelante reconoceremos como Teorema de Conservación de la Energía Mecánica y que como veremos es una herramienta sumamente útil para la resolución de problemas, resultando oportuno destacar que la conservación de la energía mecánica de ninguna manera implica la conservación de las energías cinética o potencial, implica la conservación de la suma de ambas magnitudes y por lo tanto un incremento en una de ellas estará acompañado necesariamente de una disminución en la restante y viceversa. 
+
+Como una ilustración del tema se recomienda trabajar con las simulaciones a las que puede acceder mediante los archivos Cupula.htm, Casquete.htm, Muelle.htm y Bucle.htm, incluidos en las carpetas del mismo nombre. 
+
+# Vector Momento Angular.
+
+Definiendo a dicha magnitud como el momento del vector cantidad de movimiento: 
+
+$$
+\vec {\mathrm {L}} = \vec {\mathrm {r}} \times \vec {\mathrm {p}} _ {\mathrm {x y z}}
+$$
+
+Resulta ser un vector normal al plano del movimiento en cada punto, como se muestra en la figura siguiente, cuyo módulo vendrá dado por: 
+
+![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-05/a134e6c0-b7d5-4447-9d0c-436319d1cf9d/88079f9c0935d78c448f0741e69c68ac8667e2b157ebd050dd6c39f4441da03e.jpg)
+
+
+$$
+\mathrm {L} = \mathrm {r m v} \operatorname {s e n} \alpha
+$$
+
+Que en términos de la componente transversal del vector velocidad, podemos expresar como: 
+
+$$
+\mathbf {L} = \mathbf {m r v} _ {\theta}
+$$
+
+Y en términos de la velocidad angular, como: 
+
+$$
+\mathrm {L} = \mathrm {m r} ^ {2} \dot {\theta}
+$$
+
+Derivando ambos miembros de la expresión que define el vector momento angular resulta que sus variaciones temporales, calculadas desde un sistema de referencia inercial, estarán relacionadas con el momento que generan las fuerzas de interacción, mediante: 
+
+$$
+\vec {\mathrm {M}} _ {\mathrm {a}} = \frac {\mathrm {d} \vec {\mathrm {L}} _ {\mathrm {a}}}{\mathrm {d t}} \Bigg ] _ {\mathrm {x y z}} + \vec {\mathrm {v}} _ {\mathrm {a / x y z}} \times \vec {\mathrm {p}} _ {\mathrm {x y z}}
+$$
+
+Donde con el subíndice (a) identificamos el punto respecto del cual se toman los momentos involucrados, que si estuviera en reposo respecto del sistema de referencia inercial, entonces: 
+
+$$
+\vec {\mathrm {M}} _ {\mathrm {a}} = \frac {\mathrm {d} \vec {\mathrm {L}} _ {\mathrm {a}}}{\mathrm {d t}} \biggr ] _ {\mathrm {x y z}}
+$$
+
+De donde resulta que, si el conjunto de fuerzas es tal que no generan momento respecto de un punto fijo a un sistema inercial, entonces el momento angular, calculado respecto de dicho punto, permanecerá constante e igual al valor que tenia en el instante inicial, lo que, obviado el subíndice que identifica al punto respecto del que se toman los momentos, formalmente podemos expresar como: 
+
+$$
+\vec {\mathrm {M}} = 0 \quad \Rightarrow \quad \vec {\mathrm {L}} = \mathrm {c t e} \quad \therefore \quad \vec {\mathrm {L}} = \vec {\mathrm {L}} _ {0}
+$$
+
+Y puesto que la conservación del vector momento angular implica la conservación de su módulo y dirección, resulta claro que la trayectoria de la partícula estará contenida en un plano y su velocidad angular, respecto del punto respecto del que se toman los momentos, variará con la coordenada radial, según: 
+
+$$
+\dot {\theta} = \frac {L _ {0}}{m r ^ {2}}
+$$
+
+# 1.07 MOVIMIENTOS ACOTADOS ESPACIALMENTE.
+
+Considerando una partícula sometida a un conjunto de fuerzas conservativas y designando con $( \Phi )$ a la función energía potencial asociada con el sistema de fuerzas indicado, de lo desarrollado anteriormente es claro que la energía mecánica de la partícula permanecerá constante, y por lo tanto. 
+
+$$
+\mathrm {T} + \Phi (\vec {\mathrm {r}}) = \mathrm {E}
+$$
+
+De donde resulta que la energía cinética será una función de las coordenadas del punto, tal que: 
+
+$$
+\mathrm {T} \big (\vec {\mathrm {r}} \big) = \mathrm {E} - \Phi \big (\vec {\mathrm {r}} \big)
+$$
+
+Puesto que dicha función deberá ser necesariamente positiva, de lo contrario daría lugar a velocidades imaginarias, que carece de significado físico, la igualdad anterior nos indica que, de acuerdo con éste formalismo, la partícula solamente podrá encontrarse en puntos con coordenadas espaciales tales que: 
+
+$$
+\mathrm {E} \geq \Phi (\vec {\mathbf {r}})
+$$
+
+Conjunto de puntos que definirán una zona en el espacio, a la que en adelante reconoceremos como Zona Clásicamente Permitida. 
+
+Análogamente el conjunto de puntos cuyas coordenadas espaciales sean tales que: 
+
+$$
+\mathrm {E} <   \Phi (\vec {\mathbf {r}})
+$$
+
+Definirán una zona en el espacio donde, y de acuerdo con este formalismo, será imposible encontrar la partícula, a la que en adelante reconoceremos como Zona Clásicamente Prohibida. 
+
+Como ilustración del tema se recomienda las simulaciones incluidas en la página a la que puede acceder mediante el archivo Acotados.htm incluido en la carpeta del mismo nombre. 
+
+# Fracasos del Formalismo Clásico.
+
+Las conclusiones indicadas anteriormente son compatibles con el formalismo en desarrollo y describen adecuadamente el comportamiento de los sistemas macroscópicos, no así el de aquellos sistemas formados por partículas con masas sumamente pequeñas, que conocemos como sistemas microscópicos, en los que puede verificarse experimentalmente que existe una probabilidad no nula de encontrar una partícula en puntos pertenecientes a una zona clásicamente prohibida, esto es, prohibida según el formalismo que actualmente estamos tratando, lo que nos muestra una nueva limitación en cuanto al alcance del formalismo en consideración. 
+
+Así, en el proceso de decaimiento espontaneo mediante el cuál un núcleo se fisiona emitiendo una partícula alfa y como consecuencia de la interacción nuclear y coulombiana, dicha partícula se ve sometida a un campo de fuerzas que deriva de una función energía potencial que depende de la coordenada radial como la indicada en la figura siguiente, donde $\mathbf { R } _ { \mathbf { N } }$ es el radio nuclear. 
+
+![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-05/a134e6c0-b7d5-4447-9d0c-436319d1cf9d/2f99f808cc6e363c8e935be03eb5c75b861a6dd0dc3ef1de3f3091da1b960f56.jpg)
+
+
+Dicha gráfica muestra que la energía mecánica de la partícula emitida durante el decaimiento es inferior a la energía potencial del sistema en aquellos puntos pertenecientes al casquete esférico de 
+
+radios extremos (R1) y $\left( \begin{array} { l l } { \mathbf { \Sigma } } & { \mathbf { \Sigma } } \end{array} \right)$ . Puesto que inicialmente la partícula se "encontraba" en el interior del núcleo, esto es en la zona con coordenada radial inferior a (R1) y posteriormente la detectamos fuera del núcleo, o sea en la zona con coordenada radial superior a $\left( \begin{array} { l l } { \mathbf { \Phi } } & { \mathbf { \Phi } } \\ { \mathbf { \Phi } } & { \mathbf { \Phi } } \end{array} \right)$ es claro que el proceso no puede ser explicado por el formalismo que estamos desarrollando, atendiendo que lo mencionado requiere el "pasaje" de la partícula por puntos pertenecientes a una zona clásicamente prohibida, motivo por el que al fenómeno se lo conoce como efecto túnel. 
+
+Procesos como el indicado, juntamente con otros de naturaleza semejante, llevaron a la necesidad de pensar en un nuevo formalismo, capaz de explicar adecuadamente el comportamiento de dichos sistemas, que actualmente conocemos como Mecánica Cuántica. Según este formalismo, la probabilidad de encontrar una partícula en una zona clásicamente prohibida ya no es nula y está relacionada con la masa de la partícula y con las energías involucradas en el proceso. 
+
+# Movimiento en un Campo Radial Esféricamente Simétrico.
+
+A lo largo de este tema consideraremos el caso de una partícula sometida a un campo de fuerza radial esféricamente simétrico, que por lo tanto, formalmente podemos expresar como. 
+
+$$
+\vec {\mathrm {F}} = \mathrm {f} (\mathrm {r}) \vec {\mathrm {e}} _ {\mathrm {r}}
+$$
+
+Teniendo en cuenta lo indicado y teniendo presente lo desarrollado anteriormente, es claro que se conservará el vector momento angular de la partícula y se desplazará a lo largo de una trayectoria plana que contiene el centro de fuerzas, de manera que su velocidad angular, determinada respecto del mencionado punto, dependerá de la coordenada radial según: 
+
+$$
+\dot {\theta} = \frac {L _ {\circ}}{m r ^ {2}}
+$$
+
+Por otro lado, teniendo en cuenta que se trata de un campo conservativo que deriva de una función energía potencial que depende únicamente de la coordenada radial, como se indica a continuación. 
+
+$$
+\Phi = \Phi (\mathbf {r})
+$$
+
+La energía mecánica de la partícula permanecerá constante y podrá ser expresada en todo momento como: 
+
+$$
+\mathrm {T} + \Phi (\mathrm {r}) = \mathrm {E} _ {\circ}
+$$
+
+Teniendo en cuenta que la partícula se desplazará a lo largo de una trayectoria plana y expresando a su vector velocidad en componentes polares, de la anterior resulta: 
+
+$$
+\frac {1}{2} \mathrm {m} \left(\dot {\mathrm {r}} ^ {2} + \mathrm {r} ^ {2} \dot {\theta} ^ {2}\right) + \Phi (\mathrm {r}) = \mathrm {E} 。
+$$
+
+De donde luego de tener en cuenta la dependencia entre la velocidad angular y la coordenada radial, obtenemos: 
+
+$$
+\frac {1}{2} \mathrm {m i r} ^ {2} = \mathrm {E} _ {\circ} - \left[ \Phi (\mathrm {r}) + \frac {\mathrm {L} _ {\circ} ^ {2}}{2 \mathrm {m r} ^ {2}} \right]
+$$
+
+Definiendo la función: 
+
+$$
+\Phi^ {*} (\mathrm {r}) = \Phi (\mathrm {r}) + \frac {\mathrm {L} _ {\mathrm {o}} ^ {2}}{2 \mathrm {m r} ^ {2}}
+$$
+
+Que en adelante reconoceremos como energía potencial ficticia, la relación anterior puede expresarse como: 
+
+$$
+\frac {1}{2} \mathrm {m r} ^ {2} = \mathrm {E} _ {\circ} - \Phi^ {*} (\mathrm {r})
+$$
+
+Con lo que, en lo que a la componente radial se refiere, todo sucederá como si la partícula estuviera sometida a un campo de fuerza que deriva de la función energía potencial ficticia, que como podemos notar depende únicamente de la coordenada radial y de las condiciones iniciales, a través del momento angular inicial. Por lo tanto, en lo que al movimiento en la dirección radial se refiere, de la anterior resulta que la zona permitida para la partícula estará definida por el conjunto de puntos cuya coordenada radial sea tal que la energía mecánica supere o iguale al potencial ficticio, con lo que zona 
+
+permitida resultará independiente del valor que tome la coordenada angular, y por lo tanto tendrán simetría esférica. 
+
+# Tiro Oblicuo de Largo Alcance.
+
+Como una aplicación de lo tratado anteriormente, consideremos el caso de una partícula que es lanzada oblicuamente con una velocidad (Vo) desde un punto cuya coordenada radial, respecto del centro de la tierra, es (ro) como se indica en la figura siguiente. 
+
+Suponiendo que posteriormente queda sometida únicamente a la interacción con el campo gravitatorio la función energía potencial ficticia vendrá dado por: 
+
+$$
+\Phi^ {*} (\mathrm {r}) = \frac {\mathrm {L} _ {\circ} ^ {2}}{2 \mathrm {m r} ^ {2}} - \mathrm {G} \frac {\mathrm {m M}}{\mathrm {r}}
+$$
+
+![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-05/a134e6c0-b7d5-4447-9d0c-436319d1cf9d/7f5395ca9632aa9106d891fe95aa5784206fd0af3140a493f39ed914439dfe8a.jpg)
+
+
+Con lo que, la zona clásicamente permitida para la partícula estará integrada por el conjunto de puntos cuya coordenada radial es tal que la función definida anteriormente sea menor o igual que su energía mecánica, tal como se indica en la gráfica lateral, con trazo marrón sobre el eje horizontal, para el caso de una partícula cuya energía mecánica es negativa y superior al mínimo de la función definida anteriormente. 
+
+![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-05/a134e6c0-b7d5-4447-9d0c-436319d1cf9d/0ad87dcc98deca4d9104e49b1191887e75a1ac88794a2c67193fa18c0564e12e.jpg)
+
+
+Teniendo en cuenta que la zona permitida está referida a la coordenada radial, independiente del valor que tome la coordenada angular, es claro que, para la situación en consideración, será una corona esférica limitada por las superficies con radios extremos $\boldsymbol { \textbf { r } } _ { \mathrm { p } } \mathrm { y } \mathrm { \textbf { r } } _ { \mathrm { a } }$ indicados en la figura anterior y que se indican a continuación en la figura de la izquierda. 
+
+![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-05/a134e6c0-b7d5-4447-9d0c-436319d1cf9d/602b0c61d840a685f92f0530f0566af7d1bd692a36087e1f7532a93512de5394.jpg)
+
+
+![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-05/a134e6c0-b7d5-4447-9d0c-436319d1cf9d/43ce2e5ffa1eac4ba178f6d24a80b3525e488ac8838c3212317b0fe2b89e9107.jpg)
+
+
+Puesto que la trayectoria de la partícula estará contenida en un plano, resulta que la misma estará acotada por circunferencias concéntricas cuyos radios son los indicados en la figura anterior, que físicamente nos identifican la máxima y mínima distancia a la que se podrá encontrar la partícula del centro de fuerza y que conocemos como apogeo y perigeo, respectivamente. 
+
+En este momento resulta oportuno observar que el análisis efectuado no nos proporciona información sobre la forma de la trayectoria a lo largo de la que se desplazará la partícula, solamente nos indica que estará contenida en la zona mencionada anteriormente y deberá ser tal que, de alcanzar los valores extremos para la coordenada radial, lo hará de manera que la componente radial del vector velocidad 
+
+será nula en dichos puntos, ya que en los mismos, la función energía potencial ficticia coincidirá con la energía mecánica de la partícula y por lo tanto, bajo esas condiciones obtendríamos un valor nulo para dicha componente. Sin embargo y teniendo en cuenta la dependencia entre la velocidad angular y la coordenada radial, su velocidad angular y por lo tanto la componente transversal de su velocidad, no será nula. Con lo que la trayectoria a lo largo de la que se desplazará la partícula podría tener un aspecto tan caprichoso como el indicado en la figura de la derecha, que claramente satisface los requisitos recientemente mencionados. 
+
+Sin embargo, resolviendo la Ecuación Diferencial de Binet, que consideraremos a continuación, es posible demostrar que la trayectoria a lo largo de la que se desplazará la partícula será una elipse con foco en el centro de fuerzas y puntos apsidales coincidentes con los valores extremos indicados anteriormente, identificados como apogeo y perigeo, tal como se sugiere en la figura siguiente y como lo podrá apreciar en el video Eliptica.wmv que se recomienda ejecutar, donde además podrá observar que los cambios temporales en la coordenada radial, son lentos en el apogeo y rápidos en el perigeo. 
+
+![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-05/a134e6c0-b7d5-4447-9d0c-436319d1cf9d/649ec775a6c9da0a2ebf12122f1610ddb5ee57b97528eb8750484ed84cbb011a.jpg)
+
+
+![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-05/a134e6c0-b7d5-4447-9d0c-436319d1cf9d/94249a1d4a3650ff2b4504986e2e628abef450e6d36e872af36451b814d59bb5.jpg)
+
+
+Suponiendo para la partícula diferentes estados energéticos, conseguidos mediante variaciones en su vector velocidad inicial, sin alterar su componente transversal, a los efectos de mantener el mismo valor de su momento angular, resultaran situaciones como las que se indican en la figura de la derecha, donde resulta interesante observar que la mínima energía, necesaria para que el radio del apogeo sea infinito, o sea para que la partícula pueda llegar infinitamente lejos del centro de fuerza, será nula, de donde resulta que la mínima velocidad con la que deberemos lanzar la partícula para que pueda llegar infinitamente lejos del centro de fuerza, que llamamos velocidad de escape, deberá ser tal que: 
+
+$$
+\frac {1}{2} \mathrm {m v} _ {\circ} ^ {2} - \mathrm {G} \frac {\mathrm {m M}}{\mathrm {r} _ {\circ}} = 0
+$$
+
+De donde obtenemos que la mencionada velocidad de escape vendrá dada por: 
+
+$$
+\mathbf {v} _ {\mathrm {o - e s c a p e}} = \sqrt {\frac {2 \mathrm {G M}}{\mathbf {r} _ {\mathrm {o}}}}
+$$
+
+Finalmente resulta oportuno mencionar que el movimiento a lo largo de una trayectoria circular requerirá que el lanzamiento sea horizontal y se realice con una velocidad tal que, la fuerza gravitatoria proporcione la componente normal necesaria para dicha trayectoria, con lo que su velocidad deberá ser tal que: 
+
+$$
+\mathrm {m} \frac {\mathrm {v} _ {\circ} ^ {2}}{\mathrm {r} _ {\circ}} = \mathrm {G} \frac {\mathrm {m M}}{\mathrm {r} _ {\circ} ^ {2}}
+$$
+
+De donde resulta que la partícula deberá ser lanzada horizontalmente con una velocidad dada por: 
+
+$$
+\mathbf {v} _ {\mathrm {o - c}} = \sqrt {\frac {\mathrm {G M}}{\mathbf {r} _ {\mathrm {o}}}}
+$$
+
+Y por lo tanto con una energía mecánica dada por: 
+
+$$
+\mathrm {E} _ {\mathrm {o c}} = - \mathrm {G} \frac {\mathrm {m M}}{2 \mathrm {r} _ {\circ}}
+$$
+
+Suponiendo ahora que deseáramos que la partícula se mueva a lo largo de una órbita circular, contenida en el plano del ecuador terrestre y permaneciendo sobre un mismo punto del planeta, conocida como órbita geoestacionaria, como la que podrá observar en el video Geoestacionaria.wmv y que es el tipo de órbita a lo largo de las cuales se desplazan los satélites de comunicaciones, cuya velocidad angular (w) deberá coincidir con la del planeta, resulta que el radio de dicha órbita deberá ser tal que: 
+
+$$
+\mathrm {w r} _ {\mathrm {g}} = \sqrt {\frac {\mathrm {G M}}{\mathrm {r} _ {\mathrm {g}}}}
+$$
+
+De donde obtenemos que el radio, en función del período con el que rota el planeta, vendrá dado por: 
+
+$$
+\mathrm {r _ {g}} = (\mathrm {G M}) ^ {1 / 3} \left(\frac {\mathrm {T}}{2 \pi}\right) ^ {2 / 3}
+$$
+
+Que para el caso de nuestro planeta, resulta: 
+
+$$
+\mathrm {r _ {g}} = 3 6. 0 0 0 \mathrm {k m}
+$$
+
+Como se indica en el video SateComun.avi que se recomienda ejecutar. 
+
+# Segunda Ley de Keppler.
+
+Finalmente, considerando un cuerpo sometido a un campo gravitatorio, como un satélite alrededor de la Tierra o los planetas alrededor del Sol, la coordenada vectorial de su centro de masa respecto del centro de fuerza barrera áreas como las que se sugieren en la figura siguiente, con una velocidad que llamaremos velocidad areal y que vendrá dada por: 
+
+![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-05/a134e6c0-b7d5-4447-9d0c-436319d1cf9d/812a037b1f4ed4d6960b16c48e004d88d1fbe0aeb36b07f00de6fa333821ca66.jpg)
+
+
+$$
+v _ {A} = \frac {d A}{d t}
+$$
+
+Con lo que: 
+
+$$
+\mathbf {v} _ {\mathrm {A}} = \lim _ {\Delta t \to 0} \frac {\Delta \mathbf {A}}{\Delta t}
+$$
+
+Por otro lado, teniendo en cuenta que el área del paralelogramo entre dos vectores como los que se muestran en la figura siguiente, viene dada por: 
+
+![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-05/a134e6c0-b7d5-4447-9d0c-436319d1cf9d/05ed71df6925e946901e85d6dcca379f3d9d9118ddb1bb19751b4d47cfa82108.jpg)
+
+
+$$
+| \vec {\mathrm {r}} \times \Delta \vec {\mathrm {r}} |
+$$
+
+Resulta que el área de la mitad del paralelogramo indicado anteriormente, vendrá dado por: 
+
+![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-05/a134e6c0-b7d5-4447-9d0c-436319d1cf9d/e979f74466c49f3adc3f09b8eb3765cdc5d5b382912c5f510eaa814b46a9ad59.jpg)
+
+
+$$
+\frac {1}{2} | \vec {\mathbf {r}} \times \Delta \vec {\mathbf {r}} |
+$$
+
+Con lo que a la velocidad areal podremos expresarla en términos del módulo del momento angular, como: 
+
+$$
+\mathrm {v _ {A}} = \frac {1}{2} | \vec {\mathrm {r}} \times \vec {\mathrm {v}} | = \frac {1}{2 \mathrm {m}} | \vec {\mathrm {r}} \times \mathrm {m} \vec {\mathrm {v}} | = \frac {1}{2 \mathrm {m}} \mathrm {L}
+$$
+
+Puesto que la masa de la partícula y el módulo del momento angular permanecen constante, es claro entonces que la velocidad areal permanecerá constante, resultado conocido como segunda ley de Keppler, que en términos del momento angular por unidad de masa ( l o ) podemos expresar como: 
+
+$$
+\mathrm {v} _ {\mathrm {A}} = \frac {\mathrm {l} _ {\mathrm {o}}}{2}
+$$
+
+# 1.08 ECUACIÓN DIFERENCIAL DE BINET.
+
+Considerando nuevamente el caso general de una partícula sometida a un campo de fuerza radial esféricamente simétrico, la componente radial de la ecuación de Newton nos queda expresada como: 
+
+$$
+\mathrm {m} (\ddot {\mathrm {r}} - \mathrm {r} \dot {\theta} ^ {2}) = \mathrm {f} (\mathrm {r})
+$$
+
+Que teniendo en cuenta las conclusiones anteriores y en términos del momento angular específico, esto es, el momento angular por unidad de masa, (lo), puede expresarse como: 
+
+$$
+\mathrm {m} \left(\ddot {\mathrm {r}} - \frac {\mathrm {l} _ {\circ} ^ {2}}{\mathrm {r} ^ {3}}\right) = \mathrm {f} (\mathrm {r})
+$$
+
+Por otro lado, expresando la derivada temporal de la coordenada radial como: 
+
+$$
+\dot {r} = \frac {\mathrm {d} r}{\mathrm {d} \theta} \dot {\theta}
+$$
+
+Que teniendo nuevamente en cuenta la relación entre la velocidad angular y la coordenada radial, nos queda: 
+
+$$
+\dot {r} = \frac {l _ {\circ}}{r ^ {2}} \frac {d r}{d \theta}
+$$
+
+A la que podemos expresar como: 
+
+$$
+\dot {r} = - l _ {\circ} \frac {d}{d \theta} \left(\frac {1}{r}\right)
+$$
+
+Con lo que, la derivada temporal segunda, en términos del momento angular específico, nos queda: 
+
+$$
+\ddot {r} = - l _ {\circ} \frac {d}{d t} \frac {d}{d \theta} \left(\frac {1}{r}\right)
+$$
+
+Que podemos expresar como: 
+
+$$
+\ddot {\mathrm {r}} = - 1 _ {\circ} \dot {\theta} \frac {\mathrm {d}}{\mathrm {d} \theta} \frac {\mathrm {d}}{\mathrm {d} \theta} \left(\frac {1}{\mathrm {r}}\right)
+$$
+
+Y que finalmente, teniendo en cuenta nuevamente, la relación entre la velocidad angular y la coordenada radial nos queda: 
+
+$$
+\ddot {\mathrm {r}} = - \frac {\mathrm {l} _ {\circ} ^ {2}}{\mathrm {r} ^ {2}} \frac {\mathrm {d} ^ {2}}{\mathrm {d} \theta^ {2}} \left(\frac {1}{\mathrm {r}}\right)
+$$
+
+Teniendo presente las conclusiones anteriores y definiendo la nueva variable: 
+
+$$
+u = \frac {1}{r}
+$$
+
+La componente radial de la ecuación de Newton nos queda: 
+
+$$
+\frac {\mathrm {d} ^ {2} \mathrm {u}}{\mathrm {d} \theta^ {2}} + \mathrm {u} (\theta) = \frac {\mathrm {f} (\mathrm {u})}{\mathrm {m l} _ {\circ} ^ {2} \mathrm {u} ^ {2}}
+$$
+
+Que en adelante reconoceremos como Ecuación Diferencial de Binet y cuya solución nos proporcionará una expresión para la coordenada radial de la partícula en función de su coordenada angular, a partir de la cuál podremos obtener una adecuada descripción de su movimiento, como lo podremos constatar en la aplicación que trataremos a continuación. 
+
+# Tiro de Largo Alcance.
+
+Considerando nuevamente el caso de una partícula de masa (m) que, es lanzada oblicuamente desde un punto a una distancia $\left( \mathfrak { r } _ { 0 } \right)$ del centro de un planeta de masa (M), como se sugiere en la figura lateral, esta se verá sometida a un campo de fuerza radial esféricamente simétrico, tal que: 
+
+$$
+\mathrm {f (r) = - G \frac {m M}{r ^ {2}}}
+$$
+
+Que en término de la nueva variable queda expresado como: 
+
+$$
+\mathrm {f (u) = - G m M u ^ {2}}
+$$
+
+Con lo que la ecuación diferencial de Binet, para la situación en consideración, nos queda: 
+
+![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-05/a134e6c0-b7d5-4447-9d0c-436319d1cf9d/f3d0e2ff6d143dba91a0bb133a896a4a246b4aef9c590916e722bf9c2b6ac515.jpg)
+
+
+$$
+\frac {\mathrm {d} ^ {2} \mathrm {u}}{\mathrm {d} \theta^ {2}} + \mathrm {u} (\theta) = - \frac {\mathrm {G M}}{\mathrm {l} _ {\circ} ^ {2}}
+$$
+
+Ecuación diferencial de segundo grado, cuya solución general viene dada por: 
+
+$$
+u (\theta) = \frac {G M}{l _ {\circ} ^ {2}} + A \cos (\theta + \delta)
+$$
+
+Que en términos de la constante (ε) y de la de la coordenada radial, puede expresarse como: 
+
+$$
+\varepsilon = \frac {\mathrm {A l} _ {\circ} ^ {2}}{\mathrm {G M}} \quad \frac {1}{\mathrm {r}} = \frac {\mathrm {G M}}{\mathrm {l} _ {\circ} ^ {2}} [ 1 + \varepsilon \cos (\theta + \delta) ]
+$$
+
+Relación funcional que corresponde a la forma polar de la ecuación de una cónica con foco en el punto desde el que se determina la coordenada radial, en este caso, claramente coincidente con el centro de fuerza, y en la que el argumento se determina a partir del eje pasante por dicho punto y el vértice de la cónica, con lo que, si la coordenada angular se determina a partir de dicho eje, como se sugiere en la figura lateral, la anterior nos queda: 
+
+![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-05/a134e6c0-b7d5-4447-9d0c-436319d1cf9d/7457014e199c4a36d098b0de30979555bd0ec86c40e83e6cae823b061a02315b.jpg)
+
+
+$$
+\frac {1}{r} = \frac {G M}{l _ {\circ} ^ {2}} (1 + \varepsilon \cos \theta)
+$$
+
+Que dará lugar a diferentes tipos de trayectorias cónicas, según sea el valor de la constante (ε) a la que sin lugar a dudas podemos identificar con la excentricidad de dicha cónica y que a continuación trataremos de expresar en término de las condiciones iniciales o bien de magnitudes directamente vinculadas con las mismas, tales como el momento angular y la energía mecánica de la partícula, que permanecerán constante a lo largo del movimiento. 
+
+Con este propósito tengamos en cuenta que la energía mecánica de la partícula en función de la coordenada radial y sus derivadas temporales vendrá expresada como: 
+
+$$
+E _ {\circ} = \frac {1}{2} m \left(\dot {r} ^ {2} + r ^ {2} \dot {\theta} ^ {2}\right) - G \frac {m M}{r}
+$$
+
+Por otro lado, derivando temporalmente la solución recientemente obtenida, resulta: 
+
+$$
+\dot {r} = \frac {G M}{l _ {\circ}} \varepsilon s e n \theta
+$$
+
+Teniendo en cuenta las conclusiones anteriores, a la energía mecánica podemos expresarla como: 
+
+$$
+E _ {\circ} = G ^ {2} \frac {m M ^ {2}}{2 l _ {\circ} ^ {2}} \left(\varepsilon^ {2} - 1\right)
+$$
+
+De donde finalmente obtenemos que: 
+
+$$
+\varepsilon^ {2} = 1 + \frac {2 l _ {\circ} ^ {2} E _ {\circ}}{G ^ {2} m M ^ {2}}
+$$
+
+Que nos proporciona una expresión para la excentricidad de la trayectoria en función de la energía mecánica y momento angular de la partícula, ambas constantes del movimiento, claramente dependientes de las condiciones iniciales. 
+
+Para un dado momento angular y suponiendo para la energía mecánica diferentes valores, de la anterior resultan las situaciones de interés, que se muestran en la figura siguiente. 
+
+![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-05/a134e6c0-b7d5-4447-9d0c-436319d1cf9d/6bb7e81b63f902035624084a45bac32f4d398199321ab45dbdb1f06ee55aa099.jpg)
+
+
+Claramente coincidentes con las situaciones particulares a las que hiciéramos referencia en el tratamiento cualitativo realizado anteriormente y donde la energía para el caso de una trayectoria circular se puede obtener requiriendo que se anule la excentricidad, resultando: 
+
+$$
+\mathrm {E} _ {0 0} = - \mathrm {G} ^ {2} \frac {\mathrm {m M} ^ {2}}{2 \mathrm {l} _ {\circ} ^ {2}}
+$$
+
+Finalmente, suponiendo dadas las condiciones que garantizan una trayectoria elíptica, y teniendo en cuenta las conclusiones anteriores podemos obtener expresiones para los radios mayor y menor de la elipse, resultando respectivamente dados por: 
+
+$$
+a = \frac {l _ {\circ} ^ {2}}{G M \left(1 - \varepsilon^ {2}\right)}
+$$
+
+$$
+\mathbf {b} = \frac {\mathbf {l} _ {\circ} ^ {2}}{\mathbf {G M}} (1 - \varepsilon^ {2})
+$$
+
+Con lo que para el período de circunvalación a lo largo de la órbita mencionada, resulta: 
+
+$$
+\mathrm {T} = \frac {2 \pi}{(\mathrm {G M}) ^ {1 / 2}} \mathrm {a} ^ {3 / 2}
+$$
+
+Conclusión que se conoce como Tercera Ley de Kepler, en mérito a que dicho científico la obtuvo con anterioridad a los trabajos de Newton, a partir de las mediciones que realizara oportunamente. 

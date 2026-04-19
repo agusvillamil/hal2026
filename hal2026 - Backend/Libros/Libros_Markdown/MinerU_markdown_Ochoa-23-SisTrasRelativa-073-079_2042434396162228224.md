@@ -1,0 +1,281 @@
+# 2.06 SISTEMAS DE REFERENCIA CON TRASLACIÓN RELATIVA.
+
+Considerando dos sistemas de referencia como los indicados en las figuras, diremos que están animados de una traslación relativa cuando el estado de movimiento de todos los puntos rígidamente vinculados a uno de ellos está caracterizado en cada instante por el mismo vector velocidad, respecto del restante. 
+
+![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-06/b3a6220b-45bb-4c1e-becd-1978a59ce41e/cece37f323f1f5fadeb12a28cf383f01f394667fa3248f675ac4d2c60e0f9427.jpg)
+
+
+![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-06/b3a6220b-45bb-4c1e-becd-1978a59ce41e/9eeb1a419437a9dd7baf878e5d740100e0f2de2711da6b2d0b39439027de35ed.jpg)
+
+
+Lo mencionado es equivalente o requiere, que las trayectorias a lo largo de la que se desplazan los puntos en consideración sean necesariamente paralelas, pudiendo tratarse de trayectorias rectas o no, en cuyo caso nos referiremos a una traslación rectilínea o curvilínea, respectivamente, como se sugiere en cada una de las situaciones que se muestran en las figuras anteriores. 
+
+Teniendo en cuenta que en un caso como el que estamos considerando el estado de movimiento de todos los puntos rígidamente vinculados a un sistema está caracterizado por el mismo vector velocidad, esta magnitud será indudablemente la adecuada para caracterizar el estado de movimiento relativo entre los sistemas, que en adelante identificaremos mediante el vector velocidad del origen de un sistema respecto del otro sistema de referencia en consideración. 
+
+Atendiendo lo mencionado, y como se indica en la figura siguiente, el estado de movimiento del sistema de referencia (xyz) que en adelante identificaremos como sistema de referencia auxiliar, respecto del sistema de referencia (XYZ), que en adelante identificaremos como sistema de referencia principal o fundamental, estará caracterizado por: 
+
+$$
+\mathrm {V} _ {\mathrm {X Y Z}} = \left. \frac {\mathrm {d} \vec {\mathrm {R}}}{\mathrm {d t}} \right] _ {\mathrm {X Y Z}}
+$$
+
+![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-06/b3a6220b-45bb-4c1e-becd-1978a59ce41e/5142d4ac378eb656864e20838d7ea646f0da37135a1ad0ff4272ad87b3bfe7f5.jpg)
+
+
+Análogamente, los cambios temporales en el estado de movimiento del sistema auxiliar, respecto del sistema de referencia principal, estarán caracterizados por: 
+
+$$
+\mathrm {A} _ {\mathrm {X Y Z}} = \frac {\mathrm {d V}}{\mathrm {d t}} \Bigg ] _ {\mathrm {X Y Z}}
+$$
+
+Que reconoceremos como el vector aceleración del origen del sistema auxiliar, respecto del principal. Finalmente, designando con $( \textbf { i j } \textbf { k } )$ a los vectores unitarios que caracterizan las direcciones ortogonales (xyz) del sistema de referencia auxiliar, y teniendo en cuenta que como consecuencia de la traslación de dicho sistema respecto del sistema principal, las direcciones de los mencionados vectores unitarios no cambian en el tiempo, al ser observados desde este último sistema, entonces es inmediato que: 
+
+$$
+\left. \frac {\mathrm {d} \vec {\mathrm {i}}}{\mathrm {d t}} \right] _ {\mathrm {X Y Z}} = \left. \frac {\mathrm {d} \vec {\mathrm {j}}}{\mathrm {d t}} \right] _ {\mathrm {X Y Z}} = \left. \frac {\mathrm {d} \vec {\mathrm {k}}}{\mathrm {d t}} \right] _ {\mathrm {X Y Z}} = 0
+$$
+
+Propiedad que luego será de utilidad en el tratamiento del siguiente tema, y que como lo veremos posteriormente, dejará de tener validez al considerar sistemas de referencia animados de movimientos relativos mas generales. 
+
+# Vectores Velocidad y Aceleración.
+
+Trataremos a continuación de obtener expresiones que nos relacionen los vectores velocidad y aceleración de una partícula determinados respecto de sistemas de referencia con traslación relativa, como se sugiere en la figura siguiente. Con este propósito tengamos en cuenta que los vectores posición de la partícula respecto de los orígenes de cada uno de los sistemas de referencia en consideración están relacionados, como puede verse en la figura, mediante: 
+
+$$
+\vec {\mathrm {q}} = \vec {\mathrm {R}} + \vec {\mathrm {r}}
+$$
+
+![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-06/b3a6220b-45bb-4c1e-becd-1978a59ce41e/3feb19f17dbdad3cdd87994897ac973e7cf09ae1242a6a12df49258fcc9b7754.jpg)
+
+
+Derivando temporalmente en ambos miembros, desde el sistema principal, resulta: 
+
+$$
+\left. \dot {\bar {q}} \right] _ {\mathrm {X Y Z}} = \left. \dot {\bar {R}} \right| _ {\mathrm {X Y Z}} + \left. \dot {\bar {r}} \right] _ {\mathrm {X Y Z}}
+$$
+
+Donde sin lugar a dudas, la derivada temporal en el miembro de la izquierda no es otra cosa que el vector velocidad de la partícula respecto del sistema principal y la primer derivada en el miembro de la derecha es claramente el vector velocidad del origen del sistema de referencia auxiliar respecto del sistema de referencia principal, esto es, el vector que caracteriza el estado de movimiento del sistema auxiliar respecto del principal, con lo que de la anterior resulta: 
+
+$$
+\vec {\bf {v}} _ {\mathrm {X Y Z}} = \left. \vec {\bf {V}} _ {\mathrm {X Y Z}} + \dot {\vec {\bf {r}}} \right| _ {\mathrm {X Y Z}}
+$$
+
+Restando por identificar la derivada temporal del vector posición de la partícula respecto del origen del sistema auxiliar, que notemos está calculada desde el sistema principal, y por lo tanto no podemos afirmar a priori que sea coincidente con el vector velocidad de la partícula respecto del mencionado sistema auxiliar. 
+
+Con el propósito de evaluar esta última derivada temporal expresaremos al vector posición en componentes cartesianas según las direcciones del sistema auxiliar, esto es: 
+
+$$
+\vec {\mathrm {r}} (t) = \mathrm {x} (t) \vec {\mathrm {i}} + \mathrm {y} (t) \vec {\mathrm {j}} + \mathrm {z} (t) \vec {\mathrm {k}}
+$$
+
+Derivando temporalmente la anterior, desde el sistema principal, obtenemos: 
+
+$$
+\left. \dot {\vec {\mathbf {r}}} (t) \right] _ {\mathrm {X Y Z}} = \dot {\mathbf {x}} (t) \vec {\mathbf {i}} + \dot {\mathbf {y}} (t) \vec {\mathbf {j}} + \dot {\mathbf {z}} (t) \vec {\mathbf {k}} + \mathbf {x} (t) \dot {\vec {\mathbf {i}}} + \mathbf {y} (t) \dot {\vec {\mathbf {j}}} + \mathbf {z} (t) \dot {\vec {\mathbf {k}}}
+$$
+
+Teniendo en cuenta que como lo demostráramos inicialmente, para la situación en consideración, la derivada temporal de los vectores unitarios es nula, de la anterior resulta: 
+
+$$
+\left. \dot {\vec {\mathbf {r}}} (t) \right] _ {\mathrm {X Y Z}} = \dot {\mathbf {x}} (t) \vec {\mathbf {i}} + \dot {\mathbf {y}} (t) \vec {\mathbf {j}} + \dot {\mathbf {z}} (t) \vec {\mathbf {k}}
+$$
+
+Coincidente con el vector velocidad de la partícula respecto del sistema de referencia auxiliar. Con lo que finalmente estamos en condiciones de expresar la forma en que están vinculados los vectores velocidad de una partícula respecto de sistemas de referencia con traslación relativa y que se indica a continuación. 
+
+$$
+\vec {\mathrm {v}} _ {\mathrm {X Y Z}} = \vec {\mathrm {V}} _ {\mathrm {X Y Z}} + \vec {\mathrm {v}} _ {\mathrm {x y z}} \tag {2.05}
+$$
+
+Derivando temporalmente la anterior, desde el sistema de referencia principal, obtenemos: 
+
+$$
+\left. \dot {\vec {\mathbf {v}}} _ {\mathrm {X Y Z}} \right] _ {\mathrm {X Y Z}} = \left. \dot {\vec {\mathbf {V}}} _ {\mathrm {X Y Z}} \right| _ {\mathrm {X Y Z}} + \left. \dot {\vec {\mathbf {v}}} _ {\mathrm {x y z}} \right] _ {\mathrm {X Y Z}}
+$$
+
+De donde resulta. 
+
+$$
+\vec {\mathrm {a}} _ {\mathrm {X Y Z}} = \left. \vec {\mathrm {A}} _ {\mathrm {X Y Z}} + \dot {\vec {\mathrm {v}}} _ {\mathrm {x y z}} \right] _ {\mathrm {X Y Z}}
+$$
+
+Evaluando al vector velocidad de la partícula respecto del sistema auxiliar, en componentes cartesianas según las direcciones del mencionado sistema y teniendo en cuenta nuevamente que, para 
+
+la situación en consideración, la derivada temporal de los vectores unitarios es nula, de la anterior obtenemos: 
+
+$$
+\left. \dot {\vec {\mathbf {v}}} _ {\mathrm {x y z}} \right] _ {\mathrm {X Y Z}} = \ddot {\mathbf {x}} (\mathsf {t}) \vec {\mathbf {i}} + \ddot {\mathbf {y}} (\mathsf {t}) \vec {\mathbf {j}} + \ddot {\mathbf {z}} (\mathsf {t}) \vec {\mathbf {k}}
+$$
+
+Por lo tanto los vectores aceleración de una partícula, determinados respecto de sistemas de referencia con traslación relativa, están relacionados entre ellos mediante: 
+
+$$
+\vec {\mathrm {a}} _ {\mathrm {X Y Z}} = \vec {\mathrm {A}} _ {\mathrm {X Y Z}} + \vec {\mathrm {a}} _ {\mathrm {x y z}} \tag {2.06}
+$$
+
+Donde el miembro de la izquierda es al vector aceleración de la partícula respecto del sistema de referencia principal, el primer término en el miembro de la derecha, es como ya lo mencionáramos, el vector aceleración del origen del sistema auxiliar respecto del principal y el segundo término corresponde a la aceleración de la partícula respecto del sistema de referencia auxiliar. 
+
+# 2.07 SISTEMAS DE REFERENCIA INERCIALES Y NO INERCIALES.
+
+Diremos que un sistema de referencia (XYZ) es un Sistema de Referencia Inercial, cuando experimentalmente se verifica que el vector aceleración una partícula o del centro de masa de un cuerpo, determinado respecto de dicho sistema, está relacionado con la resultante de las fuerzas de interacción a que se encuentra sometido mediante la ecuación: 
+
+$$
+\vec {\mathrm {F}} = \mathrm {m} \vec {\mathrm {a}} _ {\mathrm {X Y Z}}
+$$
+
+En cambio, si experimentalmente se verifica, que dichas magnitudes no se encuentran relacionadas mediante una ecuación con la forma indicada, diremos que estamos en presencia de un Sistema de Referencia No Inercial, en cuyo caso y tal como lo veremos a continuación la ecuación que relaciona las magnitudes involucradas en la anterior, tomará una forma diferente. 
+
+Antes de continuar con el tratamiento del tema, resulta oportuno remarcar que de acuerdo a lo mencionado, la única manera de averiguar si un sistema de referencia es o no inercial, será realizando experiencias que demuestren o no que la resultante de las fuerzas de interacción y la aceleración de la partícula respecto de dicho sistema están relacionadas mediante una ecuación como la indicada anteriormente. 
+
+Teniendo en cuenta la afirmación anterior y puesto que en general los resultados experimentales estarán acompañados de un margen de error, es claro que de verificarse experimentalmente la validez de lo indicado, en un determinado sistema de referencia, sólo estaremos en condiciones de afirmar que dentro del margen de error con el que hemos trabajado, dicho sistema puede ser considerado inercial. Así para la mayoría de las aplicaciones que normalmente se tratan en un curso de mecánica básica, un sistema de referencia fijo a tierra puede ser considerado inercial, situación que deberemos revisar ante el tratamiento de aplicaciones más delicadas que serán consideradas posteriormente a lo largo del segundo volumen. 
+
+# Ecuación de movimiento para un observador no inercial.
+
+Con el propósito de obtener una expresión para la ecuación de movimiento, o sea aquella que nos relaciona a la resultante de las fuerzas de interacción con el vector aceleración de una partícula determinado respecto de un sistema de referencia no inercial, supongamos que contamos con un sistema (XYZ) en el que, experimentalmente hemos verificado puede ser considerado un sistema de referencia inercial y pensemos en un nuevo sistema de referencia (xyz) que se traslada respecto del inercial con una aceleración constante, como se sugiere en la figura siguiente. 
+
+![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-06/b3a6220b-45bb-4c1e-becd-1978a59ce41e/cc82848f9430529b7c18062c0a18fbe8d0497a2ea51ea363cd410ed588e173b8.jpg)
+
+
+Teniendo en cuenta que hemos supuesto a (XYZ) inercial, el vector aceleración de una partícula o del centro de masa de un cuerpo, determinado respecto de dicho sistema, estará relacionado con la resultante de las fuerzas de interacción a que se encuentra sometido, mediante: 
+
+$$
+\vec {\mathrm {F}} = \mathfrak {m} \vec {\mathrm {a}} _ {\mathrm {X Y Z}}
+$$
+
+Teniendo presente la relación que vincula las aceleraciones determinadas respecto de sistemas de referencia con traslación relativa, entonces la aceleración del centro de masa del cuerpo, determinada respecto del sistema (xyz) no inercial, estará vinculada con la resultante de las fuerzas de interacción, mediante: 
+
+$$
+\vec {\mathrm {F}} = \mathrm {m} \vec {\mathrm {a}} _ {\mathrm {x y z}} + \mathrm {m} \vec {\mathrm {A}} _ {\mathrm {X Y Z}} \tag {2.07}
+$$
+
+Que obviamente no coincide con la forma requerida para que el sistema pueda ser considerado inercial, en particular podemos observar que en el sistema de referencia auxiliar, las aceleraciones observadas en una partícula o en el centro de masa de un cuerpo ya NO serán necesariamente consecuencia de una resultante de fuerzas de interacción no nula, con lo que al sistema de referencia (xyz) deberemos identificarlo como un sistema de referencia no inercial, en el que la ecuación de movimiento para una partícula o para el centro de masa de un cuerpo tendrá la forma indicada recientemente. 
+
+Teniendo en cuenta las conclusiones logradas resulta entonces que, todos los sistemas que se trasladen con velocidad constante respecto de un sistema inercial, serán también inerciales y por lo tanto en ellos será válida la ecuación de movimiento en la forma original. 
+
+# Fuerza Inercial.
+
+Mediante una simple operación algebraica es inmediato que la ecuación de movimiento, válida en un sistema de referencia no inercial, puede expresarse como: 
+
+$$
+\vec {\mathrm {F}} + \left(- \mathrm {m} \vec {\mathrm {A}} _ {\mathrm {X Y Z}}\right) = \mathrm {m} \vec {\mathrm {a}} _ {\mathrm {x y z}}
+$$
+
+Donde, si bien el término entre paréntesis tiene unidades de fuerza, es destacable que no es una fuerza, en cuanto a que no resulta de ninguna interacción. Sin embargo y teniendo en cuenta la anterior, es claro que a la aceleración del centro de masa de un cuerpo, determinada respecto del sistema de referencia no inercial (xyz), podremos pensarla como consecuencia de la presencia de un conjunto de interacciones, con una resultante de fuerzas no nula y además del término entre paréntesis al que hacemos referencia inicialmente. 
+
+Lo mencionado nos indica que al trabajar en un sistema de referencia no inercial, los cambios observados en el estado de movimiento de un cuerpo, caracterizados por su vector aceleración, sucederán como si dicho cuerpo estuviera sometido entre otras, a una “fuerza” dada por: 
+
+$$
+\vec {\mathrm {f}} = - \mathrm {m} \vec {\mathrm {A}} _ {\mathrm {X Y Z}} \quad 2. 0 8
+$$
+
+Que en adelante identificaremos como Fuerza Inercial, en términos de la cual la ecuación de movimiento, para un observador no inercial puede expresarse como: 
+
+$$
+\vec {\mathrm {F}} + \vec {\mathrm {f}} = \mathrm {m} \vec {\mathrm {a}} _ {\mathrm {x y z}} \tag {2.10}
+$$
+
+Cuya forma es "semejante" a la requerida para definir a un sistema como inercial. Sin embargo resulta muy importante tener presente que el término identificado como fuerza inercial, si bien tiene las unidades de una fuerza y los efectos dinámicos en el sistema no inercial son análogos a los que observaríamos en un sistema inercial como consecuencia de una interacción, este término no es una fuerza, NO caracteriza NI está asociado con ningún mecanismo de interacción, NO satisface el principio de acción y reacción, y por lo tanto no se lo debe confundir con lo que entendemos por una fuerza de interacción. 
+
+Finalmente, considerando un cuerpo libre de interacciones, cuyo movimiento se pretende describir respecto de un sistema de referencia no inercial, que como se indica en la figura, se traslada respecto de un sistema de referencia inercial sometido a una aceleración caracterizada por el vector (A), entonces, teniendo en cuenta las conclusiones anteriores, es claro que la aceleración del centro de masa del cuerpo respecto del sistema de referencia no inercial vendrá dada por: 
+
+$$
+\vec {\mathrm {a}} _ {\mathrm {x y z}} = - \vec {\mathrm {A}} _ {\mathrm {X Y Z}}
+$$
+
+![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-06/b3a6220b-45bb-4c1e-becd-1978a59ce41e/b3788116c2ed24f79e0b7d60e3efe5c35ae67359d7dca11ca557aefcc9915365.jpg)
+
+
+Que como podemos observar es independiente de la masa del cuerpo considerado y por lo tanto, todos los cuerpos, libres de interacciones, (independiente de cual sea su masa) se verán sometidos a la misma aceleración respecto de un sistema de referencia no inercial, aspecto este que volveremos a considerar en el tema siguiente dedicado al principio de equivalencia. 
+
+# 2.08 PRINCIPIO DE EQUIVALENCIA.
+
+Teniendo en cuenta lo considerado anteriormente, cuando un cuerpo de masa (m) interactúa gravitatoriamente con un planeta de masa (M), como el sugerido en la figura siguiente, en el que experimentalmente hemos verificado la validez de la ecuación de Newton en su forma original y que por lo tanto podemos considerarlo como un sistema de referencia inercial, la aceleración del centro de masa del cuerpo respecto de un sistema de referencia fijo al planeta resultó independiente de la masa del cuerpo y venía dada por: 
+
+$$
+\mathbf {a} = \mathbf {G} \frac {\mathbf {M}}{\mathbf {r} ^ {2}}
+$$
+
+![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-06/b3a6220b-45bb-4c1e-becd-1978a59ce41e/4815645ad5660409f742ce5a262efb74d2ca9a51e0b2368c9869857bbc711134.jpg)
+
+
+Consideremos ahora un observador en el interior de un recinto, como el sugerido en la figura lateral, quién experimentalmente verifica que al dejar en libertad cuerpos de diferentes masas, se mueven sometidos a la misma aceleración respecto de su sistema de referencia. 
+
+Teniendo en cuenta las conclusiones anteriores es claro que el observador se preguntará si el fenómeno es consecuencia de la interacción gravitatoria con un planeta, como se sugiere en la figura (a) o es consecuencia de que los cuerpos están libres de interacción y su recinto se acelera respecto de un sistema de referencia (XYZ) inercial, como se sugiere en la figura (b). 
+
+![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-06/b3a6220b-45bb-4c1e-becd-1978a59ce41e/5286400466b9b07dfedf01872ac13b744cf1cd17feaa2e5fe4f988baa50dd53e.jpg)
+
+
+![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-06/b3a6220b-45bb-4c1e-becd-1978a59ce41e/d0c7ea8a284ecf5aa30f1d5eb80d9e2c58cb92944752cdbedbe0ce22ef424759.jpg)
+
+
+![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-06/b3a6220b-45bb-4c1e-becd-1978a59ce41e/8075f7b60127e1c5f77513767b03826873d0e57b4d446553ff8d3b0769be7204.jpg)
+
+
+Lamentablemente, la naturaleza está hecha de manera que nuestro observador no podrá encontrar un mecanismo que le permita contestar su pregunta sin abandonar su recinto, lo que podemos enunciar como que: 
+
+Es imposible diferenciar entre los efectos dinámicos asociados con una interacción gravitatoria, de los que resultan como consecuencia de las fuerzas inerciales que existen en un sistema no inercial. 
+
+Enunciado que en adelante reconoceremos como Principio de Equivalencia, que como veremos es en realidad una consecuencia de un principio más general relacionado con la proporcionalidad entre masa inercial y gravitatoria que no se ha sido en cuenta a lo largo de los temas considerados hasta el momento. 
+
+# Masa Inercial y Masa Gravitatoria.
+
+Al considerar las características de las fuerzas que resultan de la interacción gravitatoria entre dos partículas de masas $\left( \mathbf { m } _ { 1 } \right)$ ) y $\left( \mathbf { m } _ { 2 } \right)$ hemos dicho que el módulo de las mismas viene dado por: 
+
+$$
+\mathrm {F} = \mathrm {G} \frac {\mathrm {m} _ {1} \mathrm {m} _ {2}}{\mathrm {r} _ {2 1} ^ {2}}
+$$
+
+Donde aún cuando no lo manifestáramos explícitamente, hemos supuesto que las masas involucradas en la expresión son las masas inerciales de cada una de las partículas, siendo éste, un aspecto que requiere revisión, ya que estrictamente, las magnitudes involucradas en la expresión anterior NO caracterizan la inercia de cada una de las partículas, caracterizan una propiedad diferente que los cuerpos poseen y que está relacionada con la "capacidad" de interactuar gravitatoriamente a distancia, motivo por lo que en adelante las identificaremos como masas gravitatorias, por lo que en principio, al igualar la anterior con la ecuación de Newton no deberíamos simplificar las masas involucradas en dicha igualdad como lo hicimos cuando llegamos a la conclusión de que “la aceleración del centro de masa de un cuerpo respecto de un sistema de referencia fijo a un planeta inercial es independiente de la masa del cuerpo considerado. 
+
+Sin embargo le ley de caída de los cuerpos enunciada en 1600 por Galileo Galilei, según la cual “todos los cuerpos independiente de la masa que tengan caen con la misma aceleración” requiere que sea posible realizar la simplificación a la que hacemos referencia en el párrafo anterior, a pesar de que las masas involucradas caractericen propiedades diferentes, interpretando a la masa gravitatoria $\mathrm { ( m _ { g } ) }$ como una magnitud proporcional a la masa inercial (mi). 
+
+$$
+m _ {g} = k m _ {i}
+$$
+
+Donde (k) es una constante universal independiente del cuerpo considerado, con lo que el módulo de las fuerzas que resultan de la interacción gravitatoria entre dos partículas debería expresarse, en término de las masas inerciales como: 
+
+$$
+\mathrm {F} = \mathrm {G k} ^ {2} \frac {\mathrm {m} _ {1} \mathrm {m} _ {2}}{\mathrm {r} _ {2 1} ^ {2}}
+$$
+
+Teniendo en cuenta que la constante de proporcionalidad es una constante universal, es claro que eligiendo el mismo cuerpo patrón como unidad de masa gravitatoria e inercial, la mencionada constante resultará unitaria y adimensional, y por lo tanto no será necesario diferenciar entre ambas masas, con lo que el módulo de las fuerzas que resultan de la interacción gravitatoria entre dos partículas puede continuar expresándose en términos de las masas inerciales como: 
+
+$$
+\mathrm {F} = \mathrm {G} \frac {\mathrm {m} _ {1} \mathrm {m} _ {2}}{\mathrm {r} _ {2 1} ^ {2}}
+$$
+
+Sin embargo y a pesar de que bajo las condiciones indicadas, ambas masas pueden “identificarse”, es necesario remarcar que caracterizan propiedades diferentes y por lo tanto son conceptualmente diferentes. 
+
+Teniendo en cuenta lo mencionado y tal como lo adelantáramos anteriormente, veremos que el principio de equivalencia enunciado en dicha oportunidad es en realidad una consecuencia de la proporcionalidad existente entre la masa inercial y gravitatoria, más específicamente, una consecuencia de que la constante de proporcionalidad entre dichas masas es una constante universal. Con este propósito supongamos como válido lo opuesto a lo indicado, esto es que la constante de proporcionalidad entre ambas masas no fuera una constante universal, en cuyo caso es claro que la relación formal entre dichas masas quedaría expresada como: 
+
+$$
+\mathbf {m} _ {\mathrm {g l}} = \mathbf {k} _ {1} \mathbf {\Delta m} _ {\mathrm {i l}}
+$$
+
+$$
+\mathrm {m _ {g 2} = k _ {2} m _ {i 2}}
+$$
+
+Con lo que el módulo de la fuerza gravitatoria entre las partículas resultaría: 
+
+$$
+\mathrm {F} = \mathrm {G k} _ {1} \mathrm {k} _ {2} \frac {\mathrm {m} _ {1} \mathrm {m} _ {2}}{\mathrm {r} _ {2 1} ^ {2}}
+$$
+
+Y por lo tanto el módulo de la fuerza gravitatoria a que se vería sometida una partícula de masa inercial (m), como consecuencia de su interacción con un planeta de masa inercial (M) vendría dado por: 
+
+$$
+\mathrm {F} = \mathrm {G k K} \frac {\mathrm {m M}}{\mathrm {r} ^ {2}}
+$$
+
+Donde, (k) y (K) serían las correspondientes constantes de proporcionalidad entre las masas, gravitatoria e inercial, del cuerpo y del planeta respectivamente. Con lo que la aceleración del centro de masa del cuerpo respecto de un sistema de referencia fijo al planeta (supuestamente inercial) sería: 
+
+$$
+\mathrm {a} = \mathrm {G k K} \frac {\mathrm {M}}{\mathrm {r} ^ {2}}
+$$
+
+Claramente dependiente del cuerpo considerado a través de la constante de proporcionalidad entre su masa gravitatoria e inercial. Por lo tanto ya no sería imposible diferenciar entre los efectos dinámicos generados por fuerzas gravitatorias de aquellos asociados con fuerzas inerciales, ya que las aceleraciones que resulten como consecuencia de estas últimas continuarían siendo independientes de la masa del cuerpo considerado. 
+
+De lo expuesto resulta entonces correcto afirmar que lo indicado como principio de equivalencia es en realidad una consecuencia de la proporcionalidad entre masa inercial y gravitatoria, o más específicamente: 
+
+Una consecuencia de que la constante de proporcionalidad entre ambas masas es una constante universal 
+
+Como una ilustración del tema considerado se recomienda ejecutar el video 07-Equivalencia.dcr y como una adecuada introducción a la relatividad general, publicada por Einsten alrededor del año 1905, el video 08-IntroRelaGral.wmv, y finalmente, como una ilustración de sus aplicaciones a los problemas cosmológicos, se recomienda el video 09-Hawking.wmv 

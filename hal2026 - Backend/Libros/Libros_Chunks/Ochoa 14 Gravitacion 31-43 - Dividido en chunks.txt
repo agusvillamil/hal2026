@@ -1,0 +1,874 @@
+Archivo  : Libros/Libros_Markdown/MinerU_markdown_Ochoa-14-Gravitacion-031-043_2042433560669450240.md
+Chunks   : 27
+
+────────────────────────────────────────────────────────────
+Chunk 1 (32 chars)
+────────────────────────────────────────────────────────────
+# 1.10 INTERACCIÓN GRAVITATORIA.
+
+────────────────────────────────────────────────────────────
+Chunk 2 (2972 chars)
+────────────────────────────────────────────────────────────
+RIA.
+
+Consideraremos a continuación aspectos vinculados con una de las interacciones más importantes en la naturaleza, en cuanto a que siempre estará presente ante la existencia de dos cuerpos cualesquiera y que en adelante identificaremos como Interacción Gravitatoria. 
+
+La interacción a la que hacemos referencia y que se encuentra directamente vinculada con la presencia de materia, da lugar a fuerzas que generalmente son de módulos pequeños y por lo tanto se necesitan instrumentos de mucha precisión, o bien diseñar experiencias con cierto nivel de sofisticación, para poder hacer determinaciones que permitan constatar la presencia de dicha interacción. 
+
+Sin embargo cuando las masas de los cuerpos que interactúan son de magnitudes importantes, como la masa de un planeta, por ejemplo la Tierra, o la masa de una estrella, por ejemplo el Sol, las fuerzas que resultan son de magnitudes tales que dan lugar a fenómenos fácilmente observables, como la caída de un cuerpo o el movimiento de los planetas en órbitas elípticas alrededor del Sol. 
+
+Suponiendo la existencia de dos partículas de masas (m1) y (m2) como las mostradas en la figura siguiente, la interacción gravitatoria existente entre ellas, dará lugar a un par de fuerzas atractivas, aplicadas sobre cada una de las partículas involucradas.
+
+[Descripción de imagen: La imagen muestra dos masas $m_1$ y $m_2$  conectadas por un segmento de línea azul que representa la distancia entre ellas. Sobre este segmento, el vector $\vec{r}_{21}$  indica la posición de $m_2$  respecto a $m_1$.  Los vectores $\vec{F}_{12}$ y $\vec{F}_{21}$ representan las fuerzas de interacción entre las masas, con puntos de aplicación en $m_1$  y $m_2$  respectivamente, y direcciones opuestas.]
+
+Donde:
+
+$$
+\vec {\mathrm {F}} _ {2 1} = - \vec {\mathrm {F}} _ {1 2}
+$$
+
+Y cuyos módulos, determinados experimentalmente, vienen dados por:
+
+$$
+F _ {2 1} = G \frac {m _ {1} m _ {2}}{r _ {2 1} ^ {2}} \tag {1.19}
+$$
+
+Conocida como la expresión formal de la Ley de Gravitación Universal, donde (G) es una constante universal, esto es, independiente de los cuerpos involucrados, cuyo valor, determinado experimentalmente y expresado en el sistema MKS es.
+
+$$
+\mathrm {G} = 6, 6 7. 1 0 ^ {- 1 1} \frac {\mathrm {N . m} ^ {2}}{\mathrm {k g} ^ {2}}
+$$
+
+Teniendo en cuenta lo manifestado es claro que la fuerza a que estará sometida la partícula (2) como resultado de su interacción gravitatoria con la partícula (1) podrá expresarse vectorialmente, como:
+
+$$
+\vec {\mathrm {F}} _ {2 1} = - \mathrm {G} \frac {\mathbf {m} _ {2} \mathbf {m} _ {1}}{\mathbf {r} _ {2 1} ^ {2}} \frac {\vec {\mathbf {r}} _ {2 1}}{\mathbf {r} _ {2 1}}
+$$
+
+Que podemos expresar como:
+
+$$
+\vec {\mathrm {F}} _ {2 1} = - \mathrm {G} \frac {\mathrm {m} _ {2} \mathrm {m} _ {1}}{\mathrm {r} _ {2 1} ^ {2}} \vec {\mathrm {e}} _ {\mathrm {r}} \tag {1.20}
+$$
+
+Donde:
+
+$$
+\vec {\mathrm {e}} _ {\mathrm {r}} = \frac {\vec {\mathrm {r}} _ {2 1}}{\mathrm {r} _ {2 1}}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 3 (1972 chars)
+────────────────────────────────────────────────────────────
+thbf {m} _ {1}}{\mathbf {r} _ {2 1} ^ {2}} \frac {\vec {\mathbf {r}} _ {2 1}}{\mathbf {r} _ {2 1}}
+$$
+
+Que podemos expresar como:
+
+$$
+\vec {\mathrm {F}} _ {2 1} = - \mathrm {G} \frac {\mathrm {m} _ {2} \mathrm {m} _ {1}}{\mathrm {r} _ {2 1} ^ {2}} \vec {\mathrm {e}} _ {\mathrm {r}} \tag {1.20}
+$$
+
+Donde:
+
+$$
+\vec {\mathrm {e}} _ {\mathrm {r}} = \frac {\vec {\mathrm {r}} _ {2 1}}{\mathrm {r} _ {2 1}}
+$$
+
+Es un vector radial unitario cuya dirección y sentido coincide con la del vector posición de la partícula 2 respecto de la 1.
+
+# Peso de un Cuerpo.
+
+Teniendo en cuenta lo indicado anteriormente, resulta que la fuerza gravitatoria a la que se verá sometido un cuerpo de masa (m) como resultado de su interacción con un Planeta de masa (M), como se sugiere en la figura siguiente, podremos expresarla como:
+
+$$
+\vec {\mathrm {F}} = - \mathrm {G} \frac {\mathrm {m M}}{\mathrm {r} ^ {2}} \vec {\mathrm {e}} _ {\mathrm {r}} \tag {1.21}
+$$
+
+Donde (r) es la distancia entre el centro de masa del cuerpo y el del planeta con el que interactúa y (er) el vector unitario en la dirección radial, que se muestra en la siguiente figura. En particular suponiendo al cuerpo sobre la superficie del planeta y pensando a éste como una esfera de radio (R), la fuerza gravitatoria a la que se verá sometido el cuerpo, que identificaremos como su peso en la superficie de dicho planeta, vendrá expresada por:
+
+[Descripción de imagen: La imagen representa un sistema de gravitación con una masa puntual $m$ y un cuerpo esférico de masa $M$. La fuerza de gravitación $\overrightarrow{F}_G$ se dirige a lo largo del vector posición $r$ y está representada por el vector $\overrightarrow{e}_r$. El punto de aplicación de la fuerza es la masa $m$ que se encuentra a una distancia $r$ del centro del cuerpo esférico de masa $M$, donde $R$ es el radio del cuerpo esférico.]
+
+$$
+\vec {\mathrm {F}} = - \mathrm {G} \frac {\mathrm {m M}}{\mathrm {R} ^ {2}} \vec {\mathrm {e}} _ {\mathrm {r}}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 4 (1045 chars)
+────────────────────────────────────────────────────────────
+817/49cc0bef5f3edd8ab37de834f277cc6083d4c8273d56640c34f1dbcd09d71568.jpg)
+
+$$
+\vec {\mathrm {F}} = - \mathrm {G} \frac {\mathrm {m M}}{\mathrm {R} ^ {2}} \vec {\mathrm {e}} _ {\mathrm {r}}
+$$
+
+Que en el caso de considerar la interacción con la Tierra y suponiendo a esta como una esfera, de la anterior obtenemos que la fuerza gravitatoria a la que se vera sometido un cuerpo de masa (m) sobre su superficie, que conocemos como el peso del cuerpo en la superficie del planeta, vendrá dado por:
+
+$$
+\vec {\mathrm {F}} = \mathrm {m} \vec {\mathrm {g}}
+$$
+
+Donde:
+
+$$
+\vec {\mathrm {g}} = - \mathrm {G} \frac {\mathrm {M}}{\mathrm {R} ^ {2}} \vec {\mathrm {e}} _ {\mathrm {r}}
+$$
+
+Magnitud que generalmente conocemos como “aceleración de la gravedad” que, como vemos, se trata de un vector cuya dirección coincide con la del vector radial unitario, dirigido hacia el centro de la tierra con un módulo que, teniendo en cuenta los valores para la masa y radio de la Tierra, resulta:
+
+$$
+\mathrm {g} = 9, 8 1 \frac {\mathrm {m}}{\mathrm {s} ^ {2}}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 5 (1248 chars)
+────────────────────────────────────────────────────────────
+enta los valores para la masa y radio de la Tierra, resulta:
+
+$$
+\mathrm {g} = 9, 8 1 \frac {\mathrm {m}}{\mathrm {s} ^ {2}}
+$$
+
+Siendo oportuno destacar que la fuerza consecuencia de esta interacción estará aplicada sobre todas y cada una de las partículas que forman los cuerpos interactuantes, sin embargo y en virtud de la conclusión obtenida al considerar un sistema de cuerpos puntuales, a los efectos de describir el comportamiento del centro de masa de los cuerpos involucrados, podremos suponer a la totalidad de estas fuerzas aplicadas en el centro de masa de cada uno de estos cuerpos, como se sugiere en la figura anterior. 
+
+Considerando nuevamente la interacción gravitatoria entre un cuerpo de masa (m) y la Tierra, cuya masa identificaremos con (M), la aceleración del centro de masa de cada uno de los cuerpos involucrados, respecto de un sistema de referencia, por ejemplo fijo al Sol, será tal que: 
+
+Centro de Masa del Cuerpo
+
+$$
+a = \frac {m g}{m} \quad \therefore \quad a = g
+$$
+
+Centro de Masa de la Tierra
+
+$$
+\mathrm {A} = \frac {\mathrm {m g}}{\mathrm {M}} \quad \therefore \quad \mathrm {a} = \frac {\mathrm {m}}{\mathrm {M}} \mathrm {g}
+$$
+
+Por lo tanto:
+
+$$
+\mathrm {A} = \frac {\mathrm {m}}{\mathrm {M}} \mathrm {a}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 6 (1837 chars)
+────────────────────────────────────────────────────────────
+} \quad \therefore \quad \mathrm {a} = \frac {\mathrm {m}}{\mathrm {M}} \mathrm {g}
+$$
+
+Por lo tanto:
+
+$$
+\mathrm {A} = \frac {\mathrm {m}}{\mathrm {M}} \mathrm {a}
+$$
+
+Como en la mayoría de las situaciones que consideraremos, la masa de la tierra es mucho mayor que la masa del cuerpo, de la anterior resulta que, a la aceleración del centro de masa de la tierra podremos despreciarla frente a la aceleración del centro de masa del cuerpo. 
+
+Como una interesante ilustración del tema, se recomienda ejecutar el video 04-Gravitación.wmv, al que puede acceder directamente o mediante el link incluido en la página de ingreso.
+
+# Fuerza Gravitatoria en el Interior de un Planeta.
+
+Considerando ahora un cuerpo en el interior de un planeta puede demostrarse que la fuerza gravitatoria a la que estará sometido es equivalente a la que obtendríamos como consecuencia de su interacción gravitatoria con la materia contenida en la esfera cuyo radio coincide con la distancia a la que se encuentra la partícula del centro del planeta, como se sugiere en la figura siguiente, con lo que designando con $( \mathbf { M } ^ { * } )$ a la masa contenida en la esfera de radio (r), la fuerza a la que se verá sometida la partícula vendrá dada por:
+
+[Descripción de imagen: La imagen representa un sistema físico en el que una masa puntual $m$ se encuentra en el interior de una esfera más grande de masa $M^{*}$ y radio $R$, a una distancia $r$ del centro de la esfera. La fuerza gravitatoria $\overrightarrow{F}_{G}^{*}$ actúa sobre la masa $m$ debido a la masa $M^{*}$, estando dirigida hacia el centro de la esfera.]
+
+$$
+\vec {\mathrm {F}} ^ {*} = - \mathrm {G} \frac {\mathrm {m M} ^ {*}}{\mathrm {r} ^ {2}} \vec {\mathrm {e}} _ {\mathrm {r}}
+$$
+
+Suponiendo constante la densidad de materia en el Planeta, y designando con (M) a su masa, entonces:
+
+────────────────────────────────────────────────────────────
+Chunk 7 (1671 chars)
+────────────────────────────────────────────────────────────
+athrm {F}} ^ {*} = - \mathrm {G} \frac {\mathrm {m M} ^ {*}}{\mathrm {r} ^ {2}} \vec {\mathrm {e}} _ {\mathrm {r}}
+$$
+
+Suponiendo constante la densidad de materia en el Planeta, y designando con (M) a su masa, entonces:
+
+$$
+\frac {\mathrm {M} ^ {*}}{\mathrm {r} ^ {3}} = \frac {\mathrm {M}}{\mathrm {R} ^ {3}} \quad \therefore \quad \mathrm {M} ^ {*} = \frac {\mathrm {M}}{\mathrm {R} ^ {3}} \mathrm {r} ^ {3}
+$$
+
+Con lo que, la fuerza gravitatoria a la que se verá sometido en el interior del planeta vendrá dada por:
+
+$$
+\vec {\mathrm {F}} ^ {*} = - \mathrm {G} \frac {\mathrm {m M}}{\mathrm {R} ^ {3}} \mathrm {r} \vec {\mathrm {e}} _ {\mathrm {r}} \tag {1.22}
+$$
+
+Que como vemos resulta proporcional a la distancia a la que se encuentra la partícula del centro del planeta, siendo interesante observar que, como era de esperar, (1.21) y (1.22) arrojan expresiones coincidentes para puntos sobre la superficie de la esfera, esto es, para puntos con ${ \bf r } = { \bf R }$ , en cuyo caso:
+
+$$
+\mathrm {F} = \mathrm {G} \frac {\mathrm {m M}}{\mathrm {R} ^ {2}}
+$$
+
+Finalmente, teniendo en cuenta las expresiones obtenidas para la fuerza gravitatoria a la que se verá sometida una partícula en puntos interiores y exteriores al Planeta, resulta que una gráfica cualitativa de dicha función se verá como se muestra en la figura lateral.
+
+[Descripción de imagen: La imagen muestra una gráfica de una fuerza gravitatoria $F_G$ en función de la distancia $r$. El vector de fuerza se dirige a lo largo del eje $F_G$ y el punto de aplicación está relacionado con el radio $R$ en el eje $r$. La curva magenta representa la variación de la fuerza gravitatoria con la distancia.]
+
+────────────────────────────────────────────────────────────
+Chunk 8 (2026 chars)
+────────────────────────────────────────────────────────────
+[Descripción de imagen: La imagen muestra una gráfica de fuerza gravitatoria $F_G$ vs distancia $r$ con un máximo en $r=R$; al disminuir $r$ por debajo de $R$ la fuerza disminuye rápidamente mientras que al aumentar $r$ por encima de $R$ la fuerza también disminuye pero más suavemente. No se observan vectores explícitamente representados en la imagen.]
+
+# Movimiento en el Interior de un Planeta.
+
+Consideremos la hipotética situación de una partícula que se deja caer desde la superficie terrestre en el interior de un túnel perforado diametralmente como se sugiere en la figura lateral y designando con (x) a la distancia a la que se encuentra la partícula del centro del planeta y teniendo en cuenta las conclusiones recientemente obtenidas, la partícula se verá sometida a una fuerza dirigida hacia el centro del planeta que vectorialmente podemos expresar como:
+
+$$
+\vec {\mathrm {F}} = - \mathrm {G} \frac {\mathrm {m M}}{\mathrm {R} ^ {3}} \mathrm {x} \vec {\mathrm {i}}
+$$
+
+[Descripción de imagen: La imagen muestra un círculo con un diámetro marcado por una línea blanca, con tres puntos rojos que indican posiciones en este diámetro. Se observa una flecha azul que representa un vector de desplazamiento o movimiento a lo largo del diámetro. No se aprecian ejes coordenados ni fuerzas representadas explícitamente.]
+
+Con lo que, y teniendo en cuenta la ecuación de Newton, de la anterior resulta:
+
+$$
+\mathrm {m} \ddot {\mathrm {x}} = - \mathrm {G} \frac {\mathrm {m M}}{\mathrm {R} ^ {3}} \mathrm {x} \quad \therefore \quad \ddot {\mathrm {x}} = - \mathrm {G} \frac {\mathrm {M}}{\mathrm {R} ^ {3}} \mathrm {x}
+$$
+
+Teniendo en cuenta que:
+
+$$
+\ddot {x} = \frac {d \dot {x}}{d t} = \frac {d \dot {x}}{d x} \frac {d x}{d t} = \frac {d \dot {x}}{d x} \dot {x}
+$$
+
+De las anteriores resulta:
+
+$$
+\dot {x} \frac {d \dot {x}}{d x} = - G \frac {M}{R ^ {3}} x
+$$
+
+De donde obtenemos:
+
+$$
+\dot {\mathrm {x}} \mathrm {d} \dot {\mathrm {x}} = - \mathrm {G} \frac {\mathrm {M}}{\mathrm {R} ^ {3}} \mathrm {x} \mathrm {d x}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 9 (1853 chars)
+────────────────────────────────────────────────────────────
+$$
+\dot {x} \frac {d \dot {x}}{d x} = - G \frac {M}{R ^ {3}} x
+$$
+
+De donde obtenemos:
+
+$$
+\dot {\mathrm {x}} \mathrm {d} \dot {\mathrm {x}} = - \mathrm {G} \frac {\mathrm {M}}{\mathrm {R} ^ {3}} \mathrm {x} \mathrm {d x}
+$$
+
+Que integrando entre límites compatibles con las condiciones iniciales involucradas nos queda:
+
+$$
+\int_ {\circ} ^ {\dot {\mathrm {x}}} \dot {\mathrm {x}} d \dot {\mathrm {x}} = - \int_ {\mathrm {R}} ^ {\mathrm {x}} \mathrm {G} \frac {\mathrm {M}}{\mathrm {R} ^ {3}} \mathrm {x} d \mathrm {x}
+$$
+
+De donde resulta:
+
+$$
+\dot {\mathrm {x}} ^ {2} = \mathrm {G} \frac {\mathrm {M}}{\mathrm {R} ^ {3}} \left(\mathrm {R} ^ {2} - \mathrm {x} ^ {2}\right)
+$$
+
+Con lo que el movimiento de la partícula estará acotado entre los extremos del túnel, ya que de lo contrario obtendríamos valores imaginarios para la velocidad de la partícula, lo que indudablemente carece de significado físico. Resultando que el cuadrado de la velocidad del centro de masa del cuerpo variará con su distancia al centro del planeta como se indica en la figura siguiente, donde la máxima velocidad del cuerpo la tendremos en el instante en que se anula su coordenada radial, esto es, en el instante en que pasa por el centro del planeta, y cuyo valor vendrá dado por:
+
+[Descripción de imagen: La imagen muestra una curva que representa una función escalar de una variable, presumiblemente relacionada con energía potencial efectiva, con un máximo en el origen y ceros en -R y R sobre el eje x. No se observan vectores ni fuerzas explícitas, pero podría interpretarse como relacionada con un sistema conservativo donde se preserva la energía.]
+
+Con el propósito de obtener una expresión para la coordenada radial en función del tiempo tengamos en cuenta que de la expresión obtenida para el cuadrado de su velocidad en función de su coordenada radial, resulta:
+
+────────────────────────────────────────────────────────────
+Chunk 10 (1354 chars)
+────────────────────────────────────────────────────────────
+n el propósito de obtener una expresión para la coordenada radial en función del tiempo tengamos en cuenta que de la expresión obtenida para el cuadrado de su velocidad en función de su coordenada radial, resulta:
+
+$$
+\frac {\mathrm {d} \mathbf {x}}{\mathrm {d} t} = \sqrt {\frac {\mathbf {G M}}{\mathbf {R} ^ {3}} \left(\mathbf {R} ^ {2} - \mathbf {x} ^ {2}\right)}
+$$
+
+$$
+\mathrm {d e} \quad \mathrm {d o n d e} \quad \frac {\mathrm {d x}}{\sqrt {\left(\mathrm {R} ^ {2} - \mathrm {x} ^ {2}\right)}} = \sqrt {\frac {\mathrm {G M}}{\mathrm {R} ^ {3}}} \mathrm {d t}
+$$
+
+Que definiendo la magnitud:
+
+$$
+\mathrm {w} = \sqrt {\frac {\mathrm {G M}}{\mathrm {R} ^ {3}}}
+$$
+
+Podemos expresar como:
+
+$$
+\frac {\mathrm {d} \mathbf {x}}{\sqrt {\left(\mathrm {R} ^ {2} - \mathbf {x} ^ {2}\right)}} = \mathrm {w} \mathrm {d t}
+$$
+
+Que al integrar ambos miembros entre los límites correspondientes nos queda:
+
+$$
+\int_ {R} ^ {x} \frac {d x}{\sqrt {\left(R ^ {2} - x ^ {2}\right)}} = w \int_ {0} ^ {t} d t
+$$
+
+De donde luego de efectuar la integración obtenemos:
+
+$$
+\operatorname {a r} \cos \left(\frac {\mathrm {X}}{\mathrm {R}}\right) = \mathrm {w t}
+$$
+
+Con lo que la coordenada radial de la partícula variará en el tiempo según:
+
+$$
+\mathrm {x} (t) = \mathrm {R} \cos (\mathrm {w t})
+$$
+
+$$
+\mathrm {x} (\mathrm {t} + \mathrm {T}) = \mathrm {x} (\mathrm {t})
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 11 (2027 chars)
+────────────────────────────────────────────────────────────
+partícula variará en el tiempo según:
+
+$$
+\mathrm {x} (t) = \mathrm {R} \cos (\mathrm {w t})
+$$
+
+$$
+\mathrm {x} (\mathrm {t} + \mathrm {T}) = \mathrm {x} (\mathrm {t})
+$$
+
+Cuya grafica cualitativa se muestra en la figura lateral, donde con T identificamos al tiempo al cabo del cual completa una oscilación, con lo que dicha magnitud, que en adelante identificaremos como período, deberá ser tal que:
+
+[Descripción de imagen: La imagen muestra una gráfica de una función sinusoidal que representa un movimiento armónico simple, donde el eje horizontal representa el tiempo (t) y el eje vertical representa la posición (X). El periodo (T) está indicado en la gráfica, correspondiente al tiempo necesario para completar un ciclo completo de la onda. No se observan vectores ni fuerzas explícitas en la imagen.]
+
+Por lo tanto deberá ser tal que:
+
+$$
+R \cos [ w (t + T) ] = R \cos (w t)
+$$
+
+Con lo que dicha magnitud estará relacionada con w mediante:
+
+$$
+w T = 2 \pi \quad \therefore \quad T = \frac {2 \pi}{w}
+$$
+
+Por lo tanto podemos afirmar que la partícula oscilará entre los extremos del túnel, con un período dado por:
+
+$$
+\mathrm {T} = 2 \pi \sqrt {\frac {\mathrm {R} ^ {3}}{\mathrm {G M}}}
+$$
+
+Definiendo la frecuencia como el número de oscilaciones que realiza en la unidad de tiempo, es claro que dicha magnitud estará relacionada con el período de la oscilación, mediante:
+
+$$
+v = \frac {1}{T}
+$$
+
+Con lo que de las anteriores resulta:
+
+$$
+w = 2 \pi v
+$$
+
+Que en adelante identificaremos como frecuencia angular. 
+
+Finalmente y teniendo en cuenta la expresión obtenida para la posición en función del tiempo, resulta que la velocidad y aceleración de la partícula en función del tiempo, vendrán dadas por:
+
+$$
+\mathrm {v} (\mathrm {t}) = - \mathrm {R w} \operatorname {s e n} (\mathrm {w t})
+$$
+
+$$
+\mathbf {a} (\mathbf {t}) = - \mathrm {R w} ^ {2} \cos (\mathrm {w t})
+$$
+
+Con lo que la posición, velocidad y aceleración de la partícula variarán en el tiempo como se muestra cualitativamente en las figuras siguientes.
+
+────────────────────────────────────────────────────────────
+Chunk 12 (2306 chars)
+────────────────────────────────────────────────────────────
+\mathrm {w t})
+$$
+
+$$
+\mathbf {a} (\mathbf {t}) = - \mathrm {R w} ^ {2} \cos (\mathrm {w t})
+$$
+
+Con lo que la posición, velocidad y aceleración de la partícula variarán en el tiempo como se muestra cualitativamente en las figuras siguientes.
+
+[Descripción de imagen: La imagen muestra una onda sinusoidal con una amplitud de 2 unidades y un periodo de 2π/2 = π unidades. La onda cruza el eje x en múltiplos enteros de π/2, presentando puntos de intersección en (0,0), (π/2, 0) y (π, 0) dentro del intervalo de 0 a 2π;  en el punto (0, 2) se observa el punto máximo de la onda, mientras que en (π/2, -2) se encuentra el punto mínimo.  El eje x representa el desplazamiento en unidades de longitud y el eje y representa la amplitud de la onda en unidades de distancia o desplazamiento.]
+
+[Descripción de imagen: La imagen muestra una curva sinusoidal con una amplitud de aproximadamente 5 unidades y un periodo de 2π/3 (o 2 unidades en el eje x). La curva tiene su eje de simetría en el eje x, con valores máximos y mínimos que oscilan entre 5 y -5 unidades en el eje y. No se observan vectores ni fuerzas explícitas en la gráfica.]
+
+[Descripción de imagen: La imagen muestra una grafica de una función sinusoidal, con un eje x que oscila entre 0 y 4 y un eje y que oscila entre -16 y 16. El punto de aplicación de cada fuerza en este caso no es visible al ser una gráfica, pero el vector de amplitud en el eje y es de 15 unidades.]
+
+Como una interesante ilustración del tema, se recomienda ejecutar la simulación a la que puede acceder ejecutando el archivo 03-Tunel.htm, destinada a ilustrar las características del movimiento de un cuerpo a lo largo de túneles cuya geometría podrá establecer manualmente, donde podrá observar que el período de la oscilación es independiente de la longitud del túnel considerado.
+
+# Fenómeno de Aparente Ingravidez.
+
+Pensemos ahora en el caso de un cuerpo de masa (m), sometido a la interacción gravitatoria con un planeta de masa (M), como el sugerido en la figura siguiente, en donde experimentalmente hemos verificado la validez de la ecuación de Newton, con lo que, el módulo de la aceleración del centro de masa del cuerpo respecto de un sistema de referencia fijo al planeta será tal que:
+
+$$
+\mathrm {m a} = \mathrm {G} \frac {\mathrm {m M}}{\mathrm {r} ^ {2}}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 13 (2155 chars)
+────────────────────────────────────────────────────────────
+o que, el módulo de la aceleración del centro de masa del cuerpo respecto de un sistema de referencia fijo al planeta será tal que:
+
+$$
+\mathrm {m a} = \mathrm {G} \frac {\mathrm {m M}}{\mathrm {r} ^ {2}}
+$$
+
+De donde obtenemos que dicha aceleración vendrá dada por:
+
+[Descripción de imagen: La imagen muestra un sistema de coordenadas cartesianas con un círculo amarillo a la izquierda y un objeto puntual de masa "m" a la derecha. El objeto está sometido a una aceleración "a" en la dirección del eje X, y el sistema de coordenadas tiene ejes X e Y que se intersectan en el centro del círculo. El vector aceleración "a" se representa con una flecha magenta y se aplica en el punto de masa "m".]
+
+Que como vemos resulta, independiente de la masa del cuerpo considerado, siendo este el motivo por el que los objetos y astronautas flotan respecto de su nave espacial en órbita alrededor de un planeta, ya que la nave y todo su contenido estarán sometidos a la misma aceleración y como todo el sistema partió con iguales condiciones iniciales, la nave espacial, su contenido y los astronautas se moverán con la misma velocidad dando lugar al fenómeno de ingravidez, que nada tiene que ver con la ausencia de gravedad como se suele creer comúnmente. Justamente la presencia de la fuerza gravitatoria es la que mantiene en órbita el sistema. 
+
+Como una interesante ilustración del tema, se recomienda ejecutar el video 05-Ingravidez.wmv, al que puede acceder directamente o mediante el link incluido en la página de ingreso.
+
+# 1.11 TIRO DE CORTO ALCANCE.
+
+# Tiro Vertical.
+
+Como otra aplicación del manejo de componentes cartesianas, y del tema tratado anteriormente, consideraremos el caso de una partícula que se lanza verticalmente con una determinada velocidad inicial, como se sugiere en la figura siguiente.
+
+[Descripción de imagen: La imagen muestra un sistema de coordenadas con un vector velocidad inicial  v0 orientado verticalmente hacia arriba desde el punto X0 en el eje x, y un vector aceleración g que apunta hacia abajo en un ángulo de 45 grados respecto a los ejes coordenados. El punto de aplicación de la fuerza o vector es en X0 para v0.]
+
+────────────────────────────────────────────────────────────
+Chunk 14 (2127 chars)
+────────────────────────────────────────────────────────────
+[Descripción de imagen: La imagen muestra un sistema de coordenadas cartesianas con un vector velocidad inicial  v0 orientado verticalmente hacia arriba desde el punto X0, y un vector aceleracion g que apunta hacia abajo. El eje vertical se etiqueta como "y" y el eje horizontal como "X".]
+
+Suponiendo despreciable su interacción con la atmósfera y que el módulo de la velocidad inicial es pequeño como para aceptar que no se aleja demasiado de la superficie terrestre, entonces podremos suponer que la fuerza gravitatoria y por lo tanto la aceleración de la partícula será constante con un módulo de $9 , 8 1 ~ \mathrm { m } / \mathrm { s } ^ { 2 }$ dirigida verticalmente hacia el centro del planeta, como se sugiere en la figura anterior. 
+
+Teniendo en cuenta lo indicado, de (1.8) y (1.9), resulta que la única componente del vector velocidad nos queda en la dirección vertical, y variará en el tiempo según:
+
+$$
+\mathbf {v} (\mathbf {t}) = \mathbf {v} _ {\circ} - \mathbf {g} \mathbf {t}
+$$
+
+Con lo que su coordenada vertical en función del tiempo vendrá dada por:
+
+$$
+\mathbf {y} (\mathbf {t}) = \mathbf {v} _ {\circ} \mathbf {t} - \frac {1}{2} \mathbf {g} \mathbf {t} ^ {2}
+$$
+
+Resultando para cada una de las funciones, gráficas cualitativas como las que se muestran a continuación, obtenidas para una velocidad inicial de $7 \mathrm { m / s }$
+
+[Descripción de imagen: La imagen muestra una grafica velocidad vs tiempo, en la que se observa una recta con pendiente negativa. La velocidad inicial es de aproximadamente 7 unidades, y la velocidad final es de -8 unidades. En el punto t_m, marcado con una flecha, la velocidad es nula, lo cual indica que alli hay un punto de giro o cambio de direccion.]
+
+[Descripción de imagen: La imagen muestra una trayectoria en forma de parábola que representa la posición en el eje y en función del tiempo, donde el punto más alto de la curva, ymax, indica el desplazamiento máximo vertical alcanzado, y tv, el tiempo de vuelo. No se observan vectores ni fuerzas explícitas; sin embargo, se puede inferir que la aceleración de la gravedad actúa en sentido negativo sobre el eje y.]
+
+────────────────────────────────────────────────────────────
+Chunk 15 (1519 chars)
+────────────────────────────────────────────────────────────
+2227b77b9d6869ea90364376e37626cee07.jpg)
+
+[Descripción de imagen: La imagen muestra una gráfica con un vector posición en función del tiempo, donde el eje vertical (y) representa la altura y el eje horizontal (t) el tiempo. El punto de aplicación de la altura máxima está dado por ymax en el instante tv. No se observan fuerzas en la gráfica.]
+
+Puesto que la altura máxima $\mathrm { { ( y _ { m } ) } }$ es alcanzada en el instante en que se invierte el sentido del movimiento, y por lo tanto en el instante en que la velocidad de la partícula se anula, de las anteriores resulta claro que el tiempo al cabo del cual se alcanza dicha altura deberá ser tal que:
+
+$$
+v _ {o} - g t _ {m} = 0 \quad \therefore \quad t _ {m} = \frac {v _ {o}}{g}
+$$
+
+Con lo que la altura máxima vendrá dada por:
+
+$$
+\mathbf {y} _ {\mathrm {m}} = \mathbf {v} _ {\circ} t _ {\mathrm {m}} - \frac {1}{2} \mathbf {g} t _ {\mathrm {m}} ^ {2} \quad \therefore \quad \mathbf {y} _ {\mathrm {m}} = \frac {\mathbf {v} _ {\circ} ^ {2}}{2 \mathbf {g}}
+$$
+
+Definiendo el tiempo de vuelo (tV), como el tiempo al cabo del cual la coordenada vertical toma el mismo valor que aquel desde donde fue lanzada, de las anteriores resulta:
+
+$$
+t _ {v} = 2 \frac {v _ {o}}{g}
+$$
+
+Finalmente, eliminando el tiempo de las expresiones para la velocidad y posición del proyectil, resulta que la velocidad en función de la coordenada vertical, vendrá dada por.
+
+$$
+\mathbf {v} (\mathbf {y}) = \pm \left(\mathbf {v} _ {\circ} ^ {2} - 2 \mathbf {g y}\right) ^ {1 / 2}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 16 (1363 chars)
+────────────────────────────────────────────────────────────
+$$
+\mathbf {v} (\mathbf {y}) = \pm \left(\mathbf {v} _ {\circ} ^ {2} - 2 \mathbf {g y}\right) ^ {1 / 2}
+$$
+
+# Laboratorio Virtual III.
+
+# Tiro Vertical de Corto Alcance.
+
+Ejecutando el archivo 04-Vertical.htm, incluido en la carpeta del mismo nombre, podrá acceder a una simulación que le permitirá realizar lanzamientos verticales de proyectiles con diferentes condiciones iniciales y observar, las variaciones temporales de su vector velocidad, la gráfica de su coordenada vertical en función del tiempo y determinar el tiempo de vuelo de dicho proyectil mediante el cronómetro que la simulación ofrece en el vértice superior izquierdo. 
+
+Con dicha simulación deberá realizar por lo menos tres lanzamientos desde el origen con diferentes velocidades iniciales y en cada caso, determinar el tiempo de vuelo del proyectil para obtener a partir de dicha medición, la velocidad de cada lanzamiento y la máxima altura alcanzada por el mismo, teniendo en cuenta que para la situación en consideración.
+
+$$
+t _ {v} = 2 \frac {v _ {o}}{g}
+$$
+
+$$
+\mathrm {y} _ {\mathrm {m}} = \frac {\mathrm {v} _ {\circ} ^ {2}}{2 \mathrm {g}}
+$$
+
+Con el propósito de mejorar la calidad de los resultados y para cada lanzamiento, deberá determinar, por lo menos, cinco valores del tiempo de vuelo y con ellos el un promedio de dicha magnitud, para emplearlo en los cálculos solicitados.
+
+────────────────────────────────────────────────────────────
+Chunk 17 (1685 chars)
+────────────────────────────────────────────────────────────
+ltados y para cada lanzamiento, deberá determinar, por lo menos, cinco valores del tiempo de vuelo y con ellos el un promedio de dicha magnitud, para emplearlo en los cálculos solicitados.
+
+# Tiro Oblicuo de Corto Alcance.
+
+Consideraremos a continuación el caso de una partícula lanzada oblicuamente, bajo condiciones similares a las requeridas para un tiro vertical, como se sugiere en la figura siguiente, donde suponemos que el punto de lanzamiento coincide con el origen del sistema de coordenadas empleado para evaluar las ecuaciones vectoriales involucradas. Con lo que la situación en consideración difiere 
+
+de la anterior únicamente en lo que a las condiciones iniciales del problema se refieren, que en este caso podemos expresar como.
+
+$$
+\vec {\mathrm {r}} _ {\mathrm {o}} = 0
+$$
+
+$$
+\vec {v} _ {\circ} = v _ {\circ} \cos (\alpha) \vec {i} + v _ {\circ} \sin (\alpha) \vec {j}
+$$
+
+[Descripción de imagen: La imagen muestra un sistema de coordenadas cartesianas con un vector velocidad inicial $\overrightarrow{v_0}$ que forma un ángulo $\alpha$ con el eje x. El vector $\overrightarrow{g}$ representa la aceleración de la gravedad y está orientado en la dirección negativa del eje y. El punto de aplicación de $\overrightarrow{v_0}$ se encuentra en el origen del sistema de coordenadas.]
+
+Donde es el ángulo entre la dirección en que se efectúa el lanzamiento y la dirección horizontal, con lo que las componentes cartesianas del vector velocidad en el instante inicial, nos quedan expresadas como:
+
+$$
+\mathbf {v} _ {\circ \mathrm {x}} = \mathbf {v} _ {\circ} \cos (\alpha)
+$$
+
+$$
+\mathbf {v} _ {\circ \mathrm {y}} = \mathbf {v} _ {\circ} \operatorname {s e n} (\alpha)
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 18 (1805 chars)
+────────────────────────────────────────────────────────────
+resadas como:
+
+$$
+\mathbf {v} _ {\circ \mathrm {x}} = \mathbf {v} _ {\circ} \cos (\alpha)
+$$
+
+$$
+\mathbf {v} _ {\circ \mathrm {y}} = \mathbf {v} _ {\circ} \operatorname {s e n} (\alpha)
+$$
+
+Empleando la notación indicada y teniendo en cuenta que nuevamente el vector aceleración tiene únicamente componente en la dirección vertical, de (1.8) y (1.9) obtenemos que las componentes cartesianas del vector velocidad de la partícula en función del tiempo vendrán dadas por:
+
+$$
+\mathbf {v} _ {\mathrm {x}} (\mathbf {t}) = \mathbf {v} _ {\circ \mathrm {x}}
+$$
+
+$$
+\mathbf {v _ {\mathrm {y}}} (t) = \mathbf {v} _ {\mathrm {o y}} - \mathbf {g} t
+$$
+
+Con lo que estamos en condiciones de garantizar que la componente horizontal de dicha magnitud permanecerá constante mientras la componente vertical variará linealmente con el tiempo como se muestra en la figura lateral, para una velocidad inicial de $1 0 \ \mathrm { \ m / s }$ y un ángulo de lanzamiento de $4 5 ^ { \circ }$ .
+
+[Descripción de imagen: La grafica muestra la componente vertical de la velocidad (Vy) en función del tiempo (t). El vector velocidad Vy es positivo en el eje y en el intervalo de tiempo inicial hasta tm y negativo para el intervalo de tiempo despues de tm. El punto de aplicación de tm se observa en el eje de tiempo en aproximadamente 0.8 unidades.]
+
+Teniendo en cuenta que el proyectil alcanza la máxima altura en el instante en que se anula la componente vertical de su vector velocidad, resulta que dicho instante será tal que.
+
+$$
+\mathbf {v} _ {\circ \mathrm {y}} - \mathbf {g t} _ {\mathrm {m}} = 0
+$$
+
+De donde obtenemos
+
+$$
+t _ {m} = \frac {V _ {\circ y}}{g}
+$$
+
+Teniendo en cuenta nuevamente las expresiones (1.8) y (1.9), de las anteriores resulta que, las componentes cartesianas del vector posición, vendrán dadas por:
+
+────────────────────────────────────────────────────────────
+Chunk 19 (1890 chars)
+────────────────────────────────────────────────────────────
+e obtenemos
+
+$$
+t _ {m} = \frac {V _ {\circ y}}{g}
+$$
+
+Teniendo en cuenta nuevamente las expresiones (1.8) y (1.9), de las anteriores resulta que, las componentes cartesianas del vector posición, vendrán dadas por:
+
+$$
+\mathbf {x} (\mathfrak {t}) = \mathbf {v} _ {\circ \mathbf {X}} \mathfrak {t}
+$$
+
+$$
+\mathbf {y} (\mathbf {t}) = \mathbf {v} _ {\circ \mathbf {y}} \mathbf {t} - \frac {1}{2} \mathbf {g} \mathbf {t} ^ {2}
+$$
+
+Cuyas gráficas cualitativas se muestran en las figuras siguientes para un lanzamiento con las condiciones iniciales consideradas anteriormente:
+
+[Descripción de imagen: La imagen muestra una grafica con un vector posicion  en el eje Y y tiempo en el eje X, con un punto de aplicación en el origen. Muestra un movimiento rectilíneo uniforme con velocidad constante, la recta parte del origen de coordenadas.]
+
+[Descripción de imagen: La imagen muestra una curva que representa la trayectoria de un objeto en función del tiempo, donde el eje horizontal (eje x) representa el tiempo (t) y el eje vertical (eje y) representa la posición (y). La curva tiene un punto máximo etiquetado como ym. No se observan vectores ni fuerzas explícitas en la gráfica.]
+
+Teniendo en cuenta la expresión obtenida para el instante en que el proyectil alcanza la máxima altura, resulta que dicha magnitud, indicada en la figura anterior, vendrá dada por:
+
+$$
+\mathbf {y} _ {\mathrm {m}} = \frac {\mathbf {v} _ {\circ \mathrm {y}} ^ {2}}{2 \mathbf {g}}
+$$
+
+Y de la expresión para la coordenada horizontal en función del tiempo, obtenemos que el valor de dicha coordenada en ese instante, vendrá dada por.
+
+$$
+\mathbf {x} _ {\mathrm {m}} = \frac {\mathbf {v} _ {\circ \mathrm {x}} \mathbf {v} _ {\circ \mathrm {y}}}{\mathbf {g}}
+$$
+
+Que expresadas en término del ángulo con el que se efectúa el lanzamiento nos quedan:
+
+$$
+y _ {m} = \frac {v _ {\circ} ^ {2} s e n ^ {2} (\alpha)}{2 g}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 20 (1998 chars)
+────────────────────────────────────────────────────────────
+{x}} \mathbf {v} _ {\circ \mathrm {y}}}{\mathbf {g}}
+$$
+
+Que expresadas en término del ángulo con el que se efectúa el lanzamiento nos quedan:
+
+$$
+y _ {m} = \frac {v _ {\circ} ^ {2} s e n ^ {2} (\alpha)}{2 g}
+$$
+
+$$
+\mathbf {x} _ {\mathrm {m}} = \frac {\mathrm {v} _ {\circ} ^ {2} \operatorname {s e n} (\alpha) \cos (\alpha)}{\mathrm {g}}
+$$
+
+Con el propósito de obtener la ecuación de la trayectoria a lo largo de la que se desplazará la partícula procederemos a eliminar el tiempo entre las componentes cartesianas del vector posición. Para esto, de la componente horizontal obtenemos:
+
+$$
+t = \frac {X}{V _ {\circ X}}
+$$
+
+Con lo que, la ecuación de la trayectoria, a lo largo de la que se desplazará el proyectil nos queda:
+
+$$
+y = \frac {v _ {\circ y}}{v _ {\circ x}} x - \frac {1}{2} \frac {g}{v _ {\circ x} ^ {2}} x ^ {2}
+$$
+
+Que corresponde a una parábola, cuya gráfica se muestra en la figura siguiente, para las mismas condiciones iniciales que las empleadas en las gráficas anteriores, o sea una velocidad de $\cdot$ y un ángulo de $4 5 ^ { \circ }$ .
+
+[Descripción de imagen: La imagen muestra una trayectoria curva en el plano cartesiano, representando posiblemente la trayectoria de un proyectil bajo la influencia de la gravedad, donde el eje x representa la distancia horizontal y el eje y representa la altura vertical. El punto de aplicación inicial de la fuerza o lanzamiento se encuentra en el origen (0,0) y la curva tiene su punto máximo aproximadamente en (5, 2.5). No se observan vectores explícitos de fuerzas, pero se puede inferir la influencia de la aceleración debida a la gravedad actuando en dirección opuesta al eje y.]
+
+Designando como tiempo de vuelo al intervalo de tiempo necesario para que la coordenada vertical vuelva a tomar el valor inicial, resulta que para un lanzamiento desde el origen del sistema de referencia, dicho tiempo será tal que:
+
+$$
+\mathbf {v} _ {\circ \mathbf {y}} t _ {\mathbf {v}} - \frac {1}{2} \mathbf {g} t _ {\mathbf {v}} ^ {2} = 0
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 21 (1952 chars)
+────────────────────────────────────────────────────────────
+para un lanzamiento desde el origen del sistema de referencia, dicho tiempo será tal que:
+
+$$
+\mathbf {v} _ {\circ \mathbf {y}} t _ {\mathbf {v}} - \frac {1}{2} \mathbf {g} t _ {\mathbf {v}} ^ {2} = 0
+$$
+
+Desechando la solución trivial que corresponde al instante del lanzamiento, de la anterior resulta que el tiempo de vuelo vendrá dado por:
+
+$$
+t _ {v} = 2 \frac {v _ {o y}}{g}
+$$
+
+Que como era de esperar, dada la simetría de la trayectoria, resulta el doble del tiempo que el proyectil tarda en alcanzar su máxima altura. 
+
+Teniendo en cuenta esta conclusión en la expresión obtenida para la coordenada horizontal en función del tiempo, resulta que el valor de dicha coordenada, en el instante en que nuevamente se anula la coordenada vertical, que en adelante identificaremos como alcance del proyectil, vendrá dado por:
+
+$$
+A = 2 \frac {V _ {\circ x} V _ {\circ y}}{g}
+$$
+
+Que en términos del ángulo con el que se efectúa el lanzamiento, nos queda.
+
+$$
+A = 2 \frac {v _ {\circ} ^ {2} \operatorname {s e n} (\alpha) \cos (\alpha)}{g}
+$$
+
+Resultando para la altura máxima y alcance de un proyectil, gráficas en función del ángulo de lanzamiento, como las que se muestran a continuación, para una velocidad inicial de $\cdot$ y para un rango entre $0 \ y \pi / 2$ .
+
+[Descripción de imagen: La imagen muestra una gráfica con un eje horizontal etiquetado como α y un eje vertical etiquetado como ym. La curva representada es una función que aumenta con α, partiendo desde el origen de coordenadas (0,0) y creciendo de manera no lineal hasta un valor máximo aproximado de 5 en el eje ym. No se observan vectores ni fuerzas explícitas en la gráfica.]
+
+[Descripción de imagen: La imagen muestra una gráfica con una curva que representa una relación entre dos variables, A y α. No se observan vectores, fuerzas, ejes coordenados con nombres específicos ni puntos de aplicación明确os, solo una curva continua que alcanza un máximo en torno a α=0.8 y A=10.]
+
+────────────────────────────────────────────────────────────
+Chunk 22 (2070 chars)
+────────────────────────────────────────────────────────────
+1467be776c666ccc58679ec87b341f560d1.jpg)
+
+[Descripción de imagen: La imagen muestra una curva que representa una función, donde el eje horizontal está etiquetado como α (alfa) y el eje vertical está etiquetado con la letra A. No se observan vectores ni fuerzas explícitas, pero la curva sugiere una relación entre las variables A y α, posiblemente relacionada con un fenómeno físico que involucre amplitudes o áreas en función de un ángulo o coeficiente α.]
+
+Teniendo en cuenta la expresión obtenida para el alcance del proyectil en función del ángulo con el que se efectúa el lanzamiento y mediante una sustitución trigonométrica, esta magnitud puede expresarse como:
+
+$$
+\mathrm {A} = \frac {\mathrm {v} _ {\circ} ^ {2}}{\mathrm {g}} \operatorname {s e n} (2 \alpha)
+$$
+
+Resultando que, para una determinada velocidad inicial, el alcance del proyectil será máximo cuando el argumento de la función anterior sea tal que:
+
+$$
+2 \alpha = \frac {\pi}{2} \quad \therefore \quad \alpha = \frac {\pi}{4} \quad \therefore \quad \alpha = 0, 7 8 5
+$$
+
+Con lo que dicha magnitud vendrá dada por:
+
+$$
+\mathrm {A _ {m}} = \frac {\mathrm {v _ {o} ^ {2}}}{\mathrm {g}}
+$$
+
+Teniendo en cuenta las conclusiones obtenidas hasta el momento resulta que si se mantiene constante la velocidad del lanzamiento disparos con ángulos menores o mayores que $\cdot$ darán lugar a un alcance inferior al indicado anteriormente, en el primer caso a lo largo de una trayectoria con una altura máxima inferior, tiro rasante (trazo azul en la figura lateral) y en el otro caso a lo largo de una trayectoria con una altura máxima superior a la lograda con el disparo a $4 5 ^ { \mathrm { 0 } }$ , tiro por elevación (trazo rojo en la mencionada figura).
+
+[Descripción de imagen: La imagen muestra gráficas de funciones senoidales en un plano cartesiano con ejes x e y. No se observan vectores explícitos, pero sí se identifican curvas correspondientes a diferentes valores del ángulo α (30°, 45°, 60°) con un ángulo δ constante de 15°. La ecuación sen 2(α + δ) = sen 2(α - δ) se encuentra en el eje x.]
+
+────────────────────────────────────────────────────────────
+Chunk 23 (1846 chars)
+────────────────────────────────────────────────────────────
+[Descripción de imagen: La imagen muestra varias curvas en un sistema de coordenadas cartesianas con el eje x en el eje horizontal y el eje y en el eje vertical. Las curvas representan trayectorias o relaciones funcionales relacionadas con parámetros como α (ángulo de lanzamiento) y δ (ángulo de deflexión, 15 grados), donde se observan diferentes alcances en función de α que son 30, 45 y 60 grados.]
+
+Donde además se muestra que si los ángulos de disparo difieren en la misma cantidad (δ) del ángulo de $4 5 ^ { \mathrm { 0 } }$ , los alcances serán claramente coincidentes ya que en dichos casos:
+
+# Parábola de Seguridad.
+
+Supongamos ahora que deseamos obtener una expresión para el ángulo con que deberíamos lanzar un proyectil, si deseamos que el mismo alcance un punto del espacio con coordenadas (xy), en cuyo caso, teniendo en cuenta la ecuación obtenida para la trayectoria, este ángulo deberá ser tal que:
+
+$$
+\mathrm {y} = \mathrm {x} \operatorname {t g} (\alpha) - \frac {1}{2} \frac {\mathrm {g}}{\mathrm {v} _ {\circ} ^ {2} \cos^ {2} (\alpha)} \mathrm {x} ^ {2}
+$$
+
+Que teniendo en cuenta la identidad trigonométrica:
+
+$$
+\cos^ {2} (\alpha) = \frac {1}{1 + \mathrm {t g} ^ {2} (\alpha)}
+$$
+
+Puede expresarse como:
+
+$$
+y = x t g (\alpha) - \frac {1}{2} \frac {g}{v _ {\circ} ^ {2}} \left[ 1 + t g ^ {2} (\alpha) \right] x ^ {2}
+$$
+
+Donde recordemos que (xy) son las coordenadas del punto que deseamos alcanzar, por lo que la anterior debe interpretarse como una ecuación de segundo grado en (tgα), con lo que, el ángulo con que deberemos lanzar el proyectil deberá ser tal que.
+
+$$
+\operatorname {t g} (\alpha) = \frac {\mathrm {v} _ {\circ} ^ {2}}{\mathrm {x g}} \pm \frac {1}{\mathrm {x}} \sqrt {\frac {\mathrm {v} _ {\circ} ^ {4}}{\mathrm {g} ^ {2}} - \mathrm {x} ^ {2} - 2 \frac {\mathrm {y v} _ {\circ} ^ {2}}{\mathrm {g}}}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 24 (1894 chars)
+────────────────────────────────────────────────────────────
+rac {\mathrm {v} _ {\circ} ^ {2}}{\mathrm {x g}} \pm \frac {1}{\mathrm {x}} \sqrt {\frac {\mathrm {v} _ {\circ} ^ {4}}{\mathrm {g} ^ {2}} - \mathrm {x} ^ {2} - 2 \frac {\mathrm {y v} _ {\circ} ^ {2}}{\mathrm {g}}}
+$$
+
+Existiendo por lo tanto dos valores de la coordenada angular con los que podemos alcanzar el punto de interés, que corresponderán a un tiro rasante y otro por elevación. Sin embargo para que esto sea posible será necesario que el radicando sea positivo ya que de lo contrario obtendríamos como solución valores imaginarios que indudablemente carecen de significado físico, con lo que, para una determinada velocidad inicial solamente podrán ser alcanzados puntos con coordenadas (xy), tales que:
+
+$$
+\frac {\mathrm {v} _ {\circ} ^ {4}}{\mathrm {g} ^ {2}} - \mathrm {x} ^ {2} - 2 \frac {\mathrm {y v} _ {\circ} ^ {2}}{\mathrm {g}} \geq 0
+$$
+
+Relación que nos define una zona del espacio alcanzable por el proyectil y otra inalcanzable por el mismo, delimitadas por la función:
+
+$$
+y = \frac {v _ {\circ} ^ {2}}{2 g} - \frac {1}{2} \frac {g}{v _ {\circ} ^ {2}} x ^ {2}
+$$
+
+Cuya gráfica cualitativa se muestra, con trazo rojo, en la figura, que corresponde a una parábola, a la que llamamos parábola de seguridad, resultando que los puntos por encima de ella serán inalcanzables por el proyectil, como se sugiere en dicha figura.
+
+[Descripción de imagen: La imagen muestra una gráfica con múltiples trayectorias curvas azules que representan diferentes movimientos parabólicos de objetos. El eje x representa la distancia horizontal en metros y el eje y representa la altura en metros, sugiriendo que las fuerzas actuantes son la gravedad y posiblemente la resistencia del aire. La curva roja superior parece ser la envolvente de las trayectorias, indicando la máxima distancia que puede alcanzar un objeto lanzado desde un punto específico con diferentes velocidades iniciales.]
+
+────────────────────────────────────────────────────────────
+Chunk 25 (1990 chars)
+────────────────────────────────────────────────────────────
+[Descripción de imagen: La imagen muestra multiples trayectorias parabolicas descritas por vectores de posicion en funcion del tiempo. Se puede apreciar un punto de aplicacion comun para todas las trayectorias en el origen de coordenadas (0,0) y un vector fuerza de gravedad actuando en direccion al eje -y.  La envoltura de las trayectorias (roja) sugiere una maxima altura alcanzada en funcion de la distancia horizontal recorrida.]
+
+# Laboratorio Virtual IV.
+
+# Tiro Oblicuo de Corto Alcance.
+
+Ejecutando el archivo 05-Oblicuo.htm incluido en la carpeta del mismo nombre, podrá acceder a una simulación que le permitirá realizar lanzamientos de proyectiles con diferentes condiciones iniciales y observar, la trayectoria a lo largo de la que se desplaza el proyectil, las variaciones temporales en la componente vertical de su vector velocidad y determinar el tiempo de vuelo de dicho proyectil mediante el cronómetro que la simulación ofrece en el vértice superior izquierdo. 
+
+Con dicha simulación deberá realizar por lo menos tres lanzamientos desde el origen con diferentes velocidades iniciales y en cada caso, determinar el tiempo de vuelo del proyectil para obtener a partir de dicha medición, la velocidad de cada lanzamiento y la máxima altura alcanzada por el mismo, teniendo en cuenta que para la situación en consideración.
+
+$$
+t _ {v} = 2 \frac {v _ {o y}}{g}
+$$
+
+$$
+\mathrm {A} = 2 \frac {\mathrm {v} _ {\circ x} \mathrm {v} _ {\circ y}}{\mathrm {g}}
+$$
+
+$$
+y _ {m} = \frac {v _ {\circ y} ^ {2}}{2 g}
+$$
+
+Con el propósito de mejorar la calidad de los resultados y para cada lanzamiento, se recomienda determinar por lo menos, cinco valores del tiempo de vuelo y con ellos un promedio de dicha magnitud, para emplearlo en los cálculos solicitados. 
+
+Finalmente cabe destacar que la página ofrece algunos problemas que se recomienda resolver y al final una nueva simulación destinada a ilustrar aspectos relacionados con tiros rasantes, por elevación y parábola de seguridad.
+
+────────────────────────────────────────────────────────────
+Chunk 26 (1756 chars)
+────────────────────────────────────────────────────────────
+Finalmente cabe destacar que la página ofrece algunos problemas que se recomienda resolver y al final una nueva simulación destinada a ilustrar aspectos relacionados con tiros rasantes, por elevación y parábola de seguridad.
+
+# Ejemplo.
+
+Como una aplicación del tema tratado y del manejo de coordenadas polares, consideremos la situación que se sugiere en la figura siguiente donde se muestra un proyectil que se deja caer desde un avión en el instante en que éste sobrevuela una estación de radar en tierra. Suponiendo conocida la velocidad del avión en el instante del lanzamiento y despreciable la interacción entre el proyectil y la atmósfera, obtendremos una expresión para la velocidad angular con que deberá rotar el radar alrededor de un eje horizontal si se desea efectuar un seguimiento del proyectil a lo largo de su trayectoria.
+
+[Descripción de imagen: La imagen representa un problema de lanzamiento de proyectiles. Un objeto, presumiblemente un avión, lanza un proyectil con una velocidad inicial $\overrightarrow{v_0}$ horizontal. El vector posición $\overrightarrow{r}$ forma un ángulo $\theta$ con el eje x y tiene su punto de aplicación en Q.]
+
+Con el propósito de evaluar la velocidad angular del proyectil mediante (1.17) obtendremos previamente expresiones para los vectores involucrados, en componentes cartesianas. Así para el vector velocidad resulta:
+
+$$
+\vec {\mathrm {v}} (t) = \mathrm {v} _ {\circ} \vec {\mathrm {i}} - \mathrm {g} t \vec {\mathrm {j}}
+$$
+
+Con lo que para el vector posición obtenemos.
+
+$$
+\vec {\mathrm {r}} (t) = \mathrm {v} _ {\circ} t \vec {\mathrm {i}} + \left(\mathrm {y} _ {\circ} - \frac {1}{2} \mathrm {g} t ^ {2}\right) \vec {\mathrm {j}}
+$$
+
+Teniendo en cuenta estas conclusiones, de (1.22) resulta:
+
+────────────────────────────────────────────────────────────
+Chunk 27 (1225 chars)
+────────────────────────────────────────────────────────────
+{r}} (t) = \mathrm {v} _ {\circ} t \vec {\mathrm {i}} + \left(\mathrm {y} _ {\circ} - \frac {1}{2} \mathrm {g} t ^ {2}\right) \vec {\mathrm {j}}
+$$
+
+Teniendo en cuenta estas conclusiones, de (1.22) resulta:
+
+$$
+\vec {\mathrm {w}} (t) = \frac {\mathrm {v} _ {\circ} \mathrm {y} _ {\circ} + \frac {1}{2} \mathrm {v} _ {\circ} \mathrm {g} t ^ {2}}{(\mathrm {v} _ {\circ} t) ^ {2} + (\mathrm {y} _ {\circ} - \frac {1}{2} \mathrm {g} t ^ {2}) ^ {2}} \vec {\mathrm {k}}
+$$
+
+Que tiende a cero, cuando el tiempo tiende a infinito, puesto que el denominador depende de la cuarta potencia temporal frente a una dependencia cuadrática en el numerador. 
+
+La componente radial del vector velocidad puede obtenerse derivando temporalmente la expresión lograda para el módulo del vector posición, o bien teniendo en cuenta que, en general.
+
+$$
+\overrightarrow {\mathbf {r}} \cdot \overrightarrow {\mathbf {v}} = \mathbf {r} \dot {\mathbf {r}}
+$$
+
+De donde:
+
+$$
+\dot {\mathbf {r}} = \frac {\vec {\mathbf {r}} \cdot \vec {\mathbf {v}}}{\mathbf {r}}
+$$
+
+Con la que una expresión para dicha magnitud, en función del tiempo, puede lograrse teniendo en cuenta las expresiones, en componentes cartesianas, obtenidas para los vectores involucrados.

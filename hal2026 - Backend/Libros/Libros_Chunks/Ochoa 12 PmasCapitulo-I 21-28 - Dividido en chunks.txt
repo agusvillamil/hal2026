@@ -1,0 +1,481 @@
+Archivo  : Libros/Libros_Markdown/MinerU_markdown_Ochoa-12-PmasCapitulo-I-021-028_2042434083309088768.md
+Chunks   : 18
+
+────────────────────────────────────────────────────────────
+Chunk 1 (1569 chars)
+────────────────────────────────────────────────────────────
+# Problema 1.01
+
+Un cuerpo que parte del reposo en el punto A recorre un tramo recto AB para luego seguir la trayectoria circular BD. Si la componente tangencial de su vector aceleración es de $1 , 6 ~ \mathrm { m } / \mathrm { s } ^ { 2 }$ durante todo el movimiento, determinar:
+
+[Descripción de imagen: La imagen muestra un sistema con un tramo recto y uno curvo, donde el radio de curvatura es de 1,20 metros. El vector de posición de un objeto que se mueve a lo largo de esta trayectoria podría representarse en distintos puntos, como A, B, C o D. Se observa que el punto O es el centro de la sección curva y el vector OC es perpendicular al eje horizontal, mientras que el punto de aplicación de la fuerza o vector relevante no se muestra explícitamente.]
+
+a. La velocidad con la que llega al punto B y el tiempo empleado para llegar a dicho punto. 
+
+b. La velocidad del cuerpo en el punto C y el tiempo necesario para recorrer el tramo BC. 
+
+c. La aceleración y la resultante de las fuerzas a la que está sometido el cuerpo en el punto C. 
+
+d. El tiempo que emplea en recorrer el tramo BD.
+
+# Problema 1.02
+
+La figura lateral muestra una barra que rota en un plano vertical, alrededor de un eje horizontal que pasa por O y lo hace de manera que la coordenada angular, expresada en radianes e indicada en la figura, varía con el tiempo, expresado en segundos, según:
+
+$$
+\theta (t) = t ^ {3} - 4 t
+$$
+
+Simultáneamente, el collar desliza de manera que su distancia al eje O, medida en centímetros, varía en el tiempo según:
+
+$$
+r (t) = 5 0 t ^ {2} - 2 5 t ^ {3}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 2 (1925 chars)
+────────────────────────────────────────────────────────────
+ta (t) = t ^ {3} - 4 t
+$$
+
+Simultáneamente, el collar desliza de manera que su distancia al eje O, medida en centímetros, varía en el tiempo según:
+
+$$
+r (t) = 5 0 t ^ {2} - 2 5 t ^ {3}
+$$
+
+# Determinar:
+
+a. Las componentes polares de los vectores velocidad y aceleración del collar, 1 segundo después de iniciado el movimiento. 
+
+b. La velocidad y aceleración del collar respecto de la barra y el radio de curvatura de su trayectoria respecto de tierra, en el instante indicado anteriormente.
+
+[Descripción de imagen: La imagen muestra un sistema mecánico con un brazo o palanca que gira alrededor de un punto fijo denominado Polo O. El brazo tiene una longitud representada por el vector r, que forma un ángulo θ con respecto al eje horizontal. En el Polo O se aplica una fuerza que permite el giro del brazo en función del ángulo θ.]
+
+# Problema 1.03
+
+La figura lateral muestra una partícula que se mueve a lo largo de una trayectoria circular, de manera que la coordenada angular indicada, varía linealmente con el tiempo según:
+
+$$
+\theta (t) = 0, 8 t
+$$
+
+Considerando al punto Q como polo, obtener: 
+
+a. Expresiones en función del tiempo, para las componentes transversal y radial del vector velocidad. 
+
+b. Expresiones para las mencionadas componentes, cuando el cuerpo pasa por los puntos A y B. 
+
+c. Expresiones en función del tiempo para las componentes del vector aceleración y representarlas gráficamente en los puntos A y B de la trayectoria.
+
+[Descripción de imagen: La imagen muestra un círculo con un radio $r$ y un objeto puntual en su periferia. El objeto se encuentra en una posición definida por el ángulo $\theta$ respecto al eje $x$ (eje $A$), y la distancia desde el centro del círculo hasta el objeto es el vector posición de magnitud $r$. La trayectoria circular sugiere movimiento circular, donde la fuerza centrípeta actúa hacia el centro del círculo (punto $Q$), perpendicular al vector posición.]
+
+────────────────────────────────────────────────────────────
+Chunk 3 (2268 chars)
+────────────────────────────────────────────────────────────
+[Descripción de imagen: La imagen muestra un círculo con un radio $r$ y un objeto puntual en movimiento circular, cuyo desplazamiento angular se denota como $\theta$. El vector posición del objeto respecto al centro del círculo forma un ángulo $\theta$ con el eje $x$ (definido por los puntos $QA$). El punto de aplicación de la posición del objeto se ubica en el extremo del radio $r$.]
+
+# Problema 1.04
+
+a) Obtener una expresión para las aceleraciones a la que están sometidos cada uno de los cuerpos mostrados en las figuras siguientes y para el esfuerza en las cuerdas con las que interactuan. 
+
+b) Determinar las magnitudes solicitadas anteriormente, suponiendo $\mathrm { m } _ { \mathrm { l } } = 5 0 ~ \mathrm { k g } .$ , $ { \mathbf { m } } _ { 2 } = 8 0 ~  { \mathrm { k g } }$ , F = 1000 N y nulo el rozamiento entre m2 y la superficie horizontal.
+
+[Descripción de imagen: La imagen muestra un sistema de poleas con dos masas, $m$ y $m_2$,  unidas por una cuerda inextensible. 
+La masa $m$ cuelga verticalmente, mientras que la masa $m_2$ se encuentra sobre una superficie horizontal. 
+Sobre la masa $m_2$ se aplica una fuerza $F$ horizontal hacia la izquierda.]
+
+[Descripción de imagen: La imagen muestra un sistema de poleas con una masa $m_1$ suspendida y una fuerza $F$ aplicada horizontalmente. El punto de aplicación de la fuerza $F$ se encuentra en la polea inferior, mientras que el peso de la masa $m_1$ actúa verticalmente hacia abajo en el punto de sujeción de la cuerda. Los ejes relevantes son el vertical y el horizontal, intersectándose en el punto de sujeción de la polea inferior.]
+
+# Problema 1.05
+
+El cuerpo de masa W y la cuerda que lo soporta constituyen un péndulo puntual al cortar el cordón horizontal. 
+
+Obtener la razón entre el esfuerzo a que estará sometida la cuerda inmediatamente después de cortar el cordón y el existente antes de hacerlo.
+
+[Descripción de imagen: Se observa un sistema de fuerzas en equilibrio con una cuerda sujeta en un extremo a una viga y en el otro extremo a una esfera, con un angulo θ respecto a la vertical. La tensión de la cuerda se puede descomponer en sus componentes en los ejes x e y. La esfera de peso W está sometida a la fuerza de gravedad, la tensión de la cuerda y la fuerza del cordón.]
+
+────────────────────────────────────────────────────────────
+Chunk 4 (2077 chars)
+────────────────────────────────────────────────────────────
+[Descripción de imagen: La imagen muestra un sistema de poleas con una cuerda que pasa por una polea fija y se une a un peso W, formando un ángulo θ con la vertical. La tensión en la cuerda se puede descomponer en vectores a lo largo de los ejes x e y, con componentes que actúan en el punto de aplicación de la fuerza, que es donde se encuentra el peso W. La fuerza de tensión en la cuerda actúa a lo largo de ella, mientras que el peso W actúa verticalmente hacia abajo.]
+
+# Problema 1.06
+
+Una corredera cuya masa es de $^ { 0 , 9 \mathrm { k g } }$ , se mueve a lo largo de la guía libre de rozamiento, curvada en un plano vertical. Si la corredera tiene una velocidad de $2 { , } 4 4 ~ \mathrm { m } / \mathrm { s }$ en el punto B de la guía, donde su radio de curvatura es de $^ { 2 5 , 4 \mathrm { c m } }$ , determinar: 
+
+a. La fuerza ejercida sobre la partícula por la guía en dicho punto y la dirección y sentido en que la fuerza actúa. 
+
+b. La velocidad con que se debería mover la partícula en ese punto para que se anule la interacción con la guía.
+
+[Descripción de imagen: La imagen muestra un objeto en movimiento curvilíneo, con un vector de velocidad tangente a la trayectoria en el punto B. La fuerza centrípeta actúa hacia el centro de curvatura de la trayectoria, perpendicular al vector velocidad en el punto B. El eje de curvatura y el punto de aplicación de la fuerza centrípeta se ubican en el centro de la curva.]
+
+# Problema 1.07
+
+La figura lateral muestra un péndulo cónico formado por un cuerpo suspendido de una cuerda de longitud L que se mueve con una velocidad constante V a lo largo de una trayectoria circular de radio R contenida en un plano horizontal. 
+
+Obtener una expresión para el esfuerzo al que estará sometida la cuerda en función de los parámetros indicados en la figura.
+
+[Descripción de imagen: Se observa un sistema de péndulo cónico, donde una masa puntual  sujeta a una cuerda de longitud R, forma un ángulo  con la vertical. La tensión de la cuerda actúa a lo largo de ésta, y la velocidad de la masa  es constante en magnitud.]
+
+────────────────────────────────────────────────────────────
+Chunk 5 (2073 chars)
+────────────────────────────────────────────────────────────
+[Descripción de imagen: La imagen muestra un sistema de un péndulo cónico, donde una masa puntual se mueve en una trayectoria circular de radio R con velocidad constante. La tensión de la cuerda forma un ángulo θ con el eje vertical y puede descomponerse en sus componentes horizontal y vertical. La fuerza centrípeta está representada por el vector指向 hacia el centro de la trayectoria circular.]
+
+# Problema 1.08
+
+Un cuerpo de masa m descansa sobre un plano inclinado libre de rozamiento, que puede girar en torno a un eje vertical con velocidad angular constante, como se sugiere en la figura siguiente: 
+
+a. Obtener una expresión para el esfuerzo al que se verá sometida la cuerda, en función de la velocidad angular alrededor del eje vertical. 
+
+b. Obtener una expresión para la velocidad angular máxima admitida si deseamos que el bloque permanezca en contacto con el plano inclinado. 
+
+c. Atender numéricamente las preguntas anteriores suponiendo que la masa del cuerpo es de $1 0 ~ \mathrm { k g }$ , la longitud de la cuerda de 2 metros y la velocidad angular del plano y el cuerpo, de 10 revoluciones/minuto.
+
+[Descripción de imagen: La imagen muestra un bloque en un plano inclinado con un ángulo de 30 grados respecto al eje horizontal, sometido a una fuerza a través de una barra que ejerce una tensión  a lo largo de la dirección de la barra.  El punto de aplicación de esta fuerza se encuentra en el extremo izquierdo de la barra, y su dirección es a lo largo de la barra, formando un ángulo respecto a la horizontal que puede inferirse igual al ángulo del plano inclinado.]
+
+# Problema 1.09
+
+La esfera de masa m está sostenida por una varilla de masa despreciable que gira alrededor de un eje horizontal. 
+
+Si la distancia entre el eje y el centro de la esfera es r, y se la deja en libertad desde el reposo cuando es nula la coordenada angular para que luego se desplace a lo largo de una trayectoria contenida en el plano vertical. Determinar el valor de la coordenada angular para el cuál se anula la interacción entre la esfera y la barra que la soporta.
+
+────────────────────────────────────────────────────────────
+Chunk 6 (1404 chars)
+────────────────────────────────────────────────────────────
+Determinar el valor de la coordenada angular para el cuál se anula la interacción entre la esfera y la barra que la soporta.
+
+[Descripción de imagen: La imagen muestra un péndulo simple con una masa m unida a un punto de apoyo fijo O mediante una varilla rígida de longitud r. El sistema forma un ángulo θ con respecto al eje vertical, y se identifican los ejes coordenados con origen en el punto de apoyo O. La tensión en la varilla y la fuerza de gravedad son las fuerzas relevantes que actúan sobre la masa m.]
+
+# Problema 1.10
+
+La corredera A cuya masa es de $3 ~ \mathrm { k g }$ , encaja holgadamente en la ranura lisa que está a $4 5 ^ { \circ }$ labrada en el disco. 
+
+El disco gira en un plano horizontal en torno a su centro mientras la corredera se mantiene en posición mediante una cuerda sujeta al punto B. 
+
+Calcular el esfuerzo al que estará sometida la cuerda, para una velocidad angular constante de 300 r.p.m. e indicar si genera alguna diferencia, cambiar el sentido con el que rota el disco.
+
+[Descripción de imagen: La imagen muestra un sistema mecánico con un bloque de masa sujeto a un resorte en un plano inclinado a 45 grados dentro de un círculo. El punto de aplicación de la fuerza del resorte se encuentra en el bloque y su dirección es paralela al plano inclinado. El sistema se representa en un plano cartesiano con ejes x e y, con el centro del círculo en el origen (0,0).]
+
+────────────────────────────────────────────────────────────
+Chunk 7 (1794 chars)
+────────────────────────────────────────────────────────────
+/result/2026-04-05/c1ed3bcb-cc44-4c8f-b9be-45921a19c251/796a49dfa6c81ab037643595637707fee39e8efe3f85832dfbce25f85ec73ec2.jpg)
+
+# Problema 1.11
+
+En la figura lateral se muestra a una partícula de masa m que se deja caer desde el reposo a lo largo de la superficie interior libre de rozamiento, de un casquete de radio R. 
+
+a. Obtener expresiones en función de la coordenada angular, para el módulo de la componente transversal del vector velocidad de la partícula y para el módulo de la componente transversal de su vector aceleración. 
+
+b. Obtener una expresión para la fuerza que resulta de la interacción de la partícula con el casquete. 
+
+c. Suponiendo que el casquete tiene una masa M y que está rígidamente unido a una balanza, obtener una expresión para la lectura en la misma, cuando el cuerpo pasa por el punto inferior de la trayectoria.
+
+[Descripción de imagen: La imagen muestra un sistema con un objeto de masa M que tiene una cavidad semicircular. En el punto superior izquierdo de esta cavidad, se encuentra una esfera roja, cuyo vector posición forma un ángulo θ con la vertical. La balanza, situada en la parte inferior, interactúa con el sistema a través de fuerzas que se aplican en su punto de apoyo.]
+
+# Problema 1.12
+
+La figura muestra un cuerpo apoyado sobre una cuña cuya inclinación respecto de la horizontal es de 30 grados. Suponiendo que todas las superficies están libres de rozamiento. 
+
+a. Obtener una expresión para la aceleración horizontal a la que debería someterse la cuña para que $\mathfrak { m } _ { 1 }$ se mantenga en equilibrio respecto de la misma. 
+
+b. Suponiendo que la cuña se somete a una aceleración el doble de la requerida anteriormente, obtener la aceleración del cuerpo respecto de la cuña y respecto de un sistema de referencia fijo a tierra.
+
+────────────────────────────────────────────────────────────
+Chunk 8 (2493 chars)
+────────────────────────────────────────────────────────────
+b. Suponiendo que la cuña se somete a una aceleración el doble de la requerida anteriormente, obtener la aceleración del cuerpo respecto de la cuña y respecto de un sistema de referencia fijo a tierra.
+
+[Descripción de imagen: La imagen muestra un bloque de masa $m_1$ sobre un plano inclinado de masa $m_2$ que forma un ángulo $\alpha$ de $30^\circ$ con la horizontal. Sobre el bloque $m_1$ actúan al menos dos fuerzas: su peso y la normal ejercida por el plano inclinado; esta última tiene su punto de aplicación en el centro de la base del bloque en contacto con el plano. El plano inclinado, a su vez, se encuentra apoyado sobre una superficie horizontal.]
+
+# Problema 1.13
+
+En la figura siguiente se muestra un cuerpo cuya masa es de $5 ~ \mathrm { k g }$ apoyado sobre la superficie inclinada de una cuña libre de rozamiento, que se acelera horizontalmente a razón de $2 ~ \mathrm { m } / \mathrm { s } ^ { 2 }$ , mientras se mantiene sujeto a la misma mediante una cuerda inextensible y de masa despreciable.
+
+[Descripción de imagen: La imagen muestra un bloque de masa M sobre un plano inclinado que a su vez se encuentra sobre una superficie horizontal. El plano inclinado forma un ángulo α de 30 grados con la horizontal y se mueve con una aceleración a de 2 m/s^2 hacia la derecha. Sobre el bloque M actúan fuerzas en el eje x' paralelo al plano inclinado y en el eje y' perpendicular al plano inclinado.]
+
+a. Determinar el esfuerzo al que está sometida la cuerda y la fuerza que resulta de la interacción entre el cuerpo y el plano inclinado. 
+
+b. Comparar los resultados recientemente logrados con los que obtendríamos si la cuña estuviera en reposo.
+
+# Problema 1.14
+
+Un cuerpo B cuya masa es de $1 2 \mathrm { k g }$ parte del reposo y se mueve sobre el plano inclinado de una cuña apoyada sobre una balanza rígidamente vinculada a la base de un recinto. 
+
+Suponiendo que el sistema, libre de rozamiento, se somete a una aceleración vertical de $3 ~ \mathrm { m } / \mathrm { s } ^ { 2 }$ en el sentido indicado, determinar.
+
+[Descripción de imagen: La imagen muestra un bloque B sobre un plano inclinado A que se encuentra en una balanza. El plano inclinado forma un ángulo α de 30 grados con la horizontal y el sistema está sometido a una aceleración a dirigida verticalmente hacia abajo. Se pueden identificar fuerzas como el peso del bloque y la normal ejercida por el plano inclinado sobre el bloque, así como la fuerza registrada por la balanza debido al plano inclinado.]
+
+────────────────────────────────────────────────────────────
+Chunk 9 (1622 chars)
+────────────────────────────────────────────────────────────
+[Descripción de imagen: La imagen muestra un bloque B sobre una superficie inclinada A que a su vez se encuentra sobre una balanza. La superficie inclinada tiene un ángulo α de 30 grados respecto a la horizontal. Se observa un vector aceleración a con sentido hacia abajo.]
+
+a. La aceleración de la cuña respecto del recinto, la del cuerpo respecto de la cuña y la lectura en la balanza. 
+
+b. A que aceleración debería someterse el recinto si deseamos que la cuña y el cuerpo permanezcan en equilibrio respecto del mismo, y cual sería la lectura que daría la balanza en este caso. 
+
+c. Idem a la primer pregunta, suponiendo que el recinto se acelera en sentido opuesto al indicado.
+
+# Problema 1.15
+
+Un cuerpo de $^ { 9 , 2 \mathrm { k g } }$ . desliza libre de rozamiento sobre la superficie inclinada de otro cuerpo de $1 7 \mathrm { k g }$ Si al cuerpo mayor de mayor masa interactúa con la pared a través de un muelle de constante elástica desconocida. Determinar: 
+
+a. La aceleración sufrida por el cuerpo de masa menor respecto del mayor si este último se mantiene en equilibrio respecto de tierra debido a la acción del muelle. 
+
+b. La constante elástica del muelle, si bajo las condiciones indicadas, su deformación es de 9 cm.
+
+[Descripción de imagen: La imagen muestra un bloque en reposo sobre un plano inclinado de 35 grados respecto a la horizontal. Sobre el bloque actúan varias fuerzas, incluyendo su peso que se puede descomponer en los ejes x e y, la normal ejercida por el plano inclinado y la fuerza ejercida por un resorte. El punto de aplicación de estas fuerzas se encuentra en el centro del bloque.]
+
+────────────────────────────────────────────────────────────
+Chunk 10 (1767 chars)
+────────────────────────────────────────────────────────────
+[Descripción de imagen: La imagen muestra un bloque en reposo sobre un plano inclinado con un ángulo de 35 grados respecto a la horizontal. Se observa un resorte en la parte inferior izquierda, aparentemente comprimido, que ejerce una fuerza horizontal sobre el plano inclinado. No se pueden determinar las fuerzas que actúan directamente sobre el bloque, pero se puede inferir que el peso del bloque se descompone en componentes paralela y perpendicular al plano inclinado.]
+
+# Problema 1.16
+
+La figura muestra una varilla de longitud 2R que rota con velocidad angular constante en un plano horizontal. Una corredera cuya masa es de $^ { 0 , 4 \mathrm { ~ k g } }$ . y dimensiones despreciables se mantiene presionada a un soporte A mediante un resorte cuya constante es de $2 \ : \mathrm { N } / \mathrm { m }$ y longitud propia de 2R. 
+
+a. Suponiendo que la fuerza ejercida por la corredera al soporte es la mitad de la generada por la interacción elástica obtener la velocidad angular del sistema. 
+
+b. Determinar, la velocidad angular mínima necesaria para que la corredera no interactúe con el soporte. 
+
+c. Si la velocidad angular fuera el doble de la requerida en la pregunta anterior, determinar cual sería la posición de equilibrio del cuerpo respecto de un sistema de referencia fijo al brazo en rotación. 
+
+d. Suponiendo dada la condición indicada en la pregunta anterior, que cambiaría si se invierte el sentido de la rotación.
+
+[Descripción de imagen: Se observa un sistema de masa-resorte conectado a un extremo fijo a una distancia R del eje de rotación. Sobre el objeto de masa m actúan fuerzas centrífugas y la fuerza ejercida por el resorte, que puede representarse mediante la ley de Hooke. El punto A es el punto de aplicación de dichas fuerzas.]
+
+────────────────────────────────────────────────────────────
+Chunk 11 (2092 chars)
+────────────────────────────────────────────────────────────
+[Descripción de imagen: La imagen muestra un sistema masa-resorte conectado a un brazo rígido de longitud R que gira alrededor de un extremo. El punto A es el punto de aplicación de la fuerza centrífuga y de la fuerza elástica del resorte sobre la masa m. El vector de posición de la masa m forma un ángulo variable con el eje de rotación, generando fuerzas radiales y tangenciales.]
+
+# Problema 1.17
+
+Como se muestra en la figura, un cuerpo de $5 0 0 ~ \mathrm { g }$ que interacúa con un muelle cuya constante elástica es de $4 0 ~ \mathrm { N / m }$ , se encuentra apoyado sobre la superficie inclinada de una cuña, y en equilibrio respecto del recinto que se acelera horizontalmente. Suponiendo que el plano inclinado de la cuña forma un ángulo de $4 0 ^ { \circ }$ con la horizontal y que la aceleración del recinto es de $0 , 5 ~ \mathrm { { \ m / s } } .$ determinar: 
+
+a. La deformación a la que está sometido el muelle. 
+
+b. La fuerza que resulta de la interacción con el plano inclinado. 
+
+c. La aceleración que deberíamos dar al recinto para que se anule la deformación del muelle.
+
+[Descripción de imagen: La imagen muestra un sistema con un bloque en un plano inclinado dentro de un carro que se acelera hacia la derecha con una aceleración "a". El bloque está en contacto con el plano inclinado y un resorte helicoidal que está unido al bloque y a la pared lateral del carro, cuyo punto de aplicación parece estar en la parte inferior derecha del bloque. En el sistema se pueden identificar las fuerzas peso y normal del bloque, así como la fuerza que ejerce el resorte sobre el bloque.]
+
+# Problema 1.18
+
+Una serie de paquetes de 800 gramos son depositados sobre una cinta transportadora donde el coeficiente de rozamiento estático entre los cuerpos y la cinta es 0,4. Determinar: 
+
+a. La fuerza que ejerce la banda sobre cada paquete un instante antes y un instante después de pasar por el punto A. 
+
+b. El valor de la coordenada angular del punto B, donde los paquetes empiezan a deslizar sobre la cinta. 
+
+c. La coordenada angular cuando los paquetes se separan de la cinta.
+
+────────────────────────────────────────────────────────────
+Chunk 12 (1762 chars)
+────────────────────────────────────────────────────────────
+b. El valor de la coordenada angular del punto B, donde los paquetes empiezan a deslizar sobre la cinta. 
+
+c. La coordenada angular cuando los paquetes se separan de la cinta.
+
+[Descripción de imagen: En la imagen se observa un sistema de polea con un objeto en la parte superior etiquetado como A y otro objeto B en la parte inferior derecha. El punto de aplicación de la fuerza de gravedad sobre los objetos coincide con su centro de masa. Se puede identificar un vector de fuerza que actúa hacia abajo en el objeto B debido a la gravedad y otro vector de fuerza normal perpendicular a la superficie de contacto entre los objetos y la polea o plataforma, aunque no se muestra explícitamente. El eje de rotación de la polea parece estar alineado horizontalmente y el ángulo theta se encuentra en el primer cuadrante.]
+
+# Problema 1.19
+
+La figura muestra un cuerpo apoyado sobre una mesa horizontal libre de rozamiento y sometido a la interacción con una banda elástica de constante K y longitud propia H, sujeta al punto O de la mesa. 
+
+Suponiendo que damos al cuerpo una velocidad $\mathrm { V } _ { 0 }$ como sugiere la figura:
+
+[Descripción de imagen: La imagen muestra un objeto de masa m suspendido de una cuerda de longitud H. El objeto tiene una velocidad inicial Vo aplicada perpendicularmente a la cuerda en un ángulo de 90 grados. La tensión en la cuerda y el peso del objeto son las fuerzas relevantes que actúan sobre el objeto.]
+
+a. Obtener una expresión para la componente transversal del vector velocidad del cuerpo en función de su distancia al punto O. 
+
+b. Idem para la componente radial del vector velocidad. 
+
+c. Obtener una expresión que permita determinar la máxima deformación de la banda elástica en función de las condiciones iniciales.
+
+────────────────────────────────────────────────────────────
+Chunk 13 (1727 chars)
+────────────────────────────────────────────────────────────
+c. Obtener una expresión que permita determinar la máxima deformación de la banda elástica en función de las condiciones iniciales.
+
+# Problema 1.20
+
+Una partícula de $1 ~ \mathrm { k g }$ . se mueve con una velocidad de $2 ~ \mathrm { m / s }$ a lo largo de una trayectoria circular de radio ${ \bf r } _ { 0 } = 0 , 5 { \bf m }$ , contenida en el plano horizontal de una mesa libre de rozamiento. 
+
+a. Determinar la fuerza que debemos aplicar para mantener el movimiento de la partícula a lo largo de la trayectoria indicada. 
+
+b. Suponiendo que la fuerza aplicada es K veces mayor que la requerida anteriormente, obtener una expresión para la componente radial de su vector velocidad cuando se encuentre en ${ \bf { r } } = { \bf { r } } _ { 0 } / 2$ . 
+
+c. Determinar el mínimo valor que debemos darle a K para poder llevar la partícula a la distancia indicada anteriormente.
+
+[Descripción de imagen: La imagen muestra un objeto de masa m que se mueve en una trayectoria circular sobre una superficie plana, sujeta por una cuerda que ejerce una fuerza de tensión F dirigida verticalmente hacia abajo. El punto de aplicación de la fuerza se encuentra en el centro de la trayectoria circular y el vector de fuerza F se alinea con el eje vertical.]
+
+# Problema 1.21
+
+Un satélite se mueve alrededor de la Tierra sometido a la interacción gravitatoria con la misma. Si la órbita es elíptica, con un perigeo situado a $3 8 5 ~ \mathrm { k m }$ de altura, donde su velocidad es de $3 3 8 7 0 ~ \mathrm { { \ k m / h } }$ . Determinar la velocidad del satélite en los puntos A y B de su órbita si sabemos que:
+
+$$
+\mathrm {O A} = 1 3 5 8 0 \mathrm {k m}
+$$
+
+$$
+O B = 1 1 7 1 0 k m
+$$
+
+Radio de la Tierra $= 6 3 8 0 \mathrm { k m }$
+
+────────────────────────────────────────────────────────────
+Chunk 14 (2110 chars)
+────────────────────────────────────────────────────────────
+Determinar la velocidad del satélite en los puntos A y B de su órbita si sabemos que:
+
+$$
+\mathrm {O A} = 1 3 5 8 0 \mathrm {k m}
+$$
+
+$$
+O B = 1 1 7 1 0 k m
+$$
+
+Radio de la Tierra $= 6 3 8 0 \mathrm { k m }$
+
+[Descripción de imagen: La imagen muestra una órbita elíptica con un foco en la esfera gris, con un objeto celeste en el punto más alejado del eje vertical. El vector velocidad V es perpendicular al radio vector en ese punto. Se identifican los ejes X e Y con sus respectivos puntos de intersección A, B y O.]
+
+# Problema 1.22
+
+La figura muestra la trayectoria a lo largo de la que se mueve un cuerpo sometido únicamente a la interacción con el campo gravitatorio terrestre. Suponiendo que en el instante inicial el cuerpo está a una distancia $\boldsymbol { \mathrm { r } } _ { 0 }$ del centro de la Tierra moviéndose con una velocidad $\mathrm { V } _ { 0 }$ que forma un ángulo $\alpha$ con la dirección transversal. 
+
+a. Obtener expresiones para la componente radial de los vectores velocidad y aceleración del cuerpo en el instante en que se encuentra en A. 
+
+b. Obtener el módulo de la velocidad del cuerpo cuando pase por el punto B de su trayectoria. 
+
+c. Para el instante indicado anteriormente, obtener el radio de curvatura de la trayectoria y la velocidad con que parece alejarse el cuerpo de la superficie terrestre.
+
+[Descripción de imagen: La imagen muestra un objeto que se mueve a lo largo de una trayectoria curva. En el punto A, se aplica un vector velocidad inicial V0 que forma un ángulo α con el eje horizontal, mientras que en el punto B, el objeto adquiere una velocidad Vb orientada horizontalmente hacia la izquierda. El movimiento se desarrolla en un plano cartesiano con ejes implícitos que intersectan en el punto de coordenadas (0,0), con marcas de distancia que indican r0 y 2r0.]
+
+# Problema 1.23
+
+La corredera mostrada en la figura lateral de 1,5 kg, se mueve a lo largo de la barra lisa y curvada bajo acción de su propio peso y de una fuerza F exterior constante:
+
+$$
+\vec {\mathrm {F}} = - 1 0 \vec {\mathrm {i}} + 1 5 \vec {\mathrm {j}} + 1 5 \vec {\mathrm {k}}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 15 (1941 chars)
+────────────────────────────────────────────────────────────
+se mueve a lo largo de la barra lisa y curvada bajo acción de su propio peso y de una fuerza F exterior constante:
+
+$$
+\vec {\mathrm {F}} = - 1 0 \vec {\mathrm {i}} + 1 5 \vec {\mathrm {j}} + 1 5 \vec {\mathrm {k}}
+$$
+
+Suponiendo que la corredera inicia su movimiento en A, determinar con que velocidad alcanza el punto B.
+
+[Descripción de imagen: La imagen muestra un sistema de coordenadas 3D con un objeto que sigue una trayectoria curva desde el punto A hasta el punto B. El vector de posición del objeto en un punto determinado de su trayectoria está representado por el vector r, y las fuerzas que actúan sobre él no se especifican explícitamente, pero se puede asumir la influencia de la gravedad y posiblemente otras fuerzas que lo mantienen en su trayectoria curva. Los ejes coordenados x, y, z se orientan según la convención estándar, con x(-) apuntando hacia la izquierda, y(+) hacia abajo, y z(+) hacia arriba, y los puntos de aplicación de interés son A y B.]
+
+# Problema 1.24
+
+Una pistón cuya masa es de $^ { 4 , 5 } \mathrm { { g } }$ esta unida a un resorte y a una cuerda. El pistón parte del reposo desde la posición indicada en la figura, donde el resorte se halla comprimido 5 cm. 
+
+Si la constante elástica del resorte es de $0 { , } 3 6 \ \mathrm { N / c m }$ , y el cuerpo se mueve dentro de un cilindro libre de rozamiento. 
+
+Determinar: 
+
+a. La aceleración del pistón en el instante inicial. 
+
+b. La velocidad del pistón cuando pasa bajo el punto B. 
+
+c. La máxima deformación del resorte, si en instante indicado anteriormente se corta la cuerda.
+
+[Descripción de imagen: La imagen muestra un sistema con un bloque sometido a una fuerza F horizontal, conectado a través de una cuerda a un resorte. El punto de aplicación de la fuerza F se encuentra en B, y la distancia desde el eje vertical que pasa por el punto donde se encuentra el resorte hasta el punto B es de 30,5 cm horizontalmente y 14 cm verticalmente.]
+
+────────────────────────────────────────────────────────────
+Chunk 16 (2049 chars)
+────────────────────────────────────────────────────────────
+ps://cdn-mineru.openxlab.org.cn/result/2026-04-05/c1ed3bcb-cc44-4c8f-b9be-45921a19c251/0e9095f8ca1d13c565fad2b82fb6aca75b54de114f9814afe20260b8c6d30578.jpg)
+
+# Problema 1.25
+
+Un cuerpo de $5 0 \mathrm { k g }$ se mueve a lo largo de una guía rígida libre de rozamiento, sujeta a un resorte cuya constante elástica es de $1 0 0 0 \ \mathrm { N / m }$ . Si la longitud propia del resorte es de 0,6 m. 
+
+a. Determinar la velocidad con la que el cuerpo llega la punto B 
+
+b. Determinar la fuerza que resulta de la interacción entre el cuerpo y la guía en el instante inicial. 
+
+c. Determinar la aceleración del cuerpo en el instante inicial.
+
+[Descripción de imagen: La imagen muestra un sistema con un resorte conectado a un bloque en la parte superior derecha, con la esfera B sujeta en el extremo de una trayectoria curva. El resorte forma un ángulo con la horizontal y tiene un punto de aplicación en la pared vertical a 0,4 metros de distancia horizontal y 0,6 metros de distancia vertical desde la base. La esfera se encuentra en el punto más bajo de la trayectoria curva, etiquetado como punto B.]
+
+# Problema 1.26
+
+Un satélite se lanza con una velocidad de $3 6 9 0 0 ~ \mathrm { k m / h }$ desde una altura de $5 0 0 ~ \mathrm { k m }$ de la superficie de la Tierra. Determinar para el punto B en que la tangente a la trayectoria es paralela al segmento CA: 
+
+a. La velocidad con que el satélite parece alejarse de la tierra. 
+
+b. El radio de curvatura de la trayectoria en esa posición. 
+
+c. La energía que se le debe suministrar a la nave que lleve el satélite a la posición A partiendo desde la superficie de la tierra si se aprovecha solo el $60 \%$ de la misma.
+
+[Descripción de imagen: La imagen muestra un objeto en órbita elíptica alrededor de un cuerpo celeste, con el vector de velocidad inicial V0 aplicado en el punto A. El punto O es el centro de la elipse y C el semieje mayor. Se observa que el punto de aplicación de la fuerza  de gravedad es en el centro de la esfera de color café.]
+
+RT = 6370 km. CB =30700 km. OC = 18400 km.
+
+────────────────────────────────────────────────────────────
+Chunk 17 (1909 chars)
+────────────────────────────────────────────────────────────
+[Descripción de imagen: La imagen muestra un objeto en órbita elíptica alrededor de un cuerpo celeste, con el vector velocidad inicial V0 aplicado en el punto A. El punto O es el centro de la elipse y C es el semieje mayor, con una distancia de 500 km desde el punto A hasta el eje horizontal que pasa por O.]
+
+RT = 6370 km. CB =30700 km. OC = 18400 km.
+
+# Problema 1.27
+
+El cuerpo de la figura tiene una masa de $3 , 6 5 \mathrm { ~ k g ~ y ~ }$ se suelta desde el reposo en la posición graficada, con los resortes unidos al cuerpo y estirados por una fuerza de 27 Newton. Si poseen la misma constante elástica de $5 4 0 \mathrm { N / m }$ 
+
+Plantear las ecuaciones que permitan obtener: 
+
+a. La velocidad del cuerpo al pasar por el punto en que los resortes están horizontales. 
+
+b. La velocidad del cuerpo 12,7 centímetros por debajo de la posición horizontal. 
+
+c. A que distancia de la posición horizontal, el cuerpo se detiene y el valor de su aceleración en ese instante.
+
+[Descripción de imagen: La imagen muestra un sistema de resortes conectados en forma simétrica, con ambos extremos fijos y unidos en un punto central. Los vectores de fuerza se distribuyen a lo largo de las cuerdas que tensan los resortes. El sistema presenta simetría respecto al eje vertical que pasa por el punto de unión de los resortes.]
+
+# Problema 1.28
+
+Un vagón de ferrocarril cuya masa es de 50 toneladas se está moviendo a $1 8 \mathrm { k m . / h }$ y el escudo parachoques principal se halla conectado a un resorte cuya constante es de $8 0 0 . 0 0 0 \mathrm { ~ N / m }$ . Unos 30 cm por detrás del escudo a se encuentran los escudos secundarios con constantes de $4 0 0 . 0 0 0 \mathrm { N / m }$ cada uno, determinar: 
+
+a. La máxima deformación de cada resorte. 
+
+b. La fuerza máxima soporta la pared vertical. 
+
+c. La velocidad máxima que podría tener el vagón para que no interactue con los resortes secundarios.
+
+────────────────────────────────────────────────────────────
+Chunk 18 (1599 chars)
+────────────────────────────────────────────────────────────
+La máxima deformación de cada resorte. 
+
+b. La fuerza máxima soporta la pared vertical. 
+
+c. La velocidad máxima que podría tener el vagón para que no interactue con los resortes secundarios.
+
+[Descripción de imagen: La imagen muestra un sistema con un objeto grande a la izquierda, presumiblemente un carro o plataforma, y tres resortes en paralelo a la derecha, etiquetados con "a" en el centro y "b" en los extremos. Los puntos de aplicación de fuerzas son en los extremos de cada resorte donde están unidos los bloques negros, y las fuerzas involucradas son la tensión en los resortes.]
+
+# Problema 1.29
+
+Sobre una mesa horizontal libre de rozamiento, se mueve un cuerpo en uno y otro sentido, chocando con resortes fijos en los extremos de la mesa, como se indica la figura. Las constantes de los resortes son $\mathrm { k } _ { 1 } = 1 5 0 \mathrm { N } / \mathrm { m }$ . y $\mathrm { k } _ { 2 } = 3 6 0 \mathrm { N } / \mathrm { m }$ . 
+
+Si en el instante inicial la energía cinética del cuerpo es de 3 joules y se halla en contacto con el resorte 1 al que está comprimiendo $1 5 \mathrm { { c m } }$ .
+
+[Descripción de imagen: La imagen muestra un bloque sometido a dos fuerzas elásticas generadas por resortes con constantes de fuerza k1 y k2. El bloque se encuentra a 15 cm de la posición de equilibrio marcada como x = 0. Se identifican los vectores de fuerzas elásticas dirigidos hacia la posición x=0.]
+
+a. Determinar las compresiones máximas que sufrirán cada uno de los resortes. 
+
+b. Realizar diagramas cualitativos de las energías del sistema en función de la posición del cuerpo.

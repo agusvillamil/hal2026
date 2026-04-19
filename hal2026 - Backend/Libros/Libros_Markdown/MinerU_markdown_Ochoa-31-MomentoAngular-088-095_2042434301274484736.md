@@ -1,0 +1,396 @@
+# MECÁNICA CLÁSICA
+
+Para Estudiantes de Ciencias e Ingeniería. 
+
+Ochoa 
+
+ISBN: 987-95038-0-5 
+
+RPI: 636496 
+
+# Capítulo III
+
+Trabajo Mecánico, Integrales de Movimiento y Aplicaciones. 
+
+# 3.01 CANTIDAD DE MOVIMIENTO Y MOMENTO ANGULAR.
+
+# Vector Cantidad de Movimiento.
+
+Considerando una partícula que se desplaza respecto de un sistema de referencia (xyz) con una determinada velocidad, definiremos su vector cantidad de movimiento, respecto del mencionado sistema de referencia, como: 
+
+$$
+\vec {\mathrm {p}} _ {\mathrm {x y z}} = \mathrm {m} \vec {\mathrm {v}} _ {\mathrm {x y z}} \tag {3.01}
+$$
+
+Que obviamente resulta ser un vector paralelo al vector velocidad y por lo tanto tangente a la trayectoria de la partícula y cuyo sentido coincidirá en todo momento con el sentido de su movimiento. 
+
+Suponiendo constante la masa de la partícula, e inercial al sistema de referencia involucrado, es claro entonces que la ecuación de Newton puede expresarse en términos del vector cantidad de movimiento como: 
+
+$$
+\vec {\mathrm {F}} = \frac {\mathrm {d} \vec {\mathrm {p}}}{\mathrm {d t}} \tag {3.02}
+$$
+
+# Vector Momento Angular.
+
+Considerando una partícula cuya cantidad de movimiento respecto de un sistema de referencia (xyz) fuera el indicado en la figura, definiremos el momento de dicha magnitud respecto del origen del mencionado sistema, como: 
+
+![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-06/73cbca68-06f6-4032-9147-10c3ec02d78b/72f6ff74812da3fb4fcf29063a18553e2a078c4be330b4abe4c57dbc3607f86b.jpg)
+
+
+Que en adelante identificaremos como vector momento angular de la partícula respecto del origen del sistema en consideración, que tal como lo hemos definido, resulta ser un vector perpendicular al plano que en cada instante definen los vectores posición y velocidad, o sea, perpendicular al plano del movimiento, como se sugiere en la figura siguiente. 
+
+![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-06/73cbca68-06f6-4032-9147-10c3ec02d78b/3fa5cb2caddf0025fd22da01d95dc65cbafd0cc9147ae0a0e97ef2b6a71e6dcb.jpg)
+
+
+Cuyo módulo, en términos del ángulo (α) entre el vector posición y el vector velocidad, que se indica en la figura anterior, vendrá expresado por: 
+
+$$
+\mathrm {L} = \text {r m v s e n} \alpha \tag {3.04}
+$$
+
+Suponiendo ahora que durante el intervalo de tiempo de interés, la partícula se mueve a lo largo de una trayectoria plana y orientando los ejes de un sistema cartesiano de manera que el plano (xy) coincida con el plano del movimiento y evaluando los vectores posición y velocidad en componentes según dichas direcciones, es inmediato que la única componente no nula del vector momento angular vendrá dada por: 
+
+$$
+\mathrm {L} _ {\mathrm {z}} = \mathrm {m} (\mathrm {x} \dot {\mathrm {y}} - \mathrm {y} \dot {\mathrm {x}})
+$$
+
+Si para una situación como la que estamos considerando, el vector posición y velocidad de la partícula fueran expresados en componentes polares, empleando como centro de dicho sistema de coordenadas al punto respecto del cuál se determina el vector momento angular y teniendo en cuenta (3.04), la componente del vector momento angular a la que se hace referencia anteriormente puede expresarse como: 
+
+$$
+\mathbf {L} = \mathbf {m r} \mathbf {v} _ {\theta}
+$$
+
+Que en términos de la velocidad angular, calculada respecto del punto considerado, nos queda: 
+
+$$
+\mathrm {L} = \mathrm {m r} ^ {2} \dot {\theta} \tag {3.05}
+$$
+
+Definiendo el momento polar de inercia respecto del punto involucrado en el cálculo del vector momento angular, como: 
+
+$$
+\mathrm {I} = \mathrm {m r} ^ {2}
+$$
+
+Es claro entonces que al módulo del vector momento angular podremos expresarlo como: 
+
+$$
+\mathrm {L} = \mathrm {I} \dot {\theta}
+$$
+
+# 3.02 ECUACIÓN DE MOMENTOS.
+
+En esta oportunidad buscaremos una expresión que nos relacione a la resultante de las fuerzas de interacción a la que está sometida la partícula con su vector momento angular, para lo cual determinaremos la derivada temporal del vector momento angular de la partícula, que teniendo en cuenta como ha sido definida dicha magnitud, resulta: 
+
+$$
+\left. \frac {\mathrm {d} \vec {\mathrm {L}}}{\mathrm {d t}} \right] _ {\mathrm {x y z}} = \left. \frac {\mathrm {d} \vec {\mathrm {r}}}{\mathrm {d t}} \right] _ {\mathrm {x y z}} \times \vec {\mathrm {p}} + \vec {\mathrm {r}} \times \left. \frac {\mathrm {d} \vec {\mathrm {p}}}{\mathrm {d t}} \right] _ {\mathrm {x y z}}
+$$
+
+Donde con el subíndice (xyz) identificamos el sistema desde el que se evalúan los cambios temporales de las magnitudes involucradas, con lo que el primer término del miembro de la derecha es nulo ya que incluye el producto vectorial de dos vectores paralelos y por lo tanto: 
+
+$$
+\left. \frac {\mathrm {d} \vec {\mathrm {L}}}{\mathrm {d t}} \right] _ {\mathrm {x y z}} = \vec {\mathrm {r}} \times \frac {\mathrm {d} \vec {\mathrm {p}}}{\mathrm {d t}} \Bigg ] _ {\mathrm {x y z}}
+$$
+
+Suponiendo ahora que el sistema (xyz) desde el que se calculan las variaciones temporales, es un sistema inercial, en cuyo caso es válida la ecuación (1.09), de la anterior obtenemos que: 
+
+$$
+\left. \frac {\mathrm {d} \vec {\mathrm {L}}}{\mathrm {d t}} \right] _ {\mathrm {x y z}} = \vec {\mathrm {r}} \times \vec {\mathrm {F}}
+$$
+
+Definiendo el momento que genera la resultante de las fuerzas de interacción a la que está sometida la partícula o el centro de masa de un cuerpo, respecto del origen del sistema de referencia inercial, como: 
+
+$$
+\vec {\mathrm {M}} = \vec {\mathrm {r}} \times \vec {\mathrm {F}}
+$$
+
+De la anterior obtenemos que, las variaciones temporales del vector momento angular, calculadas desde un sistema de referencia inercial, estarán relacionadas con el momento que genera la resultante de las fuerzas de interacción, mediante: 
+
+$$
+\vec {\mathrm {M}} = \left. \frac {\mathrm {d} \vec {\mathrm {L}}}{\mathrm {d t}} \right] _ {\text {x y z}} \tag {3.06}
+$$
+
+Que en adelante reconoceremos como ecuación de momentos, siendo importante remarcar que la validez de esta expresión requiere que el sistema de referencia desde el que se evalúa la derivada temporal del vector momento angular, sea un sistema de referencia inercial. 
+
+Considerando ahora un punto (a) cualquiera como el sugerido en la figura siguiente, el momento angular respecto de dicho punto vendrá dado por. 
+
+$$
+\vec {\mathrm {L}} _ {\mathrm {a}} = \vec {\mathrm {r}} _ {\mathrm {a}} \times \vec {\mathrm {p}} _ {\mathrm {x y z}}
+$$
+
+![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-06/73cbca68-06f6-4032-9147-10c3ec02d78b/6d180a8921bd94478782376d24bb58e85dc6e062cfaed0056afba245a4f5c322.jpg)
+
+
+De donde resulta que la derivada temporal del vector momento angular calculada desde un sistema inercial, o sea desde un sistema en el que es válida la ecuación (3.02), vendrá dada por: 
+
+$$
+\left. \frac {\mathrm {d} \vec {\mathrm {L}} _ {\mathrm {a}}}{\mathrm {d t}} \right] _ {\mathrm {x y z}} = \left. \frac {\mathrm {d} \vec {\mathrm {r}} _ {\mathrm {a}}}{\mathrm {d t}} \right] _ {\mathrm {x y z}} \times \vec {\mathrm {p}} _ {\mathrm {x y z}} + \vec {\mathrm {r}} _ {\mathrm {a}} \times \vec {\mathrm {F}}
+$$
+
+Puesto que al vector posición de la partícula respecto del punto (a) podemos expresarlo como: 
+
+$$
+\vec {\mathrm {r}} _ {\mathrm {a}} = \vec {\mathrm {r}} - \vec {\mathrm {R}}
+$$
+
+De la anterior resulta: 
+
+$$
+\left. \frac {\mathrm {d} \vec {\mathrm {L}} _ {\mathrm {a}}}{\mathrm {d t}} \right] _ {\mathrm {x y z}} = (\vec {\mathrm {v}} _ {\mathrm {x y z}} - \vec {\mathrm {v}} _ {\mathrm {A / x y z}}) \times \vec {\mathrm {p}} _ {\mathrm {x y z}} + \vec {\mathrm {r}} _ {\mathrm {a}} \times \vec {\mathrm {F}}
+$$
+
+Teniendo en cuenta nuevamente que los vectores velocidad y cantidad de movimiento de la partícula son paralelos, y que el último término nos da el momento que la resultante de las fuerzas de interacción genera respecto del punto (a), de la anterior obtenemos que: 
+
+$$
+\vec {\mathrm {M}} _ {\mathrm {a}} = \frac {\mathrm {d} \vec {\mathrm {L}} _ {\mathrm {a}}}{\mathrm {d t}} \Bigg ] _ {\mathrm {x y z}} + \vec {\mathrm {v}} _ {\mathrm {a / x y z}} \times \vec {\mathrm {p}} _ {\mathrm {x y z}}
+$$
+
+De donde resulta que si el punto respecto del cual se calculan los momentos es un punto fijo al sistema inercial, como sería el origen de dicho sistema, entonces nuevamente: 
+
+$$
+\vec {\mathrm {M}} _ {\mathrm {a}} = \frac {\mathrm {d} \vec {\mathrm {L}} _ {\mathrm {a}}}{\mathrm {d t}} \bigg ] _ {\mathrm {x y z}}
+$$
+
+# Conservación del Vector Momento Angular.
+
+Teniendo en cuenta las dos últimas relaciones obtenidas entre el momento que genera la resultante de las fuerzas de interacción a que se encuentra sometida una partícula y las variaciones temporales de su vector momento angular, resulta entonces que si el conjunto de fuerzas es tal que no generan momento respecto de un punto fijo a un sistema inercial, entonces el momento angular, calculado respecto de dicho punto, permanecerá constante e igual al valor que tenia en el instante inicial, que formalmente podemos expresar como. 
+
+$$
+\vec {\mathrm {M}} _ {\mathrm {a}} = 0 \quad \Rightarrow \quad \vec {\mathrm {L}} _ {\mathrm {a}} = \mathrm {c t e} \quad \therefore \quad \vec {\mathrm {L}} = \vec {\mathrm {L}} _ {\mathrm {o a}}
+$$
+
+Teniendo en cuenta que se trata de una magnitud vectorial, su conservación requiere que su dirección también permanezca constante y puesto que la misma es perpendicular al plano del movimiento, la trayectoria a lo largo de la que se desplazará la partícula permanecerá contenida en el plano definido por sus vectores posición y velocidad en el instante inicial. 
+
+Puesto que bajo las condiciones indicadas, la partícula se desplazará a lo largo de una trayectoria plana, expresando el módulo del vector momento angular en coordenadas polares, su conservación nos garantiza que: 
+
+$$
+\mathrm {m r _ {a} ^ {2}} \dot {\theta} = \mathrm {c t e}
+$$
+
+Que en términos del momento angular inicial queda: 
+
+$$
+\mathrm {m r _ {a} ^ {2}} \dot {\theta} = \mathrm {L _ {o a}}
+$$
+
+Donde es importante tener en cuenta que la velocidad angular considerada en las anteriores está calculada respecto del punto involucrado en el teorema de conservación, esto es respecto del punto respecto del que se determina el vector momento angular y el momento nulo que generan las fuerzas de interacción. 
+
+Teniendo en cuenta que las conclusiones obtenidas son válidas cuando los momentos están calculados respecto de un punto fijo a un sistema de referencia inercial, es claro que tomando los momentos respecto del origen de un sistema de referencia inercial, al teorema relacionado con la conservación del vector momento angular respecto de dicho punto podremos expresarlo como:    
+
+$$
+\vec {\mathrm {M}} = 0 \quad \Rightarrow \quad \vec {\mathrm {L}} = \mathrm {c t e} \quad \therefore \quad \vec {\mathrm {L}} = \vec {\mathrm {L}} _ {\mathrm {o}} \tag {3.07}
+$$
+
+Con lo que, la conservación del módulo de dicha magnitud nos garantiza que: 
+
+$$
+\mathrm {m r} ^ {2} \dot {\theta} = \mathrm {L} _ {\mathrm {o}} \tag {3.08}
+$$
+
+Y la velocidad angular de la partícula o centro de masa del cuerpo, variará con su coordenada radial según: 
+
+$$
+\dot {\theta} = \frac {L _ {0}}{m r ^ {2}} \tag {3.09}
+$$
+
+# 3.03 MOVIMIENTO EN UN CAMPO DE FUERZA RADIAL ESFÉRICAMENTE SIMÉTRICO.
+
+Diremos que una partícula está sometida a un campo de fuerza radial esféricamente simétrico, cuando la fuerza a que se ve sometida cumple con los requisitos que se indican a continuación: 
+
+Su recta de acción está en todo momento dirigida a lo largo de rectas que se cortan en un punto fijo al sistema de referencia involucrado, como se sugiere en la figura siguiente, que en adelante identificaremos como centro de fuerza, pudiendo su sentido estar indistintamente dirigido hacia dicho punto o en sentido opuesto, fuerza atractiva o repulsiva respectivamente, en cuyo caso diremos que estamos en presencia de un campo de fuerza radial. 
+
+![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-06/73cbca68-06f6-4032-9147-10c3ec02d78b/0cb561a6cd1f9e092c029266d59ff3ae5de10857be5d930f376bd1319826179b.jpg)
+
+
+Si además el módulo de la fuerza depende únicamente de la distancia (r) al mencionado centro de fuerza, diremos entonces que el campo de fuerza es radial y esféricamente simétrico. 
+
+Bajo estas condiciones es claro que la fuerza a que estará sometida la partícula podrá expresarse en términos del vector radial unitario y de su distancia (r) al centro de fuerzas, como: 
+
+$$
+\vec {\mathrm {F}} = \mathrm {f} (\mathrm {r}) \vec {\mathrm {e}} _ {\mathrm {r}}
+$$
+
+En cuyo caso y como ya lo mencionáramos, reconoceremos a este tipo de fuerzas como radial esféricamente simétrica, en cuanto a que solamente cuenta con una componente radial y ésta no depende de ninguna coordenada angular y por lo tanto sus propiedades tendrán la simetría esférica que justifica su nominación. 
+
+Suponiendo dadas las condiciones enunciadas anteriormente es claro que el momento de una fuerza con estas características calculado respecto de su centro de fuerzas será nulo y por lo tanto el momento angular de una partícula sometida a una fuerza como la mencionada, calculado respecto del centro de fuerzas, permanecerá constante y se desplazará a lo largo de una trayectoria plana de manera que: 
+
+$$
+\mathrm {m r} ^ {2} \dot {\theta} = \mathrm {L} _ {\circ} \tag {3.10}
+$$
+
+Donde la coordenada radial y la velocidad angular están determinadas respecto del mencionado centro de fuerzas y donde con $\left( \mathrm { L } _ { \mathrm { o } } \right)$ identificamos al momento angular de la partícula respecto de dicho punto en el instante inicial, entendiendo por instante inicial al instante en el que la partícula queda sometida a un sistema de fuerzas tal que su resultante satisface las condiciones indicadas. Por lo tanto bajo estas condiciones, la velocidad angular de la partícula vendrá expresada en función de su distancia al centro de fuerzas, por: 
+
+$$
+\dot {\theta} = \frac {L _ {\circ}}{m r ^ {2}} \tag {3.11}
+$$
+
+Resultando que para una situación como la indicada, la componente radial de la ecuación de Newton quedará expresada como: 
+
+$$
+\mathbf {f} (\mathbf {r}) = \mathbf {m} \left(\ddot {\mathbf {r}} - \mathbf {r} \dot {\boldsymbol {\theta}} ^ {2}\right)
+$$
+
+A partir de la cual, y teniendo en cuenta (1.34), resulta: 
+
+$$
+\ddot {\mathrm {r}} = \left(\frac {\mathrm {L} _ {\circ}}{\mathrm {m}}\right) ^ {2} \frac {1}{\mathrm {r} ^ {3}} + \frac {\mathrm {f} (\mathrm {r})}{\mathrm {m}}
+$$
+
+De donde, separando variables obtenemos: 
+
+$$
+\dot {r} d \dot {r} = \left(\frac {L _ {\circ}}{m}\right) ^ {2} \frac {1}{r ^ {3}} d r + \frac {f (r)}{m} d r
+$$
+
+Que luego de integrar entre límites compatibles con las condiciones iniciales nos proporciona la relación: 
+
+$$
+\dot {r} ^ {2} = \dot {r} _ {\circ} ^ {2} + \left(\frac {L _ {\circ}}{m}\right) ^ {2} \left(\frac {1}{r _ {\circ} ^ {2}} - \frac {1}{r ^ {2}}\right) + \frac {2}{m} \int_ {r _ {\circ}} ^ {r} f (r) d r \tag {3.12}
+$$
+
+Que en términos del momento angular específico, o sea por unidad de masa, nos queda: 
+
+$$
+\dot {r} ^ {2} = \dot {r} _ {\circ} ^ {2} + l _ {\circ} ^ {2} \left(\frac {1}{r _ {\circ} ^ {2}} - \frac {1}{r ^ {2}}\right) + \frac {2}{m} \int_ {r _ {\circ}} ^ {r} f (r) d r \tag {3.13}
+$$
+
+# Aplicación.
+
+La figura muestra una partícula de masa (m) que se mueve a lo largo de una trayectoria circular contenida en un plano horizontal libre de rozamiento, con una velocidad constante y conocida, mientras está sujeta por una cuerda inextensible y de masa despreciable que pasa por un orificio coincidente con el centro de la mencionada trayectoria. 
+
+![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-06/73cbca68-06f6-4032-9147-10c3ec02d78b/ee07b72988843404484d1083d0ee631983a9c66838ab8d98ee9d902f01e7d1f1.jpg)
+
+
+En este caso es claro que la interacción entre el cuerpo y la cuerda deberá dar lugar a la fuerza que garantice la trayectoria circular, que por lo tanto y teniendo en cuenta la ecuación de Newton vendrá dada por: 
+
+$$
+F _ {\circ} = m r _ {\circ} \dot {\theta} _ {\circ} ^ {2}
+$$
+
+Suponiendo ahora que se aplica una fuerza (k) veces mayor que la indicada anteriormente, es claro que se romperá el equilibrio dinámico establecido inicialmente y la partícula se desplazará a lo largo de una trayectoria del tipo helicoidal hacia el centro de la primitiva trayectoria circular. 
+
+Bajo estas condiciones, trataremos de obtener una expresión para la velocidad que tendrá la partícula cuando se encuentre a una distancia del orificio que sea la mitad de la inicial, para lo cual teniendo en cuenta que la fuerza a la que se verá sometida estará dirigida en todo momento hacia el orificio entonces que momento angular respecto del mencionado punto ha de permanecer constante y por lo tanto de (3.11) resulta que su velocidad angular, determinada respecto del orificio, en el instante en que alcance la coordenada radial mencionada, vendrá dada por: 
+
+$$
+\dot {\theta} _ {1} = \frac {\mathrm {L} _ {\circ}}{\mathrm {m r} _ {1} ^ {2}}
+$$
+
+Donde: 
+
+$$
+r _ {1} = \frac {r _ {\circ}}{2} \quad y \quad L _ {\circ} = m r _ {\circ} ^ {2} \dot {\theta} _ {\circ}
+$$
+
+Con lo que de la anterior resulta que la velocidad angular de la partícula al pasar por el punto cuya coordenada radial es la mitad de la anterior, vendrá dada por: 
+
+$$
+\dot {\theta} _ {1} = 4 \dot {\theta} _ {\circ}
+$$
+
+Por otro lado, teniendo en cuenta que la fuerza aplicada sobre la partícula fue en todo momento (k) veces la aplicada inicialmente, de (3.13) resulta: 
+
+$$
+\dot {r} ^ {2} = \dot {r} _ {\circ} ^ {2} + l _ {\circ} ^ {2} \left(\frac {1}{r _ {\circ} ^ {2}} - \frac {1}{r ^ {2}}\right) + \frac {2}{m} \int_ {r _ {\circ}} ^ {r} k m r _ {\circ} \theta_ {\circ} ^ {2} d r
+$$
+
+Puesto que en el instante inicial, la componente radial del vector velocidad es nula, de la anterior obtenemos que la componente radial del vector velocidad cuando pase por el punto cuya coordenada radial es la mitad de la inicial, vendrá dada por: 
+
+$$
+\dot {r} ^ {2} = (k - 3) r _ {\circ} ^ {2} \dot {\theta} _ {\circ} ^ {2}
+$$
+
+Por lo tanto para poder llevar la partícula hasta una distancia que sea la mitad de la inicial será necesario aplicar una fuerza que sea por lo menos 3 veces mayor que la aplicada inicialmente para mantener la partícula a lo largo de la primitiva trayectoria circular. 
+
+Resulta interesante notar que si la fuerza aplicada fuera justamente 3 veces la inicial, entonces la partícula alcanza la mitad de la coordenada radial con una velocidad tal que: 
+
+$$
+\dot {\mathrm {r}} _ {1} = 0 \qquad \mathrm {y} \qquad \dot {\theta} _ {1} = 4 \dot {\theta} _ {\circ}
+$$
+
+De donde resulta que: 
+
+$$
+\mathbf {v} _ {1} = 2 \mathbf {v} _ {\circ}
+$$
+
+Con lo que, si deseáramos mantenerla en una trayectoria circular con el radio mencionado sería necesario aplicar una fuerza dada por: 
+
+$$
+F _ {1} = m r _ {1} \dot {\theta} _ {1} ^ {2} \quad \therefore \quad F _ {1} = 8 m r _ {\circ} \dot {\theta} _ {\circ} ^ {2}
+$$
+
+Claramente superior a la que estamos aplicando, por lo que deberemos esperar que una vez alcanzada dicha posición la coordenada radial se incremente nuevamente. 
+
+# Tiro Vertical de Largo Alcance.
+
+Consideremos el caso de una partícula que es lanzada verticalmente como se sugiere en la figura siguiente, donde la coordenada angular está determinada desde una dirección fija a un sistema de referencia solidario al planeta, como podría ser la indicada en la mencionada figura. 
+
+Bajo estas condiciones y teniendo en cuenta lo tratado en el tema 1.11, es claro que la partícula o el centro de masa del cuerpo se verá sometida a una fuerza dirigida hacia el centro del planeta, dada por: 
+
+$$
+\vec {\mathrm {F}} = - \mathrm {G} \frac {\mathrm {m M}}{\mathrm {r} ^ {2}} \vec {\mathrm {e}} _ {\mathrm {r}}
+$$
+
+Que como lo podemos apreciar se trata de una fuerza radial esféricamente simétrica con su polo en el centro del planeta, con lo que estamos en condiciones de afirmar que las variaciones temporales de su coordenada angular dependerán de la coordenada radial, según: 
+
+![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-06/73cbca68-06f6-4032-9147-10c3ec02d78b/d2f7ee2783316a282c3cdc4a020cf3502dd83157aa38b883e092e2ff9c06b8f3.jpg)
+
+
+$$
+\dot {\theta} = \frac {L _ {\circ}}{m r ^ {2}}
+$$
+
+De donde resulta que, como el momento angular respecto del centro del planeta en el instante inicial es nulo, entonces las variaciones temporales de su coordenada angular serán nulas y por lo tanto dicha coordenada permanecerá constante e igual al valor que tenia en el instante inicial. 
+
+$$
+\dot {\theta} = 0 \quad \therefore \quad \theta = \theta_ {o}
+$$
+
+Con lo que, como era de esperar, la partícula se desplazará a lo largo de una trayectoria recta coincidente con la dirección de su vector velocidad en el instante del lanzamiento, a lo largo de la cual y teniendo en cuenta (3.12), las variaciones temporales de su coordenada radial vendrán dadas por: 
+
+$$
+\dot {r} ^ {2} = \dot {r} _ {\circ} ^ {2} - 2 G M \left(\frac {1}{r _ {\circ}} - \frac {1}{r}\right)
+$$
+
+Que por ser la única componente no nula de su vector velocidad a lo largo de todo el movimiento, de la anterior resulta que a la velocidad de la partícula en función de su coordenada radial podremos expresarla como: 
+
+$$
+\mathrm {v} ^ {2} = \mathrm {v} _ {\circ} ^ {2} - 2 \mathrm {G M} \left(\frac {1}{\mathrm {r} _ {\circ}} - \frac {1}{\mathrm {r}}\right) \tag {3.14}
+$$
+
+Teniendo en cuenta que cuando la partícula alcance su altura máxima se deberá verificar que en ese punto se anule su velocidad, de la anterior resulta que dicha altura máxima vendrá dada por: 
+
+$$
+r _ {m} = \frac {2 G M r _ {\circ}}{2 G M - r _ {\circ} v _ {\circ} ^ {2}}
+$$
+
+Finalmente, podemos obtener una expresión para la mínima velocidad con que deberíamos lanzar la partícula si deseamos que llegue infinitamente lejos, que en adelante reconoceremos como velocidad de escape, y que podemos obtener de (3.14), imponiendo en ella que la velocidad se anule cuando su distancia al centro del planeta tienda a infinito, o bien, a partir de la anterior, requiriendo la nulidad del denominador, con lo que para la mencionada magnitud obtenemos: 
+
+$$
+\mathrm {v} _ {\circ (\text {e s c a p e})} = \sqrt {\frac {2 \mathrm {G M}}{\mathrm {r} _ {\circ}}} \tag {3.15}
+$$
+
+Que si bien la hemos logrado para el caso particular de un lanzamiento vertical, como lo demostraremos posteriormente, la expresión anterior nos proporciona la velocidad de escape independientemente de las condiciones impuestas al lanzamiento, resultando diferencias según el tipo de lanzamiento, en la trayectoria a lo largo de la que se desplazará la partícula. 
+
+Suponiendo un lanzamiento desde la superficie de la tierra, de la anterior se obtiene una velocidad de escape del orden de $1 1 \ \mathrm { k m / s }$ $3 9 . 6 0 0 \mathrm { k m / h } )$ ), valor realmente importante para ser alcanzado en un corto desplazamiento ya que requeriría someter el cuerpo a una aceleración que difícilmente podría soportar una estructura física compleja como la correspondiente a una nave espacial. Se recomienda el cálculo de dicha aceleración suponiendo que se desea alcanzar dicha velocidad en una distancia de $1 \mathrm { k m }$ . 
+
+# Tiro Horizontal de Largo Alcance.
+
+Considerando ahora un lanzamiento según una dirección perpendicular a su vector posición en el instante inicial, como el sugerido en la figura lateral, nuevamente estamos en condiciones de afirmar que por estar sometida a un campo de fuerza radial esféricamente simétrico con un momento angular inicial no nulo y una componente radial de su vector velocidad inicial nula, de (3.11) y (3.12), resulta: 
+
+$$
+\dot {\theta} = \frac {r _ {\circ} v _ {\circ}}{r ^ {2}}
+$$
+
+![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-06/73cbca68-06f6-4032-9147-10c3ec02d78b/f251de2e853d0f699582be53190599b8511f6d0051dce31828dadb0aa87b2ee0.jpg)
+
+
+$$
+\dot {r} ^ {2} = \left(r _ {\circ} v _ {\circ}\right) ^ {2} \left(\frac {1}{r _ {\circ} ^ {2}} - \frac {1}{r ^ {2}}\right) - 2 G M \left(\frac {1}{r _ {\circ}} - \frac {1}{r}\right)
+$$
+
+Imponiendo en las anteriores las condiciones necesarias para obtener la velocidad de escape, esto es, que ambas componentes sean nulas cuando la coordenada radial tienda a infinito, de las anteriores resulta para dicha magnitud una expresión coincidente con la lograda en el caso de un tiro vertical. 
+
+$$
+\mathbf {v} _ {\circ (\text {e s c a p e})} = \sqrt {\frac {2 \mathrm {G M}}{\mathbf {r} _ {\circ}}}
+$$

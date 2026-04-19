@@ -1,0 +1,190 @@
+Archivo  : Libros/Libros_Markdown/MinerU_markdown_Ochoa-53-PmasCapitulo-V-103-105_2042434759879688192.md
+Chunks   : 8
+
+────────────────────────────────────────────────────────────
+Chunk 1 (1268 chars)
+────────────────────────────────────────────────────────────
+# Problema 5.01
+
+La figura muestra un sistema de partículas que en el instante indicado las posiciones, respecto de (xyz) están en metros y las velocidades en m/seg. 
+
+a. Determinar el vector posición y velocidad del centro de masa del sistema para el instante mostrado. 
+
+b. Graficar la trayectoria del centro de masa. 
+
+c. Calcular la energía cinética total, intrínseca y orbital del sistema.
+
+[Descripción de imagen: La imagen muestra tres masas, $m_1$, $m_2$ y $m_3$,  situadas en diferentes puntos del plano XY. Los vectores de posición son $\vec{r_1}=8\hat{i}$, $\vec{r_2}=20\hat{i}$ y $\vec{r_3}=20\hat{i}+8\hat{j}$.  Los vectores velocidad son $\vec{V_1}=-8\hat{i}$, $\vec{V_2}=2\hat{i}+3\hat{j}$ y $\vec{V_3}=3\hat{j}$]
+
+# Problema 5.02
+
+Un cuerpo de $^ { 0 , 2 \mathrm { k g } }$ . se mueve a lo largo de un eje horizontal con una velocidad de $0 { , } 4 ~ \mathrm { m / s e g }$ . para chocar con otro cuerpo de $^ { 0 , 3 \mathrm { ~ k g } }$ . que estaba en reposo. Si después de la colisión el primer cuerpo se mueve con una velocidad de $0 { , } 2 ~ \mathrm { m / s e g }$ . en una dirección que forma un ángulo de 40 grados con la dirección original. Determinar el vector velocidad del segundo cuerpo y la energía disipada en el proceso de interacción.
+
+────────────────────────────────────────────────────────────
+Chunk 2 (1510 chars)
+────────────────────────────────────────────────────────────
+Determinar el vector velocidad del segundo cuerpo y la energía disipada en el proceso de interacción.
+
+# Problema 5.03
+
+Se tienen dos cuerpos de masa $\mathrm { m } _ { \mathrm { l } = } 3 \mathrm { k g }$ . y $\scriptstyle \mathrm { m } _ { 2 = } 5 \mathrm { k g }$ . apoyados sobre una superficie horizontal libre de rozamiento que colisionan elásticamente y comprimen $1 8 \mathrm { c m }$ . al resorte con el que interactúan. 
+
+Si en el instante mostrado el cuerpo $\mathfrak { m } _ { 1 }$ se mueve con una velocidad de $4 ~ \mathrm { m / s e g }$ . mientras $\mathfrak { m } _ { 2 }$ se encuentra en reposo: 
+
+a. Obtener la posición y velocidad del centro de masa del sistema en el instante inicial. 
+
+b. Obtener la velocidad de los cuerpos concluida la colisión. 
+
+c. Realizar gráficas cualitativas que muestren las energías cinéticas total, orbital e intrínseca antes, durante y después de la colisión.
+
+[Descripción de imagen: La imagen muestra dos masas, $m_1$ y $m_2$, conectadas por un resorte con una constante de elasticidad $k_e = 4000 N/m$. La masa $m_1$ tiene una velocidad inicial $V_1$ en el eje horizontal. El punto de aplicación de la fuerza ejercida por el resorte es en las masas $m_1$ y $m_2$.]
+
+# Problema 5.04
+
+Un proyectil tiene una masa de 30 gramos y se mueve a $6 6 0 ~ \mathrm { m / s e g }$ . Si penetra plásticamente en un cuerpo de 5kg. que se encontraba en reposo. Determinar la velocidad con que salen los cuerpos luego de la colisión, y la energía perdida durante la misma.
+
+────────────────────────────────────────────────────────────
+Chunk 3 (1763 chars)
+────────────────────────────────────────────────────────────
+Si penetra plásticamente en un cuerpo de 5kg. que se encontraba en reposo. Determinar la velocidad con que salen los cuerpos luego de la colisión, y la energía perdida durante la misma.
+
+# Problema 5.05
+
+Dos cuerpos de masas $\mathrm { m } _ { \mathrm { l } } = 4 \mathrm { k g }$ . y $\scriptstyle \mathrm { m } _ { 2 = 2 \mathrm { k g } }$ . se mueven en la misma dirección y sentido a lo largo de un plano horizontal libre de rozamiento, con velocidades iniciales de 6 m/seg. y 4m/seg, respectivamente. Si durante la colisión cuyo tiempo de duración es de 0,005 seg. la velocidad del cuerpo 1 varía con el tiempo como muestra la figura: 
+
+a. Realizar una gráfica en función del tiempo para el módulo de la resultante de las fuerzas a que se verá sometido el cuerpo 1. 
+
+b. Hacer una gráfica para el módulo de la velocidad de m2 en función del tiempo. 
+
+c. Qué velocidad tiene el cuerpo 2 al finalizar la colisión.
+
+[Descripción de imagen: La imagen muestra una grafica de velocidad en funcion del tiempo. La velocidad inicial es de 6 m/s y disminuye linealmente hasta 3 m/s en un intervalo de 0.005 segundos. Luego, la velocidad permanece constante en 3 m/s.]
+
+# Problema 5.06
+
+En un ensayo balístico un proyectil de 50 gramos se dispara contra un cuerpo de 1kg. que se mueve en un plano horizontal con una velocidad de 2 m/seg. hacia el proyectil. 
+
+Suponiendo que el coeficiente de rozamiento dinámico entre el cuerpo y la superficie es de 0,2; que la colisión es totalmente plástica, y que luego del choque el cuerpo con el proyectil recorre 1 metro sobre el plano horizontal antes de tomar contacto con el resorte, para comprimirlo $1 0 \ \mathrm { c m }$ . Determinar la velocidad inicial del proyectil si la constante elástica del resorte es de 800 N/cm.
+
+────────────────────────────────────────────────────────────
+Chunk 4 (2487 chars)
+────────────────────────────────────────────────────────────
+Determinar la velocidad inicial del proyectil si la constante elástica del resorte es de 800 N/cm.
+
+[Descripción de imagen: La imagen muestra un bloque de 1 kg situado sobre una superficie horizontal, recibiendo el impacto de un proyectil. Se observan dos vectores de velocidad: uno correspondiente a la velocidad del bloque después del impacto, denotado como V, y otro de valor 2 m/seg, que podría representar la velocidad del bloque antes del impacto o su velocidad en otro momento. Un muelle se encuentra comprimido, lo que indica la presencia de una fuerza elástica. No se aprecian ejes coordenados explícitos, pero podría asumirse un eje horizontal para el análisis del movimiento.]
+
+# Problema 5.07
+
+Un cuerpo A tiene una masa de $3 ~ \mathrm { k g }$ , velocidad de 4 $\mathrm { m } / \mathrm { s }$ e impacta con B de $5 ~ \mathrm { k g }$ . que se encuentra en reposo. Producto de la colisión totalmente plástica, los cuerpos se dirigen hacia el resorte, cuya constante elástica es de $2 0 0 0 \mathrm { N / m }$ . Determinar: 
+
+a. La deformación máxima del resorte que amortigua el movimiento de ambos cuerpos. 
+
+b. La energía perdida durante la colisión.
+
+[Descripción de imagen: La imagen muestra dos bloques, A y B, sobre una superficie horizontal, donde el bloque A se mueve hacia el bloque B con una velocidad de 4 m/s. No se aprecian fuerzas explícitamente representadas, pero se implica la fuerza de interacción entre los bloques y la posible fuerza de restitución de la primavera comprimida que se encuentra en la parte derecha de la imagen. El punto de aplicación relevante es el punto de contacto entre los bloques A y B.]
+
+# Problema 5.08
+
+El resorte de la figura tiene una longitud propia de $3 0 \mathrm { c m }$ , si se lo comprime a la mitad de dicha longitud con ambos cuerpos en reposo, que se sueltan súbitamente y suponiendo nulo el rozamiento para las superficies en contacto. Determinar: 
+
+a. La velocidad de cada cuerpo cuando el resorte recobra su longitud propia. 
+
+b. La posición, y velocidad del centro de masa en ese instante.
+
+[Descripción de imagen: La imagen muestra dos bloques de masas 25 kg y 15 kg unidos por un resorte con constante de elasticidad ke = 120 N/cm. Se puede asumir que los bloques se encuentran sobre un eje horizontal x, con el resorte actuando a lo largo de este eje. Las fuerzas actuantes son las tensiones ejercidas por el resorte sobre cada bloque y las fuerzas de rozamiento que no se visualizan pero se asumen presentes.]
+
+────────────────────────────────────────────────────────────
+Chunk 5 (1939 chars)
+────────────────────────────────────────────────────────────
+[Descripción de imagen: La imagen muestra dos bloques de masas 25 kg y 15 kg unidos por un resorte con constante de elasticidad $k_e$ = 120 N/cm. Se puede asumir que las fuerzas actuantes sobre los bloques son sus respectivos pesos, que se aplican en el centro de cada bloque, y la fuerza elástica del resorte que actúa en el punto de unión entre los bloques, en dirección horizontal. No se observan otras fuerzas actuando en la imagen.]
+
+# Problema 5.09
+
+Dos bañistas A y B tienen masas de $7 5 ~ \mathrm { k g }$ . y $5 0 ~ \mathrm { k g }$ . respectivamente y se tiran desde la popa de un bote de $2 5 0 ~ \mathrm { k g }$ . que está en reposo, si ambos se tiran en la misma dirección y sentido de manera que su velocidad inicial relativa al bote tiene solo componente horizontal y es de 4 m/seg. Determinar la velocidad final del bote si: 
+
+a. Ambos bañistas se tiran simultáneamente. 
+
+b. Si se tira A y luego B. 
+
+c. Si se tira B y luego A.
+
+# Problema 5.10
+
+Una esfera de $3 ~ \mathrm { k g }$ . parte del reposo en la posición graficada, para impactar en otra esfera de $5 ~ \mathrm { k g }$ . que también se encuentra en reposo, si ambas esferas están sujetas a cuerdas de 4 metros y el choque es totalmente plástico determinar: 
+
+a. El máximo ángulo de apertura del péndulo formado por ambos bloques. 
+
+Si el choque es totalmente elástico determinar: 
+
+b. El ángulo máximo alcanzan las esferas luego del primer choque y el mayor ángulo de apertura luego del segundo choque.
+
+[Descripción de imagen: La imagen muestra un sistema de poleas con dos masas suspendidas, una de 3 kg y otra de 5 kg, unidas por cuerdas que forman un ángulo de 45 grados con la vertical. Las fuerzas actuantes son el peso de cada masa y la tensión en cada cuerda. El punto de aplicación de las fuerzas de tensión es en el punto de unión de las cuerdas y en el punto de sujeción al techo, mientras que el peso actúa en el centro de gravedad de cada masa.]
+
+────────────────────────────────────────────────────────────
+Chunk 6 (2369 chars)
+────────────────────────────────────────────────────────────
+[Descripción de imagen: La imagen muestra un sistema de dos masas suspendidas, una de 3 kg y otra de 5 kg, unidas por cuerdas que convergen en un punto y se sujetan a un soporte horizontal. El sistema forma un ángulo de 45 grados entre una de las cuerdas y la vertical, mientras que la tensión en las cuerdas y el peso de las masas son las fuerzas relevantes, actuando la tensión a lo largo de las cuerdas y el peso verticalmente hacia abajo en cada masa.]
+
+# Problema 5.11
+
+Dos péndulos de masas $\mathbf { m } _ { 1 } ~ = 5 ~ \mathrm { k g }$ . y $ { \mathbf { m } } _ { 2 } = 1 0  { \mathrm { ~ k g ~ } }$ . se sueltan simultáneamente de las posiciones indicadas en la figura. Si las longitudes de las cuerdas son iguales y de 1,2 metros. Determinar si el choque es perfectamente plástico: 
+
+a. La velocidad de salida de la nueva partícula combinada. 
+
+b. El ángulo de apertura máximo de este nuevo péndulo y su frecuencia de oscilación. 
+
+c. La energía perdida durante la colisión.
+
+[Descripción de imagen: La imagen muestra un sistema de dos péndulos simples con masas $m_1$ y $m_2$ suspendidas de un punto fijo, formando ángulos de 14° y 10° con la vertical, respectivamente. Las fuerzas actuantes incluyen la tensión en cada cuerda y el peso de cada masa, que puede descomponerse en componentes a lo largo de los ejes vertical y horizontal. El punto de aplicación de las fuerzas es la masa de cada péndulo.]
+
+# Problema 5.12
+
+La figura muestra dos cuerpos de igual masa apoyados sobre una superficie horizontal libre de rozamiento y unidos mediante un muelle lineal de constante elástica conocida k. Si los cuerpos que inicialmente están sujetos por el muelle sin deformar, se apartan de su posición de equilibrio una distancia D cada uno de ellos, y se sueltan desde allí. Plantear las ecuaciones diferenciales que permitan describir el movimiento de los cuerpos. Determinar la frecuencia de oscilación de cada 
+
+cuerpo en su movimiento posterior.
+
+[Descripción de imagen: La imagen muestra dos masas iguales, cada una representada por "m", unidas por un resorte. Sobre cada masa actúan fuerzas en la dirección horizontal, aunque no se muestran explícitamente en la imagen. El sistema puede ser analizado en un eje horizontal, considerando las fuerzas aplicadas en el punto de unión entre las masas y el resorte, así como en los centros de masa de cada bloque.]
+
+────────────────────────────────────────────────────────────
+Chunk 7 (2051 chars)
+────────────────────────────────────────────────────────────
+[Descripción de imagen: La imagen muestra dos bloques de masa m unidos por un resorte. Sobre los bloques actúan fuerzas horizontales que no se visualizan. El sistema se encuentra en un plano horizontal.]
+
+# Problema 5.13
+
+Los cuerpos de la figura viajan en línea recta (dispuestos a colisionar) en la forma indicada. Si están sujetos a fuerzas externas cuya resultante es nula, y el choque es tal que se pierde en la colisión la mitad de la máxima energía cinética que puede perderse en un proceso de choque plastico: 
+
+a. Determinar la velocidad con que salen luego de colisionar. 
+
+b. Construir gráficas cualitativas que muestren como varían las energías cinéticas del sistema antes, durante y después del proceso de choque.
+
+[Descripción de imagen: La imagen muestra dos bloques, A y B, con velocidades de 10 m/s y 6 m/s respectivamente, ambas en la misma dirección y sentido. No se observan fuerzas explícitamente representadas, pero se puede asumir que se encuentran sobre un eje horizontal, con los bloques moviéndose en dirección al eje x positivo. El punto de aplicación de las velocidades es cada bloque en sí.]
+
+$$
+m _ {a} = 5 k g
+$$
+
+$$
+m _ {b} = 3 K g
+$$
+
+# Problema 5.14
+
+Las bolas mostradas tienen igual masa m, B y C están conectadas por un resorte sin estirar y están en reposo. Si la bola A se mueve hacia B con velocidad $\mathrm { V _ { A } }$ , en un plano horizontal libre de rozamiento, y el choque entre A y B es perfectamente elástico. 
+
+a. Cuál es la velocidad del centro de masa común a las 3 bolas luego del impacto. 
+
+b. Cuál es la velocidad del centro de masa de B y C inmediatamente después del impacto. 
+
+c. Cuál es la máxima compresión que sufrirá el resorte que une ambas bolas.
+
+[Descripción de imagen: La imagen muestra un objeto circular etiquetado como A, con un vector velocidad V_A aplicado en el centro del objeto y dirigido horizontalmente hacia la derecha. El vector V_A indica la velocidad del objeto en dirección y sentido hacia la derecha. No se observan otras fuerzas o vectores adicionales en la imagen.]
+
+────────────────────────────────────────────────────────────
+Chunk 8 (885 chars)
+────────────────────────────────────────────────────────────
+[Descripción de imagen: La imagen muestra un objeto circular etiquetado como A, con una flecha que emerge de él y apunta hacia la derecha, representando el vector velocidad V_A. El vector velocidad se encuentra alineado con el eje horizontal, sin componentes verticales visibles. El punto de aplicación del vector es el centro del objeto circular.]
+
+[Descripción de imagen: La imagen muestra dos objetos circulares, etiquetados como B y C, conectados por un resorte. Se puede asumir que el resorte ejerce fuerzas elásticas sobre ambos objetos, representadas por vectores que apuntan en direcciones opuestas a lo largo del eje horizontal que pasa por los centros de los objetos. Los puntos de aplicación de estas fuerzas son los puntos de contacto entre el resorte y cada objeto.]
+
+Como una ilustración del tema se recomienda ejecutar el video Colisiones que se ofrece en este compacto.

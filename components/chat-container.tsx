@@ -1,9 +1,9 @@
 "use client"
 
 import { useState, useRef, useEffect } from "react"
+import Image from "next/image"
 import { ChatMessage } from "./chat-message"
 import { ChatInput } from "./chat-input"
-import { Atom } from "lucide-react"
 
 interface Message {
   id: string
@@ -133,8 +133,8 @@ export function ChatContainer() {
     <main className="flex h-full min-h-0 flex-1 flex-col overflow-hidden">
       {/* Header */}
       <header className="flex items-center gap-3 border-b border-border bg-card/80 backdrop-blur-sm px-6 py-4">
-        <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-primary/10">
-          <Atom className="h-5 w-5 text-primary" />
+        <div className="flex h-10 w-10 items-center justify-center rounded-xl overflow-hidden">
+          <Image src="/hal2026.png" alt="HAL-2026" width={40} height={40} />
         </div>
         <div>
           <h1 className="font-semibold text-foreground">HAL-2026</h1>
@@ -153,7 +153,7 @@ export function ChatContainer() {
           {isLoading && (
             <div className="flex items-center gap-3">
               <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-ai-bubble border border-border">
-                <Atom className="h-4 w-4 text-ai-bubble-foreground animate-pulse" />
+                <Image src="/hal2026.png" alt="HAL-2026" width={20} height={20} className="animate-pulse" />
               </div>
               <div className="flex items-center gap-1 rounded-2xl rounded-bl-md bg-ai-bubble border border-border/50 px-4 py-3 shadow-sm">
                 <span className="h-2 w-2 animate-bounce rounded-full bg-muted-foreground [animation-delay:-0.3s]" />

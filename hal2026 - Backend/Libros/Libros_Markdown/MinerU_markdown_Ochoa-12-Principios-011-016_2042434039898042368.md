@@ -1,0 +1,253 @@
+# 1.04 PRINCIPIOS DE LA MECÁNICA.
+
+En el tema anterior se definieron un conjunto de magnitudes tales como los vectores posición, velocidad y aceleración con el propósito de desarrollar un formalismo que nos permita describir las características del movimiento de una partícula respecto de un sistema de referencia. 
+
+En particular el vector aceleración fue definido con el propósito de caracterizar los cambios temporales observados en el estado de movimiento de la partícula, sin tener en cuenta las causas que originan dichos cambios, tema del que nos ocuparemos en esta oportunidad al considerar el trabajo de Isaac Newton, que publicara en 1687 en su tratado “Principios Matemáticos de la Filosofía Natural”. 
+
+![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-05/f06c2634-a31d-4f99-8c94-77210b02736e/79c4d3032fde612db275cde87ca480cb06dbf9a829e987c96dd94b3355f1cbb3.jpg)
+
+
+
+Isaac Newton
+
+
+
+1642 - 1727
+
+
+# Inercia y Ecuación de Newton.
+
+La experiencia diaria nos muestra que para modificar el estado de movimiento de un cuerpo es necesario que medie la interacción con algún otro cuerpo o sistema. Así, para poner en movimiento detener o girar un automóvil, necesitamos de la interacción entre sus ruedas y el pavimento. De no existir dicha interacción sería obviamente imposible lograr cambios en su estado de movimiento. 
+
+Teniendo en cuenta lo mencionado en el párrafo anterior podemos concluir que los cambios en el estado de movimiento de un cuerpo son necesariamente consecuencia de la presencia de algún tipo de interacción. Enunciado de otra manera, “un cuerpo libre de interacciones conservará su estado de movimiento” y por lo tanto se desplazará con una velocidad de módulo constante a lo largo de una trayectoria recta, o si estaba en reposo, continuará en dicho estado. Conclusión ésta que es el resultado de hechos experimentales y que por lo tanto deben considerarse como el enunciado de una Ley Física, que ya estaba en la mente de Galileo Galilei, pero que en adelante reconoceremos como Principio de Inercia o Primera ley de Newton. 
+
+Otro resultado experimental muestra que los cambios observados en el estado de movimiento de un cuerpo, caracterizados por su vector aceleración, dependen del tipo de interacción a la que esta sometido. Empujando suavemente un cuerpo logramos pequeños cambios en su estado de movimiento, si empujamos fuertemente, esto es, lo sometemos a una interacción más importante, lograremos cambios más importantes en su estado de movimiento. 
+
+Con el propósito de caracterizar de alguna manera las Interacciones a que pudiera estar sometido un cuerpo necesitamos definir una nueva magnitud, a la que en adelante identificaremos como Fuerza de Interacción, o simplemente Fuerza, cuando esta simplificación en el lenguaje no dé lugar a dudas, que como lo veremos posteriormente, pueden surgir al considerar sistemas de referencia con movimiento relativo. 
+
+Puesto que los cambios temporales observados en el estado de movimiento de un cuerpo están caracterizados mediante una magnitud vectorial (su vector aceleración) y los mismos están directamente relacionados con las interacciones a que está sometido el cuerpo, es claro entonces que la magnitud destinada a caracterizar las interacciones deberá ser una magnitud del tipo vectorial, cuyas principales características se considerarán detalladamente a lo largo de temas posteriores, para algunas interacciones de interés particular. 
+
+Asimismo, la experiencia nos muestra que en general, diferentes cuerpos sometidos a idénticas interacciones, presentarán diferentes cambios en sus estados de movimiento. Pensemos por ejemplo en los cambios que observaríamos en el estado de movimiento de un automóvil y un camión sometidos a la misma interacción. Esto nos indica que cada cuerpo tiene una determinada capacidad para mantener su estado de movimiento, a la que en adelante identificaremos como inercia. 
+
+Los resultados experimentales muestran que la inercia de un cuerpo es una propiedad inherente del mismo, independiente de su estado de movimiento que caracterizaremos mediante una magnitud escalar a la que identificaremos como masa inercial. Siendo oportuno observar que la afirmación relacionada con la independencia del estado de movimiento deberá ser revisada cuando las partículas se muevan con velocidades comparables a la de la luz. 
+
+Con el propósito de hacer determinaciones cuantitativas de la mencionada masa inercial de un cuerpo, nos limitaremos a elegir un cuerpo como patrón o unidad de dicha magnitud y sometiendo éste y los restantes a iguales interacciones podremos, estudiando los cambios observados en el estado de 
+
+movimiento de cada uno de ellos, identificar los de mayor o menor masa inercial, siendo el kilogramo masa (kg) la unidad seleccionada en el sistema MKS para caracterizar la inercia del cuerpo patrón. 
+
+Lo indicado muestra entonces, que los cambios temporales observados en el estado de movimiento de un cuerpo, caracterizados por su vector aceleración, estarán fuertemente relacionados con la inercia de dicho cuerpo, caracterizada por su masa inercial, y con la interacción a que está sometido, caracterizada por la magnitud que hemos identificado como fuerza de interacción. De manera que designando con (m) a la magnitud escalar que nos caracteriza la inercia del cuerpo y con (F) a la magnitud vectorial que nos caracteriza la interacción, los resultados experimentales muestran que, en el caso de una partícula, dichas magnitudes están relacionadas con su vector aceleración mediante la expresión. 
+
+$$
+\vec {\mathrm {F}} = \mathrm {m} \vec {\mathrm {a}} \quad 1. 4
+$$
+
+Donde en el caso de que la partícula estuviera sometida a más de una interacción, entonces la fuerza a considerar es la resultante de las fuerzas a que está sometida dicha partícula, definida como: 
+
+$$
+\vec {\mathrm {F}} = \sum \vec {\mathrm {F}} _ {\mathrm {i}}
+$$
+
+Que gráficamente y para el caso de dos fuerzas aplicadas, podemos representar como: 
+
+![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-05/f06c2634-a31d-4f99-8c94-77210b02736e/1ad45a91c1d7942325745c01de9745a480ce881505abe09d339b88ed9a3add83.jpg)
+
+
+Teniendo en cuenta la unidad seleccionada para la masa inercial en el sistema MKS, la unidad para las fuerzas de interacción en dicho sistema es el Newton (N), que por lo tanto vendrá dada por: 
+
+$$
+N = k g \frac {m}{s ^ {2}}
+$$
+
+Como una ilustración del tema en consideración, se recomienda ejecutar el video 02-Newton.wmv, que se ofrece en este compacto. 
+
+# Condiciones Iniciales.
+
+Teniendo en cuenta como se definió el vector aceleración de una partícula, resulta que diferenciando (3.1) obtenemos: 
+
+$$
+\mathrm {d} \vec {\mathrm {v}} = \vec {\mathrm {a}} (t) \mathrm {d} t
+$$
+
+Que integrando en ambos miembros entre límites compatibles, nos queda: 
+
+$$
+\int_ {V _ {0}} ^ {V _ {t}} d \vec {v} = \int_ {t _ {0}} ^ {t} \vec {a} (t) d t
+$$
+
+De donde resulta que, los cambios observados en su vector velocidad, durante un cierto intervalo de tiempo, vendrán dados por: 
+
+$$
+\vec {\mathrm {v}} (t) - \vec {\mathrm {v}} \left(t _ {\circ}\right) = \int_ {t _ {\circ}} ^ {t} \vec {\mathrm {a}} (t) d t
+$$
+
+Definiendo el instante inicial como el instante a partir del cual el vector aceleración de la partícula es el considerado en la expresión anterior y con $\mathbf { V } _ { 0 }$ a la velocidad de la partícula en dicho instante, de la igualdad recientemente obtenida resulta que al vector velocidad de la partícula en un instante posterior al inicial podremos expresarlo, al menos formalmente, como: 
+
+$$
+\vec {v} (t) = \vec {v} _ {\circ} + \int_ {0} ^ {t} \vec {a} (t) d t
+$$
+
+Análogamente, diferenciando y luego integrando, de (1.1) resulta que al vector posición de una partícula en un instante posterior al inicial podremos expresarlo como: 
+
+$$
+\vec {\mathrm {r}} (t) = \vec {\mathrm {r}} _ {\circ} + \int_ {0} ^ {t} \vec {\mathrm {v}} (t) d t
+$$
+
+Por lo tano, si conocemos las interacciones a las que está sometido un cuerpo, mediante la ecuación de Newton podremos obtener una expresión formal para su vector aceleración, y a partir de las 
+
+anteriores, expresiones para sus vectores velocidad y posición en función del tiempo y por lo tanto una descripción del futuro comportamiento del cuerpo, como se sugiere en el diagrama siguiente. 
+
+![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-05/f06c2634-a31d-4f99-8c94-77210b02736e/57b49fa2667da950b248fa12fbc53d6d613ed8fd12aeb5b1bbf349e0bf192bee.jpg)
+
+
+Sin embargo lo mencionado anteriormente no es totalmente cierto, ya que, según este formalismo, para obtener el vector velocidad a partir del vector aceleración necesitamos conocer el vector velocidad en el instante inicial, o sea en el instante a partir del cual la partícula queda sometida a las interacciones involucradas. Análogamente para obtener una expresión del vector posición a partir del vector velocidad, necesitamos su vector posición en el instante inicial, o sea que necesitamos lo que en adelante identificaremos como Condiciones Iniciales del problema en consideración, tal como se sugiere en el siguiente diagrama. 
+
+![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-05/f06c2634-a31d-4f99-8c94-77210b02736e/c42eb44854138e57d82b3ca36d9249491f44a4f7728680d9a65366983b02814e.jpg)
+
+
+Si por algún motivo no pudiéramos especificar con precisión y simultáneamente la posición y velocidad de la partícula en el instante inicial, mediante este formalismo, sería imposible prever su comportamiento futuro, y por lo tanto es necesario tener presente el importante papel que en este formalismo, juegan las condiciones iniciales correspondientes al problema en consideración. 
+
+# Principio de Incerteza.
+
+Lo indicado recientemente está fuertemente vinculado con unas de las grandes limitaciones que este formalismo presenta cuando se lo pretende emplear en la descripción del comportamiento de partículas de masas muy pequeñas que integran sistemas microscópicos, como consecuencia de que en estos casos, es imposible determinar con precisión y simultáneamente la posición y velocidad de la partícula, enunciado que conocemos como principio de incerteza. 
+
+Lo mencionado llevó a la necesidad de desarrollar un formalismo compatible con dicho principio que actualmente se conoce como Mecánica Cuántica, siendo interesante destacar que dicho formalismo solamente nos permite obtener una descripción probabilística del comportamiento de tales sistemas. 
+
+# Principio de Acción y Reacción.
+
+Otro resultado experimental de relevancia muestra que la interacción entre dos cuerpos siempre da lugar a un par de fuerzas de igual intensidad, igual dirección y sentido opuesto, aplicadas sobre cada uno de los cuerpos involucrados, como se sugiere en las figuras siguientes y que en adelante identificaremos como par Acción y Reacción. 
+
+![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-05/f06c2634-a31d-4f99-8c94-77210b02736e/2e42e27ac752064416b5672c0dd736ce97de063d30a340819a749a68811fc316.jpg)
+
+
+![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-05/f06c2634-a31d-4f99-8c94-77210b02736e/62b9c7bc50cfabab59eb9532d6977016967cadd7ceafe97151b4639d81b4bfd0.jpg)
+
+
+Donde el primer subíndice identifica al cuerpo sobre el que está aplicada la fuerza y el segundo, el cuerpo con el que interactua el anterior, así para la situación indicada anteriormente y teniendo en cuenta lo previsto por el principio de acción y reacción, las fuerzas representadas deberán se tales que: 
+
+$$
+\vec {\mathrm {F}} _ {1 2} = - \vec {\mathrm {F}} _ {2 1}
+$$
+
+Resultando conveniente remarcar que las fuerzas a las que se hace referencia anteriormente, están aplicadas sobre cuerpos diferentes, y por lo tanto bajo ningún concepto podemos esperar que se cancelen mutuamente. 
+
+Teniendo en cuenta la ecuación de Newton, resulta que para las situaciones indicadas en las figuras anteriores el vector aceleración de cada uno de los cuerpos involucrados vendrá expresado por: 
+
+$$
+\vec {a} _ {1} = \frac {\vec {F} _ {1 2}}{m _ {1}} \quad \vec {a} _ {2} = \frac {\vec {F} _ {2 1}}{m _ {2}}
+$$
+
+De donde, teniendo en cuenta el principio de acción y reacción, resulta: 
+
+$$
+\vec {\mathrm {a}} _ {1} = - \frac {\mathrm {m} _ {2}}{\mathrm {m} _ {1}} \vec {\mathrm {a}} _ {2}
+$$
+
+Suponiendo a los cuerpos de masas comparables, debemos esperar aceleraciones similares, en cambio si la masa de uno de ellos fuera muy superior a la del otro, la aceleración del cuerpo de mayor masa sería despreciable comparada con la que observaríamos en el cuerpo de menor masa. 
+
+Como una interesante ilustración del tema, se recomienda ejecutar el video 03-AyR.wmv, que se ofrece en este compacto. 
+
+# 1.05 SISTEMA DE CUERPOS PUNTUALES.
+
+Consideremos a continuación un sistema formado por un conjunto de cuerpos puntuales como el sugerido en la figura siguiente, donde el subíndice nos identifica a cada una de las partículas que integran el mencionado sistema. 
+
+![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-05/f06c2634-a31d-4f99-8c94-77210b02736e/134559baa0777572f20837998ab1b473b4c30eb023d34f0d78c898349a4f4eb2.jpg)
+
+
+En este caso será necesario diferenciar dos tipos de fuerzas de interacción. Por un lado aquellas que identificaremos como fuerzas internas, que resultan de la interacción mutua entre las partículas que forman el sistema y que caracterizaremos con un subíndice doble, tal que, como en el caso anterior, el primer subíndice identifica a la partícula sobre la que está aplicada la fuerza y el segundo, a la partícula con la que interactúa la anteriormente mencionada. Por otro lado reconoceremos como fuerzas externas a las que resultan de la interacción entre las partículas que forman nuestro sistema con cuerpos que no forman parte del mismo, cuya resultante actuante sobre cada partícula, indicaremos con un único subíndice. 
+
+Teniendo en cuenta lo mencionado y suponiendo un sistema de N cuerpos puntuales, la ecuación de Newton (o ecuación de movimiento) para la partícula genérica ( i ), vendrá dada por: 
+
+$$
+\sum_ {j = 1} ^ {j = N} \vec {F} _ {i j} + \vec {F} _ {i} = m _ {i} \vec {a} _ {i}
+$$
+
+Existiendo una ecuación análoga a la anterior por cada una de las (N) partículas que forman nuestro sistema, que sumadas miembro a miembro nos proporcionan la igualdad: 
+
+$$
+\sum_ {i = 1} ^ {i = N} \left(\sum_ {j = 1} ^ {j = N} \vec {F} _ {i j} + \vec {F} _ {i}\right) = \sum_ {i = 1} ^ {i = N} m _ {i} \vec {a} _ {i}
+$$
+
+Que podemos expresar como: 
+
+$$
+\sum_ {i = 1} ^ {i = N} \sum_ {j = 1} ^ {j = N} \vec {F} _ {i j} + \sum_ {i = 1} ^ {i = N} \vec {F} _ {i} = \sum_ {i = 1} ^ {i = N} m _ {i} \vec {a} _ {i}
+$$
+
+Teniendo en cuenta ahora que, en virtud del principio de acción y reacción las fuerzas internas serán tales que: 
+
+$$
+\vec {\mathrm {F}} _ {\mathrm {i j}} = - \vec {\mathrm {F}} _ {\mathrm {j i}}
+$$
+
+Los términos incluidos en la sumatoria doble se anularan de a pares, con lo que la misma resultará nula y por lo tanto de la igualdad anterior resulta: 
+
+$$
+\sum \vec {\mathrm {F}} _ {\mathrm {i}} = \sum \mathrm {m} _ {\mathrm {i}} \vec {\mathrm {a}} _ {\mathrm {i}}
+$$
+
+Puesto que el miembro de la izquierda no es otra cosa que la Resultante de las Fuerzas Externas a que está sometido el sistema, es claro que la anterior puede ser expresada como: 
+
+$$
+\vec {\mathrm {F}} = \sum \mathrm {m} _ {\mathrm {i}} \vec {a} _ {\mathrm {i}} \tag {1.5}
+$$
+
+# Centro de Masa.
+
+Considerando nuevamente un sistema de partículas como el indicado en la figura siguiente donde con (ri) identificamos a las coordenadas vectoriales de cada una de las (N) partículas, respecto del origen del sistema de referencia involucrado, definiremos al Centro de Masa del sistema de partículas como un punto cuya coordenada vectorial, respecto del origen del sistema de referencia en consideración, viene expresado por: 
+
+$$
+\vec {\mathrm {r}} _ {\mathrm {c}} = \frac {\sum_ {\mathrm {i} = 1} ^ {\mathrm {i} = \mathrm {N}} \mathrm {m} _ {\mathrm {i}} \vec {\mathrm {r}} _ {\mathrm {i}}}{\sum_ {\mathrm {i} = 1} ^ {\mathrm {i} = \mathrm {N}} \mathrm {m} _ {\mathrm {i}}}
+$$
+
+![image](https://cdn-mineru.openxlab.org.cn/result/2026-04-05/f06c2634-a31d-4f99-8c94-77210b02736e/18f8320bb16bcd17fc39495ccab744c94ddae0c2cef93563b1184ea818307539.jpg)
+
+
+Que, obviando los índices de la sumatoria para simplificar la notación, e identificando con (m) a la masa de todo el sistema, podemos expresar como: 
+
+$$
+\vec {r} _ {\mathrm {c}} = \frac {\sum m _ {\mathrm {i}} \vec {r} _ {\mathrm {i}}}{m}
+$$
+
+Teniendo esto en cuenta, la ubicación del centro de masa dependerá de cómo está distribuida la materia del sistema en consideración, y por lo tanto los cambios temporales en dicha distribución o en el movimiento general del sistema, se traducirán en cambios temporales en el vector posición de su centro de masa, que podremos caracterizar mediante la derivada temporal de dicha magnitud, a la que en adelante identificaremos como vector velocidad del centro de masa del sistema, y que formalmente podremos expresar como: 
+
+$$
+\vec {v} _ {c} = \frac {\mathrm {d} \vec {r} _ {c}}{\mathrm {d} t}
+$$
+
+Que teniendo en cuenta la definición de la coordenada vectorial del centro de masa, y en término de las coordenadas vectoriales de las partículas que lo integran, nos queda: 
+
+$$
+\vec {v} _ {\mathrm {c}} = \frac {\sum m _ {\mathrm {i}} \frac {\mathrm {d} \vec {r} _ {\mathrm {i}}}{\mathrm {d t}}}{m}
+$$
+
+Que expresada en términos del vector velocidad de cada una de las partículas que forman parte del sistema, resulta: 
+
+$$
+\vec {v} _ {\mathrm {c}} = \frac {\sum m _ {\mathrm {i}} \vec {v} _ {\mathrm {i}}}{m}
+$$
+
+Análogamente, los cambios temporales observados en el estado de movimiento del centro de masa del sistema estarán caracterizados por la derivada temporal de su vector velocidad, que reconoceremos como vector aceleración del centro de masa del sistema, y que en términos de las aceleraciones de cada una de las partículas nos quedará expresado como: 
+
+$$
+\vec {a} _ {\mathrm {c}} = \frac {\sum \mathrm {m} _ {\mathrm {i}} \vec {a} _ {\mathrm {i}}}{\mathrm {m}} \tag {1.6}
+$$
+
+# Ecuación de Movimiento para el Centro de Masa de un Sistema.
+
+Teniendo en cuenta la expresión obtenida para el vector aceleración del centro de masa de un sistema y la conclusión (1.5) lograda anteriormente, es claro que esta última puede expresarse como: 
+
+$$
+\vec {\mathrm {F}} = \mathrm {m} \vec {\mathrm {a}} _ {\mathrm {c}} \tag {1.7}
+$$
+
+Que nos relaciona al vector aceleración del centro de masa de un sistema con la resultante de las fuerzas externas y la masa de todo el sistema en consideración. 
+
+Comparando (1.7) con (1.4) resulta que, los cambios temporales en el estado de movimiento del centro de masa de un sistema (caracterizados por su vector aceleración) estarán vinculados mediante (1.7), con la resultante de las fuerzas externas como si dicha resultante estuviera aplicada en dicho punto y la masa de todo el sistema concentrada en él. 
+
+Teniendo en cuenta lo mencionado en el párrafo anterior, la expresión (1.7) nos permitirá en adelante, describir el movimiento del centro de masa de un cuerpo o sistema, pensando a la totalidad de las fuerzas externas aplicadas en dicho punto y a la materia del sistema concentrada en el mismo. 
+
+Resulta importante destacar, que las fuerzas internas no intervienen en (1.7), por lo tanto podemos garantizar que las mismas son incapaces de modificar el estado de movimiento del centro de masa de un sistema. Por más fuerza que tuviéramos en nuestros brazos y resistencia en nuestro cuero cabelludo sería imposible levantarnos jalando de nuestros cabellos. 
+
+Asimismo resulta interesante observar que la relación (1.7), recientemente obtenida, no es la expresión formal de una Ley Física, muy por el contrario es la expresión formal de una consecuencia que resulta de la correcta aplicación de dos leyes físicas, la expresada formalmente mediante (1.4) y el principio de acción y reacción. 
+
+Finalmente es oportuno destacar que como el formalismo a desarrollar en esta parte del curso, estará basado en las expresiones (1.4) y (1.7), dicho formalismo nos permitirá describir el comportamiento de un cuerpo puntual o bien el del centro de masa del sistema que pudiera estar en consideración, en cuyo caso y como ya lo mencionáramos podremos pensar a la totalidad de las fuerzas externas aplicadas en dicho punto y a la masa del mencionado sistema concentrada en él, lo que nos autoriza a realizar lo que generalmente se conoce como diagrama de cuerpo aislado, que esencialmente se trata de una representación gráfica de las diferentes fuerzas externas a que está sometido el cuerpo como si estuvieran aplicadas en su centro de masa, tal como se muestra en las situaciones que se plantearán en los temas siguientes. 

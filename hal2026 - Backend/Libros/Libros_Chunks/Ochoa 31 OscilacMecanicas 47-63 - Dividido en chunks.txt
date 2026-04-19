@@ -1,0 +1,1287 @@
+Archivo  : Libros/Libros_Markdown/MinerU_markdown_Ochoa-31-OscilacMecanicas-047-063_2042434173176250368.md
+Chunks   : 39
+
+────────────────────────────────────────────────────────────
+Chunk 1 (1889 chars)
+────────────────────────────────────────────────────────────
+Mecánica Clásica 
+
+Volumen II 
+
+Ochoa 
+
+- 2008 - 
+
+Oscilaciones Mecánicas 
+
+ISBN de la Versión Analógica 
+
+987-95038-0-5
+
+# 3.01 OSCILACIONES LIBRES.
+
+A lo largo de este capítulo consideraremos las oscilaciones de sistemas mecánicos con un grado de libertad, lo que nos brindará la oportunidad de trabajar un método destinado a la resolución de ecuaciones diferenciales que con mucha frecuencia resultan del planteo de situaciones físicas concretas. Sistemas con dos grados de libertad serán tratados al finalizar este capítulo. 
+
+Como una alternativa adecuada para iniciar con el tratamiento del tema, consideremos el caso de un muelle lineal que interactúa con un cuerpo como se muestra en la figura de la izquierda, y supongamos que mediante una interacción externa apartamos al sistema de su posición de equilibrio sometiendo el muelle a una deformación inicial, como la sugerida en la figura de la derecha, para luego dejarlo en libertad de desplazarse a lo largo de la superficie horizontal, libre de rozamiento.
+
+[Descripción de imagen: La imagen muestra un bloque de masa m unido a un resorte, con el sistema descansando sobre una superficie horizontal. El bloque está sometido a la fuerza elástica del resorte y a la normal y al rozamiento (no dibujado explícitamente) de la superficie. Se identifican los ejes x e y con vectores unitarios,  y un punto de aplicación de la fuerza en la masa.]
+
+[Descripción de imagen: La imagen muestra un sistema masa-resorte con un bloque de masa m unido a un resorte, donde el resorte está inicialmente deformado una distancia Xo desde su posición de equilibrio. El eje x es horizontal y el punto de aplicación de la fuerza del resorte se encuentra en la posición Xo, con vectores de fuerza que se dirigen hacia las posiciones -Xo y Xo, indicando la tensión del resorte. El sistema se encuentra en un plano bidimensional con un eje y vertical.]
+
+────────────────────────────────────────────────────────────
+Chunk 2 (2216 chars)
+────────────────────────────────────────────────────────────
+6e2d8453a9f53481b3f205f31e8e.jpg)
+
+[Descripción de imagen: La imagen muestra un sistema masa-resorte con un bloque de masa $m$ sujeto a un resorte, con una deformación inicial $X_0$ medida desde su posición de equilibrio. El eje $x$ se encuentra alineado horizontalmente y el eje $y$ verticalmente. Se observan vectores de fuerza aplicados en el punto de sujeción del resorte al bloque, indicando la tensión del resorte en sus puntos de sujeción, y se señalan los puntos de aplicación de las deformaciones $-X_0$ y $X_0$ con respecto a su posición de equilibrio.]
+
+Bajo estas condiciones las fuerzas a que se verá sometido el cuerpo al dejarlo en libertad, serán las indicadas en el diagrama siguiente, que resultan de su interacción con el campo gravitatorio terrestre, con el muelle y con la superficie horizontal, que recordemos, hemos supuesto libre de rozamiento.
+
+[Descripción de imagen: La imagen muestra un bloque de masa m sometido a varias fuerzas. La fuerza F se aplica horizontalmente hacia la izquierda, mientras que la fuerza N se dirige verticalmente hacia arriba y el peso mg verticalmente hacia abajo. El punto de aplicación de estas fuerzas se encuentra en el centro de masa del bloque, con los vectores fuerza representados en ejes perpendiculares.]
+
+Con lo que la ecuación de Newton para el centro de masa del cuerpo nos queda: 
+
+$$
+\vec {\mathrm {F}} + \vec {\mathrm {N}} + \mathrm {m} \vec {\mathrm {g}} = \mathrm {m} \vec {\mathrm {a}}
+$$
+
+Con el propósito de evaluar las componentes de esta ecuación pensaremos en un sistema de ejes cartesianos como el indicado en la segunda de las figuras anteriores, donde suponemos al origen de dicho sistema coincidente con la posición en la que el centro de masa del cuerpo está en equilibrio, que en este caso es coincidente con aquella en la que el resorte está sin deformar, con lo que, la deformación del resorte coincidirá en todo momento con la coordenada horizontal del centro de masa del cuerpo, y por lo tanto, la fuerza a la que se verá sometido el cuerpo como resultado de su interacción con el muelle, puede relacionarse vectorialmente con dicha coordenada mediante:
+
+$$
+\vec {\mathrm {F}} = - \mathrm {k} \mathrm {x} \vec {\mathrm {i}}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 3 (1087 chars)
+────────────────────────────────────────────────────────────
+se verá sometido el cuerpo como resultado de su interacción con el muelle, puede relacionarse vectorialmente con dicha coordenada mediante:
+
+$$
+\vec {\mathrm {F}} = - \mathrm {k} \mathrm {x} \vec {\mathrm {i}}
+$$
+
+Que nos muestra una interesante semejanza con las fuerzas que resultan de una interacción elástica, siendo éste el motivo por el que, en adelante, a la constante del muelle la reconoceremos como constante elástica. Sin embargo debe observarse que existe una diferencia entre estas dos fuerzas, mientras la primera siempre es de naturaleza atractiva, la que resulta de la interacción con el muelle será atractiva cuando la coordenada sea positiva o sea cuando el muelle está elongado y tendrá sentido opuesto cuando el muelle está comprimido, esto es cuando la coordenada horizontal es negativa. 
+
+Teniendo en cuenta los aspectos mencionados es claro que al evaluar la componente horizontal de la ecuación de Newton, obtenemos la ecuación:
+
+$$
+- k x = m \ddot {x}
+$$
+
+De donde:
+
+$$
+\ddot {\mathrm {x}} (t) + \frac {\mathrm {k}}{\mathrm {m}} \mathrm {x} (t) = 0 \tag {3.1}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 4 (1608 chars)
+────────────────────────────────────────────────────────────
+- k x = m \ddot {x}
+$$
+
+De donde:
+
+$$
+\ddot {\mathrm {x}} (t) + \frac {\mathrm {k}}{\mathrm {m}} \mathrm {x} (t) = 0 \tag {3.1}
+$$
+
+Resultando así una ecuación que identificaremos como una ecuación diferencial, en cuanto a que en la misma intervienen la función (en este caso la coordenada horizontal) y sus derivadas (en esta oportunidad, su derivada temporal segunda). 
+
+Nuestro problema ahora consiste en encontrar una expresión funcional para la coordenada horizontal tal que empleada en la anterior, dicha función y su derivada temporal segunda, se satisfaga la igualdad prevista, en cuyo caso diremos que la expresión encontrada es una solución de la ecuación diferencial planteada, que recordemos resultó al evaluar en componentes cartesianas la ecuación de Newton para el movimiento del centro de masa del cuerpo, y por lo tanto es claro que la mencionada solución nos permitirá describir las características del movimiento de dicho punto según la dirección horizontal.
+
+# Solución General.
+
+A los efectos de obtener una solución general del problema planteado, esto es una función que nos permita describir en forma completa las características del movimiento del centro de masa del cuerpo una vez que lo dejamos en libertad, que por lo tanto deberá ser solución de la ecuación diferencial (3.1) y con el propósito de darle mas generalidad al tema, supondremos que al dejar el cuerpo en libertad lo hacemos de manera que tanto la posición como la velocidad de su centro de masa no son nulas y con miras a simplificar el manejo algebraico futuro definiremos la magnitud:
+
+$$
+w ^ {2} = \frac {k}{m}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 5 (1561 chars)
+────────────────────────────────────────────────────────────
+uerpo en libertad lo hacemos de manera que tanto la posición como la velocidad de su centro de masa no son nulas y con miras a simplificar el manejo algebraico futuro definiremos la magnitud:
+
+$$
+w ^ {2} = \frac {k}{m}
+$$
+
+En términos de la cual nuestra ecuación diferencial original nos queda:
+
+$$
+\ddot {\mathbf {x}} + \mathbf {w} ^ {2} \mathbf {x} = 0
+$$
+
+Como solución de ésta ecuación diferencial propondremos una función del tipo exponencial.
+
+$$
+\mathrm {x (t) = C e ^ {q t}}
+$$
+
+Donde (C y q) son constantes que deberemos determinar a los efectos de que la función propuesta sea efectivamente solución de nuestra ecuación diferencial. 
+
+Con este propósito reemplazaremos la función y su derivada segunda en dicha ecuación, con lo que obtenemos que las constantes involucradas deberán ser tales que:
+
+$$
+\mathrm {q} ^ {2} + \mathrm {w} ^ {2} = 0
+$$
+
+Por lo tanto, la función exponencial propuesta será solución de nuestra ecuación diferencial cualquiera sea el valor de la constante (C), con la condición de que la constante (q) sea solución de la ecuación algebraica anterior, y que por lo tanto tome alguno de los valores que se indican a continuación:
+
+$$
+\mathbf {q} = \pm \sqrt {- \mathbf {w} ^ {2}}
+$$
+
+Que en términos de la unidad imaginaría podemos expresar como:
+
+$$
+\mathbf {q} = \pm \mathrm {i} \mathbf {w}
+$$
+
+Teniendo en cuenta las conclusiones obtenidas, resulta que las funciones:
+
+$$
+\mathbf {x} (t) = \mathrm {C} _ {1} \mathrm {e} ^ {\mathrm {i w t}} \qquad \qquad \mathbf {x} (t) = \mathrm {C} _ {2} \mathrm {e} ^ {- \mathrm {i w t}}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 6 (1615 chars)
+────────────────────────────────────────────────────────────
+nes obtenidas, resulta que las funciones:
+
+$$
+\mathbf {x} (t) = \mathrm {C} _ {1} \mathrm {e} ^ {\mathrm {i w t}} \qquad \qquad \mathbf {x} (t) = \mathrm {C} _ {2} \mathrm {e} ^ {- \mathrm {i w t}}
+$$
+
+Serán soluciones de nuestra ecuación diferencial, a las que en adelante identificaremos como soluciones particulares en cuanto a que como veremos a lo largo del tema, cada una de ellas permitirá describir situaciones asociadas con condiciones iniciales diferentes, pudiendo demostrarse por simple sustitución, que una combinación lineal de las mismas también será solución de nuestra ecuación diferencial, la que nos permitirá describir el comportamiento mas general posible del sistema, motivo por lo que en adelante reconoceremos a esta como la solución general de nuestra ecuación diferencial.
+
+$$
+\mathrm {x (t)} = \mathrm {C} _ {1} \mathrm {e} ^ {\mathrm {i w t}} + \mathrm {C} _ {2} \mathrm {e} ^ {- \mathrm {i w t}}
+$$
+
+Donde $\left( \mathbf { C } _ { 1 } \mathbf { y } \mathbf { C } _ { 2 } \right)$ son constantes que deberemos determinar y que como veremos estarán directamente relacionadas con las condiciones iniciales de nuestro problema. 
+
+Con el propósito de darle otra forma a la función indicada anteriormente, veremos de expresarla en término de funciones trigonométricas, teniendo en cuenta que en general y de acuerdo con la relación de Euler, las exponenciales pueden relacionarse con dichas funciones mediante:
+
+$$
+e ^ {i \theta} = \cos \theta + i s e n \theta
+$$
+
+Con lo que la solución general de nuestra ecuación diferencial puede expresarse en término de funciones trigonométricas, como:
+
+────────────────────────────────────────────────────────────
+Chunk 7 (1682 chars)
+────────────────────────────────────────────────────────────
+con dichas funciones mediante:
+
+$$
+e ^ {i \theta} = \cos \theta + i s e n \theta
+$$
+
+Con lo que la solución general de nuestra ecuación diferencial puede expresarse en término de funciones trigonométricas, como:
+
+$$
+\mathrm {x} (t) = \left(\mathrm {C} _ {1} + \mathrm {C} _ {2}\right) \cos (\mathrm {w t}) + \mathrm {i} \left(\mathrm {C} _ {1} - \mathrm {C} _ {2}\right) \operatorname {s e n} (\mathrm {w t})
+$$
+
+Que en término de las nuevas constantes:
+
+$$
+\mathrm {A} _ {1} = \left(\mathrm {C} _ {1} + \mathrm {C} _ {2}\right) \mathrm {y A} _ {2} = \mathrm {i} \left(\mathrm {C} _ {1} - \mathrm {C} _ {2}\right)
+$$
+
+Puede expresarse como:
+
+$$
+\mathrm {x (t) = A _ {1} \cos (w t) + A _ {2} s e n (w t)}
+$$
+
+Que recordemos nos proporciona una expresión en función del tiempo, para la posición del centro de masa del cuerpo en término de dos nuevas constantes, que como veremos dependerán de las condiciones iniciales asociadas con la posición y velocidad del centro de masa en el instante en que dejamos al sistema en libertad, sometido a la interacción elástica. 
+
+Derivando temporalmente la anterior es claro que estamos en condiciones de obtener expresiones generales para la velocidad y aceleración del centro de masa del cuerpo en función del tiempo y en término de las constantes mencionadas en el párrafo anterior, resultando:
+
+$$
+\begin{array}{l} \dot {\mathrm {x}} (t) = - \mathrm {A} _ {1} \mathrm {w} \operatorname {s e n} (\mathrm {w t}) + \mathrm {A} _ {2} \mathrm {w} \cos (\mathrm {w t}) \\ \ddot {\mathbf {x}} (t) = - \left[ \mathrm {A} _ {1} \mathrm {w} ^ {2} \cos (\mathrm {w t}) + \mathrm {A} _ {2} \mathrm {w} ^ {2} \sin (\mathrm {w t}) \right] \\ \end{array}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 8 (1619 chars)
+────────────────────────────────────────────────────────────
+} _ {2} \mathrm {w} \cos (\mathrm {w t}) \\ \ddot {\mathbf {x}} (t) = - \left[ \mathrm {A} _ {1} \mathrm {w} ^ {2} \cos (\mathrm {w t}) + \mathrm {A} _ {2} \mathrm {w} ^ {2} \sin (\mathrm {w t}) \right] \\ \end{array}
+$$
+
+Como ya lo mencionáramos en varias oportunidades, las características del movimiento de un cuerpo dependerán de las interacciones a que está sometido así como de las condiciones iniciales correspondientes a la situación planteada. En la solución obtenida no queda lugar a dudas que las interacciones están presentes, a través de la masa involucrada y de la constante elástica del muelle incluidas en (w), en cuanto a las condiciones iniciales, veremos que de estas dependerán las constantes $\left( \mathbf { A } _ { 1 } \thinspace \mathbf { y } \thinspace \mathbf { A } _ { 2 } \right)$ incluidas en nuestra solución y que en adelante reconoceremos como Constantes de Integración. 
+
+Con el propósito de obtener expresiones para dichas constantes, en término de las condiciones iniciales, observemos que la solución lograda para nuestra ecuación diferencial deberá ser capaz de describir el comportamiento del sistema en cualquier instante, en particular, en el instante inicial. Requiriendo que las funciones anteriores satisfagan esta condición, esto es que en:
+
+$$
+t = 0 \quad \mathbf {x} = \mathbf {x} _ {\circ} \quad \dot {\mathbf {x}} = \dot {\mathbf {x}} _ {\circ}
+$$
+
+Resulta que las constantes involucradas en la solución, deberán ser tales que:
+
+$$
+\mathbf {A} _ {1} = \mathbf {x} _ {\circ} \quad \mathbf {y} \quad \mathbf {A} _ {2} = \frac {\dot {\mathbf {x}} _ {\circ}}{\mathbf {w}}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 9 (1648 chars)
+────────────────────────────────────────────────────────────
+las constantes involucradas en la solución, deberán ser tales que:
+
+$$
+\mathbf {A} _ {1} = \mathbf {x} _ {\circ} \quad \mathbf {y} \quad \mathbf {A} _ {2} = \frac {\dot {\mathbf {x}} _ {\circ}}{\mathbf {w}}
+$$
+
+Con lo que la solución general de nuestro problema, en función del tiempo y en término de las condiciones iniciales, nos queda:
+
+$$
+\begin{array}{l} \mathrm {x} (t) = \mathrm {x} _ {\circ} \cos (\mathrm {w t}) + \frac {\dot {\mathrm {x}} _ {\circ}}{\mathrm {w}} \operatorname {s e n} (\mathrm {w t}) \\ \dot {\mathrm {x}} (t) = - \mathrm {x} _ {\circ} \mathrm {w} \operatorname {s e n} (\mathrm {w t}) + \dot {\mathrm {x}} _ {\circ} \cos (\mathrm {w t}) \\ \ddot {\mathbf {x}} (t) = - \left\lfloor \mathbf {x} _ {\circ} \mathbf {w} ^ {2} \cos (\mathbf {w t}) + \dot {\mathbf {x}} _ {\circ} \mathbf {w} \operatorname {s e n} (\mathbf {w t}) \right\rfloor \\ \end{array}
+$$
+
+# Situaciones Particulares.
+
+Consideraremos a continuación la situación particular que resulta de suponer que al sistema se lo deja en libertad con el resorte deformado y el cuerpo en reposo, en cuyo caso de las anteriores obtenemos:
+
+$$
+\begin{array}{l} \mathrm {x} (t) = \mathrm {x} _ {\circ} \cos (\mathrm {w t}) \\ \dot {\mathbf {x}} (t) = - \mathbf {x} _ {\circ} \mathbf {w} \operatorname {s e n} (\mathbf {w t}) \\ \ddot {\mathrm {x}} (t) = - \mathrm {x} _ {\circ} \mathrm {w} ^ {2} \cos (\mathrm {w t}) \\ \end{array}
+$$
+
+Que claramente corresponde a un movimiento oscilatorio con una amplitud constante, determinada por la posición del cuerpo en el instante inicial, (coincidente con la deformación del resorte en dicho instante) y con un período dado por:
+
+────────────────────────────────────────────────────────────
+Chunk 10 (2217 chars)
+────────────────────────────────────────────────────────────
+sponde a un movimiento oscilatorio con una amplitud constante, determinada por la posición del cuerpo en el instante inicial, (coincidente con la deformación del resorte en dicho instante) y con un período dado por:
+
+$$
+T = \frac {2 \pi}{w} \quad \therefore T = 2 \pi \sqrt {\frac {m}{k}}
+$$
+
+Con gráficas temporales para las funciones indicadas como las que se muestran a continuación: 
+
+
+x(t)
+
+[Descripción de imagen: La imagen muestra una onda senoidal con una amplitud de 2 unidades y un periodo de aproximadamente 2 unidades en el eje x. No se observan vectores ni fuerzas explícitas, pero la función de onda puede estar asociada a fenómenos físicos que involucran desplazamientos o intensidades variables en el espacio. El eje x representa la posición, mientras que el eje y representa la amplitud de la onda.]
+
+x (t)
+
+[Descripción de imagen: La imagen muestra una onda sinusoidal con un eje horizontal (x) que representa la posición y un eje vertical que representa la amplitud o desplazamiento. No se observan vectores ni fuerzas explícitas, pero la onda tiene una amplitud máxima de 6 unidades y un período que se repite cada 2 unidades de x.]
+
+[Descripción de imagen: La imagen muestra una gráfica de una función sinusoidal, que podría representar el desplazamiento en función del tiempo o la posición en una onda. El eje horizontal representa la variable independiente (x) y el eje vertical la variable dependiente, que podría ser el desplazamiento o amplitud de la onda, sin unidades especificadas. No se observan vectores ni fuerzas explícitas, pero la onda tiene una amplitud máxima de aproximadamente 15 unidades y un período de 2 unidades.]
+
+Otra situación particular de interés es aquella que resulta de dar al cuerpo una velocidad inicial cuando se encuentra en reposo y en su posición de equilibrio, (con el muelle sin deformar) resultando entonces las siguientes expresiones para la posición, velocidad y aceleración del centro de masa del cuerpo:
+
+$$
+x (t) = \frac {\dot {x} _ {o}}{w} s e n (w t)
+$$
+
+$$
+\dot {\mathbf {x}} (t) = \dot {\mathbf {x}} _ {\circ} \cos (\mathrm {w t})
+$$
+
+$$
+\ddot {\mathrm {x}} (t) = - \dot {\mathrm {x}} _ {\circ} \mathrm {w} \operatorname {s e n} (\mathrm {w t})
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 11 (2304 chars)
+────────────────────────────────────────────────────────────
+t {\mathbf {x}} (t) = \dot {\mathbf {x}} _ {\circ} \cos (\mathrm {w t})
+$$
+
+$$
+\ddot {\mathrm {x}} (t) = - \dot {\mathrm {x}} _ {\circ} \mathrm {w} \operatorname {s e n} (\mathrm {w t})
+$$
+
+Que nuevamente corresponde a un movimiento periódico con un período coincidente con el obtenido en el caso anterior y con una amplitud claramente dependiente de la velocidad inicial y de los parámetros que caracterizan el sistema, esto es, de la constante elástica y de la masa del cuerpo considerado, y cuyas gráficas cualitativas en función del tiempo se muestran a continuación, donde hemos supuesto que la velocidad inicial tiene el sentido en que crece la coordenada involucrada. 
+
+
+x(t)
+
+[Descripción de imagen: La imagen muestra una onda sinusoidal en un gráfico de coordenadas cartesianas con un eje x que oscila entre 0 y 4 y un eje y que oscila entre -2 y 2. El punto de aplicación de la función es (0,0) donde la onda comienza. No se observan vectores ni fuerzas en esta gráfica; en su lugar, se muestra una función sinusoidal con amplitud 2, periodo aproximadamente 2, y sin vectores de fuerza.]
+
+x (t)
+
+[Descripción de imagen: La imagen muestra una onda sinusoidal, la cual puede describirse mediante un vector de onda (k) y una amplitud (A) de 6 unidades. El eje horizontal representa la posición (x) y el eje vertical la elongación o desplazamiento. No se observan vectores de fuerza explícitos en la imagen.]
+
+x(t)
+
+[Descripción de imagen: La imagen muestra una onda sinusoidal en función del tiempo o la posición, con amplitud de 15 unidades y periodo de aproximadamente 2 unidades. No se observan vectores ni fuerzas explícitas, pero podría representar una onda mecánica o electromagnética. El eje horizontal representa la variable independiente (tiempo o posición) y el eje vertical la variable dependiente (desplazamiento, campo eléctrico, etc.).]
+
+# Otra Forma de Expresar la Solución General.
+
+Teniendo en cuenta la relación que vincula el seno de la suma de dos ángulos con los senos y cosenos de dichas magnitudes puede obtenerse una forma muy conveniente para la solución general de nuestro problema, en términos de dos nuevas constantes, dependientes claro está, de las condiciones iniciales involucradas, resultando:
+
+$$
+\mathrm {x} (t) = \mathrm {A s e n} (\mathrm {w t} + \delta)
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 12 (1486 chars)
+────────────────────────────────────────────────────────────
+ción general de nuestro problema, en términos de dos nuevas constantes, dependientes claro está, de las condiciones iniciales involucradas, resultando:
+
+$$
+\mathrm {x} (t) = \mathrm {A s e n} (\mathrm {w t} + \delta)
+$$
+
+En cuyo caso las nuevas constantes nos quedan relacionadas con las anteriores y por lo tanto con las condiciones iniciales, a través de las expresiones que se indican a continuación:
+
+$$
+\mathrm {A} ^ {2} = \mathrm {A} _ {1} ^ {2} + \mathrm {A} _ {2} ^ {2} \quad \therefore \quad \mathrm {A} ^ {2} = \mathrm {x} _ {\circ} ^ {2} + \left(\frac {\dot {\mathrm {x}} _ {\circ}}{\mathrm {w}}\right) ^ {2}
+$$
+
+$$
+\mathrm {t g} (\delta) = \frac {\mathrm {A} _ {1}}{\mathrm {A} _ {2}} \quad \therefore \quad \mathrm {t g} (\delta) = \frac {\mathrm {X} _ {\circ} \mathrm {W}}{\dot {\mathrm {X}} _ {\circ}}
+$$
+
+Siendo oportuno mencionar que esta forma de expresar la solución puede resultar ventajosa respecto de la anterior en aquellas situaciones en las que, a diferencia de las consideradas en los casos particulares anteriores, ninguna de las condiciones iniciales es nula.
+
+# Laboratorio Virtual.
+
+# Oscilaciones Libres.
+
+Ejecutando el archivo Libres.htm incluido en la carpeta del mismo nombre, podrá acceder a una simulación destinada a ilustrar diferentes aspectos tratados a lo largo del tema considerado, donde, para diferentes condiciones iniciales podrá observar gráficas de la posición en función del tiempo y de la velocidad en función de la posición del cuerpo.
+
+────────────────────────────────────────────────────────────
+Chunk 13 (1841 chars)
+────────────────────────────────────────────────────────────
+largo del tema considerado, donde, para diferentes condiciones iniciales podrá observar gráficas de la posición en función del tiempo y de la velocidad en función de la posición del cuerpo.
+
+# Figuras de Lissajous.
+
+Ejecutando el archivo Lissajous.htm incluido en la carpeta del mismo nombre, podrá acceder a una simulación, cuya teoría se recomienda consultar, destinada a ilustrar el movimiento que resulta como consecuencia de la superposición de dos movimientos armónicos simples con frecuencias angulares o fases iniciales diferentes.
+
+# 3.02 OSCILACIONES AMORTIGUADAS.
+
+Consideraremos a continuación el caso de un cuerpo sometido a una fuerza elástica, resultante de su interacción con un muelle y a una fuerza del tipo viscosa, directamente proporcional a su velocidad, como consecuencia de su interacción con algún mecanismo que la proporciona, como el sugerido en la figura, siendo ésta un diagrama muy simplificado de lo que podría ser el sistema de amortiguación de un automóvil.
+
+[Descripción de imagen: La imagen representa un sistema masa-resorte-amortiguador. El sistema consiste en una masa m conectada a un resorte ke y un amortiguador kv, donde ke representa la constante elástica del resorte y kv la constante de amortiguamiento. Las fuerzas actuantes son la fuerza elástica del resorte y la fuerza de amortiguamiento, ambas en la dirección horizontal, y no se observan fuerzas en otros ejes.]
+
+Suponiendo que el sistema se aparta de su posición de equilibrio y se lo deja en libertad, se verá sometido a un conjunto de fuerzas externas como las indicadas en la figura siguiente, que resultan de la interacción con el muelle, con la superficie horizontal, a la que suponemos libre de rozamiento, con el amortiguador y con el campo gravitatorio, con lo que la ecuación de Newton para el centro de masa del cuerpo nos queda:
+
+────────────────────────────────────────────────────────────
+Chunk 14 (1936 chars)
+────────────────────────────────────────────────────────────
+n el muelle, con la superficie horizontal, a la que suponemos libre de rozamiento, con el amortiguador y con el campo gravitatorio, con lo que la ecuación de Newton para el centro de masa del cuerpo nos queda:
+
+$$
+\vec {\mathrm {F}} _ {\mathrm {v}} + \vec {\mathrm {F}} _ {\mathrm {e}} + \vec {\mathrm {N}} + \mathrm {m} \vec {\mathrm {g}} = \mathrm {m} \vec {\mathrm {a}}
+$$
+
+[Descripción de imagen: Se observa un cuerpo rectangular sometido a cuatro fuerzas: el peso (mg) aplicado en su centro de masas y dirigido hacia abajo, la normal (N) aplicada en el mismo punto y dirigida hacia arriba, la fuerza Fe dirigida hacia la izquierda y la fuerza Fv  hacia la derecha. Todas las fuerzas son concurrentes y están alineadas en los ejes vertical y horizontal que pasan por el centro de masas del cuerpo.]
+
+Evaluando las componentes según las direcciones de un sistema cartesiano como el considerado en el tema anterior, la fuerza viscosa y la fuerza elástica a la que se verá sometido el cuerpo podrán ser expresadas como:
+
+$$
+\vec {\mathrm {F}} _ {\mathrm {v}} = - \mathbf {k} _ {\mathrm {v}} \dot {\mathbf {x}} \vec {\mathrm {i}} \qquad \vec {\mathrm {F}} _ {\mathrm {e}} = - \mathbf {k} _ {\mathrm {e}} \mathbf {x} \vec {\mathrm {i}}
+$$
+
+Con lo que de la componente horizontal de la ecuación de Newton para el centro de masa del cuerpo, obtenemos la siguiente ecuación diferencial.
+
+$$
+- \mathrm {k} _ {\mathrm {v}} \dot {\mathrm {x}} - \mathrm {k} _ {\mathrm {e}} \mathrm {x} = \mathrm {m} \ddot {\mathrm {x}}
+$$
+
+Dividiendo por la masa en ambos miembros y definiendo la constante de amortiguación como:
+
+$$
+\lambda = \frac {\mathrm {k} _ {\mathrm {v}}}{2 \mathrm {m}}
+$$
+
+Y la frecuencia natural del sistema, como la frecuencia con la que oscilaría dicho sistema en ausencia de la fuerza viscosa:
+
+$$
+\mathrm {w} _ {\circ} ^ {2} = \frac {\mathrm {k} _ {\mathrm {e}}}{\mathrm {m}}
+$$
+
+La ecuación diferencial nos queda expresada como:
+
+────────────────────────────────────────────────────────────
+Chunk 15 (1715 chars)
+────────────────────────────────────────────────────────────
+la frecuencia con la que oscilaría dicho sistema en ausencia de la fuerza viscosa:
+
+$$
+\mathrm {w} _ {\circ} ^ {2} = \frac {\mathrm {k} _ {\mathrm {e}}}{\mathrm {m}}
+$$
+
+La ecuación diferencial nos queda expresada como:
+
+$$
+\ddot {x} + 2 \lambda \dot {x} + w _ {\circ} ^ {2} x = 0
+$$
+
+Proponiendo nuevamente una solución del tipo exponencial:
+
+$$
+\mathbf {x} (t) = \mathrm {C e} ^ {\mathrm {q t}}
+$$
+
+Y reemplazando la función propuesta y sus derivadas temporales en la ecuación diferencial, resulta que la constante (C) podrá tomar cualquier valor siempre que la constante (q) sea una solución de la ecuación algebraica.
+
+$$
+\mathrm {q} ^ {2} + 2 \lambda \mathrm {q} + \mathrm {w} _ {\circ} ^ {2} = 0
+$$
+
+De donde resulta que los valores posibles para la mencionada constante serán:
+
+$$
+\mathbf {q} = - \lambda \pm \sqrt {\lambda^ {2} - \mathbf {w} _ {\circ} ^ {2}}
+$$
+
+Por lo tanto, la solución general de nuestra ecuación diferencial vendrá expresada como una combinación lineal de las soluciones particulares, que se obtienen al considerar cada una de las raíces resultantes de la expresión anterior, con lo que las características del movimiento dependerán fuertemente de la relación que exista entre las constantes que caracterizan el sistema, resultando así las situaciones particulares que se detallan a continuación.
+
+# Movimiento Oscilatorio Amortiguado.
+
+Resulta de suponer un cierto predominio de la fuerza elástica sobre la fuerza disipativa y corresponde al caso en el que la constante de amortiguación es inferior a la frecuencia natural del sistema, o sea cuando:
+
+$$
+\lambda <   \mathrm {w} _ {\circ} \quad \therefore \quad \mathrm {k} _ {\mathrm {v}} <   2 \sqrt {\mathrm {m k} _ {\mathrm {e}}}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 16 (1647 chars)
+────────────────────────────────────────────────────────────
+onstante de amortiguación es inferior a la frecuencia natural del sistema, o sea cuando:
+
+$$
+\lambda <   \mathrm {w} _ {\circ} \quad \therefore \quad \mathrm {k} _ {\mathrm {v}} <   2 \sqrt {\mathrm {m k} _ {\mathrm {e}}}
+$$
+
+Con lo que, las raíces de la ecuación cuadrática pueden expresarse como:
+
+$$
+\mathrm {q} = - \lambda \pm \mathrm {i} \sqrt {\mathrm {w} _ {\circ} ^ {2} - \lambda^ {2}}
+$$
+
+Que en términos de una nueva constante podemos indicar como:
+
+$$
+\mathrm {q} = - \lambda \pm \mathrm {i} \Omega
+$$
+
+Donde:
+
+$$
+\Omega = \sqrt {\mathrm {w} _ {\circ} ^ {2} - \lambda^ {2}}
+$$
+
+Con lo que la solución general de nuestra ecuación diferencial, para la situación en consideración, nos queda expresada como:
+
+$$
+\mathrm {x (t) = e ^ {- \lambda t} \left[ C _ {1} e ^ {i \Omega t} + C _ {2} e ^ {- i \Omega t} \right]}
+$$
+
+Comparando la función encerrada entre corchetes con la solución general que obtuviéramos en el caso oscilatorio tratado anteriormente, es claro que operando de la misma manera con dicha función, la solución de nuestra ecuación diferencial actual, puede expresarse en término de dos nuevas constantes dependientes de las condiciones iniciales, como:
+
+$$
+\mathrm {x (t) = A e ^ {- \lambda t} s e n (\Omega t + \delta)}
+$$
+
+Resultando así un movimiento oscilatorio, con una frecuencia menor que la natural del sistema y con una amplitud que decae exponencialmente con el tiempo como se muestra cualitativamente en la figura siguiente, que en adelante reconoceremos como movimiento oscilatorio amortiguado, cuyo período vendrá dado por:
+
+$$
+\mathrm {T} = \frac {2 \pi}{\sqrt {\mathrm {w} _ {\circ} ^ {2} - \lambda^ {2}}}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 17 (1785 chars)
+────────────────────────────────────────────────────────────
+e en la figura siguiente, que en adelante reconoceremos como movimiento oscilatorio amortiguado, cuyo período vendrá dado por:
+
+$$
+\mathrm {T} = \frac {2 \pi}{\sqrt {\mathrm {w} _ {\circ} ^ {2} - \lambda^ {2}}}
+$$
+
+Obviamente mayor que el correspondiente al caso libre de amortiguamiento considerado en el tema anterior, siendo oportuno observar que la solución obtenida en dicha oportunidad es en realidad un caso particular de la lograda recientemente.
+
+[Descripción de imagen: La imagen muestra una gráfica con una curva negra que representa una oscilación amortiguada, con máximos y mínimos que disminuyen en amplitud con el tiempo t. La curva está envuelta por dos curvas azules que representan la amplitud máxima y mínima de la oscilación en función del tiempo, mostrando una disminución exponencial. El eje vertical X representa la posición o desplazamiento, mientras que el eje horizontal t representa el tiempo.]
+
+# Movimiento Sobre Amortiguado.
+
+Corresponde al caso en que predomina el amortiguamiento sobre la fuerza de restauración elástica, o sea cuando:
+
+$$
+\lambda > \mathrm {w} _ {\circ} \quad \therefore \quad \mathrm {k} _ {\mathrm {v}} > 2 \sqrt {\mathrm {m k} _ {\mathrm {e}}}
+$$
+
+En cuyo caso, las raíces de la ecuación cuadrática resultaran reales, distintas y ambas negativas, como lo podemos observar al expresarlas según se indica a continuación:
+
+$$
+\mathbf {q} _ {1} = - \left(\lambda + \sqrt {\lambda^ {2} - \mathbf {w} _ {\circ} ^ {2}}\right) \quad \mathbf {y} \quad \mathbf {q} _ {2} = - \left(\lambda - \sqrt {\lambda^ {2} - \mathbf {w} _ {\circ} ^ {2}}\right)
+$$
+
+Con lo que la solución general quedará expresada como:
+
+$$
+\mathbf {x} (t) = \mathrm {C} _ {1} \mathrm {e} ^ {\mathrm {q} _ {1} t} + \mathrm {C} _ {2} \mathrm {e} ^ {\mathrm {q} _ {2} t}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 18 (1617 chars)
+────────────────────────────────────────────────────────────
+Con lo que la solución general quedará expresada como:
+
+$$
+\mathbf {x} (t) = \mathrm {C} _ {1} \mathrm {e} ^ {\mathrm {q} _ {1} t} + \mathrm {C} _ {2} \mathrm {e} ^ {\mathrm {q} _ {2} t}
+$$
+
+Teniendo en cuenta que los exponentes son ambos negativos, resulta entonces un movimiento no oscilatorio y fuertemente amortiguado como se sugiere en la figura lateral, donde hemos supuesto que en el instante inicial el cuerpo se deja en libertad con una velocidad tal que durante un pequeño intervalo de tiempo genera un incremento en la deformación del muelle.
+
+[Descripción de imagen: La imagen muestra una curva suave y continua en un plano cartesiano. La curva inicia en el punto (0,1) y aumenta hasta un máximo para luego disminuir monotónamente. No se observan vectores, fuerzas, ejes adicionales o puntos de aplicación específicos más allá de los ejes x e y estándar.]
+
+# Movimiento con Amortiguación Crítica.
+
+Corresponde a la situación que resta por tratar, o sea cuando:
+
+$$
+\lambda = \mathrm {w} _ {\circ} \quad \therefore \quad \mathrm {k} _ {\mathrm {v}} = 2 \sqrt {\mathrm {m k} _ {\mathrm {e}}}
+$$
+
+En cuyo caso las raíces de la ecuación cuadrática son reales e iguales:
+
+$$
+\mathbf {q} _ {1} = \mathbf {q} _ {2} = - \lambda
+$$
+
+Situación en la que puede verificarse por simple sustitución, que otra solución particular de nuestra ecuación diferencial viene dada por:
+
+$$
+\mathbf {x} (t) = \mathrm {C t e} ^ {- \lambda t}
+$$
+
+Con lo que la solución general puede expresarse como:
+
+$$
+\mathrm {x} (t) = \mathrm {C} _ {1} \mathrm {e} ^ {- \lambda t} + \mathrm {C} _ {2} \mathrm {t e x i s t m a t h {\lambda}}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 19 (1979 chars)
+────────────────────────────────────────────────────────────
+t}
+$$
+
+Con lo que la solución general puede expresarse como:
+
+$$
+\mathrm {x} (t) = \mathrm {C} _ {1} \mathrm {e} ^ {- \lambda t} + \mathrm {C} _ {2} \mathrm {t e x i s t m a t h {\lambda}}
+$$
+
+Resultando para las situaciones consideradas, gráficas temporales cualitativas como las que se muestran en la figura que siguiente.
+
+[Descripción de imagen: La imagen muestra tres curvas en un plano cartesiano con el eje X horizontal etiquetado como "t" y el eje Y vertical etiquetado como "X". Las curvas son de colores azul, rojo y negro, representando posiblemente variaciones de una magnitud física en función del tiempo, aunque no se proporcionan unidades específicas. No se observan vectores ni fuerzas explícitas, pero las curvas podrían estar representando la evolución temporal de ciertas variables relacionadas con el movimiento o fenómenos físicos modelados mediante ecuaciones diferenciales.]
+
+# Oscilaciones Libres en un Sistema No Inercial.
+
+A continuación consideraremos una interesante aplicación destinada a ejercitar el manejo cualitativo y formal de la ecuación de movimiento en un sistema de referencia no inercial, en rotación respecto de un sistema inercial fijo a tierra, supuestamente inercial. 
+
+Con este propósito, consideremos la situación sugerida en la figura siguiente, donde se muestra una corredera que puede deslizar libre de rozamiento a lo largo de una guía labrada diametralmente en una plataforma contenida en un plano horizontal, que rota con una velocidad angular constante respecto de un sistema fijo a tierra al que como ya lo mencionamos lo supondremos inercial.
+
+[Descripción de imagen: La imagen muestra un sistema de coordenadas cartesianas con ejes x e y, y un objeto rectangular sometido a una fuerza que lo desplaza a lo largo de una trayectoria en zig-zag, contenida entre dos líneas rojas que podrían representar rieles o guías, actuando a lo largo de un plano. Se observa un punto de aplicación de una fuerza en el objeto rectangular.]
+
+────────────────────────────────────────────────────────────
+Chunk 20 (1925 chars)
+────────────────────────────────────────────────────────────
+[Descripción de imagen: La imagen muestra un objeto dentro de un círculo con un sistema de coordenadas xy. Se observan dos líneas rojas paralelas que atraviesan el círculo con un objeto rectangular en negro que se encuentra entre ellas; aparentemente, está sometido a fuerzas en la dirección perpendicular a dichas líneas rojas, evidenciado por la trayectoria en zig-zag de color magenta.]
+
+Nos proponemos estudiar las características del movimiento de la corredera respecto de la plataforma, suponiendo que dicha corredera está sometida a una fuerza elástica como consecuencia de su interacción con un resorte, cuya longitud propia es coincidente con el radio de la plataforma, y que el sistema se deja en libertad en una posición tal que, el resorte cuenta con una deformación inicial y una velocidad nula respecto de la plataforma. 
+
+Teniendo en cuenta que hemos supuesto a la tierra como un sistema inercial, es claro que un sistema de referencia fijo a la plataforma será un sistema no inercial, y por lo tanto en dicho sistema la corredera se verá sometida a las fuerzas que resultan de la interacción elástica con el resorte y las que resultan de la interacción por contacto con la plataforma, además de las fuerzas inerciales, centrífuga y de Coriolis, como se sugiere en la figura siguiente:
+
+[Descripción de imagen: La imagen muestra un diagrama de fuerzas que actúan sobre un objeto, representado por un rectángulo negro. Se observan los vectores de fuerza: Fuerza de rozamiento cinético $F_{cr}$, Fuerza centrífuga $F_{cf}$, Normal $N$ y Fuerza exterior $F_e$. Todas las fuerzas se cortan en un punto.]
+
+Fuerzas de Interacción 
+
+FeN , 
+
+Fuerzas Inerciales
+
+$$
+\vec {\mathrm {f}} _ {\mathrm {c f}} = - \mathrm {m} \vec {\mathrm {w}} \times \vec {\mathrm {w}} \times \vec {\mathrm {r}}
+$$
+
+$$
+\vec {\mathrm {f}} _ {\mathrm {c r}} = - 2 \mathrm {m} \vec {\mathrm {w}} \times \vec {\mathrm {v}} _ {\mathrm {x y z}}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 21 (1690 chars)
+────────────────────────────────────────────────────────────
+hrm {m} \vec {\mathrm {w}} \times \vec {\mathrm {w}} \times \vec {\mathrm {r}}
+$$
+
+$$
+\vec {\mathrm {f}} _ {\mathrm {c r}} = - 2 \mathrm {m} \vec {\mathrm {w}} \times \vec {\mathrm {v}} _ {\mathrm {x y z}}
+$$
+
+# Tratamiento Cualitativo.
+
+Designando con $\left( \mathrm { W _ { 0 } } \right)$ a la frecuencia con que oscilaría el sistema si la plataforma estuviera en reposo, que hemos identificáramos como frecuencia natural del sistema y evaluando la fuerza elástica y la fuerza inercial centrífuga, según las direcciones (xyz) del sistema solidario a la plataforma, indicado en la primer figura, sus módulos quedan expresados por:
+
+$$
+\mathrm {F _ {e}} = \mathrm {k x} \quad \therefore \quad \mathrm {F _ {e}} = \mathrm {m w} _ {\circ} ^ {2} \mathrm {x}
+$$
+
+$$
+\mathbf {f} _ {\mathrm {c f}} = \mathbf {m w} ^ {2} \mathbf {x}
+$$
+
+Comparando las anteriores y teniendo en cuenta el sentido de cada una de dichas magnitudes, es claro que según la relación entre (w) y la frecuencia natural del sistema, podemos esperar las siguientes situaciones:
+
+# Cuando:
+
+$$
+\mathrm {w} <   \mathrm {w} _ {\circ}
+$$
+
+Predomina la fuerza elástica cualquiera que sea el valor de la coordenada y por lo tanto, respecto de la plataforma, debemos esperar un movimiento oscilatorio, con una frecuencia diferente a la frecuencia natural del sistema.
+
+# Cuando:
+
+$$
+\mathbf {w} = \mathbf {w} _ {\circ}
+$$
+
+La fuerza elástica estará equilibrada por la fuerza inercial centrífuga para todo valor de la coordenada, por lo tanto es de esperar que la corredera permanezca en equilibrio respecto de la plataforma, cualquiera que sea el valor que tome su coordenada.
+
+# Cuando:
+
+$$
+\mathbf {W} > \mathbf {W} _ {\circ}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 22 (1550 chars)
+────────────────────────────────────────────────────────────
+# Cuando:
+
+$$
+\mathbf {W} > \mathbf {W} _ {\circ}
+$$
+
+La fuerza inercial centrífuga predominará sobre la fuerza elástica, por lo tanto respecto de la plataforma debemos esperar que la coordenada crezca indefinidamente.
+
+# Tratamiento Formal.
+
+Considerando un sistema solidario a la plataforma con origen en el centro de la misma, como se muestra en figura inicial, y planteando la ecuación de movimiento para un observador en dicho sistema, resulta:
+
+$$
+\vec {\mathrm {F}} _ {\mathrm {e}} + \vec {\mathrm {N}} = \mathrm {m} \vec {\mathrm {a}} _ {\mathrm {x y z}} + \mathrm {m} \vec {\mathrm {w}} \times \vec {\mathrm {w}} \times \vec {\mathrm {r}} + 2 \mathrm {m} \vec {\mathrm {w}} \times \vec {\mathrm {v}} _ {\mathrm {x y z}}
+$$
+
+Donde no se han tenido en cuenta las fuerzas perpendiculares a la plataforma, esto es la gravitatoria y la que resulta de la interacción entre la plataforma y la corredera, dado que las mismas son iguales y de sentido opuesto y por lo tanto, atendiendo que hemos supuesto al sistema libre de rozamiento, no resultan de interés a los efectos de describir el movimiento de la corredera respecto de la plataforma. 
+
+Evaluando las componentes de esta ecuación según las direcciones del sistema solidario a la plataforma, al que se hace referencia anteriormente, resulta:
+
+$$
+\vec {\mathrm {i}} \rightarrow - \mathrm {k x} = \mathrm {m} \ddot {\mathrm {x}} - \mathrm {m w} ^ {2} \mathrm {x}
+$$
+
+$$
+\vec {\mathrm {j}} \rightarrow \quad \mathrm {N} = 2 \mathrm {m} \dot {\mathrm {x}} \mathrm {w}
+$$
+
+De la primera obtenemos:
+
+────────────────────────────────────────────────────────────
+Chunk 23 (1708 chars)
+────────────────────────────────────────────────────────────
+ghtarrow - \mathrm {k x} = \mathrm {m} \ddot {\mathrm {x}} - \mathrm {m w} ^ {2} \mathrm {x}
+$$
+
+$$
+\vec {\mathrm {j}} \rightarrow \quad \mathrm {N} = 2 \mathrm {m} \dot {\mathrm {x}} \mathrm {w}
+$$
+
+De la primera obtenemos:
+
+$$
+\ddot {\mathbf {x}} + (\mathbf {w} _ {\circ} ^ {2} - \mathbf {w} ^ {2}) \mathbf {x} = 0
+$$
+
+De donde resultan las situaciones que se detallan a continuación, según la relación existente entre la frecuencia natural del sistema y la velocidad angular con que rota la plataforma:
+
+# Suponiendo:
+
+$$
+\mathrm {w} <   \mathrm {w} _ {\circ}
+$$
+
+Y definiendo la magnitud:
+
+$$
+\Omega^ {2} = \mathrm {w} _ {\circ} ^ {2} - \mathrm {w} ^ {2}
+$$
+
+La ecuación diferencial anterior puede expresarse como:
+
+$$
+\ddot {\mathbf {x}} + \Omega^ {2} \mathbf {x} = 0
+$$
+
+Cuya solución es del tipo:
+
+$$
+\mathrm {x} (t) = \mathrm {A s e n} (\Omega t + \delta)
+$$
+
+Que, como lo adelantáramos en el tratamiento cualitativo, corresponde a un movimiento oscilatorio con una frecuencia angular $\Omega$ inferior a la frecuencia natural del sistema y un período dado por:
+
+$$
+\mathrm {T} = \frac {2 \pi}{\sqrt {\mathbf {w} _ {\circ} ^ {2} - \mathbf {w} ^ {2}}}
+$$
+
+Claramente mayor que el período que obtendríamos si la plataforma estuviera en reposo.
+
+# Suponiendo:
+
+$$
+\mathbf {w} = \mathbf {w} _ {\circ}
+$$
+
+De la ecuación diferencial resulta que la aceleración de la corredera respecto de la plataforma será nula y por lo tanto permanecerá en equilibrio, respecto de la mencionada plataforma, cualquiera sea el valor de su coordenada, tal como lo adelantáramos en el tratamiento cualitativo del problema en consideración.
+
+# Suponiendo:
+
+$$
+\mathrm {w} > \mathrm {w} _ {\circ}
+$$
+
+Y definiendo la magnitud:
+
+────────────────────────────────────────────────────────────
+Chunk 24 (1886 chars)
+────────────────────────────────────────────────────────────
+# Suponiendo:
+
+$$
+\mathrm {w} > \mathrm {w} _ {\circ}
+$$
+
+Y definiendo la magnitud:
+
+$$
+\mathrm {q} ^ {2} = \mathrm {w} ^ {2} - \mathrm {w} _ {\circ} ^ {2}
+$$
+
+La ecuación diferencial original nos queda expresada como:
+
+$$
+\ddot {\mathrm {x}} - \mathrm {q} ^ {2} \mathrm {x} = 0
+$$
+
+Cuya solución vendrá dada por:
+
+$$
+\mathrm {x (t) = C _ {1} e ^ {q t} + C _ {2} e ^ {- q t}}
+$$
+
+Claramente divergente, como lo adelantáramos en el tratamiento cualitativo de la situación en consideración. 
+
+Finalmente, una expresión para la fuerza que resulta de la interacción con las paredes laterales puede obtenerse, en cada uno de los casos considerados, derivando las soluciones correspondientes y luego teniéndola en cuenta en la componente ( j ) de la ecuación de movimiento planteada inicialmente.
+
+# Oscilaciones Amortiguadas en un Sistema No Inercial.
+
+Considerando nuevamente la corredera en una guía diametral labrada en una plataforma en rotación y suponiendo un rozamiento dinámico entre la corredera y las caras laterales de la guía, resulta la situación que se indica en el diagrama siguiente:
+
+[Descripción de imagen: La imagen muestra un objeto gris sometido a varias fuerzas representadas por vectores. El vector Fd, que parece ser una fuerza de arrastre o rozamiento, actúa hacia la derecha sobre el objeto, mientras que el vector Fe, presumiblemente una fuerza externa, actúa en dirección opuesta a Fd pero con un ángulo respecto al eje horizontal. El vector N, que representa la fuerza normal, actúa perpendicularmente a la superficie de contacto entre el objeto y las barras rojas, en una dirección que forma un ángulo con el eje vertical.]
+
+Donde:
+
+$$
+\mathrm {F} _ {\mathrm {d}} = \mu_ {\mathrm {d}} \mathrm {N}
+$$
+
+Con lo que, la ecuación de movimiento para el centro de masa de la corredera planteada desde un sistema de referencia solidario a la plataforma, nos queda:  
+
+────────────────────────────────────────────────────────────
+Chunk 25 (1711 chars)
+────────────────────────────────────────────────────────────
+{\mathrm {d}} = \mu_ {\mathrm {d}} \mathrm {N}
+$$
+
+Con lo que, la ecuación de movimiento para el centro de masa de la corredera planteada desde un sistema de referencia solidario a la plataforma, nos queda:  
+
+$$
+\vec {\mathrm {F}} _ {\mathrm {e}} + \vec {\mathrm {N}} + \vec {\mathrm {F}} _ {\mathrm {d}} = \mathrm {m} \vec {a} _ {\mathrm {x y z}} + \mathrm {m} \vec {\mathrm {w}} \times \vec {\mathrm {w}} \times \vec {\mathrm {r}} + 2 \mathrm {m} \vec {\mathrm {w}} \times \vec {\mathrm {v}} _ {\mathrm {x y z}}
+$$
+
+Evaluando las componentes de la ecuación anterior según las direcciones del sistema solidario a la plataforma con origen en el centro de la misma, considerado en el tratamiento anterior, obtenemos para cada una de las componentes las ecuaciones que se indican a continuación:
+
+$$
+\vec {\mathrm {j}} \rightarrow \quad \mathrm {N} = 2 \mathrm {m} \dot {\mathrm {x}} \mathrm {w}
+$$
+
+$$
+\vec {\mathrm {i}} \rightarrow - \mathrm {k x} - 2 \mu_ {\mathrm {d}} \mathrm {m w} \dot {\mathrm {x}} = \mathrm {m} \ddot {\mathrm {x}} - \mathrm {m w} ^ {2} \mathrm {x}
+$$
+
+Con lo que, de la ecuación correspondiente a la dirección del eje (x), resulta:
+
+$$
+\ddot {\mathbf {x}} + 2 \mu_ {\mathrm {d}} \mathbf {w} \dot {\mathbf {x}} + (\mathbf {w} _ {\circ} ^ {2} - \mathbf {w} ^ {2}) \mathbf {x} = 0
+$$
+
+Que en término de nuevas constantes podemos expresarla como:
+
+$$
+\ddot {\mathbf {x}} + \mathbf {k} _ {1} \dot {\mathbf {x}} + \mathbf {k} _ {2} ^ {2} \mathbf {x} = 0
+$$
+
+Proponiendo una solución de la forma:
+
+$$
+\mathrm {x} (t) = \mathrm {C} _ {1} \mathrm {e} ^ {\mathrm {q t}}
+$$
+
+Y sustituyendo en la ecuación diferencial, resulta que la constante (q) deberá ser solución de la ecuación algebraica:
+
+────────────────────────────────────────────────────────────
+Chunk 26 (1678 chars)
+────────────────────────────────────────────────────────────
+iendo una solución de la forma:
+
+$$
+\mathrm {x} (t) = \mathrm {C} _ {1} \mathrm {e} ^ {\mathrm {q t}}
+$$
+
+Y sustituyendo en la ecuación diferencial, resulta que la constante (q) deberá ser solución de la ecuación algebraica:
+
+$$
+\mathrm {q} ^ {2} + \mathrm {q} \dot {\mathrm {x}} + \mathrm {k} _ {2} ^ {2} = 0
+$$
+
+Por lo tanto (q) podrá tomar los valores:
+
+$$
+\mathrm {q} = - \frac {\mathrm {k} _ {1}}{2} \pm \left[ \left(\frac {\mathrm {k} _ {1}}{2}\right) ^ {2} - \mathrm {k} _ {2} ^ {2} \right] ^ {1 / 2}
+$$
+
+Que en término de los parámetros originales nos queda expresado como:
+
+$$
+\mathrm {q} = - \mu_ {\mathrm {d}} \mathrm {w} \pm \left[ \mathrm {w} ^ {2} \left(1 + \mu_ {\mathrm {d}} ^ {2}\right) - \mathrm {w} _ {\circ} ^ {2} \right] ^ {1 / 2}
+$$
+
+Suponiendo ahora que las condiciones son tales que:
+
+$$
+w ^ {2} \left(1 + \mu_ {d} ^ {2}\right) <   w _ {\circ} ^ {2}
+$$
+
+Entonces las raíces de la ecuación algebraica pueden expresarse como:
+
+$$
+\mathrm {q} = - \mu_ {\mathrm {d}} \mathrm {w} \pm \mathrm {i} \left[ \mathrm {w} _ {\circ} ^ {2} - \mathrm {w} ^ {2} (1 + \mu_ {\mathrm {d}} ^ {2}) \right] ^ {1 / 2}
+$$
+
+Que definiendo la magnitud:
+
+$$
+\Omega = \left[ w _ {\circ} ^ {2} - w ^ {2} \left(1 + \mu_ {d} ^ {2}\right) \right] ^ {1 / 2}
+$$
+
+Pueden expresarse como:
+
+$$
+\mathbf {q} = - \mu_ {\mathrm {d}} \mathbf {w} \pm \mathrm {i} \Omega
+$$
+
+Con lo que la solución de nuestra ecuación diferencial nos queda de la forma:
+
+$$
+\mathrm {x} (t) = \mathrm {e} ^ {- \mu_ {\mathrm {d}} \mathrm {w t}} \left(\mathrm {C} _ {1} \mathrm {e} ^ {\mathrm {i} \Omega t} + \mathrm {C} _ {2} \mathrm {e} ^ {- \mathrm {i} \Omega t}\right)
+$$
+
+Que indudablemente puede expresarse como:
+
+────────────────────────────────────────────────────────────
+Chunk 27 (1566 chars)
+────────────────────────────────────────────────────────────
+m {e} ^ {- \mu_ {\mathrm {d}} \mathrm {w t}} \left(\mathrm {C} _ {1} \mathrm {e} ^ {\mathrm {i} \Omega t} + \mathrm {C} _ {2} \mathrm {e} ^ {- \mathrm {i} \Omega t}\right)
+$$
+
+Que indudablemente puede expresarse como:
+
+$$
+\mathrm {x} (t) = \mathrm {A e} ^ {- \mu_ {\mathrm {d}} \mathrm {w t}} \operatorname {s e n} (\Omega t + \delta)
+$$
+
+Que claramente corresponde a un movimiento oscilatorio amortiguado y que como era de esperar se reduce a la solución obtenida anteriormente, si se considera nulo el rozamiento entre la corredera y las caras laterales de la guía. Siendo interesante destacar que para la situación planteada, la fuerza de rozamiento que resulta de la interacción por contacto entre dos superficies secas como las consideradas, esto es entre la corredera y las paredes laterales, se comporta como la que resultaría de la presencia de un lubricante entre ambas, dando lugar así a un movimiento análogo al que obtendríamos suponiendo al sistema sometido a una interacción del tipo viscosa. 
+
+Ejecutando el archivo Amortiguadas.htm podrá acceder a una simulación que le permitirá visualizar las variaciones temporales de la posición y la energía de un cuerpo que oscila sometida a la interacción con un muelle y una fuerza proporcional a la velocidad, juntamente con la dependencia entre su velocidad y la coordenada involucrada. La segunda simulación incluida en la página ofrece un interesante modelo de una colisión para diferentes valores del coeficiente de restitución, que se recomienda ejecutar y estudiar la teoría que en la página se ofrece.
+
+────────────────────────────────────────────────────────────
+Chunk 28 (2255 chars)
+────────────────────────────────────────────────────────────
+ión incluida en la página ofrece un interesante modelo de una colisión para diferentes valores del coeficiente de restitución, que se recomienda ejecutar y estudiar la teoría que en la página se ofrece.
+
+# 3.03 OSCILACIONES FORZADAS SENOIDALMENTE.
+
+Consideraremos ahora, un sistema como el tratado anteriormente en el que además supondremos que el cuerpo está sometido a una excitación del tipo senoidal, como se sugiere en la figura siguiente.
+
+[Descripción de imagen: La imagen muestra un sistema masa-resorte-amortiguador con una fuerza externa aplicada. El sistema consta de una masa $m$ unida a un resorte con constante $k_e$ y a un amortiguador con constante $k_v$, con un punto de aplicación de una fuerza externa $F_0 sen(wt)$ que actúa en la dirección horizontal, en el eje $x$.]
+
+Con lo que el diagrama de cuerpo aislado y la componente horizontal de la ecuación de Newton para el centro de masa del cuerpo resultan:
+
+[Descripción de imagen: La imagen muestra un diagrama de cuerpo libre con un bloque sometido a varias fuerzas. El bloque está sometido a las fuerzas: F (horizontal hacia la derecha), Fe (fuerza elástica, horizontal hacia la izquierda), Fv (fuerza viscosa, horizontal hacia la derecha), N (normal, vertical hacia arriba), mg (peso, vertical hacia abajo). Los vectores de fuerza se representan con flechas rojas y se aplican en el centro del bloque, que se encuentra en el origen de los ejes x e y, no explicitados pero implícitos en la orientación de las fuerzas.]
+
+$$
+\ddot {x} + 2 \lambda \dot {x} + w _ {\circ} ^ {2} x = f _ {\circ} \operatorname {s e n} (w t)
+$$
+
+Donde:
+
+$$
+\lambda = \frac {\mathrm {k} _ {\mathrm {v}}}{2 \mathrm {m}}
+$$
+
+$$
+w _ {o} ^ {2} = \frac {k _ {e}}{m}
+$$
+
+$$
+f _ {\circ} = \frac {F _ {\circ}}{m}
+$$
+
+Para una situación como ésta, puede demostrarse que la solución general de la ecuación diferencial, claramente no homogénea, se obtiene como la suma de la solución general de la homogénea, mas una solución particular de la no homogénea, esto es:
+
+$$
+\mathbf {x} (t) = \mathbf {x} _ {\mathrm {H}} (t) + \mathbf {x} _ {\mathrm {P}} (t)
+$$
+
+Donde la solución de la homogénea, sin lugar a dudas, es la obtenida en el tema anterior.
+
+$$
+\mathrm {x (t) = A e ^ {- \lambda t} s e n (\Omega t + \delta)}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 29 (1542 chars)
+────────────────────────────────────────────────────────────
+$$
+\mathrm {x (t) = A e ^ {- \lambda t} s e n (\Omega t + \delta)}
+$$
+
+Como solución particular de nuestra ecuación diferencial propondremos una función como la que se indica a continuación:
+
+$$
+\mathbf {x} _ {\mathrm {P}} (t) = \mathbf {B} _ {1} \operatorname {s e n} (\mathrm {w t}) + \mathbf {B} _ {2} \cos (\mathrm {w t})
+$$
+
+Donde la frecuencia coincide con la frecuencia de excitación y donde los coeficientes deberán ser determinados para garantizar que la función propuesta sea efectivamente una solución de la ecuación diferencial original. Con este propósito deberemos reemplazar en dicha ecuación, la función y sus derivadas temporales, con lo que y luego de operar algebraicamente, obtenemos que los coeficientes deberán ser tales que:
+
+$$
+\left. \right.\left\lfloor \mathrm {B} _ {1} \left(\mathrm {w} _ {\circ} ^ {2} - \mathrm {w} ^ {2}\right) + \mathrm {B} _ {2} 2 \lambda \mathrm {w} - \mathrm {f} _ {\circ} \right\rfloor \mathrm {s e n} (\mathrm {w t}) + \left\lfloor \mathrm {B} _ {1} 2 \lambda \mathrm {w} + \mathrm {B} _ {2} \left(\mathrm {w} _ {\circ} ^ {2} - \mathrm {w} ^ {2}\right)\right\rfloor \mathrm {c o s} (\mathrm {w t}) = 0
+$$
+
+Puesto que la anterior deberá ser válida en todo instante, es claro que los factores que multiplican a las funciones trigonométricas deberán anularse, con lo que los coeficientes (Bi) deberán ser solución del sistema de ecuaciones:
+
+$$
+\mathrm {B} _ {1} \left(\mathrm {w} _ {\circ} ^ {2} - \mathrm {w} ^ {2}\right) + \mathrm {B} _ {2} 2 \lambda \mathrm {w} = \mathrm {f} _ {\circ}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 30 (1686 chars)
+────────────────────────────────────────────────────────────
+os coeficientes (Bi) deberán ser solución del sistema de ecuaciones:
+
+$$
+\mathrm {B} _ {1} \left(\mathrm {w} _ {\circ} ^ {2} - \mathrm {w} ^ {2}\right) + \mathrm {B} _ {2} 2 \lambda \mathrm {w} = \mathrm {f} _ {\circ}
+$$
+
+$$
+\mathrm {B} _ {1} 2 \lambda \mathrm {w} + \mathrm {B} _ {2} (\mathrm {w} _ {\circ} ^ {2} - \mathrm {w} ^ {2}) = 0
+$$
+
+De donde resulta:
+
+$$
+\mathrm {B} _ {1} = \frac {\mathrm {f} _ {\circ} \left(\mathrm {w} _ {\circ} ^ {2} - \mathrm {w} ^ {2}\right)}{\left(\mathrm {w} _ {\circ} ^ {2} - \mathrm {w} ^ {2}\right) + (2 \lambda \mathrm {w}) ^ {2}}
+$$
+
+$$
+\mathrm {B} _ {2} = \frac {2 \mathrm {f} _ {\circ} \lambda \mathrm {w}}{\left(\mathrm {w} _ {\circ} ^ {2} - \mathrm {w} ^ {2}\right) + \left(2 \lambda \mathrm {w}\right) ^ {2}}
+$$
+
+Teniendo en cuenta ahora que, la solución particular puede ser expresada en término de dos nuevas constantes (B) y (φ), como se indica a continuación:
+
+$$
+\mathrm {x} _ {\mathrm {P}} (\mathrm {t}) = \mathrm {B} \operatorname {s e n} (\mathrm {w t} + \phi)
+$$
+
+Donde las nuevas constantes están relacionadas con las anteriores mediante:
+
+$$
+\mathbf {B} ^ {2} = \mathbf {B} _ {1} ^ {2} + \mathbf {B} _ {2} ^ {2}
+$$
+
+$$
+\mathrm {t g} \phi = \frac {\mathrm {B} _ {2}}{\mathrm {B} _ {1}}
+$$
+
+Y donde el ángulo (φ) es el desfasaje entre la excitación y la solución particular propuesta, luego de tener en cuenta las expresiones logradas para la constantes anteriores en término de los parámetros originales, estas nuevas constantes nos quedan expresadas en término de dichas magnitudes, como:
+
+$$
+\mathbf {B} = \frac {\mathbf {f} _ {\circ}}{\sqrt {(\mathbf {w} _ {\circ} ^ {2} - \mathbf {w} ^ {2}) + (2 \lambda \mathbf {w}) ^ {2}}}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 31 (1666 chars)
+────────────────────────────────────────────────────────────
+uevas constantes nos quedan expresadas en término de dichas magnitudes, como:
+
+$$
+\mathbf {B} = \frac {\mathbf {f} _ {\circ}}{\sqrt {(\mathbf {w} _ {\circ} ^ {2} - \mathbf {w} ^ {2}) + (2 \lambda \mathbf {w}) ^ {2}}}
+$$
+
+$$
+\operatorname {t g} \phi = \frac {2 \lambda \mathrm {w}}{\mathrm {w} _ {\circ} ^ {2} - \mathrm {w} ^ {2}}
+$$
+
+Con lo que la solución general de nuestra ecuación diferencial, suma de la correspondiente a la homogénea mas la particular recientemente obtenida, vendrá dada por:
+
+$$
+\mathrm {x} (t) = \mathrm {A e} ^ {- \lambda t} \operatorname {s e n} (\Omega t + \delta) + \mathrm {B s e n} (\mathrm {w t} + \phi)
+$$
+
+Resultando entonces la superposición de una oscilación con amplitud constante (B) y frecuencia coincidente con la de excitación que perdurará en el tiempo, mas una función que se amortigua con el tiempo, que en adelante identificaremos como estacionaria y transitoria, respectivamente. 
+
+Finalizado el mencionado estado transitorio, que notemos estará fuertemente relacionado con la amortiguación involucrada, el sistema alcanza el estado estacionario, que responde a una oscilación con amplitud constante y con una frecuencia coincidente con la de excitación, tal que la posición de la partícula variará con el tiempo según:
+
+$$
+\mathrm {x} (t) = \mathrm {B s e n} (\mathrm {w t} + \phi)
+$$
+
+Resulta interesante observar que la amplitud del estado estacionario, dependerá fuertemente de la relación existente entre la frecuencia natural del sistema y la frecuencia de excitación, obteniéndose amplitudes muy importantes cuando la frecuencia de la excitación es coincidente con la frecuencia natural del sistema, en cuyo caso:
+
+────────────────────────────────────────────────────────────
+Chunk 32 (2074 chars)
+────────────────────────────────────────────────────────────
+entre la frecuencia natural del sistema y la frecuencia de excitación, obteniéndose amplitudes muy importantes cuando la frecuencia de la excitación es coincidente con la frecuencia natural del sistema, en cuyo caso:
+
+$$
+\mathrm {B} = \frac {\mathrm {f} _ {\circ}}{2 \lambda \mathrm {w}}
+$$
+
+Y el desfasaje entre la excitación del sistema y la respuesta del mismo, vendrá dado por:
+
+$$
+\phi = \frac {\pi}{2}
+$$
+
+Situación que en adelante identificaremos como de Resonancia, siendo importante observar que en dicho estado, el valor de la amplitud resultante dependerá inversamente de la constante de amortiguación, tendiendo a infinito si dicha constante tiende a la nulidad. 
+
+La figura siguiente muestra gráficas cualitativas de la amplitud en el estado estacionario en función de la relación entre la frecuencia de excitación y la frecuencia natural del sistema, para diferentes valores de la constante de amortiguación. 
+
+Se recomienda ejecutar los archivos Forzadas-1.htm y Forzadas-2 incluidos en las carpetas del mismo nombre, con lo que podrá acceder a simulaciones destinadas a ilustrar diferentes aspectos relacionados con el tema recientemente considerado.
+
+[Descripción de imagen: La imagen muestra una gráfica con múltiples curvas que representan diferentes valores de amortiguación, denominados por λ (lambda), trazadas en función de la relación entre frecuencias w/w0. El eje horizontal representa la relación de frecuencias (w/w0) y el eje vertical presumably la amplitud o respuesta del sistema. No hay vectores ni fuerzas explícitas representadas en la gráfica; en cambio, se observan curvas que indican cómo varía la respuesta de un sistema sometido a diferentes frecuencias de excitación y con distintos niveles de amortiguación.]
+
+# 3.04 OSCILACIONES DE SISTEMAS CON DOS GRADOS DE LIBERTAD.
+
+Consideraremos a continuación las características de las oscilaciones de un sistema con dos grados de libertad como el sugerido en la figura siguiente, donde suponemos que ambos cuerpos tienen igual masa y la misma constante elástica para los resortes laterales.
+
+────────────────────────────────────────────────────────────
+Chunk 33 (1852 chars)
+────────────────────────────────────────────────────────────
+cas de las oscilaciones de un sistema con dos grados de libertad como el sugerido en la figura siguiente, donde suponemos que ambos cuerpos tienen igual masa y la misma constante elástica para los resortes laterales.
+
+$$
+\mathbf {m} _ {1} = \mathbf {m} _ {2} = \mathbf {m}
+$$
+
+$$
+\mathbf {k} _ {1} = \mathbf {k} _ {2} = \mathbf {k} _ {\circ}
+$$
+
+[Descripción de imagen: La imagen representa un sistema de dos masas, $m_1$ y $m_2$, conectadas por resortes de constantes $k$, $k_1$ y $k_2$. Los vectores de posición $x_1$ y $x_2$ indican el desplazamiento de las masas respecto a sus posiciones de equilibrio. Las fuerzas presentes son representadas por las constantes de los resortes, actuando en dirección horizontal a lo largo del eje x.]
+
+Con el propósito de plantear las ecuaciones de movimiento, supongamos que apartamos al sistema de su posición de equilibrio y lo dejamos en libertad desde un punto en el que ambas coordenadas son positivas y tales que la primera es mayor que la segunda, en cuyo caso la ecuación de movimiento para el centro de masa de cada uno de los cuerpos vendrá dada por:
+
+$$
+\mathrm {m \ddot {x} _ {1}} = - \mathrm {k} _ {\circ} \mathrm {x} _ {1} - \mathrm {k} (\mathrm {x} _ {1} - \mathrm {x} _ {2})
+$$
+
+$$
+\mathrm {m} \ddot {\mathrm {x}} _ {2} = - \mathrm {k} _ {\circ} \mathrm {x} _ {2} + \mathrm {k} (\mathrm {x} _ {1} - \mathrm {x} _ {2})
+$$
+
+Sistema de ecuaciones diferenciales acopladas, que puede expresarse como:
+
+$$
+\ddot {\mathrm {x}} _ {1} + \frac {\mathrm {k} _ {\circ}}{\mathrm {m}} \mathrm {x} _ {1} + \frac {\mathrm {k}}{\mathrm {m}} \left(\mathrm {x} _ {1} - \mathrm {x} _ {2}\right) = 0
+$$
+
+$$
+\ddot {\mathbf {x}} _ {2} + \frac {\mathbf {k} _ {\mathrm {o}}}{\mathrm {m}} \mathbf {x} _ {2} - \frac {\mathbf {k}}{\mathrm {m}} (\mathbf {x} _ {1} - \mathbf {x} _ {2}) = 0
+$$
+
+Proponiendo soluciones del tipo:
+
+────────────────────────────────────────────────────────────
+Chunk 34 (1298 chars)
+────────────────────────────────────────────────────────────
+\ddot {\mathbf {x}} _ {2} + \frac {\mathbf {k} _ {\mathrm {o}}}{\mathrm {m}} \mathbf {x} _ {2} - \frac {\mathbf {k}}{\mathrm {m}} (\mathbf {x} _ {1} - \mathbf {x} _ {2}) = 0
+$$
+
+Proponiendo soluciones del tipo:
+
+$$
+\mathrm {x} _ {1} = \mathrm {C} _ {1} \operatorname {s e n} (\mathrm {p t} + \alpha)
+$$
+
+$$
+\mathrm {x} _ {2} = \mathrm {C} _ {2} \operatorname {s e n} (\mathrm {p t} + \alpha)
+$$
+
+Reemplazando en las ecuaciones diferenciales y operando algebraicamente, obtenemos:
+
+$$
+\left(- p ^ {2} + \frac {k _ {\circ}}{m} + \frac {k}{m}\right) C _ {1} - \frac {k}{m} C _ {2} = 0
+$$
+
+$$
+- \frac {\mathrm {k}}{\mathrm {m}} \mathrm {C} _ {1} + \left(- \mathrm {p} ^ {2} + \frac {\mathrm {k} _ {\circ}}{\mathrm {m}} + \frac {\mathrm {k}}{\mathrm {m}}\right) \mathrm {C} _ {2} = 0
+$$
+
+Que tendrá solución distinta de la trivial si el determinante de sus coeficientes es nulo:
+
+$$
+\left| \begin{array}{c c} - p ^ {2} + \frac {k _ {\circ}}{m} + \frac {k}{m} & - \frac {k}{m} \\ - \frac {k}{m} & - p ^ {2} + \frac {k _ {\circ}}{m} + \frac {k}{m} \end{array} \right| = 0
+$$
+
+De donde resulta que el parámetro (p) podrá tomar los valores:
+
+$$
+p _ {1} = \sqrt {\frac {k _ {\circ}}{m}} \quad y \quad p _ {2} = \sqrt {\frac {k _ {\circ}}{m} + \frac {2 k}{m}}
+$$
+
+$$
+\mathbf {p} _ {1} <   \mathbf {p} _ {2}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 35 (1322 chars)
+────────────────────────────────────────────────────────────
+p _ {1} = \sqrt {\frac {k _ {\circ}}{m}} \quad y \quad p _ {2} = \sqrt {\frac {k _ {\circ}}{m} + \frac {2 k}{m}}
+$$
+
+$$
+\mathbf {p} _ {1} <   \mathbf {p} _ {2}
+$$
+
+Que en adelante identificaremos como frecuencias fundamentales, las que como veremos estarán asociadas con diferentes modos de oscilación, que identificaremos como modos fundamentales. 
+
+Teniendo en cuenta la primera solución en cualquiera de las ecuaciones algebraicas, resulta que ambas constantes deberán ser iguales, con lo que las soluciones de nuestro sistema de ecuaciones diferenciales se puede expresar como:
+
+$$
+\mathrm {x} _ {1} = \mathrm {A s e n} (\mathrm {p} _ {1} \mathrm {t} + \alpha)
+$$
+
+$$
+\mathbf {x} _ {2} = \mathbf {A} \operatorname {s e n} (\mathbf {p} _ {1} \mathbf {t} + \boldsymbol {\alpha})
+$$
+
+# modo lento
+
+Ambos cuerpos oscilan en fase y con la misma amplitud y en este modo, el resorte de acoplamiento no interviene en el movimiento, se comporta como si se tratara de una varilla rígida. 
+
+Teniendo en cuenta la segunda solución en cualquiera de las ecuaciones algebraicas resulta que las constantes deberán ser iguales pero de signo opuesto, con lo que:
+
+$$
+\mathrm {x} _ {1} = \mathrm {A s e n} (\mathrm {p} _ {2} \mathrm {t} + \alpha)
+$$
+
+$$
+\mathrm {x} _ {2} = - \mathrm {A s e n} (\mathrm {p} _ {2} \mathrm {t} + \alpha)
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 36 (1763 chars)
+────────────────────────────────────────────────────────────
+$$
+\mathrm {x} _ {1} = \mathrm {A s e n} (\mathrm {p} _ {2} \mathrm {t} + \alpha)
+$$
+
+$$
+\mathrm {x} _ {2} = - \mathrm {A s e n} (\mathrm {p} _ {2} \mathrm {t} + \alpha)
+$$
+
+# modo rápido
+
+Los cuerpos oscilan con la misma frecuencia y amplitud pero desfasados en (180o) de manera que se mueven en sentido opuesto y el centro del resorte de acoplamiento permanece fijo, como si este punto estuviera rígidamente vinculado a una pared, como se sugiere en la figura siguiente y como lo podrá 
+
+apreciar en la simulación a la que puede acceder ejecutando el archivo Acoplados.htm incluido en la carpeta del mismo nombre, donde dejando en libertad al sistema con amplitudes iguales, podrá observar las características con las que oscila en el modo lento y dejando en libertad al sistema con amplitudes iguales pero de signo opuesto, podrá observar las características del segundo modo.
+
+[Descripción de imagen: La imagen muestra un sistema de dos masas, $m_1$ y $m_2$, conectadas por resortes de constantes $k_1$ y $k_2$ a dos paredes fijas y entre sí. Los vectores de posición de las masas se representan como $x_1$ y $x_2$. Las fuerzas actuantes son las fuerzas elásticas generadas por los resortes.]
+
+En general y dependiendo de las condiciones iniciales, el movimiento de cada uno de los cuerpos quedará descripto por una combinación lineal de ambas soluciones, y en particular si suponemos que el sistema se deja en libertad a partir de una configuración en la que ambas masas están en reposo con posiciones distintas a las indicadas anteriormente, resulta:
+
+$$
+\mathrm {x} _ {1} = \frac {\mathrm {x} _ {0 1} + \mathrm {x} _ {0 2}}{2} \cos (\mathrm {p} _ {1} t + \alpha) + \frac {\mathrm {x} _ {0 1} - \mathrm {x} _ {0 2}}{2} \cos (\mathrm {p} _ {2} t + \alpha)
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 37 (1821 chars)
+────────────────────────────────────────────────────────────
+resulta:
+
+$$
+\mathrm {x} _ {1} = \frac {\mathrm {x} _ {0 1} + \mathrm {x} _ {0 2}}{2} \cos (\mathrm {p} _ {1} t + \alpha) + \frac {\mathrm {x} _ {0 1} - \mathrm {x} _ {0 2}}{2} \cos (\mathrm {p} _ {2} t + \alpha)
+$$
+
+$$
+\mathrm {x} _ {1} = \frac {\mathrm {x} _ {0 1} + \mathrm {x} _ {0 2}}{2} \cos (\mathrm {p} _ {1} t + \alpha) - \frac {\mathrm {x} _ {0 1} - \mathrm {x} _ {0 2}}{2} \cos (\mathrm {p} _ {2} t + \alpha)
+$$
+
+Suponiendo que en el instante inicial la coordenada del segundo cuerpo es nula, y teniendo en cuenta las relaciones trigonométricas para la suma y diferencia de cosenos con diferentes argumentos, de las anteriores se obtiene que en estas condiciones:
+
+$$
+\mathbf {x} _ {1} = \mathbf {x} _ {0 1} \cos \frac {\mathbf {p} _ {1} - \mathbf {p} _ {2}}{2} \mathbf {t} \cdot \cos \frac {\mathbf {p} _ {1} + \mathbf {p} _ {2}}{2} \mathbf {t}
+$$
+
+$$
+\mathrm {x} _ {2} = \mathrm {x} _ {0 1} \operatorname {s e n} \frac {\mathrm {p} _ {1} - \mathrm {p} _ {2}}{2} \mathrm {t} \cdot \operatorname {s e n} \frac {\mathrm {p} _ {1} + \mathrm {p} _ {2}}{2} \mathrm {t}
+$$
+
+Cuyas gráficas temporales se muestran a continuación, donde puede observarse que cada cuerpo oscila con una amplitud modulada por una señal de menor frecuencia, y que existe un constante intercambio de energía entre los elementos que intervienen en el sistema, tal como lo podrá apreciar con toda claridad en la simulación indicada anteriormente, dejando al sistema en libertad con las condiciones iniciales establecidas para obtener la solución anterior.
+
+[Descripción de imagen: La imagen muestra una gráfica de una función matemática que representa una onda. El eje horizontal representa el tiempo o la posición, mientras que el eje vertical representa la amplitud de la onda. No se observan vectores ni fuerzas explícitas en la gráfica.]
+
+────────────────────────────────────────────────────────────
+Chunk 38 (3722 chars)
+────────────────────────────────────────────────────────────
+[Descripción de imagen: La imagen muestra una grafica de una función matematica, con un eje x que va desde 0 a 16 y un eje y que va desde -10 a 10. La curva representa una onda que oscila alrededor del eje x con amplitudes y frecuencias variables a lo largo del eje x. No se observan vectores ni fuerzas explícitas en la imagen.]
+
+[Descripción de imagen: La imagen muestra una gráfica de una función matemática que representa una onda con características de amplitud modulada. La función oscila alrededor del eje x, con picos y valles que varían en amplitud, y no se observan vectores ni fuerzas explícitas; sin embargo, se puede inferir que la función podría estar representando algún tipo de movimiento ondulatorio en el que las amplitudes varían con el tiempo o la posición. El eje x parece representar el tiempo o la posición, mientras que el eje y representa la amplitud de la onda.]
+
+# Péndulos Acoplados.
+
+La figura lateral nos muestra un sistema como el que hemos considerado, formado por dos péndulos acoplados mediante un muelle, en donde los muelles laterales no existen. Las imágenes siguientes corresponden a dos instantes diferentes cuando el sistema oscila en el modo lento.
+
+[Descripción de imagen: La imagen muestra un sistema de dos esferas de masa unidas a un resorte y suspendidas de una barra rígida. Las fuerzas actuantes incluyen el peso de las esferas, la tensión en los cables y la fuerza elástica del resorte. El punto de aplicación de estas fuerzas se puede visualizar en los extremos del resorte y en los centros de las esferas, con vectores de fuerza actuando a lo largo de los ejes verticales de suspensión y el eje horizontal del resorte.]
+
+[Descripción de imagen: Se observa un sistema físico que consta de una barra rígida horizontal de la que cuelgan dos péndulos simples que tienen en su extremo inferior sendas esferas de un material denso.  Los péndulos están conectados por un resorte. Los puntos de aplicación de las fuerzas son:  en cada esfera actúan la tensión de la cuerda y el peso; en cada extremo del resorte actúan fuerzas elásticas.]
+
+[Descripción de imagen: La imagen muestra un sistema de dos péndulos simples unidos por un resorte.  En cada péndulo se puede identificar el punto de aplicación de la tensión de la cuerda, la fuerza peso en el centro de cada esfera dorada; así como el eje de oscilación de cada péndulo. El resorte ejerce una fuerza elástica sobre cada péndulo en sus puntos de sujeción.]
+
+Finalmente, las próximas imágenes corresponden a dos instantes diferentes cuando el sistema oscila en el modo rápido.
+
+[Descripción de imagen: La imagen muestra un sistema físico que consiste en una barra horizontal sostenida por dos varillas verticales, de las cuales cuelgan dos esferas de metal unidas por un resorte helicoidal. El sistema presenta fuerzas de tensión en las varillas y una fuerza elástica en el resorte, con puntos de aplicación en las esferas y en la barra. Los ejes de referencia podrían establecerse en la barra horizontal y las varillas verticales, con vectores de fuerza orientados hacia abajo en las esferas por efecto de la gravedad y hacia afuera en el resorte debido a su elasticidad.]
+
+[Descripción de imagen: La imagen muestra un sistema de oscilaciones acopladas con dos péndulos simples idénticos unidos por un resorte. Cada péndulo consiste en una esfera de masa dorada suspendida de una cuerda con un extremo fijo a una barra de madera y el otro extremo unido a un extremo del resorte, con vectores de fuerza de tensión en cada cuerda y fuerzas elásticas en el resorte. Los ejes relevantes son el eje vertical que pasa por el punto de suspensión de cada péndulo y el eje horizontal que pasa por el punto de equilibrio del resorte.]
+
+────────────────────────────────────────────────────────────
+Chunk 39 (627 chars)
+────────────────────────────────────────────────────────────
+bfbf1a154068c56c89c405dc49e46ab615a2040e.jpg)
+
+[Descripción de imagen: La imagen muestra un sistema de oscilaciones acopladas que consiste en dos péndulos simples idénticos unidos por un resorte. Cada péndulo está compuesto por una esfera de masa dorada suspendida de un punto fijo en una barra horizontal mediante una varilla rígida y un cable. El resorte helicoidal se encuentra entre los cables de los péndulos, ejerciendo una fuerza elástica que acopla el movimiento de ambos péndulos.]
+
+Tal como lo podrá apreciar en el video PenAcoplados.avi que se recomienda ejecutar y de donde fueron extraídas las imágenes anteriores.

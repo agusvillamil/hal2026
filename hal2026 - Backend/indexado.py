@@ -13,23 +13,15 @@ Dependencias: chromadb, sentence-transformers, groq, python-dotenv
 """
 
 import json
-import os
 import re
 from pathlib import Path
-from time import sleep
 from typing import Optional
 
 import chromadb
-from dotenv import load_dotenv
-from groq import Groq
 
 from conseguirRutas import conseguirRutasPDF
 from chunking import chunkear, nombreTxt, guardarChunks
-
-load_dotenv(dotenv_path=Path(__file__).parent.parent / '.env')
-
-clienteGroq = Groq(api_key=os.getenv('GROQ_API_KEY'))
-MODELO = 'llama-3.3-70b-versatile'
+from modelos import llamarModelo, MODELO_GROQ
 
 # Patrón de nombre de archivo MinerU:
 # MinerU_markdown_Ochoa-{num}-{topic}-{start}-{end}_{id}.md
@@ -100,42 +92,19 @@ def extraerMetadatosGroq(chunk: str) -> dict:
     Returns:
         Dict con: tipo_contenido (str), conceptos (str)
     """
-    reintentosMax = 3
-    for intento in range(reintentosMax):
-        try:
-            respuesta = clienteGroq.chat.completions.create(
-                model=MODELO,
-                messages=[{
-                    'role': 'user',
-                    'content': PROMPT_METADATOS + chunk[:2000],  # limitar tokens
-                }],
-                max_tokens=128,
-                temperature=0,
-            )
-            texto = respuesta.choices[0].message.content.strip()
-
-            # Eliminar posibles bloques de código markdown si el modelo los agrega
-            texto = re.sub(r'^```(?:json)?\s*|\s*```$', '', texto, flags=re.MULTILINE).strip()
-
-            datos = json.loads(texto)
-            return {
-                'tipo_contenido': str(datos.get('tipo_contenido', 'otro')),
-                'conceptos':      str(datos.get('conceptos', '')),
-            }
-
-        except Exception as e:
-            mensaje = str(e)
-            if '429' in mensaje:
-                m = re.search(r'retry[^\d]*(\d+)', mensaje, re.IGNORECASE)
-                espera = int(m.group(1)) + 2 if m else 60
-                print(f'  [groq] Rate limit, reintento {intento + 1}/{reintentosMax} en {espera}s...')
-                sleep(espera)
-            else:
-                print(f'  [groq] Error extrayendo metadatos: {e}')
-                return {'tipo_contenido': 'otro', 'conceptos': ''}
-
-    print(f'  [groq] Sin respuesta tras {reintentosMax} reintentos.')
-    return {'tipo_contenido': 'otro', 'conceptos': ''}
+    mensajes = [{'role': 'user', 'content': PROMPT_METADATOS + chunk[:2000]}]
+    try:
+        texto = llamarModelo(mensajes, modelo_groq=MODELO_GROQ, max_tokens=128, temperature=0)
+        texto = re.sub(r'^```(?:json)?\s*|\s*```$', '', texto, flags=re.MULTILINE).strip()
+        datos = json.loads(texto)
+        print('  [modelo] Metadatos extraídos')
+        return {
+            'tipo_contenido': str(datos.get('tipo_contenido', 'otro')),
+            'conceptos':      str(datos.get('conceptos', '')),
+        }
+    except Exception as e:
+        print(f'  [modelo] Error extrayendo metadatos: {e}')
+        return {'tipo_contenido': 'otro', 'conceptos': ''}
 
 
 def leerChunksDesdeTxt(ruta_txt: Path) -> list:

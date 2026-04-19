@@ -5,8 +5,9 @@ import chromadb
 from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from groq import Groq
 from pydantic import BaseModel
+
+from modelos import llamarModelo
 
 load_dotenv(dotenv_path=Path(__file__).parent.parent / '.env')
 
@@ -19,8 +20,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-clienteGroq = Groq(api_key=os.getenv('GROQ_API_KEY'))
-MODELO = 'llama-3.3-70b-versatile'
 N_RESULTADOS = 5
 
 clienteChroma = chromadb.PersistentClient(path='./chroma_db')
@@ -64,15 +63,11 @@ def chat(pregunta: Pregunta):
         bloques.append(f'[{fuente}]\n{doc}')
     contexto = '\n\n---\n\n'.join(bloques)
 
-    # 3. Enviar pregunta + contexto a Groq
-    respuesta = clienteGroq.chat.completions.create(
-        model=MODELO,
-        messages=[
-            {'role': 'system', 'content': PROMPT_SISTEMA},
-            {'role': 'user',   'content': f'Contexto:\n{contexto}\n\nPregunta: {pregunta.mensaje}'},
-        ],
-        max_tokens=1024,
-        temperature=0.2,
-    )
+    # 3. Enviar pregunta + contexto al modelo configurado
+    mensajes = [
+        {'role': 'system', 'content': PROMPT_SISTEMA},
+        {'role': 'user',   'content': f'Contexto:\n{contexto}\n\nPregunta: {pregunta.mensaje}'},
+    ]
+    texto = llamarModelo(mensajes, max_tokens=1024, temperature=0.2)
 
-    return {'respuesta': respuesta.choices[0].message.content.strip()}
+    return {'respuesta': texto.strip()}

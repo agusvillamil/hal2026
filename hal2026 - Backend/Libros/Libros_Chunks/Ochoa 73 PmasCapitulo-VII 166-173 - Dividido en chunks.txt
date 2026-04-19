@@ -1,0 +1,344 @@
+Archivo  : Libros/Libros_Markdown/MinerU_markdown_Ochoa-73-PmasCapitulo-VII-166-173_2042434462138630144.md
+Chunks   : 16
+
+────────────────────────────────────────────────────────────
+Chunk 1 (1942 chars)
+────────────────────────────────────────────────────────────
+# Problema 7.1
+
+Las tres pequeñas esferas de masa m cada una de ellas, están rígidamente montadas en el árbol horizontal que gira tal como se indica con una velocidad angular ω constante. Despreciando el radio de cada esfera en comparación con las otras dimensiones, escribir las expresiones de los valores de su cantidad de movimiento y de su momento angular o cinético respecto del origen de coordenadas O.
+
+[Descripción de imagen: La imagen muestra un sistema de rotación con dos masas en los extremos de una barra rígida, con el eje de rotación en z. Se observan los vectores de posición y las fuerzas actuando en los puntos de aplicación de las masas, con una velocidad angular ω alrededor del eje z. Los ejes coordenados x, y, z están definidos.]
+
+# Problema 7.2
+
+La varilla de longitud L y masa homogénea m gira alrededor del eje y con velocidad angular constante ω. Escribir el momento angular o cinético de la varilla respecto del punto O en direcciones de los ejes xyz para la posición particular representada.
+
+[Descripción de imagen: La imagen muestra un sistema de coordenadas cartesiano (x, y, z) con un eje de rotación en el plano x-z y un vector de posición de un objeto de longitud L con un extremo fijo a una distancia b del origen. El objeto gira con velocidad angular ω alrededor del eje z.]
+
+# Problema 7.3
+
+La varilla de longitud L y masa m gira alrededor del eje y como generatriz de un cono recto. Si la velocidad angular alrededor del eje y es ω hallar el momento angular o cinético de la varilla respecto del punto O en direcciones de los ejes xyz para la posición particular representada.
+
+[Descripción de imagen: La imagen muestra un sistema de coordenadas cartesiano (x, y, z) con un objeto inclinado de longitud L. El objeto gira con velocidad angular ω alrededor del eje z y forma un ángulo θ con el eje x. La orientación del objeto en el espacio se define por su posición en relación con los ejes coordenados.]
+
+────────────────────────────────────────────────────────────
+Chunk 2 (2144 chars)
+────────────────────────────────────────────────────────────
+[Descripción de imagen: La imagen muestra un sistema de coordenadas cartesiano (x, y, z) con un objeto lineal de longitud L que rota alrededor de uno de sus extremos con velocidad angular ω. El ángulo de inclinación del objeto respecto al plano horizontal se denota como θ.]
+
+# Problema 7.4
+
+La varilla acodada en ángulo recto tiene una masa m y gira en torno al eje z con velocidad de módulo constante ω. Escribir las expresiones de los momentos de inercia para los ejes indicados y la expresión del momento angular respecto del punto O en función de xyz.
+
+[Descripción de imagen: La imagen muestra un sistema de tres barras rígidas de longitud b, ubicadas en un espacio tridimensional con ejes x, y, z. El sistema gira con velocidad angular ω alrededor del eje z. Cada barra se encuentra en un plano diferente, intersectándose en un punto común que coincide con el origen de coordenadas.]
+
+# Problema 7.5
+
+El disco macizo de $2 ~ \mathrm { k g }$ . de masa y radio de $1 0 0 \ \mathrm { m m }$ rueda sin deslizamiento describiendo una circunferencia de radio b de $2 0 0 ~ \mathrm { { m m } }$ sobre el plano horizontal. Si el árbol OC de la rueda gira en torno al eje z con velocidad angular ω de 4π rad/seg. Determinar el momento cinético o angular del disco respecto al punto fijo O y calcular la energía cinética de la rueda.
+
+[Descripción de imagen: La imagen muestra un sistema mecánico con un eje de rotación z, un disco giratorio con velocidad angular ω, y un punto de aplicación O. Se identifican los ejes x, y, z, con el vector velocidad o desplazamiento en direccion y; y el vector de velocidad angular en el eje z.]
+
+# Problema 7.6
+
+El cilindro macizo de masa m y radio r rota alrededor del eje z con velocidad angular constante ω tal como se indica en la figura. Hallar el momento cinético o momento angular respecto del punto O en direcciones de los ejes xyz.
+
+[Descripción de imagen: Se muestra un sólido rígido con dimensiones b y c, ubicado en un sistema de coordenadas cartesianas con ejes x, y, z. El cuerpo rota con velocidad angular ω alrededor del eje y. El origen del sistema de coordenadas se encuentra en el punto O.]
+
+────────────────────────────────────────────────────────────
+Chunk 3 (2303 chars)
+────────────────────────────────────────────────────────────
+[Descripción de imagen: La imagen muestra un objeto sólido en rotación alrededor del eje y, con velocidad angular ω. Se observan los ejes coordenados x, y, z, con el punto de origen O. Se identifican también las longitudes b y c, que definen las dimensiones del objeto en el plano xz.]
+
+# Problema 7.7
+
+La cáscara semicilíndrica es de radio r, longitud 2b y masa m y gira en torno al eje z con velocidad angular ω según se indica. Calcular el momento angular L de la cáscara respecto del origen del sistema de referencia xyz.
+
+[Descripción de imagen: La imagen muestra un objeto cilíndrico con un extremo curvo sujeto a un eje de rotación que coincide con el eje z de un sistema de coordenadas cartesiano. El objeto tiene un radio r y dimensiones b medidas a lo largo del eje x. El vector de velocidad angular ω se encuentra en el plano xy, lo que indica que el objeto gira alrededor del eje z.]
+
+# Problema 7.8
+
+El árbol y el disco de 5,4 kg. giran a la velocidad constante de 10000 rpm. Si el centro de masa del disco está descentrado $0 { , } 0 5 \ \mathrm { m m }$ . Determinar las fuerzas horizontales Soportadas por los cojinetes a causa del desequilibrio.
+
+[Descripción de imagen: La imagen muestra un sistema de rotación con un disco y dos masas, A y B, unidas a un eje vertical. El punto de aplicación de las fuerzas centrífugas se encuentra en las masas, con distancias de 20,3 cm y 15,2 cm desde el punto de referencia hasta las masas B y A, respectivamente. El vector de velocidad angular ω se dirige perpendicularmente al plano del disco.]
+
+# Problema 7.9
+
+La figura acodada formada por cuatro barras de igual longitud (b) tiene una masa por unidad de longitudδ y gira en torno al árbol-eje con velocidad angular constante ω . 
+
+Determinar el valor del momento flector M en el punto A de unión de la barra con el árbol-eje.
+
+[Descripción de imagen: La imagen muestra un sistema de coordenadas XYZ con un cilindro que rota alrededor del eje Z con velocidad angular ω. En el extremo del cilindro, en el punto A, se encuentra un brazo rígido que se extiende hacia la derecha y hacia arriba, formando un ángulo con los ejes X e Y. El punto de aplicación de la fuerza o el vector posición no está claro, pero el vector que va desde el origen hasta el punto A forma un ángulo con los ejes X e Y.]
+
+────────────────────────────────────────────────────────────
+Chunk 4 (1930 chars)
+────────────────────────────────────────────────────────────
+[Descripción de imagen: La imagen muestra un sistema de coordenadas XYZ con un cilindro que rota alrededor del eje Z con velocidad angular ω. En el extremo del cilindro, en el punto A, hay un vector que apunta hacia la esquina de la estructura en forma de L, que puede ser interpretado como el vector posición del punto A respecto al origen del sistema de coordenadas. El sistema de ejes coordenados (X, Y, Z) sugiere un análisis en tres dimensiones.]
+
+# Problema 7.10
+
+La varilla OA de masa m y longitud l gira libremente alrededor de un eje horizontal en O. El árbol gira con velocidad angular constante ω alrededor del eje vertical Z. Escribir la expresión que de permita calcular el ángulo θ que forma la varilla con la vertical. Cuál es el mínimo valor que puede tomar la velocidad angular para que la barra adquiera una posición distinta a la vertical
+
+[Descripción de imagen: La imagen muestra un sistema que consta de un cilindro que rota con velocidad angular $\omega$ alrededor del eje Z, del cual se extiende un brazo de longitud $l$ que forma un ángulo $\theta$ con el eje X. En el extremo del brazo hay un objeto puntual en el punto O. Se identifican los ejes X y Z, con sus respectivos vectores unitarios.]
+
+# Problema 7.11
+
+La porción de anillo de la figura, formada por un tramo de circunferencia de radio r tiene una masa en su periferia por unidad de longitud δ y está soldado en A al árbol-eje. 
+
+Determinar el momento flector M en la soldadura en A del anillo debido al efecto de la rotación del mismo para una velocidad angular constante ω
+
+[Descripción de imagen: La imagen muestra un sistema mecánico que involucra un eje de rotación y un alambre o varilla curva. El punto A parece ser el punto de unión entre el eje de rotación y la varilla curva, mientras que el punto B está ubicado en la parte superior de la curva. Se observa un vector de velocidad angular ω, que indica la rotación alrededor del eje.]
+
+────────────────────────────────────────────────────────────
+Chunk 5 (2126 chars)
+────────────────────────────────────────────────────────────
+e](https://cdn-mineru.openxlab.org.cn/result/2026-04-06/1d66005f-effc-4997-b3c4-36ac4b95ce8c/04c4aa3c33b855c314608dabdfe751f1bdcda6bb6b0ba7492f33a70191ab2503.jpg)
+
+# Problema 7.12
+
+La figura muestra un rotor cilíndrico de radio r masa m y largo L conocidos que rota alrededor de su eje de simetría con velocidad angular constante $\displaystyle \mathfrak { O } _ { 1 }$ respecto de la plataforma horizontal que también rota con velocidad angular constante $\mathfrak { O } _ { 2 }$ respecto de tierra. Determinar: 
+
+a. El momento angular y la energía cinética del rotor respecto de tierra. 
+
+b. El momento de las fuerzas de reacción en los soportes producto de la combinación de ambas rotaciones.
+
+[Descripción de imagen: La imagen muestra un objeto sometido a dos vectores de velocidad angular, $\omega_1$ y $\omega_2$, aplicados en direcciones perpendiculares entre sí. El punto de aplicación de estas velocidades parece estar en el centro del objeto rectangular. No se observan fuerzas explícitamente representadas en la imagen.]
+
+# Problema 7.13
+
+Un alambre delgado con forma de circunferencia de radio r, tiene una masa en su periferia por unidad de longitud δ y está soldado en A al árbol-eje. Si se hace girar de la forma indicada en la figura determinar el momento flector del alambre en los puntos A, B, C y D (despreciar el efecto de la gravedad)
+
+[Descripción de imagen: La imagen muestra un sistema de rotación con un eje vertical que pasa por el punto A, alrededor del cual gira un aro circular con velocidad angular ω. El punto de aplicación de la fuerza o eje de rotación se encuentra en A, y el vector velocidad angular ω se dirige perpendicularmente al plano de la imagen. Los puntos B, C y D son puntos del aro, con B y D situados en el plano horizontal y C en el plano vertical que pasa por el eje de rotación.]
+
+# Problema 7.14
+
+Cada una de las dos barras de igual longitud l están soldadas en el disco que gira alrededor del eje vertical con velocidad angular constante ω. Determinar el momento flector que actúa sobre cada barra en el lugar de la soldadura debido al movimiento de rotación de las mismas.
+
+────────────────────────────────────────────────────────────
+Chunk 6 (2198 chars)
+────────────────────────────────────────────────────────────
+Determinar el momento flector que actúa sobre cada barra en el lugar de la soldadura debido al movimiento de rotación de las mismas.
+
+# Problema 7.15
+
+El disco gira con velocidad de rotación constante de 15 rad/seg. en torno a un eje horizontal z, primero en el sentido a y luego en el sentido b. Además el conjunto gira en torna al eje vertical fijo con velocidad constante N de 10 rad/seg. 
+
+a. Construir el cono del espacio y el cono del cuerpo en ambas situaciones. 
+
+b. Determinar la aceleración angular del disco.
+
+[Descripción de imagen: La imagen muestra un sistema físico que implica movimiento rotacional. El eje de rotación se encuentra en el centro de la base circular, representado por la flecha curva ω que indica la velocidad angular. Se observan dos vectores de distancia, ambos de magnitud b, que señalan hacia los puntos de aplicación donde presumably se encuentran los objetos o masas, aunque éstos no son visibles en la imagen.]
+
+[Descripción de imagen: La imagen muestra un sistema mecánico con un eje de rotación principal orientado según el eje z. Se identifican vectores de fuerzas o momentos, como el momento N aplicado en el eje vertical y fuerzas o vectores a y b en el plano perpendicular al eje z. El punto de aplicación de estas fuerzas parece estar en la periferia de la rueda y en el mecanismo cilíndrico, generando rotaciones en direcciones indicadas por las flechas.]
+
+[Descripción de imagen: La imagen muestra un sistema físico con un objeto unido a un eje de rotación mediante una varilla de longitud L. El punto de aplicación de la fuerza o vector de posición se encuentra a una distancia b del eje de rotación, con un ángulo theta respecto a la vertical, y el sistema gira con velocidad angular ω. El eje de rotación se encuentra en la parte superior, con un vector que indica la dirección de rotación.]
+
+# Problema 7.16
+
+La varilla uniforme de longitud L está soldada en A al soporte de la cara inferior de un disco. Este gira en torno a un eje vertical con velocidad angular constante ω. Hallar este valor de ω para que la soldadura no quede sometida a ningún par de fuerzas, siendo $\theta = 6 0 ^ { \mathrm { o } }$ y $\scriptstyle \mathrm { b = L } / 4$ .
+
+────────────────────────────────────────────────────────────
+Chunk 7 (1493 chars)
+────────────────────────────────────────────────────────────
+Hallar este valor de ω para que la soldadura no quede sometida a ningún par de fuerzas, siendo $\theta = 6 0 ^ { \mathrm { o } }$ y $\scriptstyle \mathrm { b = L } / 4$ .
+
+# Problema 7.17
+
+La placa triangular delgada de masa m, base b y altura h, de la figura tiene soportes de bolilleros en A y B. Si la placa gira con velocidad angular constante respecto del eje vertical tal como se muestra en la figura: 
+
+Determinar las componentes de las reacciones de vínculos en los bolilleros.
+
+# Problema 7.18
+
+Determinar el momento flector M en el punto A de la barra semicircular de radio r y masa m, cuando gira alrededor del eje con velocidad angular ω constante. Despréciese el momento que puede generar el peso de la barra en comparación con el producido por la rotación de la misma.
+
+# Problema 7.19
+
+La varilla OA de masa homogénea m y longitud L gira libremente alrededor de un eje horizontal en O, que se encuentra en un árbol que gira con velocidad angular constante según se indica. Escribir la expresión que del ángulo θ que forma la varilla con la vertical. $\it { i Q u e }$ valor mínimo debe tener ω para que la barra adquiera una posición distinta a la vertical
+
+# Problema 7.20
+
+La cáscara cilíndrica gira en el espacio alrededor de su eje geométrico. Si el eje tiene un ligero balanceo. Para que relaciones de largo l y radio r $( \mathrm { l / r } )$ el movimiento será precesión directa o precesión retrógrada. 
+
+Dibujar los conos del cuerpo y del espacio para ambas situaciones.
+
+────────────────────────────────────────────────────────────
+Chunk 8 (2152 chars)
+────────────────────────────────────────────────────────────
+Para que relaciones de largo l y radio r $( \mathrm { l / r } )$ el movimiento será precesión directa o precesión retrógrada. 
+
+Dibujar los conos del cuerpo y del espacio para ambas situaciones.
+
+# Problema 7.21
+
+Se lanza al aire el anillo delgado de masa homogénea m con una rotación propia de 300 rpm. Si se observa que su eje geométrico tiene un ligero balanceo de procesión. 
+
+Determinar esta frecuencia f de balanceo. Este movimiento de precesión es directo o retrógrado.
+
+[Descripción de imagen: La imagen muestra un sistema mecánico con un eje vertical que gira con velocidad angular ω, indicado por una flecha curva, con dos puntos A y B marcados. Un cable o cuerda enrollado en el eje forma un triángulo rectángulo con catetos de longitudes h y b. No se aprecian fuerzas, vectores de posición o aceleración explícitamente indicados.]
+
+[Descripción de imagen: La imagen muestra un objeto cilíndrico que rota alrededor de su eje longitudinal con una velocidad angular ω. En el punto A, se encuentra unido un alambre o varilla flexible que se curva siguiendo una trayectoria. Se puede considerar que en el punto A se aplican fuerzas centrífugas y centrípetas asociadas al movimiento circular.]
+
+[Descripción de imagen: La imagen muestra un sistema de coordenadas con un eje x y z.  Se observa un vector que representa la velocidad angular  con punto de aplicación en O.  Una barra con un extremo en O y el otro en A forma un ángulo theta con el eje z.]
+
+[Descripción de imagen: La imagen muestra un cilindro con un vector de velocidad angular ω que indica su rotación alrededor de su eje longitudinal. El radio del cilindro se denota como r y su longitud como l. El eje de rotación se encuentra en un ángulo respecto a la posición vertical.]
+
+[Descripción de imagen: La imagen muestra un disco que rota alrededor de su eje central, representado por la línea discontinua que atraviesa su centro perpendicularmente. El vector de velocidad angular $\omega$ se representa mediante una flecha curva que rodea el eje de rotación, indicando la dirección de giro en sentido horario. No se observan fuerzas externas aplicadas explícitamente en la imagen.]
+
+────────────────────────────────────────────────────────────
+Chunk 9 (1541 chars)
+────────────────────────────────────────────────────────────
+[Descripción de imagen: La imagen muestra un disco que rota alrededor de su eje central, representado por una línea discontinua que pasa por el centro del disco de forma perpendicular. La velocidad angular de rotación se representa mediante el vector ω, que se encuentra sobre el eje de rotación. El sentido de rotación está indicado por la flecha curva que rodea el disco.]
+
+# Problema 7.22
+
+El rotor de $2 0 4 ~ \mathrm { k g }$ . de un turborreactor tiene un radio de giro de 25,4 cm. y gira en el sentido de las agujas del reloj a 18000 rpm. visto desde delante del avión. Si este vuela a $9 5 0 \ \mathrm { k m / h }$ . girando hacia la derecha con un radio de 3220 metros, calcular el momento giroscópico M que debe soportar el cojinete del rotor a causa de la acción giroscópica. La proa del avión, ¿tenderá a subir o a bajar?
+
+# Problema 7.23
+
+Un automóvil gira hacia la derecha en una carretera horizontal llana, determinar si la reacción normal bajo la rueda trasera derecha crece o decrece a consecuencia del efecto giroscópico sobre ella. Ídem a la rueda trasera izquierda.
+
+# Problema 7.24
+
+Un cono circular hueco y macizo de radio de la base $( \mathrm { r } { = } 1 0 ~ \mathrm { c m } .$ ) y altura $( \mathrm { h } { = } 3 \mathrm { r } )$ está suspendido libremente de su vértice en O, y revoluciona sobre su eje a razón de $\Phi = 2 7 0 0 ~ \mathrm { r p m }$ . Determinar el periodo de precesión estacionaria lenta alrededor de la vertical. 
+
+¿Depende el resultado del ángulo θ formado por el eje del cono y la vertical?.
+
+────────────────────────────────────────────────────────────
+Chunk 10 (1663 chars)
+────────────────────────────────────────────────────────────
+Determinar el periodo de precesión estacionaria lenta alrededor de la vertical. 
+
+¿Depende el resultado del ángulo θ formado por el eje del cono y la vertical?.
+
+# Problema 7.25
+
+Un avión tiene una velocidad de despegue de 277 $\mathrm { K m / h }$ . La rueda del cada uno de los soportes del tren de aterrizaje tiene un radio de 90 centímetros y una masa de $3 5 ~ \mathrm { k g }$ . Si el radio de giro de la rueda es de 30 centímetros y al cerrarse el tren se pliega hacia adentro con velocidad angular de 0,5 rad/seg. Hallar el momento flector en el cojinete de cada rueda debido a la acción giroscópica de las ruedas que aún giran a la velocidad de despegue.
+
+# Problema 7.26
+
+Un disco delgado es lanzado comunicándole una velocidad de giro de 300 rpm. Se observa que el plano del disco se balancea describiendo un ángulo total de 10 grados. Calcular el periodo del balanceo e indicar si la precesión es directa o retrógrada.
+
+# Problema 7.27
+
+El anillo circular uniforme de 30,5 cm de radio, pesa $^ { 7 , 3 \mathrm { ~ k g } }$ . y tiene un radio de giro de 30,5 cm. Si se lo lanza al espacio con una velocidad de rotación ω de 60 rpm. Respecto del eje z y con un ciclo de precesión respecto del eje Z correspondiente a $\theta = 1 5 ^ { \mathrm { o } }$ . Calcular la velocidad de precesión del anillo y dibujar los conos del cuerpo y el espacio respectivos.
+
+[Descripción de imagen: La imagen muestra un diagrama de una antena con un patrón de radiación representado por un cono. El eje de la antena está alineado con el eje vertical, y los ángulos $\theta$ y $\phi$ indican la dirección de radiación, mientras que $H$ representa una distancia o altura.]
+
+────────────────────────────────────────────────────────────
+Chunk 11 (2489 chars)
+────────────────────────────────────────────────────────────
+[Descripción de imagen: La imagen muestra un diagrama de un sistema de coordenadas esféricas con un cono que representa un haz de radiación. El ángulo $\theta$ se mide desde el eje z (vertical) hasta la dirección del haz, mientras que el ángulo $\phi$ se mide en el plano xy (no mostrado) desde el eje x (no mostrado) hasta la proyección del haz en ese plano. La altura H indica la distancia radial desde el punto de aplicación en el origen hasta la base del cono.]
+
+[Descripción de imagen: La imagen muestra un avión visto desde atrás con los ejes de referencia típicos: eje longitudinal, eje transversal y eje vertical, aunque no están dibujados explícitamente. Se observan fuerzas como la sustentación y el peso, que actúan en puntos distintos del avión, como el centro de gravedad y el centro de presiones, aunque no están indicados. Los vectores de fuerzas relevantes incluyen la fuerza de sustentación, perpendicular a las alas, y la fuerza de empuje, generalmente alineada con el eje longitudinal del avión, aunque no se visualizan como vectores en la imagen.]
+
+[Descripción de imagen: La imagen muestra un disco que gira sobre su eje vertical con una inclinación de 10 grados respecto a su eje de rotación. El vector de momento angular está representado por la línea discontinua vertical y el ángulo de inclinación θ se encuentra entre el eje de rotación y el eje de simetría del disco.]
+
+[Descripción de imagen: La imagen muestra un disco giratorio con un eje de rotación Z y un eje z que forma un ángulo  con el eje Z. El vector velocidad angular se representa mediante la flecha curva  ω. El punto de aplicación de los ejes se encuentra en el centro del disco.]
+
+# Problema 7.28
+
+Un coche experimental está equipado con un giroscopio estabilizador destinado a contrarrestar la tendencia del coche a volcar al tomar una curva (mantiene constante la fuerza de contacto N entre neumáticos y calzada). El rotor del giroscopio tiene una masa m y un radio de giro k y está montado sobre cojinetes fijos en un árbol paralelo al eje trasero del coche. El centro de gravedad del coche se encuentra a una distancia h por encima de la calzada y el coche recorre una curva horizontal sin peralte a una velocidad V. ¿A qué velocidad $\boldsymbol { \Phi }$ deberá girar el rotor del giroscopio y en qué sentido para contrarrestar totalmente la tendencia del coche a volcar tanto para un giro hacia la derecha como para un giro hacia la izquierda? Nota: La masa total del coche y su rotor es M
+
+────────────────────────────────────────────────────────────
+Chunk 12 (2317 chars)
+────────────────────────────────────────────────────────────
+Nota: La masa total del coche y su rotor es M
+
+# Problema 7.29
+
+La figura muestra un rotor de radio, masa y altura conocida que rota alrededor de su eje de simetría con velocidad angular ${ \mathfrak { O } } _ { 1 }$ constante respecto de la plataforma horizontal, que a su vez gira con velocidad angular ${ \mathfrak { O } } _ { 2 }$ respecto de tierra, obtener: 
+
+Una expresión para el momento angular y la energía cinética del rotor respecto de tierra. El momento externo al que se encuentra sometido el rotor para mantener el movimiento.
+
+# Problema 7.30
+
+La figura muestra un giroscopio de masa m formado por un cilindro de radio R y altura h. Este está animado de precesión estacionaria lenta y rota alrededor de su eje de simetría con velocidad angular ${ \mathfrak { O } } _ { 1 }$ conocida en sentido contrario a las agujas del reloj (visto desde arriba). Determinar en función de los datos conocidos y graficados: La velocidad de precesión lenta. La energía cinética con que se mueve respecto de un sistema de referencia solidario en tierra.
+
+[Descripción de imagen: La imagen muestra un sistema de rotación con un eje vertical central y un cilindro que rota alrededor de un eje horizontal. Se identifican dos vectores de velocidad angular, ω1 y ω2, cuyas direcciones son perpendiculares entre sí, indicando rotaciones alrededor de dos ejes diferentes. No se observan fuerzas explícitamente representadas, pero el contexto sugiere la presencia de pares de fuerzas que generan los momentos de torsión responsables de las rotaciones indicadas por ω1 y ω2.]
+
+[Descripción de imagen: La imagen muestra un sistema en el que una barra de longitud $2R$ se encuentra inclinada $45$ grados respecto a la horizontal, sujeta por una barra de longitud $H$  que forma un triangulo rectángulo con la altura $h$. El punto de aplicación de la fuerza no es claro, pero podría asumirse que es en el extremo de la barra $2R$ debido a la geometría mostrada. Los vectores relevantes son los de posición y fuerza, y los ejes implicados son los de coordenadas cartesianas, con un ángulo de $45$ grados en el plano.]
+
+[Descripción de imagen: La imagen muestra un sistema de dos discos conectados por un eje vertical. El vector velocidad angular ω se encuentra en el eje de rotación. La distancia entre los discos se denota como b.]
+
+────────────────────────────────────────────────────────────
+Chunk 13 (1429 chars)
+────────────────────────────────────────────────────────────
+860cb967be0e912008b95039b0397f5981ca6b1facf127dc3e78.jpg)
+
+[Descripción de imagen: La imagen muestra dos discos conectados por un eje que gira con una velocidad angular ω. El vector de velocidad angular se puede considerar orientado a lo largo del eje de rotación. La distancia entre los discos está indicada por la letra b.]
+
+# Problema 7.31
+
+Los dos discos iguales de masa m y radio r cada uno de ellos, giran como un conjunto rígido en torno al eje que los une de la forma que se indica. Hallar el valor de b que evite la precesión si el conjunto se moviera libremente en el espacio.
+
+# Problema 7.32
+
+El rotor de la turbina del grupo generador de un barco tiene una masa de $1 0 0 ~ \mathrm { k g }$ . con centro de masa G y radio de giro de $2 0 0 \mathrm { m m }$ . El eje de la turbina está montado horizontalmente sobre los cojinetes A y B en la dirección de proa a popa y gira a 5000 rpm según indica la figura. Cuáles son los esfuerzos en los cojinetes si el barco hace un viraje a su izquierda de $4 0 0 \mathrm { m }$ de radio y a una velocidad de 12,85 $\mathrm { { k m / h } }$ .
+
+[Descripción de imagen: La imagen muestra un sistema mecánico con un eje longitudinal que atraviesa un objeto asimétrico con respecto al eje,  con dos puntos de aplicación de fuerzas, A y B. El objeto tiene un centro de gravedad G y gira con una velocidad angular ω en el sentido de las agujas del reloj visto desde el lado de babor.]
+
+────────────────────────────────────────────────────────────
+Chunk 14 (1919 chars)
+────────────────────────────────────────────────────────────
+openxlab.org.cn/result/2026-04-06/1d66005f-effc-4997-b3c4-36ac4b95ce8c/002b4c5983c64026e5efaca63fea9b996d10259ad07d06ecd3633af98fe766be.jpg)
+
+# Problema 7.33
+
+Un pequeño compresor de aire para cabina de un avión consta de una turbina A de de $^ { 3 , 5 \mathrm { k g } }$ . que mueve un ventilador de $^ { 2 , 4 \mathrm { k g } }$ . a una velocidad de $2 0 0 0 0 \mathrm { r p m }$ . El árbol está montado en forma transversal a la dirección de vuelo del avión y se ve en la figura desde la parte posterior del avión. Los radios de giro de A y B son de 79 mm y 71 mm respectivamente. Hallar las fuerzas que actúan sobre los cojinetes C y D si el avión hace un tonel (rotación alrededor del eje longitudinal de vuelo) en sentido horario visto desde la parte trasera del aparato, de 2 rad/seg. Despreciar los pequeños momentos debido al peso de los rotores.
+
+[Descripción de imagen: La imagen muestra un sistema de dos poleas, A y B, unidas por un eje que gira con velocidad angular ω. Sobre el eje se encuentran dos masas, C y D, situadas a 150 mm de separación; los puntos de aplicación de las fuerzas no son explícitamente indicados, pero se puede inferir que las fuerzas de rozamiento o de otro tipo podrían estar actuando en los puntos de contacto de las masas con el eje. El eje de rotación es horizontal y coincide con el eje X, si consideramos un sistema de coordenadas cartesiano con origen en el centro del eje.]
+
+# Problema 7.34
+
+El satélite de $8 0 0 ~ \mathrm { k g }$ . se puede modelar como un cilindro de 4 metros de largo y 2 metros de diámetro. Si el ángulo de nutación es de $2 0 ^ { \mathrm { o } }$ y el satélite gira alrededor de su eje a razón de $6 0 \mathrm { r p m }$ . 
+
+$\it { i } \mathrm { { C u } \dot { a } l }$ es el valor de la precesión? 
+
+Dibujar los conos del cuerpo y del espacio. 
+
+Si el diámetro sigue siendo de 2 metros, ¿cuál debe ser el largo para que sea imposible la precesión?
+
+────────────────────────────────────────────────────────────
+Chunk 15 (1910 chars)
+────────────────────────────────────────────────────────────
+Dibujar los conos del cuerpo y del espacio. 
+
+Si el diámetro sigue siendo de 2 metros, ¿cuál debe ser el largo para que sea imposible la precesión?
+
+[Descripción de imagen: La imagen muestra un cilindro con un eje longitudinal que forma un ángulo de 20 grados con el eje Z. Se observan los ejes X, Y y Z, con el eje Z como el de rotación indicado por la flecha curva. No se aprecian fuerzas ni vectores de posición explícitos.]
+
+# Problema 7.35
+
+Un balón de rugby es lanzado en movimiento espiral oscilante y un ángulo de nutación de $2 5 ^ { \mathrm { { \circ } } }$ . Los momentos de inercia son: 
+
+Izz=3.Ixx=3.Iyy 
+
+Si la velocidad de rotación del balón es de $2 4 0 \ \mathrm { r p m }$ determinar la velocidad de precesión en su vuelo por el aire libre de momentos.
+
+[Descripción de imagen: La imagen muestra un sistema de coordenadas con ejes x, y, z, donde el eje z forma un ángulo de 25 grados con respecto al plano de una elipse. Se observa un vector que representa la normal del plano de la elipse, alineado con el eje z. No se aprecian fuerzas explícitas representadas en la imagen.]
+
+# Problema 7.36
+
+Un proyectil que se mueve a través de la atmósfera con una velocidad V que hace un pequeño ángulo θ con su eje, está sometido a una fuerza resultante aerodinámica R de sentido opuesto a la velocidad V según se indica. Si R pasa por un punto C ligeramente adelantado respecto al centro de gravedad G, determina la mínima velocidad angular n de rotación, para la cual el proyectil está rotatoriamente estabilizado con θ constante. Los momentos de inercia I e $\mathrm { I } _ { 0 }$ son conocidos.
+
+[Descripción de imagen: La imagen muestra un diagrama de un cuerpo rígido con un vector de velocidad V aplicado en el punto C, y un eje de rotación en el punto O. El vector R representa la resultante de las fuerzas actuantes, mientras que el vector n indica la dirección normal al plano de rotación.]
+
+────────────────────────────────────────────────────────────
+Chunk 16 (1574 chars)
+────────────────────────────────────────────────────────────
+[Descripción de imagen: La imagen muestra un diagrama de un objeto con un vector de velocidad V aplicado en el punto C, que se encuentra en la intersección de los ejes. El objeto tiene un eje longitudinal que coincide con el vector R y un eje transversal que pasa por el punto O, con un vector normal n. El punto de aplicación de la fuerza o vector relevante no está claro, pero se observa un movimiento de rotación alrededor del eje longitudinal.]
+
+# Problema 7.37
+
+La figura muestra una rueda cilíndrica con un radio de $2 2 \ \mathrm { c m }$ , ancho $4 \ \mathrm { c m }$ , y una masa $\mathrm { { m } } \mathrm { { = } } 3 \mathrm { { k g } }$ . que rota alrededor de su eje con velocidad angular $\displaystyle \mathfrak { O } 1$ y precesiona alrededor de un soporte de soga que la sostiene por su eje con velocidad ω2. Determinar: 
+
+a. La mínima velocidad $\Theta _ { 1 }$ que genere el movimiento giroscópico de la rueda con ángulo recto a la soga. 
+
+b. La velocidad de precesión si $\Theta _ { 1 }$ toma valores dobles de los calculados en a. 
+
+c. La energía cinética de la rueda en las condiciones de b. 
+
+d. El momento angular de la rueda respecto de O.
+
+[Descripción de imagen: La imagen muestra un sistema con vectores de velocidad angular ω1 aplicados en los extremos de una barra rectangular. El punto de aplicación de uno de los vectores se encuentra en O, mientras que el otro se ubica en el extremo derecho de la barra. La distancia desde el punto O hasta el centro de la barra es de 4 cm, y desde el centro de la barra hasta el punto inferior es de 8 cm.]

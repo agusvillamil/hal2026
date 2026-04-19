@@ -1,0 +1,743 @@
+Archivo  : Libros/Libros_Markdown/MinerU_markdown_Ochoa-51-SisCposPuntuales-I-081-091_2042434640652402688.md
+Chunks   : 29
+
+────────────────────────────────────────────────────────────
+Chunk 1 (1583 chars)
+────────────────────────────────────────────────────────────
+Mecánica Clásica 
+
+Volumen II 
+
+Ochoa 
+
+- 2008 - 
+
+Dinámica para un Sistema de Cuerpos Puntuales 
+
+ISBN de la Versión Analógica 
+
+987-95038-0-5
+
+# 5.01 CANTIDAD DE MOVIMIENTO.
+
+# Centro de Masa.
+
+Considerando un sistema de cuerpos puntuales, como el sugerido en la figura siguiente, definiremos al centro de masa del sistema como un punto cuya coordenada vectorial, determinada respecto del origen de un sistema de referencia (xyz), como el indicado en la mencionada figura, vendrá dada por:
+
+$$
+\vec {r} _ {\mathrm {c}} = \frac {\sum m _ {\mathrm {i}} \vec {r} _ {\mathrm {i}}}{\sum m _ {\mathrm {i}}}
+$$
+
+[Descripción de imagen: La imagen muestra un sistema de coordenadas tridimensional con un conjunto de masas $m_i$ distribuidas en una región delimitada por una línea magenta. Los vectores de posición $\overrightarrow{r_i}$ y $\overrightarrow{r_c}$ indican la posición de una masa genérica y del centro de masas del sistema, respectivamente, respecto al origen del sistema de coordenadas.]
+
+Si bien el punto que hemos definido como centro de masa del sistema no será necesariamente un punto asociado con alguna partícula del sistema, es claro que el movimiento que eventualmente puedan tener las diferentes partículas, dará lugar a cambios en la coordenada vectorial de dicho punto y por lo tanto podremos pensar en una magnitud destinada a caracterizar dichos cambios temporales, a la que en adelante reconoceremos como vector velocidad del centro de masa y que formalmente podemos obtener derivando temporalmente la anterior, con lo que dicha magnitud quedará expresada como:
+
+────────────────────────────────────────────────────────────
+Chunk 2 (1218 chars)
+────────────────────────────────────────────────────────────
+orales, a la que en adelante reconoceremos como vector velocidad del centro de masa y que formalmente podemos obtener derivando temporalmente la anterior, con lo que dicha magnitud quedará expresada como:
+
+$$
+\vec {v} _ {\mathrm {c}} = \frac {\mathrm {d} \vec {r} _ {\mathrm {c}}}{\mathrm {d t}} \quad \vec {v} _ {\mathrm {c}} = \frac {\sum m _ {\mathrm {i}} \vec {v} _ {\mathrm {i}}}{m} \tag {5.1}
+$$
+
+Donde con (m) identificamos a la masa de todo el sistema. 
+
+Análogamente podemos pensar en una magnitud destinada a caracterizar los cambios temporales observados en el estado de movimiento del punto en consideración, a la que en adelante reconoceremos como vector aceleración del centro de masa del sistema, que formalmente vendrá expresada por:
+
+$$
+\vec {a} _ {\mathrm {c}} = \frac {\mathrm {d} \vec {v} _ {\mathrm {c}}}{\mathrm {d t}} \quad \vec {a} _ {\mathrm {c}} = \frac {\sum \mathrm {m} _ {\mathrm {i}} \vec {a} _ {\mathrm {i}}}{\mathrm {m}} \tag {5.2}
+$$
+
+Magnitud que, tal como lo demostráramos en el primer capítulo del volumen anterior, está relacionada con la resultante de las fuerzas externas mediante la ecuación:
+
+$$
+\vec {\mathrm {F}} = \mathrm {m} \vec {\mathrm {a}} _ {\mathrm {c}} \tag {5.3}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 3 (1651 chars)
+────────────────────────────────────────────────────────────
+a con la resultante de las fuerzas externas mediante la ecuación:
+
+$$
+\vec {\mathrm {F}} = \mathrm {m} \vec {\mathrm {a}} _ {\mathrm {c}} \tag {5.3}
+$$
+
+Por lo tanto, los cambios temporales observados en el estado de movimiento del centro de masa del sistema, caracterizados por su vector aceleración, estarán directamente vinculados con la resultante de las fuerzas externas, como estuvieran aplicadas en dicho punto y como si la totalidad de la masa del sistema estuviera concentrada en él. Siendo importante remarcar que de acuerdo con lo mencionado, las fuerzas internas no pueden modificar el estado de movimiento del centro de masa de un sistema, independiente de que estas modifiquen o no el estado de movimiento de cada una o de alguna de las partículas que integran el mencionado sistema.
+
+# Vector Cantidad de Movimiento.
+
+Definiremos al vector cantidad de movimiento de un sistema como aquel que resulta de sumar la cantidad de movimiento de cada una de las partículas que lo integran, que formalmente expresar como:
+
+$$
+\vec {\mathrm {P}} = \sum \mathrm {m} _ {\mathrm {i}} \vec {\mathrm {v}} _ {\mathrm {i}} \tag {5.4}
+$$
+
+De donde, y teniendo en cuenta (5.1), resulta que dicha magnitud se puede expresar en términos del vector velocidad del centro de masa, como:
+
+$$
+\vec {\mathrm {P}} = \mathrm {m} \vec {\mathrm {v}} _ {\mathrm {c}} \tag {5.5}
+$$
+
+Con lo que la ecuación de movimiento (5.3) para el centro de masa del sistema, puede ser expresada en términos del vector cantidad de movimiento de dicho sistema como:
+
+$$
+\vec {\mathrm {F}} = \frac {\mathrm {d} \vec {\mathrm {P}}}{\mathrm {d t}} \Bigg | _ {\text {x y z}} \tag {5.6}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 4 (1113 chars)
+────────────────────────────────────────────────────────────
+asa del sistema, puede ser expresada en términos del vector cantidad de movimiento de dicho sistema como:
+
+$$
+\vec {\mathrm {F}} = \frac {\mathrm {d} \vec {\mathrm {P}}}{\mathrm {d t}} \Bigg | _ {\text {x y z}} \tag {5.6}
+$$
+
+Donde, el sistema de referencia (xyz) desde el que se evalúan las variaciones temporales del vector cantidad de movimiento deberá ser un sistema inercial, en cuanto a que ésta condición es requerida para garantizar la validez de (5.3). 
+
+Resulta en este momento interesante remarcar que de acuerdo con la anterior, las variaciones temporales 0bservadas en la cantidad de movimiento de un sistema estarán directamente relacionadas con la presencia de fuerzas externas, resultando que las fuerzas internas no pueden modificar la cantidad de movimiento de un sistema, estas fuerzas podrán modificar la cantidad de movimiento de las partículas que lo integran, pero los cambios serán tales que no darán lugar a cambios en el vector cantidad de movimiento del mencionado sistema.
+
+# Ejemplo (5.1)
+
+$$
+y (x) = \frac {v _ {o y}}{v _ {o x}} x - \frac {1}{2} \frac {g}{v _ {o x} ^ {2}} x ^ {2}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 5 (2444 chars)
+────────────────────────────────────────────────────────────
+# Ejemplo (5.1)
+
+$$
+y (x) = \frac {v _ {o y}}{v _ {o x}} x - \frac {1}{2} \frac {g}{v _ {o x} ^ {2}} x ^ {2}
+$$
+
+Con el propósito de ilustrar lo mencionado anteriormente consideremos el lanzamiento de un cuerpo con condiciones iniciales tales que pueda ser considerado como un tiro oblicuo de corto alcance, en cuyo caso y atendiendo las conclusiones obtenidas en el volumen anterior, así como las que resultan de la ecuación de movimiento (5.3), el centro de masa del cuerpo se desplazará a lo largo de una trayectoria parabólica como la sugerida en la figura siguiente, cuya ecuación en coordenadas cartesianas es la que se indica a continuación:
+
+[Descripción de imagen: La imagen muestra una curva en un sistema de coordenadas cartesianas con un eje x horizontal y un eje y vertical. La curva tiene un punto de máximo en (xm, ym) y corta al eje x en dos puntos: el origen (0,0) con un ángulo α y el punto (Am, 0). No se observan vectores ni fuerzas explícitos en la gráfica.]
+
+Suponiendo ahora que el cuerpo fuera un explosivo que es detonado luego del lanzamiento, y teniendo en cuenta las conclusiones que resultan de la ecuación (5.3) o (5.6), los fragmentos resultantes de la explosión se desplazaran a lo largo de trayectorias tales que el centro de masa del sistema continuará desplazándose a lo largo de la trayectoria original, como se sugiere con trazo discontinuo en la figura siguiente.
+
+[Descripción de imagen: La imagen muestra una trayectoria curva azul que representa la posición de un objeto en función del tiempo, con un vector tangente en un punto que indica la dirección de la velocidad. En el punto máximo, se observa un vector de fuerzas que podría representar la aceleración o fuerzas actuantes, con componentes en los ejes x e y. El punto de aplicación de estas fuerzas parece estar en el punto máximo de la trayectoria curva, cerca de las coordenadas (x_m, y_m).]
+
+# 5.02 CONSERVACIÓN DEL VECTOR CANTIDAD DE MOVIMIENTO
+
+De lo desarrollado anteriormente y en particular de (5.6) obtenemos que, si la resultante de las fuerzas externas a que está sometido un sistema permanece nula durante un cierto intervalo de tiempo, durante dicho intervalo la cantidad de movimiento del sistema permanecerá constante e igual a la que teníamos en el instante inicial, entendiendo por instante inicial el instante a partir del cuál se satisface la condición recientemente enunciada, lo que formalmente podemos expresar como:   
+
+────────────────────────────────────────────────────────────
+Chunk 6 (1581 chars)
+────────────────────────────────────────────────────────────
+alo la cantidad de movimiento del sistema permanecerá constante e igual a la que teníamos en el instante inicial, entendiendo por instante inicial el instante a partir del cuál se satisface la condición recientemente enunciada, lo que formalmente podemos expresar como:   
+
+$$
+\vec {\mathrm {F}} = 0 \rightarrow \vec {\mathrm {P}} = \mathrm {c t e} \quad \therefore \quad \vec {\mathrm {P}} = \vec {\mathrm {P}} _ {\circ} \quad \therefore \quad \sum \mathrm {m} _ {\mathrm {i}} \vec {\mathrm {v}} _ {\mathrm {i}} = \vec {\mathrm {P}} _ {\circ}
+$$
+
+En este momento resulta importante remarcar que la conservación de la cantidad de movimiento de un sistema de ninguna manera implica la conservación de la cantidad de movimiento de cada una de las partículas que lo integran, estas cantidades podrán cambiar según las interacciones a que se encuentren sometidas, sin embargo estos cambios serán tales que la cantidad de movimiento del sistema permanecerá constante, como puede apreciarse en los ejemplos que continúan.
+
+# Ejemplo (5.2)
+
+La figura muestra dos cuerpos de masas diferentes que interactúan con un resorte, inicialmente comprimido mediante una cuerda que sujeta ambos cuerpos.
+
+[Descripción de imagen: La imagen muestra un sistema de dos bloques de masas $m_1$ y $m_2$ unidos por un resorte. El momento inicial del sistema se indica como $\overrightarrow{P_0} = 0$, lo que implica que el sistema está en reposo o tiene un movimiento rectilíneo uniforme con velocidad cero en el centro de masas. No se observan fuerzas externas actuando sobre el sistema en la imagen.]
+
+────────────────────────────────────────────────────────────
+Chunk 7 (1458 chars)
+────────────────────────────────────────────────────────────
+e](https://cdn-mineru.openxlab.org.cn/result/2026-04-06/332b5794-f064-4fdd-bdf8-1dd2fbd2148d/f923936b73eb2a024e0445dabd3cfd976b93863dee5981e5788b7cf13ebcd849.jpg)
+
+Suponiendo que la cuerda se rompe dejando al sistema en libertad y despreciando el rozamiento con la superficie horizontal es claro que la resultante de las fuerzas externas a que se verá sometido el sistema es nula y por lo tanto teniendo en cuenta la conclusión anterior, su cantidad de movimiento deberá permanecer constante e igual a la que teníamos inicialmente. 
+
+Por lo expuesto, y considerando despreciable la masa del resorte, una vez finalizada la interacción entre los cuerpos y el resorte, como se sugiere en la figura siguiente, sus velocidades deberán ser tales que:
+
+$$
+\vec {\mathrm {P}} _ {\mathrm {f}} = \vec {\mathrm {P}} _ {\circ} \quad \therefore \quad \mathrm {m} _ {1} \vec {\mathrm {v}} _ {1} + \mathrm {m} _ {2} \vec {\mathrm {v}} _ {2} = 0 \quad \therefore \quad \vec {\mathrm {v}} _ {1} = - \frac {\mathrm {m} _ {2}}{\mathrm {m} _ {1}} \vec {\mathrm {v}} _ {2}
+$$
+
+[Descripción de imagen: La imagen muestra dos bloques de masa $m_1$ y $m_2$ unidos por un resorte. Los bloques se mueven con velocidades $\overrightarrow{v}_1$ y $\overrightarrow{v}_2$ a lo largo del eje horizontal. El punto de aplicación de las fuerzas no está explícitamente indicado, pero se puede inferir que las fuerzas de rozamiento y la tensión del resorte actúan a lo largo del eje horizontal.]
+
+────────────────────────────────────────────────────────────
+Chunk 8 (1803 chars)
+────────────────────────────────────────────────────────────
+https://cdn-mineru.openxlab.org.cn/result/2026-04-06/332b5794-f064-4fdd-bdf8-1dd2fbd2148d/6ae2bd9844d6b02dafab445f0671f6fa023cb3c8d5c4341122306f640322e6e6.jpg)
+
+Resulta importante observar que si bien la expresión obtenida recientemente nos proporciona información en cuanto a la relación que existirá entre las velocidades involucradas, de ninguna manera nos permite dar por concluido nuestro problema puesto que a partir de ella no podemos obtener la velocidad con que saldrán disparados cada uno de los cuerpos en consideración. Necesitamos de una segunda ecuación, independiente de la anterior, que relacione las incógnitas para entonces poder pensar en obtener expresiones finales para las velocidades de los cuerpos que intervienen en nuestro problema. Como veremos posteriormente, esta segunda ecuación podremos obtenerla al considerar las energías involucradas en el proceso.
+
+# Ejemplo (5.3)
+
+Consideraremos el caso de un sistema formado por dos partículas, una de las cuales está inicialmente en reposo, cuya masa identificaremos con (m2), mientras la restante de masa (m1), es disparada con una cierta velocidad e impacta con la anterior, como se sugiere en la figura de la izquierda.
+
+[Descripción de imagen: La imagen representa un choque o colisión elástica en dos dimensiones entre dos objetos de masa $m_1$ y $m_2$. Inicialmente, solo el objeto de masa $m_1$ se encuentra en movimiento con velocidad $\vec{v}_{01}$, mientras que $m_2$ está en reposo; después del impacto, ambos objetos se mueven con velocidades finales $\vec{v}_{f1}$ y $\vec{v}_{f2}$, formando ángulos $\theta$ y $\phi$ con el eje horizontal. Los vectores de cantidad de movimiento inicial y final se representan como $\vec{P}_o = m_1 \vec{v}_{01}$ y $\vec{P}_f = m_1 \vec{v}_{f1} + m_2 \vec{v}_{f2}$, respectivamente.]
+
+────────────────────────────────────────────────────────────
+Chunk 9 (1873 chars)
+────────────────────────────────────────────────────────────
+[Descripción de imagen: La imagen representa una colisión elástica en dos dimensiones entre dos partículas de masa $m_1$ y $m_2$. El momento lineal inicial del sistema es $\vec{P_0} = m_1 \vec{v_{01}}$ y el momento lineal final es $\vec{P_f} = m_1 \vec{v_{f1}} + m_2 \vec{v_{f2}}$. Los vectores $\vec{v_{01}}$, $\vec{v_{f1}}$ y $\vec{v_{f2}}$ representan las velocidades inicial y finales de las partículas, con $m_1$ y $m_2$ en sus respectivas posiciones.]
+
+Bajo estas condiciones, el vector cantidad de movimiento del sistema antes de la colisión vendrá dado por la expresión indicada en la parte superior de la figura. Luego de la colisión resulta una situación como la mostrada en la figura de la derecha, donde puede apreciarse que una vez finalizada la colisión entre las partículas, éstas saldrán disparadas con velocidades y según direcciones, que en general, no serán coincidentes con la de la partícula incidente, con lo que el vector cantidad de movimiento del sistema una vez finalizada la colisión vendrá dado por la expresión superior en la mencionada figura de la derecha. 
+
+Teniendo en cuenta que durante la colisión solamente intervienen fuerzas que resultan de la interacción mutua entre las partículas y por lo tanto internas del sistema, en virtud del teorema de conservación de la cantidad de movimiento, resulta:
+
+$$
+\mathbf {m} _ {1} \vec {\mathbf {v}} _ {0 1} = \mathbf {m} _ {1} \vec {\mathbf {v}} _ {\mathrm {f} 1} + \mathbf {m} _ {2} \vec {\mathbf {v}} _ {\mathrm {f} 2}
+$$
+
+Cuyas componentes según, la dirección de incidencia y perpendicular a esta, nos proporcionan el sistema que se indica a continuación.
+
+$$
+\mathbf {m} _ {1} \mathbf {v} _ {0 1} = \mathbf {m} _ {1} \mathbf {v} _ {\mathrm {f} 1} \cos \theta + \mathbf {m} _ {2} \mathbf {v} _ {\mathrm {f} 2} \cos \phi
+$$
+
+$$
+0 = m _ {1} v _ {f 1} \sin \theta - m _ {2} v _ {f 2} \sin \phi
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 10 (865 chars)
+────────────────────────────────────────────────────────────
+thbf {v} _ {0 1} = \mathbf {m} _ {1} \mathbf {v} _ {\mathrm {f} 1} \cos \theta + \mathbf {m} _ {2} \mathbf {v} _ {\mathrm {f} 2} \cos \phi
+$$
+
+$$
+0 = m _ {1} v _ {f 1} \sin \theta - m _ {2} v _ {f 2} \sin \phi
+$$
+
+Nuevamente, y tal como sucediera en el ejemplo tratado anteriormente, el planteo de la conservación del vector cantidad de movimiento no proporciona los elementos suficientes para una solución completa de la situación planteada. En este caso existen cuatro incógnitas, los módulos y las direcciones en que salen disparadas las partículas luego de la colisión, y contamos con solamente las dos ecuaciones escalares indicadas anteriormente. Análogamente a lo mencionado en el ejemplo anterior, y como lo veremos posteriormente, una tercera ecuación, independientes de las anteriores la obtendremos al considerar las energías involucradas en el problema.
+
+────────────────────────────────────────────────────────────
+Chunk 11 (1681 chars)
+────────────────────────────────────────────────────────────
+ndientes de las anteriores la obtendremos al considerar las energías involucradas en el problema.
+
+# Movimiento de Sistemas con Masas Variables.
+
+Como otra interesante aplicación del tema que estamos considerando trataremos de desarrollar herramientas formales que nos permitan describir el comportamiento del centro de masa de un sistema cuya masa es una función del tiempo como podría ser el caso de un proyectil que se desplaza a expensa de la materia que expele como consecuencia de algún proceso de combustión interna, tal como se sugiere en la figura siguiente, donde hemos supuesto que en el instante (t) en el que, el proyectil se desplaza con una velocidad (v), expulsa una cierta cantidad de materia $\mathrm { ( m _ { e } ) }$ con una velocidad $( \mathbf { v } _ { \mathrm { e } } )$ , determinada respecto de un sistema fijo al proyectil, resultando así un incremento en la velocidad de lo que queda del proyectil, como se sugiere en el tercer cuadro de la figura.
+
+[Descripción de imagen: La imagen representa un cohete de masa m expulsando una masa me con una velocidad ve. Se observan los vectores velocidad v del cohete y ve de la masa expulsada, así como el incremento de velocidad Δv del cohete. El sistema de coordenadas xyz se encuentra en el lado izquierdo.]
+
+Teniendo en cuenta que el sistema está libre de fuerzas externas, ya que aquellas destinadas a impulsar el material desalojado son consecuencias de reacciones internas al sistema, la cantidad de movimiento del mismo deberá permanecer constante y atendiendo que la velocidad del material expulsado, respecto del sistema de referencia (xyz) inercial, vendrá dada por $\bf ( V + V _ { e } )$ , resulta:
+
+────────────────────────────────────────────────────────────
+Chunk 12 (1487 chars)
+────────────────────────────────────────────────────────────
+cantidad de movimiento del mismo deberá permanecer constante y atendiendo que la velocidad del material expulsado, respecto del sistema de referencia (xyz) inercial, vendrá dada por $\bf ( V + V _ { e } )$ , resulta:
+
+$$
+\mathrm {m} \vec {\mathrm {v}} = (\mathrm {m} - \mathrm {m} _ {\mathrm {e}}) (\vec {\mathrm {v}} + \Delta \vec {\mathrm {v}}) + \mathrm {m} _ {\mathrm {e}} (\vec {\mathrm {v}} _ {\mathrm {e}} + \vec {\mathrm {v}})
+$$
+
+Designando con $( \Delta \mathfrak { m } )$ a la variación observada en la masa del proyectil durante el intervalo de tiempo considerado, es claro que la anterior puede expresarse como:
+
+$$
+\mathrm {m} \vec {\mathrm {v}} = (\mathrm {m} - \Delta \mathrm {m}) (\vec {\mathrm {v}} + \Delta \vec {\mathrm {v}}) - \Delta \mathrm {m} (\vec {\mathrm {v}} _ {\mathrm {e}} + \vec {\mathrm {v}})
+$$
+
+Desarrollando esta expresión, y despreciando el término:
+
+$$
+\Delta \mathrm {m} \Delta \vec {\mathrm {v}}
+$$
+
+Que finalmente daría lugar a un diferencial de segundo orden, de la anterior resulta:
+
+$$
+\mathrm {m} \Delta \vec {\mathrm {v}} = \vec {\mathrm {v}} _ {\mathrm {e}} \Delta \mathrm {m}
+$$
+
+Por lo tanto:
+
+$$
+\mathrm {m} \frac {\Delta \vec {\mathrm {v}}}{\Delta t} = \vec {\mathrm {v}} _ {\mathrm {e}} \frac {\Delta \mathrm {m}}{\Delta t}
+$$
+
+Tomando límites, obtenemos que la aceleración de lo que queda del proyectil será tal que:
+
+$$
+\mathrm {m} \overline {{\mathrm {a}}} = \vec {\mathrm {v}} _ {\mathrm {e}} \frac {\mathrm {d m}}{\mathrm {d t}}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 13 (1658 chars)
+────────────────────────────────────────────────────────────
+btenemos que la aceleración de lo que queda del proyectil será tal que:
+
+$$
+\mathrm {m} \overline {{\mathrm {a}}} = \vec {\mathrm {v}} _ {\mathrm {e}} \frac {\mathrm {d m}}{\mathrm {d t}}
+$$
+
+Resulta conveniente destacar que para la situación en consideración, la derivada temporal incluida en la anterior, es negativa, puesto que la masa del proyectil disminuye, y por lo tanto la aceleración de su centro de masa tendrá sentido opuesto al sentido en que es expulsada la materia. 
+
+Teniendo en cuenta que en la expresión obtenida recientemente, la aceleración involucrada es la del centro de masa de lo que queda del proyectil, podemos interpretar al miembro de la derecha como la fuerza a que se verá sometido dicho proyectil como resultado de su interacción con el material expulsado y que en adelante reconoceremos como Fuerza de Retropropulsión o Empuje, que por lo tanto podemos expresar como:
+
+$$
+\vec {\mathrm {F}} _ {\mathrm {e}} = \vec {\mathrm {v}} _ {\mathrm {e}} \frac {\mathrm {d m}}{\mathrm {d t}} \tag {5.7}
+$$
+
+Con lo que, en general, la ecuación de movimiento para el centro de masa de un cuerpo cuya masa varia con el tiempo podrá ser expresada como:
+
+$$
+\vec {\mathrm {F}} + \vec {\mathrm {F}} _ {\mathrm {e}} = \mathrm {m} \frac {\mathrm {d} \vec {\mathrm {v}}}{\mathrm {d t}} \tag {5.8}
+$$
+
+Donde con (F) indicamos a la resultante de las fuerzas externas a que se encuentra sometido el cuerpo, excluida la fuerza reactiva a que hacemos referencia anteriormente, cuyo sentido dependerá de que la materia sea expelida o absorbida por el cuerpo en consideración. 
+
+Finalmente, diferenciando la anterior y teniendo en cuenta (5.7), resulta:
+
+────────────────────────────────────────────────────────────
+Chunk 14 (1509 chars)
+────────────────────────────────────────────────────────────
+Finalmente, diferenciando la anterior y teniendo en cuenta (5.7), resulta:
+
+$$
+\mathrm {d} \vec {\mathrm {v}} = \frac {\vec {\mathrm {F}}}{\mathrm {m}} \mathrm {d t} + \vec {\mathrm {v}} _ {\mathrm {e}} \frac {\mathrm {d m}}{\mathrm {m}}
+$$
+
+De donde, luego de integrar entre límites compatibles, obtenemos:
+
+$$
+\vec {\mathrm {v}} (\mathrm {t}) = \vec {\mathrm {v}} _ {\circ} + \vec {\mathrm {v}} _ {\mathrm {e}} \ln \left(\frac {\mathrm {m}}{\mathrm {m} _ {\circ}}\right) + \int_ {0} ^ {\mathrm {t}} \frac {\vec {\mathrm {F}}}{\mathrm {m}} \mathrm {d t} \tag {5.9}
+$$
+
+# Ejemplo (5.4)
+
+Como una aplicación del tema recientemente desarrollado, consideremos el caso de un cohete en reposo sobre su plataforma de lanzamiento como el sugerido en la figura siguiente. En el instante en que los motores son encendidos y la materia comienza a ser expulsada, la ecuación (5.8) prevé que la fuerza (N) resultante de la interacción con la plataforma será tal que:
+
+$$
+\vec {\mathrm {N}} + \vec {\mathrm {F}} _ {\mathrm {e}} + \mathrm {m} \vec {\mathrm {g}} = 0
+$$
+
+[Descripción de imagen: La imagen muestra un objeto apoyado sobre una superficie, con tres fuerzas actuando en dirección vertical: el peso (mg) hacia abajo, la fuerza normal (N) hacia arriba en el punto de contacto con la superficie y una fuerza externa (Fe) también hacia arriba. Los vectores de fuerza se alinean sobre el eje Y.]
+
+Teniendo en cuenta que el empuje viene dado por (5.7), de la anterior resulta:
+
+$$
+N = m g - v _ {e} \frac {d m}{d t}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 15 (1690 chars)
+────────────────────────────────────────────────────────────
+f559ebe130ce710236b12baca4f30e3f6a870010ab4ca2ea335e723ad864cbb.jpg)
+
+Teniendo en cuenta que el empuje viene dado por (5.7), de la anterior resulta:
+
+$$
+N = m g - v _ {e} \frac {d m}{d t}
+$$
+
+Donde la masa involucrada es una función decreciente del tiempo, que en términos del caudal $\scriptstyle ( \mathrm { Q } = \mathrm { d } \mathrm { m } / \mathrm { d } \mathrm { t } )$ ) de materia expulsada, que suponemos constante, queda expresada como:
+
+$$
+\mathbf {m} (t) = \mathbf {M} - \mathbf {Q} t
+$$
+
+Siendo (M) la masa del sistema (cohete $^ +$ combustible) en el instante en que se inicia la combustión. Puesto que la condición de despegue requiere que se anule la interacción entre el cohete y la plataforma, de las anteriores resulta que una vez iniciada la combustión, esta condición se dará al cabo de un tiempo tal que:
+
+$$
+\frac {\mathrm {v _ {e} Q}}{\mathrm {M - Q t _ {d}}} = \mathrm {g}
+$$
+
+Por lo tanto una vez iniciada la combustión, el cohete despegará al cabo de un tiempo dado por:
+
+$$
+t _ {d} = \frac {M}{Q} - \frac {v _ {e}}{g}
+$$
+
+Si deseáramos un despegue en el mismo instante de la ignición, las condiciones deberían ser tales que:
+
+$$
+\frac {\mathrm {M}}{\mathrm {Q}} = \frac {\mathrm {v} _ {\mathrm {e}}}{\mathrm {g}}
+$$
+
+Una vez alcanzada la condición necesaria para el despegue y designando con $\left( \mathrm { m } _ { 0 } \right)$ a la masa del sistema en dicho instante, de (5.9) resulta que la velocidad del cohete variará con el tiempo según:
+
+$$
+\vec {\mathrm {v}} (t) = \vec {\mathrm {v}} _ {\mathrm {e}} \ln \left(\frac {\mathrm {m}}{\mathrm {m} _ {\circ}}\right) + \vec {\mathrm {g}} t
+$$
+
+De donde, luego de evaluar la única componente no nula, resulta:
+
+────────────────────────────────────────────────────────────
+Chunk 16 (1562 chars)
+────────────────────────────────────────────────────────────
+o según:
+
+$$
+\vec {\mathrm {v}} (t) = \vec {\mathrm {v}} _ {\mathrm {e}} \ln \left(\frac {\mathrm {m}}{\mathrm {m} _ {\circ}}\right) + \vec {\mathrm {g}} t
+$$
+
+De donde, luego de evaluar la única componente no nula, resulta:
+
+$$
+\mathrm {v (t)} = \mathrm {v _ {e}} \ln \left(\frac {\mathrm {m _ {o}}}{\mathrm {m}}\right) - \mathrm {g t}
+$$
+
+siendo
+
+$$
+\mathrm {m} = \mathrm {m} _ {\circ} - \mathrm {Q t}
+$$
+
+Designando con $( \mathrm { m c } )$ a la masa del combustible transportado e indicando con (tF) al tiempo al cabo del que se consume la totalidad de dicho combustible, de las anteriores resulta que la máxima velocidad alcanzada por el cohete vendrá dada por:
+
+$$
+\mathrm {v} \left(\mathrm {t} _ {\mathrm {F}}\right) = \mathrm {v} _ {\mathrm {e}} \ln \left(\frac {\mathrm {m} _ {\mathrm {o}}}{\mathrm {m} _ {\mathrm {o}} - \mathrm {Q t} _ {\mathrm {F}}}\right) - \mathrm {g t} _ {\mathrm {F}}
+$$
+
+Que en términos de la masa de combustible transportado nos queda expresada como:
+
+$$
+\mathrm {v (t _ {F}) = v _ {e} \ln \left(\frac {1}{1 - \frac {m _ {c}}{m _ {o}}}\right) - g \frac {m _ {c}}{Q}}
+$$
+
+Expresión que nos muestra claramente la importancia de la relación entre la masa de combustible transportado y la masa total del sistema en el instante en que se satisface la condición de despegue. 
+
+Como ilustraciones de los temas considerados, se recomienda ejecutar las simulaciones Cohete-1.htm, Cohete-2.htm y aquellas relacionadas con el flujo de arena a través de una abertura, a las que puede acceder mediante los archivos Arena-1.htm y Arena-2.htm
+
+────────────────────────────────────────────────────────────
+Chunk 17 (1969 chars)
+────────────────────────────────────────────────────────────
+nda ejecutar las simulaciones Cohete-1.htm, Cohete-2.htm y aquellas relacionadas con el flujo de arena a través de una abertura, a las que puede acceder mediante los archivos Arena-1.htm y Arena-2.htm
+
+# 5.03 SISTEMA DE REFERENCIA CENTROIDAL.
+
+Considerando nuevamente un sistema de cuerpos puntuales, definiremos al Sistema de Referencia Centroidal, indicado con (x'y'z') en la figura lateral, como una terna de ejes ortogonales con origen en el centro de masa del sistema en consideración y que se traslada respecto del sistema (xyz) con la velocidad que dicho punto tiene respecto de este último sistema de referencia, con lo que las velocidades y aceleraciones de las partículas respecto de los sistemas de referencia involucrados estarán relacionadas mediante las expresiones que se indican a continuación.
+
+[Descripción de imagen: La imagen muestra un sistema de coordenadas XYZ con un objeto irregular resaltado en rosa, que contiene varios puntos azules que representan masa. Se observan vectores posición $\overrightarrow{r_c}$ y $\overrightarrow{r_i}$, así como $\overrightarrow{r_i'}$ que relaciona las posiciones de los puntos respecto a ejes coordenados trasladados x'y'z'. También se muestra la velocidad $\overrightarrow{V_c}$ asociada al centro de masa.]
+
+$$
+\vec {\mathrm {r}} _ {\mathrm {i}} = \vec {\mathrm {r}} _ {\mathrm {c}} + \vec {\mathrm {r}} _ {\mathrm {i}} ^ {\prime}
+$$
+
+$$
+\vec {\mathrm {v}} _ {\mathrm {i}} = \vec {\mathrm {v}} _ {\mathrm {c}} + \vec {\mathrm {v}} _ {\mathrm {i}} ^ {\prime} \tag {5.10}
+$$
+
+$$
+\vec {a} _ {i} = \vec {a} _ {c} + \vec {a} _ {i} ^ {\prime}
+$$
+
+Resultando importante destacar que la cantidad de movimiento de un sistema, determinada respecto de su sistema de referencia centroidal, siempre será nula, ya que por definición dicha magnitud vendrá dada por:
+
+$$
+\vec {P} ^ {\prime} = \sum m _ {i} \vec {v} _ {i} \quad \therefore \quad \vec {P} ^ {\prime} = \frac {d}{d t} \sum m _ {i} \vec {r} _ {i} ^ {\prime}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 18 (1875 chars)
+────────────────────────────────────────────────────────────
+será nula, ya que por definición dicha magnitud vendrá dada por:
+
+$$
+\vec {P} ^ {\prime} = \sum m _ {i} \vec {v} _ {i} \quad \therefore \quad \vec {P} ^ {\prime} = \frac {d}{d t} \sum m _ {i} \vec {r} _ {i} ^ {\prime}
+$$
+
+Donde, teniendo en cuenta que la coordenada vectorial del centro de masa, respecto de si mismo, es obviamente nula y que formalmente puede indicarse como:
+
+$$
+\vec {\mathrm {r}} _ {\mathrm {c}} ^ {\prime} = \frac {\sum \mathrm {m} _ {\mathrm {i}} \vec {\mathrm {r}} _ {\mathrm {i}} ^ {\prime}}{\mathrm {m}} = 0 \quad \text {c o n l o q u e} \quad \sum \mathrm {m} _ {\mathrm {i}} \vec {\mathrm {r}} _ {\mathrm {i}} ^ {\prime} = 0 \tag {5.11}
+$$
+
+De las anteriores es inmediato que en general:
+
+$$
+\vec {\mathrm {P}} ^ {\prime} = 0 \tag {5.12}
+$$
+
+Conclusiones estas, que posteriormente emplearemos en mas de una oportunidad.
+
+# 5.04 VECTOR MOMENTO ANGULAR.
+
+Considerando un sistema de cuerpos puntuales como el sugerido en la figura siguiente, definiremos al momento angular del sistema, respecto del origen del sistema de referencia fundamental (xyz), como:
+
+[Descripción de imagen: La imagen muestra un sistema de coordenadas XYZ con un punto A y una región irregular delimitada por una línea azul, dentro de la cual hay puntos rosados que representan posibles puntos de aplicación de fuerzas. Se observan vectores de posición $\vec{r}$ y vectores relativos $\vec{r}_{i/A}$ y $\vec{r}_{c/A}$, que relacionan puntos como A, $r_{i}$ y $r_{c}$.]
+
+$$
+\vec {L} = \sum \vec {r} _ {\mathrm {i}} \times \vec {p} _ {\mathrm {i}}
+$$
+
+Por lo tanto:
+
+$$
+\vec {\mathrm {L}} = \sum \vec {\mathrm {r}} _ {\mathrm {i}} \times \mathrm {m} _ {\mathrm {i}} \vec {\mathrm {v}} _ {\mathrm {i}} \tag {5.13}
+$$
+
+Teniendo en cuenta las relaciones (5.10) es inmediato que el vector momento angular del sistema respecto del origen del sistema fundamental puede expresarse como:
+
+────────────────────────────────────────────────────────────
+Chunk 19 (1504 chars)
+────────────────────────────────────────────────────────────
+} \vec {\mathrm {v}} _ {\mathrm {i}} \tag {5.13}
+$$
+
+Teniendo en cuenta las relaciones (5.10) es inmediato que el vector momento angular del sistema respecto del origen del sistema fundamental puede expresarse como:
+
+$$
+\vec {\mathrm {L}} = \sum (\vec {\mathrm {r}} _ {\mathrm {c}} + \vec {\mathrm {r}} ^ {\prime}) _ {\mathrm {i}} \times \mathbf {m} _ {\mathrm {i}} (\vec {\mathrm {v}} _ {\mathrm {c}} + \vec {\mathrm {v}} _ {\mathrm {i}} ^ {\prime})
+$$
+
+De donde, luego de desarrollar el producto vectorial, obtenemos que el vector momento angular puede expresarse como:
+
+$$
+\vec {L} = \vec {r} _ {\mathrm {c}} \times \vec {v} _ {\mathrm {c}} \sum m _ {\mathrm {i}} + \vec {r} _ {\mathrm {c}} \times \sum m _ {\mathrm {i}} \vec {v} _ {\mathrm {i}} ^ {\prime} - \vec {v} _ {\mathrm {c}} \times \sum m \vec {r} _ {\mathrm {i}} ^ {\prime} + \sum \vec {r} _ {\mathrm {i}} ^ {\prime} \times m _ {\mathrm {i}} \vec {v} _ {\mathrm {i}} ^ {\prime}
+$$
+
+Donde recordemos que la velocidad del centro de masa está determinada respecto del sistema (xyz) fundamental y en donde, teniendo en cuenta las conclusiones (5.11) y (5.12), resulta que los términos centrales se anulan, con lo que el vector momento angular en consideración queda expresado como:
+
+$$
+\vec {\mathrm {L}} = \vec {\mathrm {r}} _ {\mathrm {c}} \times \mathrm {m} \vec {\mathrm {v}} _ {\mathrm {c}} + \sum \vec {\mathrm {r}} _ {\mathrm {i}} ^ {\prime} \times \mathrm {m} _ {\mathrm {i}} \vec {\mathrm {v}} _ {\mathrm {i}} ^ {\prime} \tag {5.14}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 20 (1629 chars)
+────────────────────────────────────────────────────────────
+athrm {m} \vec {\mathrm {v}} _ {\mathrm {c}} + \sum \vec {\mathrm {r}} _ {\mathrm {i}} ^ {\prime} \times \mathrm {m} _ {\mathrm {i}} \vec {\mathrm {v}} _ {\mathrm {i}} ^ {\prime} \tag {5.14}
+$$
+
+Por lo tanto, en general, dicha magnitud podrá ser expresada como la suma de dos componentes. Una componente directamente relacionada con el estado de movimiento y posición del centro de masa del sistema a la que en adelante identificaremos como Componente Orbital.
+
+$$
+\vec {\mathrm {L}} _ {\mathrm {o r}} = \vec {\mathrm {r}} _ {\mathrm {c}} \times \mathrm {m} \vec {\mathrm {v}} _ {\mathrm {c}}
+$$
+
+Mas una componente que tiene en cuenta el momento respecto del centro de masa del sistema, del vector cantidad de movimiento de las partículas determinado respecto del sistema centroidal y que en adelante identificaremos como Componente Intrínseca.
+
+$$
+\vec {L} _ {\mathrm {c}} ^ {\prime} = \sum \vec {r} _ {\mathrm {i}} ^ {\prime} \times m _ {\mathrm {i}} \vec {v} _ {\mathrm {i}} ^ {\prime}
+$$
+
+Donde con el subíndice empleado en la componente intrínseca del vector momento angular, indicamos el punto respecto del cuál se toman los momentos y con el índice superior, el sistema de referencia respecto del que se determinan las velocidades de cada una de las partículas que integran el sistema. 
+
+Con referencia a ésta última componente y teniendo en cuenta (5.10) es claro que se la puede expresar como:
+
+$$
+\vec {\mathrm {L}} _ {\mathrm {c}} ^ {\prime} = \sum \vec {\mathrm {r}} _ {\mathrm {i}} ^ {\prime} \times \mathrm {m} _ {\mathrm {i}} (\vec {\mathrm {v}} _ {\mathrm {i}} - \vec {\mathrm {v}} _ {\mathrm {c}})
+$$
+
+De donde:
+
+────────────────────────────────────────────────────────────
+Chunk 21 (1586 chars)
+────────────────────────────────────────────────────────────
+\mathrm {L}} _ {\mathrm {c}} ^ {\prime} = \sum \vec {\mathrm {r}} _ {\mathrm {i}} ^ {\prime} \times \mathrm {m} _ {\mathrm {i}} (\vec {\mathrm {v}} _ {\mathrm {i}} - \vec {\mathrm {v}} _ {\mathrm {c}})
+$$
+
+De donde:
+
+$$
+\vec {\mathrm {L}} _ {\mathrm {c}} ^ {\prime} = \sum \vec {\mathrm {r}} _ {\mathrm {i}} ^ {\prime} \times \mathrm {m} _ {\mathrm {i}} \vec {\mathrm {v}} _ {\mathrm {i}}
+$$
+
+Por lo tanto:
+
+$$
+\vec {\mathrm {L}} _ {\mathrm {c}} ^ {\prime} = \vec {\mathrm {L}} _ {\mathrm {c}}
+$$
+
+Con lo que, en el cálculo de la componente intrínseca del vector momento angular será indiferente considerar las velocidades de las partículas determinadas respecto del sistema de referencia centroidal o respecto del sistema de referencia fundamental. 
+
+Consideremos a continuación un punto (A) cualquiera, no coincidente con el origen del sistema fundamental y que eventualmente pueda tener movimiento respecto de dicho sistema, en cuyo caso definiremos al vector momento angular del sistema respecto de dicho punto como:
+
+$$
+\vec {\mathrm {L}} _ {\mathrm {A}} = \sum \vec {\mathrm {r}} _ {\mathrm {i} / \mathrm {A}} \times \mathrm {m} _ {\mathrm {i}} \vec {\mathrm {v}} _ {\mathrm {i}}
+$$
+
+Procediendo en forma análoga al caso tratado recientemente es posible demostrar que dicha magnitud puede ser expresada como:
+
+$$
+\vec {\mathrm {L}} _ {\mathrm {A}} = \vec {\mathrm {r}} _ {\mathrm {c / A}} \times \mathrm {m} \vec {\mathrm {v}} _ {\mathrm {c}} + \sum \vec {\mathrm {r}} _ {\mathrm {i}} ^ {\prime} \times \mathrm {m} _ {\mathrm {i}} \vec {\mathrm {v}} _ {\mathrm {i}} ^ {\prime}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 22 (1649 chars)
+────────────────────────────────────────────────────────────
+athrm {c / A}} \times \mathrm {m} \vec {\mathrm {v}} _ {\mathrm {c}} + \sum \vec {\mathrm {r}} _ {\mathrm {i}} ^ {\prime} \times \mathrm {m} _ {\mathrm {i}} \vec {\mathrm {v}} _ {\mathrm {i}} ^ {\prime}
+$$
+
+Resultando, como era de esperar, que la única diferencia con el caso tratado anteriormente radica en la componente orbital, que para la situación actual está determinada respecto del punto que en este caso hemos identificado con (A).
+
+# Ecuación de Momentos
+
+A lo largo de este tema trataremos de obtener una relación entre el vector momento angular de un sistema y las fuerzas de interacción a las que pudiera estar sometido. Con este propósito teniendo en cuenta (5.13) determinaremos formalmente la derivada temporal del vector momento angular, calculada desde el sistema de referencia fundamental, que sin lugar a dudas puede expresarse como:
+
+$$
+\left. \frac {\mathrm {d} \vec {\mathrm {L}}}{\mathrm {d t}} \right| _ {\text {x y z}} = \left. \sum \dot {\vec {\mathrm {r}}} _ {\mathrm {i}} \right| _ {\text {x y z}} \times \mathrm {m} _ {\mathrm {i}} \vec {\mathrm {v}} _ {\mathrm {i}} + \left. \sum \vec {\mathrm {r}} _ {\mathrm {i}} \times \mathrm {m} _ {\mathrm {i}} \dot {\vec {\mathrm {v}}} _ {\mathrm {i}} \right| _ {\text {x y z}}
+$$
+
+Puesto que, la derivada temporal del vector velocidad de cada una de las partículas es su vector aceleración y requiriendo que el sistema de referencia fundamental sea un sistema de referencia inercial, entonces:
+
+$$
+\left. \mathrm {m} _ {\mathrm {i}} \dot {\vec {\mathrm {v}}} _ {\mathrm {i}} \right| _ {\text {x y z}} = \vec {\mathrm {F}} _ {\mathrm {i}} + \vec {\mathrm {f}} _ {\mathrm {i}}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 23 (1459 chars)
+────────────────────────────────────────────────────────────
+\mathrm {m} _ {\mathrm {i}} \dot {\vec {\mathrm {v}}} _ {\mathrm {i}} \right| _ {\text {x y z}} = \vec {\mathrm {F}} _ {\mathrm {i}} + \vec {\mathrm {f}} _ {\mathrm {i}}
+$$
+
+Donde con (f i) indicamos a la resultante de las fuerzas internas a que se encuentra sometida la respectiva partícula, que por lo tanto viene dada por:
+
+$$
+\vec {\mathrm {f}} _ {\mathrm {i}} = \sum_ {\mathrm {j}} \vec {\mathrm {f}} _ {\mathrm {i j}}
+$$
+
+Con lo que:
+
+$$
+\left. \frac {\mathrm {d} \vec {\mathrm {L}}}{\mathrm {d t}} \right| _ {\text {x y z}} = \sum \vec {\mathrm {v}} _ {\mathrm {i}} \times \mathrm {m} _ {\mathrm {i}} \vec {\mathrm {v}} _ {\mathrm {i}} + \sum \vec {\mathrm {r}} _ {\mathrm {i}} \times \left(\vec {\mathrm {F}} _ {\mathrm {i}} + \sum_ {\mathrm {j}} \vec {\mathrm {f}} _ {\mathrm {i j}}\right)
+$$
+
+Puesto que la primer sumatoria es idénticamente nula, en cuanto a que sus términos incluyen el producto vectorial de vectores paralelos, de la anterior resulta:
+
+$$
+\left. \frac {\mathrm {d} \vec {\mathrm {L}}}{\mathrm {d t}} \right| _ {\text {x y z}} = \sum \vec {\mathrm {r}} _ {\mathrm {i}} \times \vec {\mathrm {F}} _ {\mathrm {i}} + \sum \vec {\mathrm {r}} _ {\mathrm {i}} \times \sum_ {\mathrm {j}} \vec {\mathrm {f}} _ {\mathrm {i j}}
+$$
+
+Abriendo un pequeño paréntesis en nuestro desarrollo veremos que la doble sumatoria del miembro de la derecha es nula, para lo cual observemos que ésta incluirá cantidades del tipo que se indica a continuación:
+
+────────────────────────────────────────────────────────────
+Chunk 24 (1682 chars)
+────────────────────────────────────────────────────────────
+o paréntesis en nuestro desarrollo veremos que la doble sumatoria del miembro de la derecha es nula, para lo cual observemos que ésta incluirá cantidades del tipo que se indica a continuación:
+
+$$
+\sum \vec {r} _ {i} \times \sum_ {j} \vec {f} _ {i j} = \vec {r} _ {1} \times (\vec {f} _ {1 2} + \vec {f} _ {1 3} + \dots . + \vec {f} _ {1 N}) + \vec {r} _ {2} \times (\vec {f} _ {2 1} + \vec {f} _ {2 3} + \dots . + \vec {f} _ {2 N}) + \dots .
+$$
+
+Teniendo en cuenta que, en virtud del principio de acción y reacción:
+
+$$
+\vec {f} _ {i j} = - \vec {f} _ {j i}
+$$
+
+Los términos de la anterior pueden agruparse como se indica seguidamente:
+
+$$
+\sum \vec {r} _ {i} \times \sum \vec {f} _ {i j} = (\vec {r} _ {1} - \vec {r} _ {2}) \times \vec {f} _ {1 2} + (\vec {r} _ {1} - \vec {r} _ {3}) \times \vec {f} _ {1 3} + \dots .
+$$
+
+Donde cada uno de los términos se anula por tratarse del producto de vectores paralelos, con lo que:
+
+$$
+\left. \frac {\mathrm {d} \vec {\mathrm {L}}}{\mathrm {d t}} \right| _ {\text {x y z}} = \sum \vec {\mathrm {r}} _ {\mathrm {i}} \times \vec {\mathrm {F}} _ {\mathrm {i}}
+$$
+
+Teniendo en cuenta que con (Fi) indicamos a la resultante de las fuerzas externas a que se encuentra sometida la respectiva partícula, es claro entonces que los términos incluidos en la sumatoria anterior son concretamente los momentos que las fuerzas externas generan respecto del origen de nuestro sistema de referencia inercial, con lo que dichas magnitudes estarán relacionadas con las variaciones temporales del momento angular mediante:
+
+$$
+\left. \frac {\mathrm {d} \vec {\mathrm {L}}}{\mathrm {d t}} \right| _ {\text {x y z}} = \sum \vec {\mathrm {M}} _ {\mathrm {i}}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 25 (1506 chars)
+────────────────────────────────────────────────────────────
+\frac {\mathrm {d} \vec {\mathrm {L}}}{\mathrm {d t}} \right| _ {\text {x y z}} = \sum \vec {\mathrm {M}} _ {\mathrm {i}}
+$$
+
+Identificando a la suma anterior como el Momento Resultante que las fuerzas externas generan respecto del origen del sistema inercial y designando con (M) a dicha magnitud, la anterior puede expresarse como:
+
+$$
+\vec {\mathrm {M}} = \left. \frac {\mathrm {d} \vec {\mathrm {L}}}{\mathrm {d t}} \right| _ {\text {x y z}} \tag {5.15}
+$$
+
+Que nos vincula las variaciones temporales observadas en el momento angular del sistema, respecto del origen de nuestro sistema de referencia inercial, con el momento que las fuerzas externas generan respecto de dicho punto. 
+
+Considerando ahora el momento angular calculado respecto de un punto (A) no coincidente con el origen del sistema de referencia y dejando la libertad de que dicho punto pueda tener movimiento respecto del mencionado sistema de referencia, su derivada temporal, calculada desde dicho sistema (xyz), vendrá dada por:
+
+$$
+\left. \frac {d \vec {L} _ {A}}{d t} \right| _ {x y z} = \sum \dot {\vec {r}} _ {i / A} \bigg | _ {x y z} \times m _ {i} \vec {v} _ {i} + \sum \vec {r} _ {i / A} \times m _ {i} \dot {\vec {v}} _ {i} \bigg | _ {x y z}
+$$
+
+Teniendo en cuenta que:
+
+$$
+\vec {r} _ {i / A} = \vec {r} _ {i} - \vec {r} _ {A}
+$$
+
+Suponiendo al sistema (xyz) inercial y derivando temporalmente la igualdad anterior desde dicho sistema, es inmediato que la derivada temporal del vector momento angular puede expresarse como:
+
+────────────────────────────────────────────────────────────
+Chunk 26 (1526 chars)
+────────────────────────────────────────────────────────────
+{r} _ {A}
+$$
+
+Suponiendo al sistema (xyz) inercial y derivando temporalmente la igualdad anterior desde dicho sistema, es inmediato que la derivada temporal del vector momento angular puede expresarse como:
+
+$$
+\left. \frac {d \vec {L} _ {A}}{d t} \right| _ {x y z} = \sum \dot {\vec {r}} _ {i} \bigg | _ {x y z} \times m _ {i} \vec {v} _ {i} - \sum \dot {\vec {r}} _ {A} \bigg | _ {x y z} \times m _ {i} \vec {v} _ {i} + \sum \vec {r} _ {i / A} \times \vec {F} _ {i} + \sum \vec {r} _ {i / A} \times \sum_ {j} \vec {f} _ {i j}
+$$
+
+Donde, los términos de la primer sumatoria son nulos por tratarse del producto vectorial de magnitudes paralelas, y luego de efectuar consideraciones análogas a las realizadas anteriormente, en cuanto a las fuerzas internas involucradas en la doble sumatoria, es claro que la derivada temporal del vector momento angular queda expresada como:
+
+$$
+\left. \frac {d \vec {L} _ {A}}{d t} \right| _ {x y z} = - \sum \vec {v} _ {A} \times m _ {i} \vec {v} _ {i} + \sum \vec {r} _ {i / A} \times \vec {F} _ {i}
+$$
+
+Teniendo en cuenta que la velocidad del punto (A) no depende del índice de la sumatoria, y que en la segunda sumatoria los momentos que generan las fuerzas externas están determinados respecto del mencionado punto (A), resulta:
+
+$$
+\vec {\mathrm {M}} _ {\mathrm {A}} = \frac {\mathrm {d} \vec {\mathrm {L}} _ {\mathrm {A}}}{\mathrm {d t}} \Bigg | _ {\text {x y z}} + \vec {\mathrm {v}} _ {\mathrm {A / x y z}} \times \mathrm {m} \vec {\mathrm {v}} _ {\mathrm {c / x y z}} \tag {5.16}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 27 (1564 chars)
+────────────────────────────────────────────────────────────
+vec {\mathrm {L}} _ {\mathrm {A}}}{\mathrm {d t}} \Bigg | _ {\text {x y z}} + \vec {\mathrm {v}} _ {\mathrm {A / x y z}} \times \mathrm {m} \vec {\mathrm {v}} _ {\mathrm {c / x y z}} \tag {5.16}
+$$
+
+Que nos relaciona las variaciones temporales del vector momento angular calculado respecto de un punto (A) cualquiera, con el estado de movimiento de dicho punto y con los momentos que las fuerzas externas generan respecto del mencionado punto. 
+
+Podemos observar que la relación (5.15) es simplemente un caso particular de la obtenida recientemente, puesto que en ese caso los momento están tomado respecto de un punto fijo al sistema de referencia inercial, con lo que, el segundo término del miembro de la derecha se anula. 
+
+Análogamente si los momentos se calculan respecto del centro de masa del sistema, nuevamente se anula el termino que mencionáramos recientemente, puesto que se trataría del producto vectorial de dos magnitudes paralela, con lo que en ese caso de (5.16) obtenemos:
+
+$$
+\vec {\mathrm {M}} _ {\mathrm {C}} = \frac {\mathrm {d} \vec {\mathrm {L}} _ {\mathrm {C}}}{\mathrm {d t}} \Bigg | _ {\text {x y z}} \tag {5.17}
+$$
+
+Finalmente, derivando las expresiones obtenidas para el momento angular de un sistema, como la suma de una componente orbital mas una intrínseca y teniendo en cuenta las conclusiones obtenidas recientemente, se puede demostrar que los momentos de las fuerzas externas calculados respecto del centro de masa y respecto de un punto (A) cualquiera están relacionados mediante las expresiones que se indican a continuación:
+
+────────────────────────────────────────────────────────────
+Chunk 28 (1382 chars)
+────────────────────────────────────────────────────────────
+e demostrar que los momentos de las fuerzas externas calculados respecto del centro de masa y respecto de un punto (A) cualquiera están relacionados mediante las expresiones que se indican a continuación:
+
+$$
+\vec {\mathrm {M}} _ {\mathrm {A}} = \vec {\mathrm {M}} _ {\mathrm {C}} + \vec {\mathrm {r}} _ {\mathrm {C} / \mathrm {A}} \times \mathrm {m} \vec {\mathrm {a}} _ {\mathrm {C}}
+$$
+
+$$
+\vec {\bf {M}} _ {\mathrm {A}} = \vec {\bf {M}} _ {\mathrm {C}} + \vec {\bf {r}} _ {\mathrm {C / A}} \times \vec {\bf {F}}
+$$
+
+# Conservación del Vector Momento Angular.
+
+Teniendo en cuenta las relaciones recientemente obtenidas es importante destacar que de acuerdo con ellas, las fuerzas internas no pueden modificar el momento angular de un sistema, y de (5.15) resulta que, si el conjunto de fuerzas externas a que está sometido un sistema es tal que el momento que generan es nulo, el momento angular del mencionado sistema permanecerá constante e igual al valor que tenia en el instante inicial. Entendiendo por instante inicial, el instante a partir del cuál se satisface la mencionada condición, lo que formalmente podemos indicar como:
+
+$$
+\vec {\mathrm {M}} = 0 \quad \vec {\mathrm {L}} = \vec {\mathrm {L}} _ {\circ}
+$$
+
+Análogamente de (4.18) resulta:
+
+$$
+\vec {\mathrm {M}} _ {\mathrm {c}} = 0 \quad \vec {\mathrm {L}} _ {\mathrm {c}} = \vec {\mathrm {L}} _ {\mathrm {c o}}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 29 (548 chars)
+────────────────────────────────────────────────────────────
+{L}} _ {\circ}
+$$
+
+Análogamente de (4.18) resulta:
+
+$$
+\vec {\mathrm {M}} _ {\mathrm {c}} = 0 \quad \vec {\mathrm {L}} _ {\mathrm {c}} = \vec {\mathrm {L}} _ {\mathrm {c o}}
+$$
+
+Siendo importante destacar que la conservación del momento angular del sistema de ninguna manera implica que necesariamente se conservará el momento angular de cada una de las partículas que lo forman, similarmente a lo que oportunamente observáramos para aquellas situaciones en las que se conservaba el vector cantidad de movimiento de un sistema de cuerpos puntuales.

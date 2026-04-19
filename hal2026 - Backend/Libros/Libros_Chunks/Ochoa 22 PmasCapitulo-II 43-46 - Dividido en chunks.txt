@@ -1,0 +1,230 @@
+Archivo  : Libros/Libros_Markdown/MinerU_markdown_Ochoa-22-PmasCapitulo-II-043-046_2042433668169465856.md
+Chunks   : 10
+
+────────────────────────────────────────────────────────────
+Chunk 1 (1556 chars)
+────────────────────────────────────────────────────────────
+# Problema 2.01
+
+El avión A vuela hacia el Norte con una velocidad constante de $5 0 0 \mathrm { k m }$ ./hora mientras el avión B vuela hacia el Sudoeste con la misma velocidad. Calcular: 
+
+a. La componente radial de la velocidad relativa del avión B respecto del avión A. 
+
+b. La magnitud de la velocidad con la que B parece moverse lateralmente o normal, a la línea de vuelo del avión A. 
+
+Nota: En el instante que, el avión A detecta a B el ángulo que forma la línea de vuelo del avión A con la visual a B es de $6 0 ^ { \circ }$ .
+
+[Descripción de imagen: En la imagen se observan dos vectores de velocidad, VA y VB, representando las direcciones de vuelo de dos aviones respecto a tierra. El vector VA forma un ángulo α de 60 grados con el eje vertical, mientras que el ángulo formado entre las direcciones de vuelo de ambos aviones es de 45 grados.]
+
+# Problema 2.02
+
+Un automóvil A está viajando por una carretera recta, en el sentido mostrado, mientras que el automóvil B se mueve a lo largo de la trayectoria circular de 80 metros de radio. Si en el instante mostrado, A se mueve con una velocidad de $8 0 ~ \mathrm { k m }$ ./hora, acelerando a razón de $2 \ \mathrm { \ m } / \mathrm { s } ^ { 2 }$ y el auto B se mueve a $4 5 ~ \mathrm { \ k m / h }$ disminuyendo su velocidad a razón de $1 { , } 5 ~ \mathrm { m } / \mathrm { s } ^ { 2 }$ . Determinar: 
+
+a. La velocidad y aceleración que parece tener B, respecto de A. 
+
+b. La velocidad con la que parece alejarse B del automóvil A 
+
+c. La velocidad con la que B barre ángulos respecto de A.
+
+────────────────────────────────────────────────────────────
+Chunk 2 (2027 chars)
+────────────────────────────────────────────────────────────
+Determinar: 
+
+a. La velocidad y aceleración que parece tener B, respecto de A. 
+
+b. La velocidad con la que parece alejarse B del automóvil A 
+
+c. La velocidad con la que B barre ángulos respecto de A.
+
+[Descripción de imagen: La imagen muestra un sistema con movimiento circular y fuerzas centrípetas. Un objeto se encuentra en un punto de una curva con radio $R$ = 80 m, formando un ángulo de $30^\circ$ con la horizontal, donde se puede descomponer su velocidad $V_b$ en componentes y analizar fuerzas actuantes en ejes coordenados.]
+
+# Problema 2.03
+
+En el instante mostrado el dispositivo A tiene una velocidad de $4 0 0 ~ \mathrm { c m / s }$ y una aceleración de $1 6 \ \mathrm { c m } / \mathrm s ^ { 2 }$ dirigidas hacia abajo. Si el movimiento de ambos cuerpos está relacionado mediante el sistema de cuerdas y poleas indicados en la figura, determinar: 
+
+a. La velocidad y aceleración de B respecto de A. 
+
+b. La velocidad y aceleración de B respecto de Tierra. 
+
+c. La aceleración normal a la trayectoria del cuerpo B respecto de tierra en el instante mostrado en la figura.
+
+[Descripción de imagen: La imagen muestra un sistema de poleas con dos bloques, A y B, donde el bloque A se mueve verticalmente con una velocidad V y aceleración a, mientras que el bloque B se desplaza sobre un plano inclinado 50 grados respecto a la horizontal. El punto de aplicación de la fuerza en el bloque A es a lo largo del eje vertical, y en el bloque B la fuerza se aplica a través de una cuerda que forma un ángulo de 50 grados con la horizontal.]
+
+# Problema 2.04
+
+La nave espacial S se acerca al planeta Marte siguiendo la trayectoria b-b en al plano orbital de Marte con una velocidad de $1 9 { , } 3 \ \mathrm { k m / s }$ , respecto del Sol. Si Marte tiene una velocidad de $2 4 , 1 ~ \mathrm { k m } . / \mathrm { s }$ en su trayectoria a-a, respecto del mismo sistema. Determinar el ángulo entre la visual SM y la trayectoria b-b para el instante en que visto desde la nave Marte parece acercarse frontalmente hacia ella.
+
+────────────────────────────────────────────────────────────
+Chunk 3 (1844 chars)
+────────────────────────────────────────────────────────────
+Determinar el ángulo entre la visual SM y la trayectoria b-b para el instante en que visto desde la nave Marte parece acercarse frontalmente hacia ella.
+
+[Descripción de imagen: La imagen muestra dos objetos, S y M, con vectores de velocidad $V_s$ y $V_M$ respectivamente. El vector $V_s$ forma un ángulo $\beta$ con el eje definido por las líneas discontinuas a y b. El punto de aplicación de las velocidades se encuentra en el centro de cada objeto.]
+
+# Problema 2.05
+
+El cursor de $1 , 5 \mathrm { \ k g \ s e }$ mueve sin rozamiento en la ranura inclinada de la lámina, que se acelera a razón de $6 \mathrm { m } / \mathrm { s } ^ { 2 }$ hacia la izquierda. Si el cursor parte del reposo con relación a la lámina, determinar la fuerza ejercida por los lados de la ranura sobre el cursor durante el movimiento y obtener la aceleración de dicho cursor respecto de la ranura.
+
+[Descripción de imagen: La imagen muestra un objeto dentro de un vehiculo con aceleración  horizontal de 6 m/s^2.  El objeto  forma un ángulo de 30 grados con la horizontal. La aceleración del vehículo se representa mediante un vector horizontal hacia la derecha.]
+
+# Problema 2.06
+
+La corredera oscila en torno a la posición central con una frecuencia de 2 ciclos/s y una amplitud de 5 cm tal que su desplazamiento en centímetros y en función del tiempo viene dado por, $\mathbf { x } = 5 \mathsf { s e n } ( 4 \pi \mathrm { ~ t ~ } )$ estando el tiempo en segundos. 
+
+Al disco se lo somete a una aceleración angular alrededor de O con una frecuencia de 4 ciclos/s y una amplitud de 20 radianes o sea: $\begin{array} { r l r } { \theta } & { { } = } & { 0 \le 0 } \end{array}$ sen(8 π t). Determinar la aceleración de la corredera para las posiciones en las que: $\mathbf { \boldsymbol { x } } = 0$ cm, con su derivada temporal positiva y en $\mathbf { x } = 5$ cm.
+
+────────────────────────────────────────────────────────────
+Chunk 4 (1988 chars)
+────────────────────────────────────────────────────────────
+Determinar la aceleración de la corredera para las posiciones en las que: $\mathbf { \boldsymbol { x } } = 0$ cm, con su derivada temporal positiva y en $\mathbf { x } = 5$ cm.
+
+[Descripción de imagen: La imagen muestra un sistema de coordenadas con un objeto que parece una barra o un péndulo dentro de un círculo.  El sistema de coordenadas tiene ejes x e y, con un ángulo θ que forma un vector con el eje x. Hay un punto de aplicación denominado O, así como otro punto A donde se aplican vectores de fuerza en dirección x.]
+
+# Problema 2.07
+
+La corredera A se mueve en la ranura al mismo tiempo que el disco gira en torna a su centro O con velocidad angular en el sentido mostrado en la figura. 
+
+Determinar las componentes x e y de la aceleración de A respecto de tierra si en el instante indicado:
+
+$$
+w = 3 \mathrm {r a d} / \mathrm {s} \dot {w} = - 1 0 \mathrm {r a d} / \mathrm {s} y x = 7, 5 \mathrm {c m}
+$$
+
+$$
+\dot {\mathrm {x}} = 1 0 \mathrm {c m} / \mathrm {s y} \ddot {\mathrm {x}} = 1 5 \mathrm {c m} / \mathrm {s} ^ {2}
+$$
+
+# Problema 2.08
+
+El disco con ranura gira en un plano horizontal en torno a un árbol que pasa por su centro mientras que la corredera P de 450 gramos puede moverse libremente en la guía. Partiendo del reposo con la corredera en la posición indicada, se proporciona al disco una aceleración angular en el sentido de las agujas del reloj de $4 0 \ \mathrm { r a d . } / \mathrm { s } ^ { 2 }$ . Calcular la fuerza horizontal ejercida por la guía sobre P al iniciarse el movimiento y la aceleración inicial de P con respecto de la ranura.
+
+[Descripción de imagen: La imagen muestra un sistema de coordenadas cartesianas (x, y) con un círculo que representa un disco en rotación con velocidad angular ω en el sentido de las agujas del reloj. En el punto A, hay un rectángulo con un extremo en el eje de rotación y el otro a una distancia x de él. Se observa que el punto de aplicación de la fuerza o aceleración centrífuga se encuentra en el punto A.]
+
+────────────────────────────────────────────────────────────
+Chunk 5 (2180 chars)
+────────────────────────────────────────────────────────────
+[Descripción de imagen: La imagen muestra un sistema de coordenadas xy con un círculo que representa presumably un disco en rotación con velocidad angular ω en el sentido de las agujas del reloj. En el punto A, hay una masa puntual, presumiblemente un objeto pequeño, unido a una barra vertical, la distancia del centro del círculo al punto A forma un vector de 10 cm  con un ángulo que no se indica en la imagen, y fuerzas como la centrífuga y la centrípeta están presentes, aunque no se visualizan como vectores en la imagen.]
+
+[Descripción de imagen: La imagen muestra un círculo con un diámetro horizontal y vertical que se intersecan en el centro, con un ángulo de 30 grados y una barra que pasa por el punto P. El sistema de coordenadas tiene un eje x que pasa por el centro del círculo y un segmento de recta que representa una distancia x. La barra forma un ángulo de 30 grados con el eje horizontal.]
+
+# Problema 2.09
+
+El disco con ranura gira alrededor del eje vertical que pasa por su centro, con velocidad angular constante de 20 rad./seg. La corredera A de $0 { , } 7 3 \mathrm { \ K g }$ . Oscila en la ranura bajo la acción de muelles (que no se muestran). Si la corredera tiene una velocidad positiva relativa al disco, de $9 0 ~ \mathrm { c m . / s }$ cuando pasa por el centro del disco $\scriptstyle ( \mathbf { x } = 0 )$ ) Determinar la componente horizontal N de la fuerza ejercida por la ranura sobre la corredera cuando pasa por esta posición central.
+
+[Descripción de imagen: La imagen muestra un objeto en rotación alrededor de un eje, representado por una línea discontinua. El vector velocidad angular $\omega$ indica la dirección y sentido de rotación. Un punto en el objeto, representado por un cuadrado negro, se mueve en una trayectoria circular alrededor del eje de rotación.]
+
+# Problema 2.10
+
+Considere un cuerpo que cae libremente con velocidad inicial nula, desde una altura de $3 0 0 ~ \mathrm { k m }$ por sobre la superficie de la tierra en línea imaginaria que va desde el centro de la Tierra y pasa por el ecuador. Hacer diagrama de cuerpo aislado y plantear las ecuaciones de movimiento que definen la trayectoria del cuerpo en su caída.
+
+────────────────────────────────────────────────────────────
+Chunk 6 (1771 chars)
+────────────────────────────────────────────────────────────
+Hacer diagrama de cuerpo aislado y plantear las ecuaciones de movimiento que definen la trayectoria del cuerpo en su caída.
+
+# Problema 2.11
+
+El disco ranurado mostrado en la figura siguiente, gira con velocidad contante de 20 rad/s en el sentido de las agujas del reloj alrededor de un eje que pasa por su centro. Si en la ranura del disco se encuentra un cuerpo de masa (m) sujeto de una cuerda al punto B y ubicado en la forma que indica la figura, determinar las fuerzas a las que está sometido el cuerpo y hacer un diagrama de cuerpo aislado válido para un observador solidario al disco y para un observador en tierra. 
+
+Si en determinado momento se corta la cuerda, cuál es la aceleración del cuerpo respecto del disco en el instante inmediato posterior.
+
+[Descripción de imagen: La imagen muestra un sistema físico en el que un objeto se encuentra en rotación alrededor de un eje, con velocidad angular ω. Un brazo rígido, articulado en el punto B, forma un ángulo de 30 grados con el eje horizontal y tiene un bloque negro en su extremo que se encuentra a 20 cm del eje de rotación en la dirección radial. El sistema parece involucrar conceptos de dinámica rotacional.]
+
+# Problema 2.12
+
+La figura muestra un cuerpo apoyado sobre una superficie horizontal de manera que su centro de masa se encuentra a una distancia $\boldsymbol { \mathrm { r } } _ { 0 }$ del centro de la plataforma. Obtener expresiones para el coeficiente de rozamiento mínimo requerido para evitar el deslizamiento en las condiciones que se indican a continuación: 
+
+a. La plataforma oscila con frecuencia angular ω y amplitud A. 
+
+b. La plataforma rota con velocidad angular constante ω. 
+
+c. Obtener expresiones para la máxima energía cinética del cuerpo en cada uno de los casos indicados.
+
+────────────────────────────────────────────────────────────
+Chunk 7 (2065 chars)
+────────────────────────────────────────────────────────────
+b. La plataforma rota con velocidad angular constante ω. 
+
+c. Obtener expresiones para la máxima energía cinética del cuerpo en cada uno de los casos indicados.
+
+[Descripción de imagen: La imagen muestra un objeto de masa m colocado sobre una plataforma horizontal que rota, a una distancia $r_0$ del eje de rotación. El vector de posición del objeto forma un ángulo recto con el eje de rotación. Se puede asumir que actúa la fuerza centrífuga y/o la fuerza centrípeta, con el punto de aplicación en la masa $m$.]
+
+# Problema 2.13
+
+La figura muestra un cuerpo de masa conocida en el interior de una guía diametral practicada en una plataforma contenida en una superficie horizontal. Si el cuerpo está sujeto por una cuerda inextensible a la distancia indicada mientras que la plataforma gira con velocidad angular constante, obtener:
+
+[Descripción de imagen: La imagen muestra un objeto en rotación con velocidad angular ω. Se observa un eje de rotación perpendicular al plano de la imagen, con un vector que indica la dirección de ω. El objeto tiene un punto de aplicación con una masa o elemento gris a una distancia R/2 del eje.]
+
+a. Expresiones de las fuerzas que actúan sobre el cuerpo. 
+
+b. Si la cuerda se rompe, una expresión para la aceleración del cuerpo respecto de la plataforma en el instante siguiente. 
+
+c. Una expresión de la velocidad del cuerpo respecto de la plataforma en función de la distancia al centro de la misma.
+
+[Descripción de imagen: La imagen muestra un esquema de un objeto en movimiento sobre la superficie de la Tierra, representada como un círculo, con el vector velocidad relativa (Vrel) aplicado en un punto tangente a la circunferencia y en dirección horizontal. El eje de rotación de la Tierra está indicado por la letra griega omega (ω) en dirección vertical, saliendo del plano del papel. El radio de la Tierra se representa como R, extendiéndose desde el centro del círculo hasta el punto de aplicación de Vrel, en dirección horizontal hacia el este, y se señalan los puntos cardinales, con "Norte" orientado hacia arriba.]
+
+────────────────────────────────────────────────────────────
+Chunk 8 (1954 chars)
+────────────────────────────────────────────────────────────
+[Descripción de imagen: En la imagen se observa un diagrama que representa la Tierra como un círculo, con un vector velocidad relativa (Vrel) aplicado en un punto de su superficie y dirigido horizontalmente hacia la derecha. El vector velocidad angular (ω) está orientado perpendicularmente hacia el plano de la Tierra, en sentido antihorario. El radio (R) se extiende desde el centro de la Tierra hasta el punto de aplicación de Vrel.]
+
+# Problema 2.14
+
+El vehículo viaja a gran velocidad desplazándose por un camino perfectamente recto tangente a la superficie terrestre en el ecuador. En el plano vertical el camino carece de toda curvatura. 
+
+a. Obtener la velocidad que deberá tener el vehículo respecto del camino para que su aceleración vertical sea nula suponiendo que el centro de la Tierra carece de aceleración. 
+
+b. Idem a la anterior, suponiendo que el vehículo se mueve a lo largo de un camino que sigue la curvatura de la Tierra.
+
+# Problema 2.15
+
+Consideremos una vía férrea recta horizontal y un vagón de $5 0 0 0 0 ~ \mathrm { k g }$ . que se mueve sobre ella con velocidad constante de $5 4 ~ \mathrm { k m / h }$ . Obtener la fuerza horizontal que los rieles ejercen sobre las ruedas del vagón si la vía estuviera hipotéticamente montada en: 
+
+a. El polo Norte. 
+
+b. El polo Sur. 
+
+c. En el ecuador orientada de Norte a Sur.
+
+# Problema 2.16
+
+Dos muchachos A y B, están sentados en posiciones diametralmente opuestas en una plataforma giratoria horizontal que se mueve con velocidad angular constante ω en el sentido indicado, cuando el muchacho A lanza una pelota hacia B comunicándole una velocidad horizontal relativa a la plataforma y dirigida hacia B. 
+
+Suponiendo que la pelota no tiene aceleración horizontal una vez lanzada, calcular la aceleración de la pelota respecto de B, en el plano de la plataforma un instante después de lanzada. 
+
+Bosquejar la trayectoria de la pelota respecto de la plataforma tal cuál la observa B.
+
+────────────────────────────────────────────────────────────
+Chunk 9 (1444 chars)
+────────────────────────────────────────────────────────────
+Bosquejar la trayectoria de la pelota respecto de la plataforma tal cuál la observa B.
+
+[Descripción de imagen: La imagen muestra un sistema de movimiento circular con dos puntos A y B, y un radio R. El vector ω representa la velocidad angular, mientras que el vector R indica la posición de los puntos respecto al centro. En el punto A se aplica una aceleración "a" en dirección horizontal hacia la derecha.]
+
+# Problema 2.17
+
+Una plataforma circular gira con velocidad angular constante de $0 { , } 5 \ \mathrm { r a d / s }$ . Mediante un mecanismo con cuerdas, un cuerpo de $5 ~ \mathrm { k g }$ . desliza en dirección radial a la plataforma con velocidad constante relativa a la plataforma, de $1 \mathrm { m / s }$ . 
+
+a. Determinar la velocidad y aceleración del cuerpo respecto de tierra en el instante en que el cuerpo se encuentra a 2 metros del centro. 
+
+b. Calcular el esfuerzo que realiza la cuerda y el coeficiente de rozamiento mínimo para que el movimiento del cuerpo respecto de la plataforma sea radial.
+
+[Descripción de imagen: La imagen muestra un objeto puntual en movimiento circular, con un vector velocidad relativa Vrel指向 el extremo superior derecho. El movimiento circular está definido por un eje de rotación perpendicular al plano de la imagen y un vector velocidad angular ω en el sentido de las agujas del reloj. El punto de aplicación de la velocidad relativa se encuentra en el radio de la trayectoria circular.]
+
+────────────────────────────────────────────────────────────
+Chunk 10 (1626 chars)
+────────────────────────────────────────────────────────────
+u.openxlab.org.cn/result/2026-04-05/77a2aa83-1617-4efe-9462-9257a488f724/0cce96313aab566e8b2d2a1add8891893fd7fb7c21cf6bef340f767ba50399ac.jpg)
+
+# Problema 2.18
+
+La figura muestra una corredera de masa conocida que puede deslizar libre de rozamiento a lo largo de la guía labrada en la ranura, mientras que interactúa con un resorte de constante elástica también conocida. Suponiendo que cuando la corredera se encuentra en el centro de la plataforma, el resorte está sin deformar, que la plataforma está contenida en un plano horizontal y gira con una velocidad angular que es la mitad de la frecuencia natural del sistema, y que la corredera se aparta de la posición de equilibrio una distancia la mitad del radio de la plataforma para luego dejarla en libertad: 
+
+a. Determinar la frecuencia de oscilación de la corredera respecto de la plataforma. 
+
+b. Obtener una expresión en función de las condiciones iniciales, y los parámetros del sistema para la máxima velocidad de la corredera respecto de la plataforma y respecto de Tierra en ese instante. 
+
+c. Realizar un diagrama con las fuerzas de interacción e inerciales a las que está sometida la corredera en el instante de máxima velocidad respecto de la plataforma.
+
+[Descripción de imagen: La imagen muestra un círculo con un segmento horizontal que lo atraviesa, dividido en tres secciones de diferentes colores y texturas. No se observan vectores, fuerzas, ejes coordenados ni puntos de aplicación explícitos en la imagen. El segmento podría representar un objeto o sistema físico, pero falta información para determinar su significado preciso en un contexto físico.]

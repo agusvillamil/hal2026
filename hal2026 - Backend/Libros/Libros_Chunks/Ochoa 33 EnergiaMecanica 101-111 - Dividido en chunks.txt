@@ -1,0 +1,815 @@
+Archivo  : Libros/Libros_Markdown/MinerU_markdown_Ochoa-33-EnergiaMecanica-101-111_2042434239232344064.md
+Chunks   : 27
+
+────────────────────────────────────────────────────────────
+Chunk 1 (1386 chars)
+────────────────────────────────────────────────────────────
+# 3.07 CAMPO DE FUERZA CONSERVATIVO.
+
+# Función Energía Potencial.
+
+Diremos que un campo de fuerzas es un Campo Conservativo cuando, el trabajo mecánico realizado por dicho campo es independiente de la trayectoria a lo largo de la que se lo calcula y puede ser expresado como la diferencia, cambiada de signo, de una función escalar de las coordenadas de los puntos extremos involucrados, lo que formalmente puede expresarse como:
+
+$$
+\int_ {a} ^ {b} \vec {\mathrm {F}} (\vec {\mathrm {r}}) \cdot \mathrm {d} \vec {\mathrm {r}} = - \left[ \Phi (\vec {\mathrm {r}} _ {b}) - \Phi (\vec {\mathrm {r}} _ {a}) \right] 3. 2 4
+$$
+
+Donde a la función escalar, asociada con el campo de fuerza considerado, la reconoceremos en adelante como Función Energía Potencial, que como ya lo mencionáramos será, en general, una función escalar de las coordenadas espaciales que en adelante identificaremos con:
+
+$$
+\Phi = \Phi (\vec {\mathrm {r}})
+$$
+
+Teniendo en cuenta lo mencionado recientemente y atendiendo las conclusiones obtenidas en el tema anterior resulta que, en general, un campo de fuerza radial esféricamente simétrico deberá ser considerado un campo conservativo. En particular de (3.22) obtenemos que la función energía potencial asociada a un campo gravitatorio vendrá expresada por:
+
+$$
+\Phi_ {\mathrm {g}} (\mathrm {r}) = - \mathrm {G} \frac {\mathrm {m M}}{\mathrm {r}} \tag {3.25}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 2 (1472 chars)
+────────────────────────────────────────────────────────────
+3.22) obtenemos que la función energía potencial asociada a un campo gravitatorio vendrá expresada por:
+
+$$
+\Phi_ {\mathrm {g}} (\mathrm {r}) = - \mathrm {G} \frac {\mathrm {m M}}{\mathrm {r}} \tag {3.25}
+$$
+
+Análogamente teniendo en cuenta (3.23) es claro que la función energía potencial asociada con un campo de fuerza elástico vendrá expresada por:
+
+$$
+\Phi_ {\mathrm {e}} (\mathrm {r}) = \frac {1}{2} \mathrm {k r} ^ {2} \tag {3.26}
+$$
+
+Considerando el caso de una partícula sometida al campo de fuerza resultante de su interacción con un muelle lineal de longitud propia (ro), con lo que:
+
+$$
+\vec {\mathrm {F}} (\vec {\mathrm {r}}) = - \mathrm {k} (\mathrm {r} - \mathrm {r} _ {\circ}) \vec {\mathrm {e}} _ {\mathrm {r}}
+$$
+
+Y teniendo en cuenta lo anterior, resulta que la función energía potencial asociada con dicho campo de fuerza vendrá expresada por:
+
+$$
+\Phi_ {\mathrm {m}} (\mathrm {r}) = \frac {1}{2} \mathrm {k} \left(\mathrm {r} - \mathrm {r} _ {\circ}\right) ^ {2} \tag {3.27}
+$$
+
+Que en términos de la deformación (δ) del muelle podemos indicar como:
+
+$$
+\Phi_ {\mathrm {m}} (\mathbf {r}) = \frac {1}{2} \mathrm {k} \delta^ {2}
+$$
+
+Considerando la interacción de una partícula con un campo de fuerza gravitatorio constante, de la forma:
+
+$$
+\vec {\mathrm {F}} (\vec {\mathrm {r}}) = - \mathrm {m g} \vec {\mathrm {j}}
+$$
+
+Resulta que la función energía potencial vendrá dada por:
+
+$$
+\Phi_ {\mathrm {g c}} (\mathrm {r}) = \mathrm {m g y} \tag {3.28}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 3 (1165 chars)
+────────────────────────────────────────────────────────────
+ec {\mathrm {r}}) = - \mathrm {m g} \vec {\mathrm {j}}
+$$
+
+Resulta que la función energía potencial vendrá dada por:
+
+$$
+\Phi_ {\mathrm {g c}} (\mathrm {r}) = \mathrm {m g y} \tag {3.28}
+$$
+
+En este momento, resulta importante destacar que la Función Energía Potencial no está unívocamente definida, en realidad, está definida a menos de una constante arbitraria, en cuanto a que (3.24) nos define la diferencia de la función energía potencial y no la función misma, por lo que a cada una de las funciones obtenidas recientemente podríamos sumarle una constante arbitraria y su diferencia cambiada de signo continuaría satisfaciendo (3.24). Así a las funciones asociadas con cada uno de los campos considerados recientemente podríamos expresarlas como:
+
+$$
+\Phi_ {\mathrm {g}} (\mathrm {r}) = - \mathrm {G} \frac {\mathrm {m M}}{\mathrm {r}} + \mathrm {c t e}
+$$
+
+$$
+\Phi_ {\mathrm {e}} (\mathbf {r}) = \frac {1}{2} \mathrm {k r} ^ {2} + \mathrm {c t e}
+$$
+
+$$
+\Phi_ {\mathrm {m}} (\mathrm {r}) = \frac {1}{2} \mathrm {k} (\mathrm {r} - \mathrm {r} _ {\circ}) ^ {2} + \mathrm {c t e}
+$$
+
+$$
+\Phi_ {\mathrm {g c}} (\mathrm {r}) = \mathrm {m g y} + \mathrm {c t e}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 4 (1585 chars)
+────────────────────────────────────────────────────────────
+k} (\mathrm {r} - \mathrm {r} _ {\circ}) ^ {2} + \mathrm {c t e}
+$$
+
+$$
+\Phi_ {\mathrm {g c}} (\mathrm {r}) = \mathrm {m g y} + \mathrm {c t e}
+$$
+
+Y continuarían satisfaciendo lo requerido por (3.24), lo que puede parecer un serio inconveniente, sin embargo no lo es, puesto que en general estaremos interesados no en el valor que toma dicha función sino en la diferencia de dicha función entre dos estados determinados, o sea en el trabajo mecánico realizado por el campo de fuerza en consideración, que es el que producirá cambios en la energía cinética de la partícula o centro de masa de un cuerpo. 
+
+Sin embargo resulta cómodo para el manejo de información, ponernos de acuerdo en asignar a dichas constantes un determinado valor, siendo indudablemente el valor nulo el más recomendable, lo que para cada uno de los casos considerados implica asignar arbitrariamente el valor nulo a la función energía potencial para puntos del espacio según los criterios que se detallan a continuación.
+
+# Campo Gravitatorio.
+
+Asignaremos arbitrariamente el valor nulo a la función energía potencial cuando la coordenada radial involucrada tiende a infinito, con lo que la constante será nula y la función nos queda:
+
+$$
+\Phi_ {\mathrm {g}} (\mathbf {r}) = - \mathrm {G} \frac {\mathrm {m M}}{\mathbf {r}}
+$$
+
+# Campo de Fuerza Elástico.
+
+Asignaremos arbitrariamente el valor nulo a la función energía potencial cuando la coordenada radial involucrada es nula, con lo que la constante será nula y la función nos queda:
+
+$$
+\Phi_ {\mathrm {e}} (\mathrm {r}) = \frac {1}{2} \mathrm {k r} ^ {2}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 5 (1423 chars)
+────────────────────────────────────────────────────────────
+o a la función energía potencial cuando la coordenada radial involucrada es nula, con lo que la constante será nula y la función nos queda:
+
+$$
+\Phi_ {\mathrm {e}} (\mathrm {r}) = \frac {1}{2} \mathrm {k r} ^ {2}
+$$
+
+# Interacción con un Muelle Lineal.
+
+Asignaremos arbitrariamente el valor nulo a la función energía potencial cuando la coordenada radial coincida con la longitud propia del muelle, o sea cuando el muelle está sin deformar, con lo que:
+
+$$
+\Phi_ {\mathrm {m}} (\mathrm {r}) = \frac {1}{2} \mathrm {k} (\mathrm {r} - \mathrm {r} _ {\circ}) ^ {2}
+$$
+
+# Campo Gravitatorio Constante.
+
+Asignaremos arbitrariamente el valor nulo a la función energía potencial cuando la coordenada vertical es nula, con lo que la constante será nula y la función nos queda:
+
+$$
+\Phi_ {\mathrm {g c}} (\mathrm {r}) = \mathrm {m g y}
+$$
+
+Aceptando estas condiciones, en adelante podremos referirnos sin ambigüedades a la función energía potencial asociada con los campos de fuerza mencionados anteriormente. 
+
+Finalmente resulta interesante notar que si un campo de fuerzas es conservativo y por ende satisface (3.24) entonces el trabajo mecánico realizado por dicho campo a lo largo de una trayectoria cerrada será nulo, ya que en ese caso los extremos de integración serán coincidentes y por lo tanto también lo serán los valores de la función energía potencial, con lo que.
+
+$$
+\oint \vec {F} (\vec {r}) \cdot d \vec {r} = 0
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 6 (1693 chars)
+────────────────────────────────────────────────────────────
+$$
+\oint \vec {F} (\vec {r}) \cdot d \vec {r} = 0
+$$
+
+# Relaciones Puntuales en un Campo Conservativo.
+
+Considerando un campo de fuerzas conservativo, y teniendo en cuenta que en ese caso se satisface (4.24) resulta entonces que el integrando de la mencionada expresión deberá coincidir con el diferencial de la función energía potencial asociada al campo de fuerza involucrado y por lo tanto:
+
+$$
+\vec {\mathrm {F}} (\vec {\mathrm {r}}) \cdot \mathrm {d} \vec {\mathrm {r}} = - \mathrm {d} \Phi
+$$
+
+Así, en el caso de un campo de fuerza radial esféricamente simétrico, resulta:
+
+$$
+\mathrm {f} (\mathrm {r}) \cdot \mathrm {d r} = - \mathrm {d} \Phi
+$$
+
+Donde recordemos que en este caso.
+
+$$
+\Phi = \Phi (\mathbf {r})
+$$
+
+Por lo tanto el campo de fuerza estará relacionado con la función energía potencial, mediante:
+
+$$
+f (r) = - \frac {d \Phi}{d r} \tag {3.29}
+$$
+
+Con lo que, en una representación gráfica de la energía potencial en función de la coordenada radial, la pendiente de la misma en cada punto nos proporcionará información sobre la fuerza en dicho punto, como se sugiere en la figura siguiente, donde se representa gráficamente una función energía potencial arbitraria dependiente únicamente de la coordenada radial y el sentido que tendrá la fuerza a la que se vería sometida una partícula en puntos del espacio con diferentes valores para la mencionada coordenada.
+
+[Descripción de imagen: La imagen muestra una grafica de una funcion Φ(r) con un eje horizontal r y un eje vertical Φ(r).  En la grafica, se observan vectores de fuerza F en los puntos A y B, con direcciones opuestas, indicando fuerzas de restitucion o repulsion. La curva muestra maximos y minimos locales.]
+
+────────────────────────────────────────────────────────────
+Chunk 7 (1823 chars)
+────────────────────────────────────────────────────────────
+[Descripción de imagen: La imagen muestra una gráfica de una función Φ(r) con un eje horizontal etiquetado como r y un eje vertical etiquetado como Φ(r). En la gráfica se observan vectores de fuerza F aplicados en los puntos A y B, con direcciones opuestas y puntos de aplicación en la curva Φ(r), indicando fuerzas centrales o radiales.]
+
+En particular resulta interesante destacar que los puntos (A) y (B) son puntos de equilibrio, en cuanto a que la fuerza a la que se vería sometida una partícula en dichos puntos será nula, puesto que en los mismos la pendiente de la función se anula. Sin embargo existe una interesante diferencia entre ambas situaciones, ya que en el punto (A) un pequeño apartamiento de la posición de equilibrio dará lugar a fuerzas que alejarán definitivamente la partícula de dicho punto, en cambio en (B), las fuerzas tenderán a restituir la partícula a la posición de equilibrio, por lo que en el primer caso diremos que se encuentra en un estado de equilibrio inestable, en cambio en el segundo caso diremos que se encuentra en un estado de equilibrio estable. 
+
+Finalmente y teniendo en cuenta que si un campo es conservativo, entonces.
+
+$$
+\vec {\mathrm {F}} (\vec {\mathrm {r}}) \cdot \mathrm {d} \vec {\mathrm {r}} = - \mathrm {d} \Phi
+$$
+
+Suponiendo que la función energía potencial dependa de las tres coordenadas espaciales (xyz), su diferencial vendrá dado por:
+
+$$
+\mathrm {d} \Phi = \frac {\partial \Phi}{\partial x} d x + \frac {\partial \Phi}{\partial y} d y + \frac {\partial \Phi}{\partial z} d z
+$$
+
+Por otro lado evaluando el miembro de la izquierda en componentes cartesianas, nos queda:
+
+$$
+\vec {\mathrm {F}} (\vec {\mathrm {r}}) \cdot \mathrm {d} \vec {\mathrm {r}} = \mathrm {F _ {x}} \mathrm {d x} + \mathrm {F _ {y}} \mathrm {d y} + \mathrm {F _ {z}} \mathrm {d z}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 8 (1721 chars)
+────────────────────────────────────────────────────────────
+componentes cartesianas, nos queda:
+
+$$
+\vec {\mathrm {F}} (\vec {\mathrm {r}}) \cdot \mathrm {d} \vec {\mathrm {r}} = \mathrm {F _ {x}} \mathrm {d x} + \mathrm {F _ {y}} \mathrm {d y} + \mathrm {F _ {z}} \mathrm {d z}
+$$
+
+Con lo que, de las anteriores resulta:
+
+$$
+F _ {x} = - \frac {\partial \Phi}{\partial x} \quad F _ {y} = - \frac {\partial \Phi}{\partial y} \quad F _ {z} = - \frac {\partial \Phi}{\partial z}
+$$
+
+Y al campo de fuerza podremos expresarlo como:
+
+$$
+\vec {\mathrm {F}} = - \left(\frac {\partial \Phi}{\partial \mathrm {x}} \vec {\mathrm {i}} + \frac {\partial \Phi}{\partial \mathrm {y}} \vec {\mathrm {j}} + \frac {\partial \Phi}{\partial \mathrm {z}} \vec {\mathrm {k}}\right)
+$$
+
+Por lo tanto, cuando un campo es conservativo, entonces:
+
+$$
+\vec {\mathrm {F}} = - \nabla \Phi \quad 3. 3 0
+$$
+
+Y puesto que el rotor del gradiente es nulo, resulta que si un campo de fuerza es conservativo, entonces:
+
+$$
+\nabla \times \vec {\mathrm {F}} = 0
+$$
+
+Así, para la situación planteada en el tema anterior, cuando el campo de fuerza venía dado por:
+
+$$
+\vec {\mathrm {F}} (\mathbf {x y z}) = \left(\mathbf {k} _ {1} \mathbf {x} + \mathbf {k} _ {2} \mathbf {y}\right) \vec {\mathrm {i}} + \mathbf {k} _ {3} \mathbf {x y} \vec {\mathrm {j}}
+$$
+
+Con.
+
+$$
+\mathrm {k} _ {1} = 1 \mathrm {N} / \mathrm {m} \quad \mathrm {k} _ {2} = 2 \mathrm {N} / \mathrm {m} \quad \mathrm {k} _ {3} = 3 \mathrm {N} / \mathrm {m} ^ {2}
+$$
+
+Su rotor no es nulo y por lo tanto no se trata de un campo conservativo, con lo que el trabajo mecánico que dicho campo realice sobre una partícula dependerá de la trayectoria. En cambio para la segunda situación considerada en dicho ejemplo, cuando el campo de fuerza venía dado por: 
+
+────────────────────────────────────────────────────────────
+Chunk 9 (1805 chars)
+────────────────────────────────────────────────────────────
+En cambio para la segunda situación considerada en dicho ejemplo, cuando el campo de fuerza venía dado por: 
+
+$$
+\vec {\mathrm {F}} (\mathbf {x y z}) = \left(\mathbf {k} _ {1} \mathbf {x} + \mathbf {k} _ {2} \mathbf {y} ^ {2}\right) \vec {\mathrm {i}} + \mathbf {k} _ {3} \mathbf {x y} \vec {\mathrm {j}}
+$$
+
+Con.
+
+$$
+\mathrm {k} _ {1} = 1 \mathrm {N} / \mathrm {m} \quad \mathrm {k} _ {2} = 1 \mathrm {N} / \mathrm {m} ^ {2} \quad \mathrm {k} _ {3} = 2 \mathrm {N} / \mathrm {m} ^ {2}
+$$
+
+Se puede verificar fácilmente que el rotor del campo de fuerza será nulo y por lo tanto el campo será conservativo y el trabajo que realizará dicho campo sobre una partícula será independiente de la trayectoria a lo largo de la que lo calculemos, como se menciona al final del ejemplo de referencia.
+
+# Ejemplo.
+
+Teniendo en cuenta las conclusiones obtenidas, y considerando un campo gravitatorio:
+
+$$
+\Phi_ {\mathrm {g}} (\mathbf {r}) = - \mathrm {G} \frac {\mathrm {m M}}{\mathbf {r}}
+$$
+
+Una gráfica cualitativa en función de la coordenada radial se verá como se muestra a continuación.
+
+[Descripción de imagen: La imagen muestra un gráfico con un eje vertical etiquetado como Φg[r] y un eje horizontal etiquetado como r. Se observa una curva de color rosa que representa una relación entre Φg[r] y r, con dos vectores de fuerza F de color rojo que apuntan en direcciones opuestas sobre el eje horizontal, y una flecha azul que apunta hacia abajo en el eje vertical.]
+
+Resultando que no existen puntos de equilibrio y a cualquier distancia del centro de fuerza la partícula se verá sometida a una fuerza dirigida hacia dicho punto, que teniendo en cuenta (3.29) vendrá dada por:
+
+$$
+\vec {\mathrm {F}} (\mathrm {r}) = - \mathrm {G} \frac {\mathrm {m M}}{\mathrm {r} ^ {2}} \vec {\mathrm {e}} _ {\mathrm {r}}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 10 (1789 chars)
+────────────────────────────────────────────────────────────
+da a una fuerza dirigida hacia dicho punto, que teniendo en cuenta (3.29) vendrá dada por:
+
+$$
+\vec {\mathrm {F}} (\mathrm {r}) = - \mathrm {G} \frac {\mathrm {m M}}{\mathrm {r} ^ {2}} \vec {\mathrm {e}} _ {\mathrm {r}}
+$$
+
+Análogamente, en el caso de un campo que resulta de la interacción con un muelle lineal, la función energía potencial en términos de la deformación del muelle venía dada por:
+
+$$
+\Phi_ {\mathrm {m}} = \frac {1}{2} \mathrm {k} \delta^ {2}
+$$
+
+Con lo que una representación gráfica de la misma, en función de la coordenada radial nos queda como se muestra cualitativamente en la figura lateral, Donde podemos observar que existe un punto de equilibrio estable donde la deformación del muelle es nula. 
+
+Siendo la fuerza atractiva cuando la deformación es positiva, o sea cuando el muelle está elongado, y repulsiva cuando la deformación es negativa, o sea cuando el muelle está comprimido.
+
+[Descripción de imagen: La imagen muestra una gráfica con un eje horizontal etiquetado como $\delta$ y un eje vertical etiquetado como $\Phi_m$. La curva representada es una parábola que se abre hacia arriba, indicando una relación cuadrática entre $\Phi_m$ y $\delta$. No se observan vectores ni fuerzas explícitas, pero la forma de la curva sugiere una relación de energía potencial o flujo en función de la variación o desplazamiento $\delta$.]
+
+# 3.08 ENERGÍA MECÁNICA.
+
+Consideremos el caso de una partícula que se desplaza a lo largo de una determinada trayectoria entre dos puntos (A) y (B) de la misma, sometida a la interacción con diferentes campos de fuerza conservativos, cuya resultante identificaremos con (FC) y no conservativos, cuya resultante identificaremos con $( \mathrm { F _ { N C } } )$ , teniendo en cuenta el teorema de las fuerzas vivas resulta que:
+
+────────────────────────────────────────────────────────────
+Chunk 11 (1616 chars)
+────────────────────────────────────────────────────────────
+cuya resultante identificaremos con (FC) y no conservativos, cuya resultante identificaremos con $( \mathrm { F _ { N C } } )$ , teniendo en cuenta el teorema de las fuerzas vivas resulta que:
+
+$$
+\int_ {\mathrm {A}} ^ {\mathrm {B}} \left(\vec {\mathrm {F}} _ {\mathrm {C}} + \vec {\mathrm {F}} _ {\mathrm {N C}}\right) \cdot \mathrm {d} \vec {\mathrm {r}} = \mathrm {T} _ {\mathrm {B}} - \mathrm {T} _ {\mathrm {A}}
+$$
+
+Que sin lugar a dudas podemos expresar como:
+
+$$
+\int_ {\mathrm {A}} ^ {\mathrm {B}} \vec {\mathrm {F}} _ {\mathrm {C}} \cdot \mathrm {d} \vec {\mathrm {r}} + \int_ {\mathrm {A}} ^ {\mathrm {B}} \vec {\mathrm {F}} _ {\mathrm {N C}} \cdot \mathrm {d} \vec {\mathrm {r}} = \mathrm {T} _ {\mathrm {B}} - \mathrm {T} _ {\mathrm {A}} \tag {3.31}
+$$
+
+Donde la primera integral puede expresarse en términos de la función energía potencial asociada con la resultante de las fuerzas de interacción, que en vista de su definición no es otra cosa que la suma de las funciones energías potenciales asociadas con cada uno de los campos de fuerza conservativos involucrados, o sea.
+
+$$
+\Phi = \sum_ {i} \Phi_ {i}
+$$
+
+Puesto que:
+
+$$
+\int_ {\mathrm {A}} ^ {\mathrm {B}} \vec {\mathrm {F}} _ {\mathrm {C}} \cdot \mathrm {d} \vec {\mathrm {r}} = \int_ {\mathrm {A}} ^ {\mathrm {B}} \left(\sum_ {\mathrm {i}} \mathrm {F} _ {\mathrm {C i}}\right) \cdot \mathrm {d} \vec {\mathrm {r}} = \sum_ {\mathrm {i}} \int_ {\mathrm {A}} ^ {\mathrm {B}} \vec {\mathrm {F}} _ {\mathrm {C i}} \cdot \mathrm {d} \vec {\mathrm {r}} = - \sum_ {\mathrm {i}} \left(\Phi_ {\mathrm {i B}} - \Phi_ {\mathrm {i A}}\right)
+$$
+
+Con lo que:
+
+────────────────────────────────────────────────────────────
+Chunk 12 (1589 chars)
+────────────────────────────────────────────────────────────
+{i}} \int_ {\mathrm {A}} ^ {\mathrm {B}} \vec {\mathrm {F}} _ {\mathrm {C i}} \cdot \mathrm {d} \vec {\mathrm {r}} = - \sum_ {\mathrm {i}} \left(\Phi_ {\mathrm {i B}} - \Phi_ {\mathrm {i A}}\right)
+$$
+
+Con lo que:
+
+$$
+\int_ {\mathrm {A}} ^ {\mathrm {B}} \vec {\mathrm {F}} _ {\mathrm {C}} \cdot \mathrm {d} \vec {\mathrm {r}} = - \left(\sum_ {\mathrm {i}} \Phi_ {\mathrm {i B}} - \sum_ {\mathrm {i}} \Phi_ {\mathrm {i A}}\right) = - \left(\Phi_ {\mathrm {B}} - \Phi_ {\mathrm {B}}\right)
+$$
+
+De (3.31) resulta:
+
+$$
+\int_ {\mathrm {A}} ^ {\mathrm {B}} \vec {\mathrm {F}} _ {\mathrm {N C}} \cdot \mathrm {d} \vec {\mathrm {r}} = \left(\mathrm {T} _ {\mathrm {B}} - \mathrm {T} _ {\mathrm {A}}\right) + \left(\Phi_ {\mathrm {B}} - \Phi_ {\mathrm {B}}\right)
+$$
+
+Que podemos expresar como:
+
+$$
+\int_ {\mathrm {A}} ^ {\mathrm {B}} \vec {\mathrm {F}} _ {\mathrm {N C}} \cdot \mathrm {d} \vec {\mathrm {r}} = \left(\mathrm {T} _ {\mathrm {B}} + \Phi_ {\mathrm {B}}\right) - \left(\mathrm {T} _ {\mathrm {A}} + \Phi_ {\mathrm {B}}\right)
+$$
+
+Definiendo la Energía Mecánica del Sistema, como:
+
+$$
+\mathbf {E} = \mathbf {T} + \boldsymbol {\Phi}
+$$
+
+Es claro que la anterior puede expresarse en términos de esta nueva magnitud, como:
+
+$$
+\int_ {\mathrm {A}} ^ {\mathrm {B}} \vec {\mathrm {F}} _ {\mathrm {N C}} \cdot \mathrm {d} \vec {\mathrm {r}} = \mathrm {E} _ {\mathrm {B}} - \mathrm {E} _ {\mathrm {A}}
+$$
+
+Que nos muestra a los cambios observados en la energía mecánica de un sistema directamente vinculados con el trabajo mecánico que realizan las fuerzas no conservativas a que esta sometido.
+
+────────────────────────────────────────────────────────────
+Chunk 13 (1116 chars)
+────────────────────────────────────────────────────────────
+{\mathrm {A}}
+$$
+
+Que nos muestra a los cambios observados en la energía mecánica de un sistema directamente vinculados con el trabajo mecánico que realizan las fuerzas no conservativas a que esta sometido.
+
+# Conservación de la Energía Mecánica.
+
+De la expresión anterior resulta que, si el trabajo realizado por la resultante de las fuerzas no conservativas es nulo o bien si la totalidad de las fuerzas actuantes son conservativas, entonces la energía mecánica del sistema permanecerá constante e igual al valor que tenia en el instante inicial.
+
+$$
+\mathrm {E} = \mathrm {E} _ {\circ}
+$$
+
+Conclusión que en adelante reconoceremos como Teorema de Conservación de la Energía Mecánica y que como veremos es una herramienta sumamente útil para la resolución de problemas. 
+
+Finalmente, es oportuno destacar que la conservación de la energía mecánica de ninguna manera implica la conservación de las energías, cinética y potencial. Implica la conservación de la suma de ambas magnitudes y por lo tanto un incremento en una de ellas deberá estar acompañado necesariamente de una disminución en la restante y viceversa.
+
+────────────────────────────────────────────────────────────
+Chunk 14 (1476 chars)
+────────────────────────────────────────────────────────────
+tudes y por lo tanto un incremento en una de ellas deberá estar acompañado necesariamente de una disminución en la restante y viceversa.
+
+# Ejemplo.
+
+Consideremos el caso de una partícula que es lanzada verticalmente desde un punto a una distancia $\left( \mathrm { r } _ { \mathrm { 0 } } \right)$ del centro de la tierra con una velocidad $\mathrm { ( V _ { o } ) }$ inferior a la velocidad de escape. 
+
+Suponiendo despreciable la interacción con la atmósfera la partícula estará sometida únicamente a la interacción con el campo gravitatorio terrestre y por lo tanto su energía mecánica permanecerá constante e igual a la que tenia en el instante del lanzamiento, con lo que, su energía mecánica en cualquier instante posterior al indicado, cuando se encuentre a una distancia (r) del centro de la tierra, deberá ser tal que:
+
+$$
+\operatorname {E} (\mathbf {r}) = \operatorname {E} _ {\circ}
+$$
+
+Luego en dicho punto se verificará que:
+
+$$
+\mathrm {T} + \Phi (\mathrm {r}) = \mathrm {T} _ {\circ} + \Phi (\mathrm {r} _ {\circ})
+$$
+
+Y por lo tanto:
+
+$$
+\frac {1}{2} \mathrm {m v} ^ {2} - \mathrm {G} \frac {\mathrm {m M}}{\mathrm {r}} = \frac {1}{2} \mathrm {m v} _ {\circ} ^ {2} - \mathrm {G} \frac {\mathrm {m M}}{\mathrm {r} _ {\circ}}
+$$
+
+De donde obtenemos que su velocidad en función de la coordenada radial vendrá dada por:
+
+$$
+\mathrm {v} ^ {2} = \mathrm {v} _ {\circ} ^ {2} - 2 \mathrm {G M} \left(\frac {1}{\mathrm {r} _ {\circ}} - \frac {1}{\mathrm {r}}\right)
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 15 (2142 chars)
+────────────────────────────────────────────────────────────
+idad en función de la coordenada radial vendrá dada por:
+
+$$
+\mathrm {v} ^ {2} = \mathrm {v} _ {\circ} ^ {2} - 2 \mathrm {G M} \left(\frac {1}{\mathrm {r} _ {\circ}} - \frac {1}{\mathrm {r}}\right)
+$$
+
+Coincidente con la expresión lograda anteriormente al tratar un tiro vertical de largo alcance mediante 
+
+la integración de la ecuación de Newton. 
+
+Resulta interesante realizar un análisis cualitativo de la situación planteada valiéndonos de una gráfica de las energías involucradas como la que se muestra en la figura lateral, donde se gráfica la función energía potencial y la energía mecánica de la partícula, claramente constante e igual a la que teníamos inicialmente, resultante de sumar la energía potencial gravitatoria mas la energía cinética dada a la partícula en el instante del lanzamiento, esto es:
+
+$$
+\mathrm {E} = \mathrm {T} _ {\circ} + \Phi_ {\circ}
+$$
+
+[Descripción de imagen: La imagen muestra una gráfica con varias curvas y rectas relacionadas con la energía y el potencial gravitatorio. El eje horizontal representa la distancia radial  y el eje vertical representa la energía. Se observa una curva de color magenta que representa el potencial gravitatorio $\Phi_{g} (r)$ y una recta horizontal de color rojo que representa la energía total $E(r)$. También se muestra una recta vertical de color azul con un vector que apunta hacia abajo, indicando una fuerza o energía inicial $E_0$, desglosada en energía cinética $T_0$ y potencial $\Phi_0$. Además, se señalan puntos como $r_0$ y $r_m$ en el eje horizontal.]
+
+Donde, la energía cinética de la partícula en diferentes puntos de su trayectoria vendrá dada por la diferencia entre su energía mecánica y el valor que toma la función energía potencial en dichos puntos, esto es:
+
+$$
+\mathrm {T} (\mathbf {r}) = \mathrm {E} _ {\circ} - \Phi (\mathbf {r})
+$$
+
+Que en la figura se indica con líneas enteras para tres puntos de la coordenada radial entre su valor de lanzamiento y el máximo que dicha coordenada puede alcanzar, que sin lugar a dudas corresponde al que se obtiene de igualar la energía mecánica con la potencial, con lo que dicho valor deberá ser tal que:
+
+────────────────────────────────────────────────────────────
+Chunk 16 (357 chars)
+────────────────────────────────────────────────────────────
+su valor de lanzamiento y el máximo que dicha coordenada puede alcanzar, que sin lugar a dudas corresponde al que se obtiene de igualar la energía mecánica con la potencial, con lo que dicho valor deberá ser tal que:
+
+$$
+\Phi \left(\mathrm {r} _ {\mathrm {m}}\right) = \mathrm {E} _ {\circ}
+$$
+
+De donde resulta
+
+$$
+r _ {m} = - G \frac {m M}{E _ {\circ}}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 17 (1414 chars)
+────────────────────────────────────────────────────────────
+m M}{E _ {\circ}}
+$$
+
+Siendo importante tener presente que para la situación en consideración, a la que se hace referencia cualitativamente en la figura, la energía mecánica de la partícula es negativa. 
+
+De lo expuesto es claro que si deseamos incrementar el valor máximo de la coordenada radial, esto es, incrementar la altura que puede alcanzar la partícula, será necesario incrementar la energía mecánica correspondiente al instante del lanzamiento, ya sea efectuando el lanzamiento desde mayor altura o bien incrementando la energía cinética inicial (notar que como la energía mecánica es negativa, un incremento de la misma se corresponde con un valor absoluto mas pequeño). En particular si deseáramos alcanzar puntos infinitamente alejados del centro de la tierra será necesario que la energía mecánica mínima en el instante inicial sea nula, lo que requiere que en dicho instante la energía cinética coincida numéricamente con la potencial. 
+
+Resulta oportuno destacar que los únicos valores posibles para la coordenada radial son aquellos para los cuales la energía potencial de la partícula es menor o igual que su energía mecánica, conjunto de puntos que en la figura anterior se indica con doble trazo a lo largo del eje horizontal. 
+
+Finalmente, en la figura siguiente se puede observar como depende la altura máxima de la velocidad con que se efectúa el lanzamiento para tres situaciones diferentes.
+
+────────────────────────────────────────────────────────────
+Chunk 18 (2062 chars)
+────────────────────────────────────────────────────────────
+Finalmente, en la figura siguiente se puede observar como depende la altura máxima de la velocidad con que se efectúa el lanzamiento para tres situaciones diferentes.
+
+Cuando se lo hace desde la superficie de la tierra $( \Gamma _ { 0 } = \mathrm { R _ { T } } )$ ), cuando se lo hace desde un punto cuya distancia al centro de la tierra es igual al doble del radio de la tierra $( \mathrm { r } _ { 0 } = 2 \mathrm { R _ { T } } )$ ), y finalmente cuando el lanzamiento se realiza desde una distancia igual a cuatro veces el radio terrestre $\qquad ( \quad , \quad \quad , \quad \quad )$ ), en cuyos casos se obtiene los valores para la velocidad de escape que se indican a continuación, que recordemos podemos obtenerla teniendo en cuenta que para que llegue infinitamente lejos del centro de la tierra será necesario que la energía mecánica en el instante inicial sea nula, lo que requiere que en dicho instante la energía cinética coincida numéricamente con la potencial, con lo que dicha velocidad resulta.
+
+$$
+\mathbf {v} _ {\mathrm {e}} = \sqrt {\frac {2 \mathrm {G M}}{\mathbf {r} _ {\mathrm {o}}}}
+$$
+
+[Descripción de imagen: La gráfica muestra la relación entre la velocidad inicial de un objeto y su altura máxima alcanzada. No se observan vectores ni fuerzas representadas de forma explícita; sin embargo, se puede inferir que las fuerzas actuantes son la gravedad y posiblemente la resistencia del aire, aunque esta última no se representa. El eje horizontal representa la velocidad inicial en metros por segundo (m/s) y el eje vertical representa la altura máxima alcanzada en kilómetros (km). Las curvas mostradas sugieren trayectorias bajo influencia gravitatoria con diferentes condiciones iniciales.]
+
+Resultando para la velocidad de escape desde diferentes puntos de lanzamiento, los valores que se indican a continuación.
+
+$$
+\mathrm {r} _ {\mathrm {o}} = \mathrm {R} _ {\mathrm {T}}
+$$
+
+$$
+\mathrm {v _ {e}} = 1 1. 1 9 3 \mathrm {m} / \mathrm {s e g} = 4 0. 2 9 5 \mathrm {k m} / \mathrm {h}
+$$
+
+$$
+\mathrm {r _ {o}} = 2 \mathrm {R _ {T}}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 19 (1763 chars)
+────────────────────────────────────────────────────────────
+1 9 3 \mathrm {m} / \mathrm {s e g} = 4 0. 2 9 5 \mathrm {k m} / \mathrm {h}
+$$
+
+$$
+\mathrm {r _ {o}} = 2 \mathrm {R _ {T}}
+$$
+
+$$
+v _ {e} = 7. 8 9 5 m / \mathrm {s e g} = 2 8. 4 2 7 k m / h
+$$
+
+$$
+\mathrm {r _ {o}} = 4 \mathrm {R _ {T}}
+$$
+
+$$
+\mathrm {v _ {e}} = 5. 5 8 4 \mathrm {m} / \mathrm {s e g} = 2 0. 1 0 1 \mathrm {k m} / \mathrm {h}
+$$
+
+# Ejemplo.
+
+Consideremos a continuación la situación que se sugiere en la figura siguiente, correspondiente a un cuerpo de masa (m) que desliza, libre de rozamiento, a lo largo de la superficie exterior de un casquete esférico luego de ser lanzado desde el vértice con una velocidad como la indicada en la mencionada figura.
+
+[Descripción de imagen: La imagen representa un objeto en movimiento circular sobre una superficie curva, sometido a la fuerza de gravedad (mg) y a la fuerza normal (N). El vector de posición se describe en coordenadas polares con el vector radial er y el vector tangencial eθ, con un ángulo θ respecto al eje vertical. Se observa también la velocidad inicial v0 y el radio de curvatura R.]
+
+Teniendo en cuenta que la fuerza que resulta de la interacción entre el cuerpo y el casquete no realiza trabajo mecánico por ser normal a la trayectoria en todo momento y en vista de que el campo gravitatorio es un campo conservativo, es claro que la energía mecánica de la partícula permanecerá constante y por lo tanto en cualquier punto de la trayectoria a lo largo del casquete se verificará que:
+
+$$
+\mathrm {T} + \Phi = \mathrm {T} _ {\circ} + \Phi_ {\circ}
+$$
+
+Con lo que, determinando la coordenada vertical desde la base del casquete, resulta:
+
+$$
+\frac {1}{2} \mathrm {m v} ^ {2} + \mathrm {m g R} \cos \theta = \frac {1}{2} \mathrm {m v} _ {\circ} ^ {2} + \mathrm {m g R}
+$$
+
+De donde:
+
+────────────────────────────────────────────────────────────
+Chunk 20 (1584 chars)
+────────────────────────────────────────────────────────────
+minando la coordenada vertical desde la base del casquete, resulta:
+
+$$
+\frac {1}{2} \mathrm {m v} ^ {2} + \mathrm {m g R} \cos \theta = \frac {1}{2} \mathrm {m v} _ {\circ} ^ {2} + \mathrm {m g R}
+$$
+
+De donde:
+
+$$
+\mathbf {v} ^ {2} = \mathbf {v} _ {\circ} ^ {2} + 2 \mathrm {g R} (1 - \cos \theta)
+$$
+
+Teniendo en cuenta la relación entre la velocidad de la partícula y su velocidad angular determinada respecto del centro del casquete, resulta:
+
+$$
+\dot {\theta} ^ {2} = \frac {\mathrm {v} _ {\circ} ^ {2}}{\mathrm {R} ^ {2}} + \frac {2 \mathrm {g}}{\mathrm {R}} (1 - \cos \theta)
+$$
+
+Planteando ahora las componentes polares de la ecuación de Newton tenemos que:
+
+$$
+\vec {\mathrm {e}} _ {\mathrm {r}} \rightarrow \mathrm {N} - \mathrm {m g} \cos \theta = \mathrm {m R} \dot {\theta} ^ {2}
+$$
+
+$$
+\vec {\mathrm {e}} _ {\theta} \rightarrow \mathrm {m g s e n} \theta = \mathrm {m R} \ddot {\theta}
+$$
+
+Con lo que de la ecuación correspondiente a la componente radial obtenemos para la fuerza que resulta de la interacción entre el cuerpo y el casquete, la siguiente expresión en función de la coordenada angular:
+
+$$
+N = 3 m g \cos \theta - 2 m g - m \frac {V _ {\circ}}{R}
+$$
+
+En particular, el valor de la coordenada angular en el instante en que el cuerpo se despega del casquete corresponderá al valor para el que se anula la interacción indicada anteriormente, en cuyo caso de la anterior obtenemos que el valor de dicha coordenada será tal que:
+
+$$
+\cos \theta = \frac {2}{3} + \frac {\mathrm {v} _ {\circ} ^ {2}}{3 \mathrm {R g}}
+$$
+
+Expresión que tiene sentido siempre que:
+
+────────────────────────────────────────────────────────────
+Chunk 21 (1736 chars)
+────────────────────────────────────────────────────────────
+so de la anterior obtenemos que el valor de dicha coordenada será tal que:
+
+$$
+\cos \theta = \frac {2}{3} + \frac {\mathrm {v} _ {\circ} ^ {2}}{3 \mathrm {R g}}
+$$
+
+Expresión que tiene sentido siempre que:
+
+$$
+\frac {2}{3} + \frac {\mathrm {v} _ {\circ} ^ {2}}{3 \mathrm {R g}} \leq 1 \quad \therefore \quad \frac {\mathrm {v} _ {\circ} ^ {2}}{3 \mathrm {R g}} \leq \frac {2}{3}
+$$
+
+O sea si la velocidad inicial es tal que:
+
+$$
+\mathrm {v} _ {\circ} \leq \sqrt {\mathrm {R g}}
+$$
+
+En particular si el cuerpo fuera lanzado con la velocidad indicada anteriormente, se despegaría del casquete en el punto de lanzamiento, lo que también sucedería con cualquier otro valor de velocidad inicial superior al mencionado. En cambio si el cuerpo se aparta muy lentamente de su posición de equilibrio, esto es suponiendo nula su velocidad inicial, iniciará el recorrido a lo largo del casquete para despegarse del mismo en el punto en que su coordenada angular es tal que:
+
+$$
+\cos \theta = \frac {2}{3} \quad \therefore \quad \theta \cong 4 8 ^ {\circ}
+$$
+
+Independiente de la masa del cuerpo involucrado.
+
+# Ejemplo.
+
+La figura lateral muestra un cuerpo de masa (m) que desliza con una velocidad $\mathrm { ~ ( V ~ ) ~ }$ a lo largo de una superficie horizontal libre de rozamiento para impactar con el extremo de un muelle lineal que se encuentra inicialmente comprimido en una longitud (δo).
+
+[Descripción de imagen: La imagen muestra un bloque de masa m desplazándose hacia la derecha con una velocidad inicial v0. El bloque se dirige hacia una pared rígida donde se encuentra un resorte de constante k y longitud inicial δ0. En el punto de contacto entre el bloque y el resorte, se puede considerar que actúan fuerzas en el eje horizontal.]
+
+────────────────────────────────────────────────────────────
+Chunk 22 (1285 chars)
+────────────────────────────────────────────────────────────
+[Descripción de imagen: La imagen muestra un bloque de masa m que se mueve hacia la derecha con una velocidad inicial v0. El bloque se dirige hacia un muelle de constante k, que se encuentra en su posición de equilibrio, y que a su vez se encuentra fijo a una pared vertical.  El punto de aplicación de la fuerza ejercida por el muelle sobre el bloque es el indicado por un segmento vertical azul.]
+
+Suponiendo que el cuerpo queda acoplado al resorte y puesto que el sistema está libre de rozamiento, la energía mecánica del sistema ha de permanecer constante y por lo tanto:
+
+$$
+\frac {1}{2} \mathrm {m v} ^ {2} + \frac {1}{2} \mathrm {k} \delta^ {2} = \frac {1}{2} \mathrm {m v} _ {\circ} ^ {2} + \frac {1}{2} \mathrm {k} \delta_ {\circ} ^ {2}
+$$
+
+Con lo que la velocidad del centro de masa del cuerpo en función de la compresión del resorte y de las condiciones iniciales vendrá dada por:
+
+$$
+\mathbf {v} ^ {2} = \mathbf {v} _ {\circ} ^ {2} - \frac {\mathbf {k}}{\mathbf {m}} \left(\boldsymbol {\delta} ^ {2} - \boldsymbol {\delta} _ {\circ} ^ {2}\right)
+$$
+
+De donde obtenemos que la máxima deformación, en el instante en que se anula su velocidad, resulta:
+
+$$
+\delta_ {\mathrm {m}} = \sqrt {\delta_ {\circ} ^ {2} + \frac {\mathrm {m}}{\mathrm {k}} \mathrm {v} _ {\circ} ^ {2}}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 23 (2125 chars)
+────────────────────────────────────────────────────────────
+resulta:
+
+$$
+\delta_ {\mathrm {m}} = \sqrt {\delta_ {\circ} ^ {2} + \frac {\mathrm {m}}{\mathrm {k}} \mathrm {v} _ {\circ} ^ {2}}
+$$
+
+Coincidente con la obtenida al tratar el tema "oscilaciones libres" a lo largo del capítulo anterior, pudiendo observarse que esta expresión nos proporciona la amplitud con que oscilará el cuerpo alrededor de su posición de equilibrio luego de quedar acoplado al resorte. 
+
+Resulta interesante identificar estas conclusiones en una representación gráfica de las energías involucradas en función de la deformación del resorte, como se muestra en la figura siguiente, donde con trazo doble sobre el eje horizontal se indica la zona en la que podrá desplazarse el centro de masa del cuerpo y con trazo lleno sobre el eje vertical se indica la energía cinética inicial entregada al sistema.
+
+[Descripción de imagen: La imagen muestra una gráfica con un eje horizontal etiquetado con delta y un eje vertical con una flecha hacia arriba. Presenta una curva en forma de parábola simétrica respecto al eje vertical, etiquetada como Φ(δ), intersectando el eje vertical en Φ0. Una línea horizontal roja, etiquetada como E, intersecta la curva en dos puntos, con una distancia T0 en el eje vertical desde el punto Φ0 hasta la línea E, y E0 desde el origen hasta la línea E.]
+
+Finalmente, si deseáramos ampliar la zona en la que se desplazará el cuerpo deberíamos entregarle mayor energía mecánica al sistema, ya sea incrementando la energía cinética con que es lanzado el cuerpo o bien la deformación inicial del resorte.
+
+# Ejemplo.
+
+Como una aplicación interesante del teorema de conservación veremos como, a partir de éste es posible obtener una expresión para la ecuación de movimiento.
+
+[Descripción de imagen: La imagen muestra un sistema masa-resorte con un bloque de masa m conectado a un resorte de constante k. El bloque se encuentra sobre una superficie horizontal y el resorte está fijo en un extremo, con el punto de aplicación de la fuerza elástica en el bloque. El sistema tiene un eje de coordenadas cartesiano con el eje x orientado horizontalmente y el eje y orientado verticalmente.]
+
+────────────────────────────────────────────────────────────
+Chunk 24 (1867 chars)
+────────────────────────────────────────────────────────────
+[Descripción de imagen: La imagen muestra un sistema masa-resorte con un bloque de masa m conectado a un resorte de constante k. El bloque se encuentra sobre una superficie horizontal y el resorte está fijo en un extremo, con el punto de aplicación de la fuerza en el bloque. El sistema tiene un eje de coordenadas cartesianas (x, y) con el eje x alineado con la dirección del movimiento del bloque.]
+
+Con este propósito pensemos nuevamente en un sistema libre de rozamiento compuesto por un cuerpo que interactúa con un muelle lineal como el que se sugiere en la figura anterior, donde la coordenada de posición se determina a partir de la configuración de equilibrio. 
+
+Suponiendo que el sistema se aparta de la configuración de equilibrio y se lo deja en libertad, es claro que la energía mecánica permanecerá constante y por lo tanto:
+
+$$
+\frac {1}{2} m v ^ {2} + \frac {1}{2} k x ^ {2} = E
+$$
+
+Derivando temporalmente y teniendo en cuenta que la energía mecánica permanece constante, obtenemos:
+
+$$
+\mathrm {m v \dot {v} + k x \dot {x} = 0}
+$$
+
+Que en términos de la coordenada de posición y sus derivadas temporales nos queda.
+
+$$
+\mathrm {m} \dot {\mathrm {x}} \ddot {\mathrm {x}} + \mathrm {k x} \dot {\mathrm {x}} = 0
+$$
+
+De donde:
+
+$$
+\ddot {x} = - \frac {k}{m} x
+$$
+
+Coincidente con la ecuación obtenida al tratar las oscilaciones libres de un cuerpo sujeto a un muelle. 
+
+Análogamente, en el caso de un péndulo puntual como el sugerido en la figura lateral, al que suponemos se lo deja en libertad desde la posición indicada y teniendo en cuenta que la fuerza que resulta de la interacción con la cuerda no realiza trabajo mecánico por ser en todo momento perpendicular a la trayectoria, es inmediato que la energía mecánica del sistema permanecerá constante y por lo tanto, determinando la coordenada vertical desde el vértice de la trayectoria, resulta:
+
+────────────────────────────────────────────────────────────
+Chunk 25 (1605 chars)
+────────────────────────────────────────────────────────────
+ser en todo momento perpendicular a la trayectoria, es inmediato que la energía mecánica del sistema permanecerá constante y por lo tanto, determinando la coordenada vertical desde el vértice de la trayectoria, resulta:
+
+$$
+\frac {1}{2} \mathrm {m v} ^ {2} + \mathrm {m g L} (1 - \cos \phi) = \mathrm {E}
+$$
+
+[Descripción de imagen: La imagen muestra un péndulo simple con un punto de masa sujeto a una cuerda de longitud L. El punto de aplicación de la fuerza de tensión (T) se encuentra en la unión de la cuerda con el punto de masa, mientras que la fuerza de gravedad (mg) actúa en el centro de masa del punto. Se observan vectores unitarios er y eθ asociados a las coordenadas cilíndricas.]
+
+Expresando la velocidad de la partícula en términos de la derivada temporal de su coordenada angular, de la anterior obtenemos que:
+
+$$
+\frac {1}{2} \mathrm {m L} ^ {2} \dot {\phi} ^ {2} + \mathrm {m g L} (1 - \cos \phi) = \mathrm {E}
+$$
+
+Derivando temporalmente y puesto que la energía mecánica permanece constante, resulta:
+
+$$
+\mathrm {m L} ^ {2} \dot {\phi} \ddot {\phi} + \mathrm {m g L} \dot {\phi} \mathrm {s e n} \phi = 0
+$$
+
+De donde operando algebraicamente es inmediato que:
+
+$$
+\ddot {\phi} = - \frac {g}{L} \operatorname {s e n} \phi
+$$
+
+Coincidente con la ecuación obtenida al considerar esta situación anteriormente.
+
+# Simulaciones.
+
+Movimiento Sobre la Superficie de un Casquete Esférico. 
+
+Como una ilustración del ejemplo planteado en la página 107, se recomienda trabajar con la simulación a la que puede acceder ejecutando el archivo 12-Cupula.htm incluido en la carpeta del mismo nombre.
+
+────────────────────────────────────────────────────────────
+Chunk 26 (1731 chars)
+────────────────────────────────────────────────────────────
+jemplo planteado en la página 107, se recomienda trabajar con la simulación a la que puede acceder ejecutando el archivo 12-Cupula.htm incluido en la carpeta del mismo nombre.
+
+# Movimiento en el Interior de una Cicloide - I
+
+Ejecutando el archivo 13-Cicloide-1.htm, incluido en la carpeta del mismo nombre, accederá a una simulación con la que podrá verificar que el tiempo empleado por una partícula en desplazarse entre dos puntos extremos a lo largo de superficies libres de rozamiento, como la recta y la cicloide que se muestran en la figura, será mínimo cuando lo hace a lo largo del interior de la cicloide.
+
+[Descripción de imagen: La imagen muestra una grafica con dos curvas, una recta azul y una curva roja parabolica. La recta intersecta a la parabola en el punto (9.9, 3.8). El eje x representa el vector de posición horizontal mientras que el eje y representa el vector de posicion vertical.]
+
+Resulta oportuno mencionar que el tiempo empleado a lo largo de una cicloide es en realidad el mínimo necesario para unir dos puntos pertenecientes a trayectorias arbitrarias.
+
+# Movimiento en el Interior de una Cicloide - II
+
+Ejecutando el archivo 14-Cicloide-2.htm, incluido en la carpeta del mismo nombre, podrá acceder a una simulación con la que podrá verificar que el tiempo empleado por una partícula en desplazarse a lo largo del interior de una cicloide, desde un punto cualquiera hasta el vértice de dicha superficie, es independiente del punto desde donde se la deja caer. 
+
+Teniendo en cuenta la propiedad indicada anteriormente, es claro que el período de un péndulo que se desplace a lo largo de una cicloide resultará independiente de la amplitud con la que oscila, sistema conocido como péndulo sincrónico.
+
+────────────────────────────────────────────────────────────
+Chunk 27 (1296 chars)
+────────────────────────────────────────────────────────────
+propiedad indicada anteriormente, es claro que el período de un péndulo que se desplace a lo largo de una cicloide resultará independiente de la amplitud con la que oscila, sistema conocido como péndulo sincrónico.
+
+# Movimiento en el interior de un Casquete Esférico.
+
+Ejecutando el archivo 15-Casquete.htm, incluido en la carpeta del mismo nombre, podrá acceder a una simulación con la que podrá verificar que el tiempo empleado por una partícula en completar una oscilación a lo largo del interior de un casquete esférico libre de rozamiento, depende de la amplitud de dicha oscilación, tal como sucede en el caso de un péndulo puntual donde el cuerpo suspendido se desplaza a lo largo de una trayectoria circular.
+
+# Balance Energético en un Muelle.
+
+Ejecutando el archivo 16-Muelle-2.htm, incluido en la carpeta del mismo nombre, podrá acceder a una simulación destinada a ilustrar el intercambio energético en el caso de un cuerpo que se apoya sobre un muelle inicialmente sin deformación.
+
+# Movimiento a lo Largo de la Superficie Interior de un Bucle
+
+Ejecutando el archivo 17-Bucle.htm, incluido en la carpeta del mismo nombre, podrá acceder a una simulación destinada a ilustrar el movimiento de un cuerpo a lo largo de la superficie interior de un bucle contenido en un plano vertical.

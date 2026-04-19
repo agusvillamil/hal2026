@@ -1,0 +1,542 @@
+Archivo  : Libros/Libros_Markdown/MinerU_markdown_Ochoa-35-Problemas-III-119-126_2042434139936387072.md
+Chunks   : 20
+
+────────────────────────────────────────────────────────────
+Chunk 1 (1240 chars)
+────────────────────────────────────────────────────────────
+# Problema 3.01
+
+En la figura lateral se muestra un cuerpo de masa m apoyado sobre una mesa horizontal libre de rozamiento y sometido a la interacción con una banda elástica de constante K y longitud propia H, sujeta al punto O de la mesa. Suponiendo que damos al cuerpo una velocidad $\mathrm { V } _ { 0 }$ como sugiere la figura: 
+
+a. Obtener una expresión para la componente transversal del vector velocidad del cuerpo en función de su distancia al punto O. 
+
+b. Idem para la componente radial del vector velocidad. 
+
+c. Obtener una expresión que permita determinar la máxima deformación de la banda elástica en función de las condiciones iniciales.
+
+[Descripción de imagen: La imagen muestra un objeto de masa m suspendido de una cuerda de longitud H, con una velocidad inicial Vo aplicada horizontalmente, formando un ángulo de 90 grados con respecto a la dirección vertical de la cuerda. El punto de aplicación de la fuerza de gravedad es el centro de masa del objeto, y la tensión de la cuerda actúa a lo largo de la cuerda hacia el punto de suspensión. El sistema de ejes no está explícitamente indicado, pero puede asumirse un eje vertical (y) alineado con la cuerda y un eje horizontal (x) perpendicular a ella.]
+
+# Problema 3.02
+
+────────────────────────────────────────────────────────────
+Chunk 2 (2569 chars)
+────────────────────────────────────────────────────────────
+06/edba1e21-d67d-4b95-bb6d-326066ac6895/4010bdb03c65131ada4fcd7605ca1fb377ef485977948e73662f4cb09db13893.jpg)
+
+# Problema 3.02
+
+Una masa de 3 gramos está unida a una cuerda liviana inextensible de 1 metro de longitud y se mueve sobre una mesa horizontal libre de rozamiento como lo sugiere la figura lateral, mientras el otro extremo está fijo a un punto O. Suponiendo que la partícula es disparada con una velocidad de $1 \ \mathrm { m / s }$ pasando a 10 cm del punto O, para luego tensar la cuerda y moverse en una trayectoria circular: Determinar la velocidad angular de la partícula respecto del punto O, a lo largo de su trayectoria circular.
+
+[Descripción de imagen: La imagen muestra un sistema masa-resorte en un plano inclinado, donde una masa m está unida a un resorte que cuelga del punto O. El vector de posición de la masa respecto al punto O forma un ángulo de 90 grados con el eje OA, y el módulo del vector OA es de 10 cm. La fuerza de gravedad actúa sobre la masa y se puede descomponer en componentes a lo largo del plano inclinado y perpendicular a él.]
+
+# Problema 3.03
+
+La figura muestra una partícula de 500 gramos sometida a un conjunto de fuerzas tales que, la resultante es proporcional a su distancia al punto O, siendo de $1 0 \ : \mathrm { N / m }$ el valor de la constante de proporcionalidad. Si en el instante inicial la velocidad de la partícula es de $2 ~ \mathrm { m / s }$ , su distancia al punto O es de $4 \mathrm { ~ m ~ }$ , la coordenada angular de $2 0 ^ { \circ }$ y la fuerza está dirigida hacia dicho punto, determinar: 
+
+a. La velocidad angular, radial y la aceleración angular de la partícula en el instante inicial. 
+
+b. Las componentes, radial y transversal de su vector velocidad cuando la partícula se encuentra a la mitad de la distancia a la que se encontraba en el instante inicial. 
+
+c. Obtener el trabajo mecánico realizado por el campo de fuerza desde el instante inicial hasta el indicado en la pregunta anterior. 
+
+d. Para el instante inicial, determinar las componentes, normal y tangencial del vector aceleración de la partícula.
+
+[Descripción de imagen: La imagen muestra un diagrama de cuerpo libre con un objeto de masa "m" sometido a una fuerza "F" en un ángulo "θ" respecto al eje vertical. El objeto tiene una velocidad inicial "V0" formando un ángulo "θ" con el eje horizontal, y está sujeto a una cuerda o radio "r0" que forma un ángulo "θ" con el eje vertical. El sistema de referencia parece estar orientado con el eje vertical a la izquierda de la imagen y el eje horizontal en la parte inferior.]
+
+────────────────────────────────────────────────────────────
+Chunk 3 (2010 chars)
+────────────────────────────────────────────────────────────
+[Descripción de imagen: La imagen muestra un diagrama de un objeto de masa "m" sometido a una fuerza "F" en un sistema de coordenadas, donde "r0" representa la posición inicial, "V0" la velocidad inicial en un ángulo "θ" respecto al eje horizontal. El vector fuerza "F" se aplica en la misma posición del objeto, en dirección opuesta a "r0".]
+
+# Problema 3.04
+
+Una partícula de 1 kg. se mueve con una velocidad de $2 \mathrm { m / s }$ a lo largo de una trayectoria circular de radio $\mathrm { r } _ { 0 } = 0 { , } 5 \mathrm { ~ m ~ }$ , contenida en el plano horizontal de una mesa libre de rozamiento. 
+
+a. Determinar la fuerza que debemos aplicar para mantener el movimiento de la partícula a lo largo de la trayectoria indicada. 
+
+b. Suponiendo que la fuerza aplicada es K veces mayor que la requerida anteriormente, obtener una expresión para la componente radial de su vector velocidad cuando se encuentre en ${ \bf { r } } = { \bf { r } } _ { 0 } / 2$ . 
+
+c. Determinar el mínimo valor que debemos darle a K para poder llevar la partícula a la distancia indicada anteriormente.
+
+[Descripción de imagen: La imagen muestra un objeto de masa m que se mueve en una trayectoria circular sobre una superficie plana, sujeta por una cuerda que ejerce una fuerza F hacia abajo. El punto de aplicación de la fuerza F coincide con el centro de la trayectoria circular y el vector de fuerza F está orientado verticalmente hacia abajo, alineado con uno de los ejes del sistema de coordenadas implícito en la representación.]
+
+# Problema 3.05
+
+Un satélite se mueve alrededor de la Tierra sometido a la interacción gravitatoria con la misma. Si la órbita es elíptica, con un perigeo situado a $3 8 5 \mathrm { k m }$ de altura, donde su velocidad es de $3 3 8 7 0 \mathrm { k m / h }$ . Determinar la velocidad del satélite en los puntos A y B de su órbita si sabemos que:
+
+$$
+\mathrm {O A} = 1 3 5 8 0 \mathrm {k m}
+$$
+
+$$
+\mathrm {O B} = 1 1 7 1 0 \mathrm {k m}
+$$
+
+Radio de la Tierra $= 6 3 8 0 \ \mathrm { k m }$
+
+────────────────────────────────────────────────────────────
+Chunk 4 (1849 chars)
+────────────────────────────────────────────────────────────
+idad del satélite en los puntos A y B de su órbita si sabemos que:
+
+$$
+\mathrm {O A} = 1 3 5 8 0 \mathrm {k m}
+$$
+
+$$
+\mathrm {O B} = 1 1 7 1 0 \mathrm {k m}
+$$
+
+Radio de la Tierra $= 6 3 8 0 \ \mathrm { k m }$
+
+[Descripción de imagen: La imagen muestra una órbita elíptica con un foco en la esfera gris, un vector velocidad V aplicado en un punto de la órbita y el centro de la elipse en O. La elipse tiene ejes que pasan por los puntos A, O, B y el foco.]
+
+# Problema 3.06
+
+La figura muestra la trayectoria a lo largo de la que se mueve un cuerpo sometido únicamente a la interacción con el campo gravitatorio terrestre. Suponiendo que en el instante inicial el cuerpo está a una distancia $\mathbf { r } _ { 0 }$ del centro de la Tierra moviéndose con una velocidad $\mathrm { V } _ { 0 }$ que forma un ángulo α con la dirección transversal.
+
+[Descripción de imagen: La imagen muestra un objeto que sigue una trayectoria curva. En el punto A, se aplica una velocidad inicial $V_0$ formando un ángulo $\alpha$ con el eje horizontal. En el punto B, el objeto tiene una velocidad $V_b$ orientada horizontalmente hacia la izquierda.]
+
+a. Obtener expresiones para la componente radial de los vectores velocidad y aceleración del cuerpo en el instante en que se encuentra en A. 
+
+b. Obtener el módulo de la velocidad del cuerpo cuando pase por el punto B de su trayectoria. 
+
+c. Para el instante indicado anteriormente, obtener el radio de curvatura de la trayectoria y la velocidad con que parece alejarse el cuerpo de la superficie terrestre. 
+
+d. Obtener una expresión para el trabajo mecánico realizado por el campo gravitatorio en el tramo AB.
+
+# Problema 3.07
+
+Sobre un cuerpo de $1 0 ~ \mathrm { k g }$ apoyado sobre una superficie horizontal con un coeficiente de rozamiento dinámico de 0,1 actúa una fuerza de $1 5 \mathrm { N }$ , determinar:
+
+────────────────────────────────────────────────────────────
+Chunk 5 (1931 chars)
+────────────────────────────────────────────────────────────
+# Problema 3.07
+
+Sobre un cuerpo de $1 0 ~ \mathrm { k g }$ apoyado sobre una superficie horizontal con un coeficiente de rozamiento dinámico de 0,1 actúa una fuerza de $1 5 \mathrm { N }$ , determinar:
+
+[Descripción de imagen: La imagen muestra un bloque de masa m sometido a una fuerza F aplicada en un ángulo de 30 grados respecto a la horizontal. El punto de aplicación de la fuerza F se encuentra en el extremo izquierdo del bloque, y su dirección forma un ángulo de 30 grados con el eje horizontal. Se identifican los ejes horizontal y vertical como referencia para el análisis de las fuerzas actuantes.]
+
+a. La energía disipada en los primeros 15 metros, suponiendo que el cuerpo parte del reposo. 
+
+b. La distancia que recorrerá el cuerpo hasta detenerse si luego de recorrer los 15 metros queda sometido únicamente al rozamiento con la superficie horizontal en que se apoya.
+
+# Problema 3.08
+
+La corredera mostrada en la figura lateral de $^ { 1 , 5 \mathrm { k g } . }$ se mueve a lo largo de la barra lisa y curvada bajo acción de su propio peso y de una fuerza F exterior constante:
+
+$$
+\vec {\mathrm {F}} = - 1 0 \vec {\mathrm {i}} + 1 5 \vec {\mathrm {j}} + 1 5 \vec {\mathrm {k}}
+$$
+
+Suponiendo que la corredera inicia su movimiento en A, determinar con que velocidad alcanza el punto B.
+
+[Descripción de imagen: La imagen muestra un sistema de coordenadas con un objeto de masa m que se desplaza a lo largo de una trayectoria curva desde el punto A hasta el punto B. El eje de coordenadas tiene orientación estándar con x(-) hacia la derecha, y(+) saliendo de la página hacia el observador  y z(+) hacia arriba. Se observan las fuerzas de posición relativas, con respecto a los ejes x, y, z.]
+
+# Problema 3.09
+
+Una partícula de masa m se mueve en el plano (xy) sometida a un campo de fuerza dado por:
+
+$$
+\mathrm {F} (\mathrm {x y}) = \mathrm {k} (\mathrm {x} \vec {\mathrm {i}} + \mathrm {y} \vec {\mathrm {j}})
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 6 (2118 chars)
+────────────────────────────────────────────────────────────
+masa m se mueve en el plano (xy) sometida a un campo de fuerza dado por:
+
+$$
+\mathrm {F} (\mathrm {x y}) = \mathrm {k} (\mathrm {x} \vec {\mathrm {i}} + \mathrm {y} \vec {\mathrm {j}})
+$$
+
+Donde las coordenadas están dadas en metros y la constante tiene unidades de $\mathrm { N } / \mathrm { m }$ 
+
+Obtener una expresión para el trabajo mecánico realizado por dicho campo de fuerza cuando la partícula se mueve entre los puntos de coordenadas (0,0) y (2,2), a lo largo de las siguientes trayectorias. 
+
+a. $\mathbf { y } = \mathbf { x }$ 
+
+b. $\mathbf { y } = \mathbf { x } ^ { 2 } / 2$ 
+
+c. Las rectas (0,0) a (1,2) y (1,2) a (2,2).
+
+# Problema 3.10
+
+Un cuerpo cuyo peso es de $1 5 ~ \mathrm { k g f } ,$ , desliza sin rozamiento sobre la guía circular fija a tierra. Si el cuerpo se mueve por acción de una fuerza constante en módulo, dirección y sentido de $3 0 0 ~ \mathrm { N }$ aplicada mediante la cuerda mostrado en la figura lateral, determinar con que velocidad llega a B, suponiendo que parte del reposo en el punto A.
+
+[Descripción de imagen: La imagen muestra un sistema mecánico con una fuerza F aplicada en un ángulo de 30 grados respecto al eje horizontal, actuando sobre un objeto unido a una cuerda que pasa por una polea y se curva alrededor de una trayectoria circular hasta el punto A. El vector de fuerza F tiene un punto de aplicación en el extremo izquierdo de la cuerda, con componentes que pueden ser descompuestas en los ejes x e y.]
+
+# Problema 3.11
+
+Un cuerpo cuya masa es de $5 ~ \mathrm { k g }$ está apoyado sobre una mesa horizontal y es lanzado para interactuar con un resorte cuya constante elástica es de $1 0 0 ~ \mathrm { N / m }$ . Suponiendo que los coeficientes de rozamiento estático y dinámico son de 0,4 y 0.25 respectivamente:
+
+[Descripción de imagen: La imagen muestra un bloque de masa m que se mueve hacia la derecha con velocidad V,dirigido hacia un resorte. El punto de aplicación de la fuerza ejercida por el resorte sobre el bloque se encuentra a 150 cm a la derecha del bloque. El sistema se desarrolla en un plano horizontal con un eje x horizontal指向 la derecha.]
+
+────────────────────────────────────────────────────────────
+Chunk 7 (1563 chars)
+────────────────────────────────────────────────────────────
+stático y dinámico son de 0,4 y 0.25 respectivamente:
+
+[Descripción de imagen: Se observa un bloque de masa m que se desplaza hacia la derecha con una velocidad V y choca contra un resorte. El resorte se encuentra fijo en su extremo izquierdo a una pared vertical y tiene una longitud inicial de 150 cm. El punto de aplicación de la fuerza ejercida por el resorte sobre el bloque es en el centro de la masa del bloque, en dirección horizontal hacia la izquierda, y alineado con el eje x.]
+
+a. Determinar la velocidad con que debe lanzarse el cuerpo que inicialmente estaba a 150 cm del resorte para que la compresión máxima de éste sea de 50cm. 
+
+b. Para la situación planteada anteriormente, determinar la energía total disipada por rozamiento. 
+
+c. Justificar si el cuerpo puede, o no, iniciar el retroceso. 
+
+d. Si la respuesta anterior es afirmativa, determinar a que distancia del punto de lanzamiento se detiene.
+
+# Problema 3.12
+
+El vector posición de una partícula sometida a una fuerza constante como la que se indica a continuación, varía en el tiempo según se indica seguidamente.
+
+$$
+\vec {\mathrm {F}} = 1 2 \vec {\mathrm {i}} - 5 \vec {\mathrm {j}} - 8 \vec {\mathrm {k}}
+$$
+
+$$
+\vec {\mathrm {r}} = 4 \mathrm {t} \vec {\mathrm {i}} + 3 \mathrm {t} ^ {2} \vec {\mathrm {j}} - 2 \left(\mathrm {t} ^ {3} - 1\right) \vec {\mathrm {k}}
+$$
+
+Donde el tiempo está dado en segundos, la longitud en metros y la fuerza en kgf. 
+
+Determinar la potencia desarrollada por la fuerza F si actúa solo durante los primeros 3 segundos del movimiento.
+
+# Problema 3.13
+
+────────────────────────────────────────────────────────────
+Chunk 8 (2167 chars)
+────────────────────────────────────────────────────────────
+Determinar la potencia desarrollada por la fuerza F si actúa solo durante los primeros 3 segundos del movimiento.
+
+# Problema 3.13
+
+La figura muestra un cuerpo apoyado sobre una superficie horizontal que interactúa con un resorte cuya constante elástica es de $8 0 0 \mathrm { \ : N / m }$ . Suponiendo que los coeficientes de rozamiento estático y dinámico entre el cuerpo y la superficie horizontal son 0,6 y 0,15 respectivamente.
+
+[Descripción de imagen: La imagen muestra un bloque de masa m conectado a un resorte, con el bloque situado sobre una superficie horizontal. El sistema de coordenadas utilizado tiene su origen en el punto donde se encuentra el bloque, con el eje x orientado horizontalmente hacia la derecha y el eje y orientado verticalmente hacia arriba. Se observa la fuerza de restitución del resorte a lo largo del eje x.]
+
+a. Determinar la máxima compresión del resorte que garantice el equilibrio al dejar el cuerpo en libertad. 
+
+b. Si la compresión fuera el doble de la requerida anteriormente, qué velocidad tendrá el cuerpo al pasar por la posición en la que el resorte tiene deformación nula. 
+
+c. Fundamentando su respuesta, indicar si en la posición a la que hace referencia la pregunta anterior, el cuerpo está en equilibrio.
+
+# Problema 3.14
+
+Un cohete lanza una cápsula espacial en un punto A con una velocidad de $1 3 . 0 0 0 ~ \mathrm { k m / h }$ , a una altura de $4 0 ~ \mathrm { k m }$ respecto de la superficie de la Tierra. Cuando la cápsula ha recorrido $3 2 0 \mathrm { k m }$ a lo largo de la trayectoria indicada en la figura, su velocidad es $1 2 . 2 0 0 \mathrm { k m / h }$ y su altura, $6 4 \mathrm { k m }$ . 
+
+Determinar la energía disipada como consecuencia de la interacción con la atmósfera terrestre, si la masa de la cápsula es de $2 2 \mathrm { k g }$ y el radio de la Tierra 6.370 kilómetros.
+
+[Descripción de imagen: La imagen muestra un objeto que se mueve a lo largo de una trayectoria curva, con vectores de velocidad Va y Vb en los puntos A y B, respectivamente. En los puntos A y B se pueden apreciar las respectivas alturas de 40 km y 64 km, tomadas con respecto a la superficie de un cuerpo celeste.]
+
+────────────────────────────────────────────────────────────
+Chunk 9 (1933 chars)
+────────────────────────────────────────────────────────────
+[Descripción de imagen: La imagen muestra un objeto que se mueve a lo largo de una trayectoria curva bajo la influencia de la gravedad, con vectores de velocidad $V_a$ y $V_b$ en los puntos A y B respectivamente. Los puntos A y B tienen altitudes de 40 km y 64 km, respectivamente, medidas desde la superficie de un cuerpo celeste.]
+
+# Problema 3.15
+
+Para la pista mostrada en la figura el coeficiente de rozamiento es nulo entre ella y $\mathbf { m } _ { 1 } = 1 0 ~ \mathrm { k g } .$ , pero entre $\mathrm { m } _ { 2 } =$ $2 0 \mathrm { k g }$ y la superficie horizontal, el coeficiente estático es de 0,5 y el resorte, fijo a este último cuerpo, tiene una constante elástica de $1 0 0 \mathrm { { N / m } }$ . 
+
+a. Obtener la altura mínima desde donde deberá caer $\mathfrak { m } _ { 1 }$ para poner a $\mathfrak { m } _ { 2 }$ en movimiento. 
+
+b. Si $\mathfrak { m } _ { 1 }$ cae desde una altura igual al doble de la calculada anteriormente, determinar su velocidad cuando $\mathbf { m } _ { 2 }$ se pone en movimiento
+
+[Descripción de imagen: La imagen muestra un sistema con dos masas, $m_1$ y $m_2$,  vinculadas por una trayectoria curva y un resorte. La masa $m_1$ se encuentra a una altura $h$ y la masa $m_2$ interactúa con un resorte. Se puede identificar la fuerza de gravedad actuando sobre $m_1$ y la fuerza normal ejercida por la trayectoria curva sobre $m_1$.]
+
+# Problema 3.16
+
+Mediante un cuerpo de $_ { \mathrm { ~ 5 ~ g ~ } }$ se comprime el resorte hasta el punto A y se lo deja en libertad para que se desplace a lo largo de la superficie libre de rozamiento. Determinar: 
+
+a. La deformación mínima que deberemos dar al resorte para que el cuerpo complete el recorrido estando siempre en contacto con al pista. 
+
+b. El trabajo realizado por las fuerzas elásticas y gravitatorias entre los puntos A y B. 
+
+c. Realizar gráficas de las energías potencial, cinética y mecánica del cuerpo a lo largo de la pista.
+
+────────────────────────────────────────────────────────────
+Chunk 10 (2290 chars)
+────────────────────────────────────────────────────────────
+b. El trabajo realizado por las fuerzas elásticas y gravitatorias entre los puntos A y B. 
+
+c. Realizar gráficas de las energías potencial, cinética y mecánica del cuerpo a lo largo de la pista.
+
+[Descripción de imagen: La imagen muestra un sistema que involucra un bloque (rosa) conectado a un resorte con una constante de elasticidad (ke) de 20 kgf/cm en el punto A. El bloque puede moverse a lo largo de una pista que incluye una sección circular con un radio de 80 cm, alcanzando el punto B. Se identifican vectores de fuerzas como la fuerza ejercida por el resorte sobre el bloque en el punto A.]
+
+# Problema 3.17
+
+La cinta transportadora superior descarga pequeños bloques metálicos en la rampa con una velocidad de $2 7 \ \mathrm { m / m i n }$ . Si el coeficiente de rozamiento dinámico entre los bloques y la rampa es de 0,30. 
+
+Determinar el ángulo que debe formar la rampa con la horizontal para que los cuerpos sean transferidos si deslizar a la cinta transportadora inferior que se mueve con una velocidad de $9 \mathrm { { m / m i n } }$ .
+
+[Descripción de imagen: La imagen muestra un sistema de transporte de objetos mediante una banda o correa, donde se aprecian vectores de velocidad en ambos extremos. La banda inclinada forma un ángulo cuyo cateto opuesto es 2 metros;  sin embargo,  no es posible calcularlo.  Se observan  fuerzas de tensión en la banda.]
+
+# Problema 3.18
+
+Una masa m se encuentra en el extremo de una cuerda de 1,3 metros de longitud y gira tipo péndulo en un plano vertical. Si el cuerpo parte del reposo cuando la cuerda se encuentra en posición horizontal para balancearse libremente. Determinar: 
+
+a. La coordenada angular cuando la cuerda se encuentra sometida a un esfuerzo igual al doble del peso del cuerpo. 
+
+b. La velocidad y aceleración angular en ese instante. 
+
+c. El esfuerzo máximo al que se verá sometida la cuerda.
+
+[Descripción de imagen: La imagen muestra un sistema de un bloque de masa m unido a una cuerda que pasa por una polea, con un ángulo θ respecto a la horizontal. La tensión en la cuerda ejerce una fuerza sobre el bloque en la dirección de la cuerda, mientras que el peso del bloque actúa verticalmente hacia abajo en su centro de masa. El punto de aplicación de la tensión es el punto donde la cuerda se une al bloque.]
+
+────────────────────────────────────────────────────────────
+Chunk 11 (2278 chars)
+────────────────────────────────────────────────────────────
+[Descripción de imagen: La imagen muestra un sistema de masa-polea con una masa puntual de 30 kg unida a una cuerda que forma un ángulo θ con la horizontal. La tensión en la cuerda actúa a lo largo de ella, y la fuerza de gravedad actúa verticalmente hacia abajo en el centro de masa. El peso de la masa de 30 kg se puede descomponer en componentes rectangulares a lo largo de los ejes x e y.]
+
+# Problema 3.19
+
+Una partícula A está unida al extremo de una cuerda y se suelta desde el reposo cuando la cuerda OA está en posición horizontal como se indica en la figura lateral. 
+
+Durante el movimiento, la cuerda golpea una varilla fija en R perpendicular al plano en el que se mueve A. Determinar: 
+
+a. La velocidad de la partícula en B y D. 
+
+b. El máximo esfuerzo al que se verá sometida la cuerda. 
+
+c. El módulo de la aceleración de la partícula en el punto D y el ángulo que dicho vector forma con la dirección RD.
+
+[Descripción de imagen: La imagen muestra un sistema de vectores de fuerzas concurrentes en el punto O, con masas suspendidas en los puntos A, B, C y D. El vector OA está orientado horizontalmente hacia la izquierda con una longitud de 40 cm, mientras que el vector OR forma un ángulo α de 30 grados con el eje horizontal y tiene una longitud de 26 cm. Se observa una masa de 300 gramos.]
+
+# Problema 3.20
+
+El juego de dos resortes de la figura se utiliza para detener el émbolo A de 8 kg, que lleva una velocidad de 3m/seg e invierte el sentido de su movimiento. La posición del resorte interior es ajustable y se emplea para regular el punto exacto en el que se produce el retroceso del émbolo. Si este punto debe corresponder a una deformación máxima de 15 cm para el resorte exterior: 
+
+Determinar la distancia S a la que se debe colocar el resorte interior, si la constante del resorte mayor es de $2 4 \ : \mathrm { N / m }$ y la del menor de $1 6 \mathrm { { N / m } }$ .
+
+[Descripción de imagen: La imagen muestra un bloque de masa que se desplaza hacia la derecha con una velocidad V, comprimiendo un resorte. El punto de aplicación de la fuerza es el extremo del resorte en contacto con el bloque, y el eje de referencia es el eje horizontal. La distancia de compresión del resorte se denota como S, con un total de 15 cm de longitud del resorte.]
+
+────────────────────────────────────────────────────────────
+Chunk 12 (2459 chars)
+────────────────────────────────────────────────────────────
+[Descripción de imagen: La imagen muestra un bloque que se desplaza hacia la derecha con una velocidad V, comprimiendo un resorte helicoidal. El punto de aplicación de la fuerza es en el extremo derecho del bloque y la fuerza ejercida sobre el resorte es en dirección horizontal hacia la derecha. Se identifican los ejes x horizontal con desplazamiento S y la distancia 15 cm que es la longitud del resorte.]
+
+# Problema 3.21
+
+El recinto mostrado en la figura lateral se mueve horizontalmente con velocidad constante de $9 0 ~ \mathrm { c m / s }$ , y el péndulo cuelga en posición vertical en su interior. Si el recinto se detiene bruscamente, y despreciando el rozamiento con la atmósfera, determinar la amplitud angular con la que oscilará el péndulo en el interior del recinto.
+
+[Descripción de imagen: La imagen muestra un sistema de dos péndulos simples idénticos, con una longitud L de 46 cm, unidos por un extremo y con sus masas en el extremo inferior, sometidos a un movimiento relativo con velocidad V en dirección horizontal. Los vectores de fuerzas que actúan sobre las masas incluyen la tensión en la cuerda y la fuerza de gravedad; el punto de aplicación de estas fuerzas es el centro de cada una de las masas. El eje de referencia podría establecerse en el punto de suspensión de los péndulos.]
+
+# Problema 3.22
+
+Una pistón cuya masa es de $^ { 4 , 5 } \mathrm { { g } }$ esta unida a un resorte y a una cuerda. El pistón parte del reposo desde la posición indicada en la figura, donde el resorte se halla comprimido 5 cm. 
+
+Si la constante elástica del resorte es de $0 { , } 3 6 \ \mathrm { N / c m } .$ , y el cuerpo se mueve dentro de un cilindro libre de rozamiento. Determinar: 
+
+a. La aceleración del pistón en el instante inicial. 
+
+b. La velocidad del pistón cuando pasa bajo el punto B. 
+
+c. La máxima deformación del resorte, si en instante indicado anteriormente se corta la cuerda.
+
+[Descripción de imagen: La imagen muestra un sistema con una fuerza F aplicada horizontalmente en el punto B, conectado a un bloque o masa a través de una cuerda. El sistema incluye un resorte comprimido que ejerce una fuerza sobre un objeto o masa situada en el extremo izquierdo. Las medidas son de 14 cm en vertical y 30.5 cm en horizontal.]
+
+# Problema 3.23
+
+Obtener la potencia media necesaria, para elevar un contenedor de $1 5 0 0 ~ \mathrm { k g } .$ , desde el piso hasta una altura de 15 metros en 1 minuto. Expresar el resultado en C.V.
+
+────────────────────────────────────────────────────────────
+Chunk 13 (1947 chars)
+────────────────────────────────────────────────────────────
+Expresar el resultado en C.V.
+
+# Problema 3.24
+
+Un cuerpo de $5 0 \mathrm { k g }$ se mueve a lo largo de una guía rígida libre de rozamiento, sujeta a un resorte cuya constante elástica es de $1 0 0 0 \ \mathrm { N / m }$ . Si la longitud propia del resorte es de $^ { 0 , 6 \mathrm { m } }$ . 
+
+a. Determinar la velocidad con la que el cuerpo llega la punto B 
+
+b. Determinar la fuerza que resulta de la interacción entre el cuerpo y la guía en el instante inicial. 
+
+c. Determinar la aceleración del cuerpo en el instante inicial.
+
+[Descripción de imagen: La imagen muestra un sistema físico que involucra una masa, un resorte y un cable. El resorte ejerce una fuerza elástica que puede descomponerse en componentes vectoriales a lo largo de los ejes x e y en el punto de aplicación donde se encuentra sujeto, mientras que la masa B, sujeta al extremo del cable, experimenta fuerzas como la tensión del cable y la gravedad, actuando ésta última en el eje y negativo.]
+
+# Problema 3.25
+
+Un satélite se lanza con una velocidad de $3 6 9 0 0 \mathrm { k m / h }$ desde una altura de $5 0 0 \mathrm { k m }$ de la superficie de la Tierra. Determinar para el punto B en que la tangente a la trayectoria es paralela al segmento CA: 
+
+a. La velocidad con que el satélite parece alejarse de la tierra. 
+
+b. El radio de curvatura de la trayectoria en esa posición. 
+
+c. La energía que se le debe suministrar a la nave que lleve el satélite a la posición A partiendo desde la superficie de la tierra si se aprovecha solo el $60 \%$ de la misma.
+
+[Descripción de imagen: La imagen muestra una órbita elíptica con un satélite en el punto A. El vector de velocidad inicial V0 se dirige verticalmente hacia arriba desde el punto A, que se encuentra a 500 km de distancia del centro C. Se identifican los ejes mayor y menor de la elipse, con los puntos de aplicación B, C, O y las distancias OC = 18400 km, CB = 30700 km y el radio de la Tierra RT = 6370 km.]
+
+────────────────────────────────────────────────────────────
+Chunk 14 (1919 chars)
+────────────────────────────────────────────────────────────
+[Descripción de imagen: La imagen muestra una órbita elíptica con un satélite en el punto A, donde se aplica una velocidad inicial $V_0$ en dirección vertical. El vector de posición del satélite se encuentra en el eje vertical que pasa por el centro de la Tierra, ubicado en el punto O. Se identifican también los puntos B y C, que corresponden a los extremos del eje mayor y menor de la elipse, respectivamente.]
+
+# Problema 3.26
+
+El cuerpo de la figura tiene una masa de 3,65 kg y se suelta desde el reposo en la posición graficada, con los resortes unidos al cuerpo y estirados por una fuerza de 27 Newton. Si poseen la misma constante elástica de $5 4 0 \mathrm { N / m }$ 
+
+Plantear las ecuaciones que permitan obtener: 
+
+a. La velocidad del cuerpo al pasar por el punto en que los resortes están horizontales. 
+
+b. La velocidad del cuerpo 12,7 centímetros por debajo de la posición horizontal. 
+
+c. A que distancia de la posición horizontal, el cuerpo se detiene y el valor de su aceleración en ese instante.
+
+[Descripción de imagen: La imagen muestra un sistema de resortes conectados en forma de "V" invertida, con un objeto amarillo en el punto de intersección. Los puntos de aplicación de las fuerzas se encuentran en los extremos de los resortes, donde están unidos a los bloques negros, y en el centro, donde se encuentra el objeto amarillo. El sistema tiene simetría respecto al eje vertical, con distancias de 30,5 cm en el eje horizontal y 12,7 cm en el eje vertical.]
+
+# Problema 3.27
+
+En una turbina a reacción entra agua con una velocidad de 3,6 m/seg y sale de ella 1,2 metros más abajo a $0 { , } 9 ~ \mathrm { m / s e g }$ . Si en cada segundo pasan 50.000 litros de agua y la eficiencia de la turbina es del $90 \%$ . Determinar la potencia de salida de la turbina en CV y la energía perdida por ésta, en 24 horas de funcionamiento. 
+
+Recordar que $I \ m ^ { 3 }$ de agua tiene una masa de 1000 kg
+
+────────────────────────────────────────────────────────────
+Chunk 15 (1188 chars)
+────────────────────────────────────────────────────────────
+Recordar que $I \ m ^ { 3 }$ de agua tiene una masa de 1000 kg
+
+# Problema 3.28
+
+Una escalera mecánica se ha proyectado para trasladar 100 personas por minuto desde una planta a otra inmediatamente superior ubicada a 6 metros de distancia vertical. Si el peso medio de las personas es de 68 kgf y el $30 \%$ de la potencia se disipa por el rozamiento. Calcular la potencia en C.V. que debe suministrar el motor.
+
+# Problema 3.29
+
+La potencia desarrollada por el motor de un automóvil que marcha con una velocidad constante cuyo módulo es de $5 0 ~ \mathrm { k m / h }$ , es de 40 C.V. Calcular la fuerza de resistencia total ejercida por el aire y el rozamiento.
+
+# Problema 3.30
+
+Una cinta transportadora se mueve a $1 { , } 5 ~ \mathrm { m } / \mathrm { s }$ y transporta 100 toneladas de material por hora, hasta una distancia vertical de 45 metros. Suponiendo que la eficiencia mecánica del sistema es del $8 5 \ \%$ y la del motor de transmisión es del $94 \%$ . Determinar: 
+
+a. La potencia mecánica mínima del motor en CV. y Kw. 
+
+b. Si el motor funciona 8 horas por día durante 30 días el consumo total en Kw-h 
+
+c. La influencia que tiene la velocidad de la cinta transportadora.
+
+────────────────────────────────────────────────────────────
+Chunk 16 (1716 chars)
+────────────────────────────────────────────────────────────
+y Kw. 
+
+b. Si el motor funciona 8 horas por día durante 30 días el consumo total en Kw-h 
+
+c. La influencia que tiene la velocidad de la cinta transportadora.
+
+# Problema 3.32
+
+Una cinta transportadora, tiene un motor que la impulsa de 3 C.V. y debe elevar paquetes de $3 5 \mathrm { k g }$ . Si toma los paquetes con velocidad nula desde un depósito, para dejarlos 12 metros más arriba a una velocidad de $1 { , } 8 \mathrm { m / s }$ , Determinar: 
+
+a. Cuántos paquetes puede elevar por minuto, si se aprovecha solamente el $70 \%$ de la energía entregada por el motor. 
+
+b. Qué consumo de energía eléctrica en Kw-h se produce en un mes de 24 días hábiles con 10 horas de trabajo por día.
+
+# Problema 3.33
+
+La figura muestra un cuerpo de $3 ~ \mathrm { k g }$ . que se mueve a lo largo de una superficie horizontal libre de rozamiento entre los tramos AB y CD. Suponiendo que al pasar por el punto A la velocidad del cuerpo es $\mathrm { { V _ { A } , } }$ y que en el tramo BC el cuerpo está sometido a un rozamiento cuyo coeficiente dinámico es de 0,2. Determinar: 
+
+a. La velocidad que debería tener el cuerpo en A para que luego de impactar con el resorte el cuerpo se detenga en el punto B. 
+
+b. La constante elástica del resorte si en su deformación tuvo una máxima compresión de 9 cm.
+
+[Descripción de imagen: La imagen muestra un bloque de masa no especificada en el punto A, conectado a un resorte con una constante de elasticidad (Ke) de 1000 N/cm en el extremo derecho. El sistema tiene puntos de referencia marcados como A, B y C, con distancias de 4m entre A y B, 3m entre B y C, y 2m entre C y el punto de anclaje del resorte. Se observan vectores de distancia pero no vectores de fuerza explícitos.]
+
+────────────────────────────────────────────────────────────
+Chunk 17 (2231 chars)
+────────────────────────────────────────────────────────────
+[Descripción de imagen: La imagen muestra un bloque de masa no especificada en el punto A, conectado a un resorte con una constante de elasticidad $K_e$  de 1000 N/cm en el punto C. Se identifican los puntos A, B y C con distancias de 4m entre A y B, 3m entre B y C y 2m entre C y el extremo derecho donde se encuentra el resorte. No se observan vectores ni fuerzas explícitamente representadas.]
+
+# Problema 3.34
+
+Un vagón de ferrocarril cuya masa es de 50 toneladas se está moviendo a $1 8 \mathrm { { k m . / h } }$ y el escudo parachoques principal se halla conectado a un resorte cuya constante es de $8 0 0 . 0 0 0 \ \mathrm { N / m }$ . Unos $3 0 \ \mathrm { c m }$ por detrás del escudo a se encuentran los escudos secundarios con constantes de 400.000 N/m cada uno, determinar: 
+
+a. La máxima deformación de cada resorte. 
+
+b. La fuerza máxima soporta la pared vertical. 
+
+c. La velocidad máxima que podría tener el vagón secundarios.
+
+[Descripción de imagen: La imagen muestra un sistema con un objeto grande a la izquierda, presumiblemente un bloque o plataforma, soportado por dos ruedas, y tres resortes en la parte derecha, etiquetados con las letras a y b. Los resortes ejercen fuerzas elásticas sobre bloques pequeños, aplicando fuerzas de tensión horizontales que podrían actuar a lo largo del eje x.]
+
+para que no interactue con los resortes
+
+# Problema 3.35
+
+Sobre una mesa horizontal libre de rozamiento, se mueve un cuerpo en uno y otro sentido, chocando con resortes fijos en los extremos de la mesa, como se indica la figura. Las constantes de los resortes son $\mathbf { k } _ { 1 } = 1 5 0 \mathrm { N } / \mathrm { m }$ . y $\mathrm { k } _ { 2 } = 3 6 0 \ \mathrm { N / m }$ . Si en el instante inicial la energía cinética del cuerpo es de 3 joules y se halla en contacto con el resorte 1 comprimido en $1 5 \mathrm { { c m } }$ :
+
+[Descripción de imagen: La imagen muestra un bloque de masa sometido a dos fuerzas de restitución generadas por resortes con constantes de fuerza $k_1$ y $k_2$. El punto de aplicación de estas fuerzas es el bloque, y su dirección es a lo largo del eje horizontal, que podemos denominar eje x. El bloque se encuentra a 15 cm de la posición de equilibrio marcada por $x=0$.]
+
+────────────────────────────────────────────────────────────
+Chunk 18 (1921 chars)
+────────────────────────────────────────────────────────────
+1 comprimido en $1 5 \mathrm { { c m } }$ :
+
+[Descripción de imagen: La imagen muestra un bloque de masa sometido a dos fuerzas de restitución generadas por resortes con constantes de fuerza k1 y k2. El bloque se encuentra desplazado 15 cm hacia la derecha del punto de equilibrio x = 0, donde se supone que las fuerzas de los resortes están equilibradas. Los vectores de fuerza asociados a los resortes apuntan hacia el punto de equilibrio.]
+
+a. Determinar las compresiones máximas que sufrirán cada uno de los resortes. 
+
+b. Realizar diagramas cualitativos de las energías del sistema en función de la posición del cuerpo.
+
+# Problema 3.36
+
+En la figura se muestra un cuerpo de $3 ~ \mathrm { k g }$ . que se mueve a lo largo de una superficie libre de rozamiento, si al llegar al punto B el cuerpo interactúa con un resorte, obtener el valor de la constante elástica si el cuerpo comienza a retroceder cuando la deformación es de $1 4 \mathrm { c m }$ .
+
+[Descripción de imagen: La imagen muestra un bloque de masa desconocida que se desplaza hacia la derecha con una velocidad inicial de 4 m/s. El bloque interactúa con un resorte fijo en su extremo derecho, cuyo punto de aplicación de la fuerza se encuentra en el extremo del resorte. Se puede asumir que el eje de movimiento es horizontal y que las fuerzas actuantes son la fuerza de inercia debido a la velocidad inicial y la fuerza elástica ejercida por el resorte.]
+
+# Problema 3.37
+
+Supongamos un proyectil que se dispara desde Tierra con velocidad inicial de $2 0 0 ~ \mathrm { k m . / h }$ quedando sometido únicamente al campo gravitatorio terrestre. Teniendo en cuenta las energías involucradas, determinar: 
+
+a. La altura máxima si el disparo es vertical. 
+
+b. La altura máxima si el disparo forma un ángulo de $4 0 ^ { \textup { 0 } }$ con la horizontal. 
+
+c. La altura máxima si el disparo forma un ángulo de $3 0 ^ { \textup { 0 } }$ con al horizontal.
+
+────────────────────────────────────────────────────────────
+Chunk 19 (1583 chars)
+────────────────────────────────────────────────────────────
+c. La altura máxima si el disparo forma un ángulo de $3 0 ^ { \textup { 0 } }$ con al horizontal.
+
+# Problema 3.38
+
+Un artefacto espacial se dirige hacia el centro de la luna con una velocidad de 3.200 km./h. Cuando su distancia a la superficie de la Luna igual al radio de la misma. 
+
+Determinar la velocidad de impacto con la superficie lunar si el artefacto no puede disparar sus cohetes retro propulsores. 
+
+Considere a la Luna fija como un sistema inercial, cuyo radio es de $1 7 3 8 { \mathrm { ~ k m } }$ . y la aceleración de la gravedad en su superficie de $1 { , } 6 2 \mathrm { m / s e g ^ { 2 } }$ .
+
+# Problema 3.39
+
+Una partícula se mueve sobre el eje x bajo la influencia de una fuerza que deriva de la función energía potencial, que expresada en joule, viene dada por:
+
+$$
+\Phi (\mathrm {x}) = 6 \mathrm {x} ^ {2} - 3 \mathrm {x} ^ {3}
+$$
+
+a. Obtener una expresión para la fuerza a la que se verá sometida la partícula. 
+
+b. Determinar el máximo valor que debería tener la energía mecánica de la partícula para garantizar que la partícula pueda oscilar alrededor de un punto de equilibrio.
+
+# Problema 3.40
+
+Una partícula se mueve bajo acción de una fuerza atractiva $\boldsymbol { \mathrm { F } } = - \boldsymbol { \mathrm { \textbf { k } } } / \boldsymbol { \mathrm { \Omega } } \boldsymbol { \mathrm { r } } ^ { 2 }$ , donde r es la distancia de la partícula al centro de fuerza.. Si la partícula se mueve a lo largo de una trayectoria circular de radio r, demostrar que su energía mecánica viene dada por:
+
+$$
+\mathrm {E} = - \frac {\mathrm {k}}{2 \mathrm {r}}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 20 (292 chars)
+────────────────────────────────────────────────────────────
+Si la partícula se mueve a lo largo de una trayectoria circular de radio r, demostrar que su energía mecánica viene dada por:
+
+$$
+\mathrm {E} = - \frac {\mathrm {k}}{2 \mathrm {r}}
+$$
+
+Y obtener una expresión para la velocidad con la que se mueve la partícula a lo largo de dicha trayectoria.

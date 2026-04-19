@@ -1,0 +1,877 @@
+Archivo  : Libros/Libros_Markdown/MinerU_markdown_Ochoa-41-OndasElasticas-068-080_2042434569336647680.md
+Chunks   : 28
+
+────────────────────────────────────────────────────────────
+Chunk 1 (1957 chars)
+────────────────────────────────────────────────────────────
+Mecánica Clásica 
+
+Volumen II 
+
+Ochoa 
+
+- 2008 - 
+
+Ondas en Medios Elásticos 
+
+ISBN de la Versión Analógica 
+
+987-95038-0-5
+
+# 4.01 ONDAS EN UN MEDIO ELÁSTICO
+
+Antes de iniciar con el tratamiento del tema, se recomienda ejecutar el video Circulares.avi incluido en este compacto, que le permitirá tomar un primer contacto cualitativo con uno de los fenómenos que consideraremos formalmente a lo largo de los próximos temas.
+
+# Propagación de una Perturbación.
+
+Considerando un medio elástico inicialmente en equilibrio, como podría ser la superficie de un fluido, una perturbación periódica introducida en un punto del mismo, se propagará radialmente en dicho medio con una velocidad finita (c) generando deformaciones en el medio, asociadas con las oscilaciones de las partículas alrededor de su posición de equilibrio, como las que pudo apreciar en el video y que se muestran en la figura de la derecha, que en general se podrán caracterizarse mediante una función vectorial de las coordenadas espaciales y del tiempo.
+
+$$
+\vec {\varepsilon} = \vec {\varepsilon} (\vec {r}, t)
+$$
+
+[Descripción de imagen: No hay elementos visibles en la imagen que permitan describir vectores, fuerzas, ejes o puntos de aplicación. La imagen parece ser un rectángulo sólido de color verde claro sin detalles adicionales. No se puede proporcionar una descripción técnica de elementos físicos debido a la ausencia de contenido relevante.]
+
+Medio en Equilibrio
+
+[Descripción de imagen: La imagen representa un conjunto de vectores de fuerzas que actúan sobre un punto. Los vectores de fuerzas se originan en un punto común, representado por una esfera negra, y se extienden hacia afuera en diferentes direcciones, con algunos de ellos formando un ángulo de aproximadamente 45 grados con respecto a los ejes horizontales y verticales implícitos. No se proporcionan valores numéricos para las fuerzas ni se indican los ejes coordenados de referencia.]
+
+Dirección de Propagación
+
+────────────────────────────────────────────────────────────
+Chunk 2 (1817 chars)
+────────────────────────────────────────────────────────────
+pg)
+
+Medio en Equilibrio
+
+[Descripción de imagen: La imagen representa un conjunto de vectores de fuerzas que actúan sobre un punto, presumiblemente un objeto puntual. Los vectores de fuerzas se originan en un punto común, que podría ser el centro de masa del objeto, y se extienden radialmente hacia afuera, lo que sugiere que podrían estar representando fuerzas que actúan en diferentes direcciones. No se proporcionan detalles sobre la magnitud de las fuerzas, pero su dirección está indicada por las flechas.]
+
+Dirección de Propagación
+
+[Descripción de imagen: La imagen muestra un patrón de ondas concéntricas generadas desde un punto de origen, que pueden interpretarse como frentes de onda en un medio bidimensional. El origen de las fuerzas o perturbaciones se encuentra en el centro, donde se observa un punto oscuro que podría representar la fuente puntual de las ondas. No se aprecian vectores explícitos, pero pueden inferirse vectores de propagación radial desde el punto de origen hacia el exterior.]
+
+Deformaciones
+
+
+Que en coordenadas cartesianas quedaría expresada como:
+
+$$
+\vec {\varepsilon} (\vec {\mathrm {r}}, t) = \varepsilon_ {\mathrm {x}} (\mathrm {x y z}, t) \vec {\mathrm {i}} + \varepsilon_ {\mathrm {y}} (\mathrm {x y z}, t) \vec {\mathrm {j}} + \varepsilon_ {\mathrm {z}} (\mathrm {x y z}, t) \vec {\mathrm {k}}
+$$
+
+Cuando sucede lo indicado anteriormente, diremos entonces que en el medio se propaga una onda tal que las deformaciones generadas en dicho medio están caracterizadas por la función indicada, lo que a menudo se suele simplificar diciendo que en el medio se propaga una onda caracterizada por dicha función. Sin embargo debemos tener presente que lo que caracteriza la función anterior, son las deformaciones que en el medio genera la propagación de la perturbación u onda.
+
+────────────────────────────────────────────────────────────
+Chunk 3 (1245 chars)
+────────────────────────────────────────────────────────────
+tener presente que lo que caracteriza la función anterior, son las deformaciones que en el medio genera la propagación de la perturbación u onda.
+
+# Características Generales.
+
+# Modo de Propagación.
+
+Dependerá del ángulo formado entre el vector que caracteriza la deformación del medio y el que caracteriza la dirección de propagación. Cuando las partículas oscilan alrededor de su posición de equilibrio en dirección perpendicular a la dirección en que se propaga la perturbación, con lo que los vectores que caracterizan las deformaciones y la dirección de propagación serán ortogonales, diremos que estamos en presencia de una onda transversal, como aquellas que observamos en la superficie de un fluido y cuya imagen se muestra en la figura anterior. En cambio cuando las partículas oscilan en la misma dirección en que se propaga la perturbación, diremos que estamos en presencia de una onda longitudinal. 
+
+Con el propósito de ilustrar las características de los modos de propagación a los que hacemos referencia en el párrafo anterior, se recomiendan las simulaciones a las que puede acceder mediante el archivo Modos.htm que encontrará en la carpeta OndaArmonica ofrecida como parte del grupo de simulaciones incluidas en este compacto.
+
+────────────────────────────────────────────────────────────
+Chunk 4 (1921 chars)
+────────────────────────────────────────────────────────────
+que puede acceder mediante el archivo Modos.htm que encontrará en la carpeta OndaArmonica ofrecida como parte del grupo de simulaciones incluidas en este compacto.
+
+# Frente de Onda.
+
+Llamaremos frente de onda, a la superficie formada por el conjunto de puntos que en un determinado instante se encuentran en el mismo estado o fase de deformación. 
+
+Cuando el conjunto de puntos en la misma fase de la deformación define planos perpendiculares a la dirección en que se propaga la perturbación, como se sugiere en las figuras siguientes, diremos que estamos en presencia de un frente plano, en cuyo caso, orientando los ejes del sistema cartesiano de manera que (x) coincida con la dirección en la que se propaga la perturbación, las deformaciones en el medio estarán caracterizadas por una función vectorial como la que se indica a continuación.
+
+$$
+\vec {\varepsilon} = \vec {\varepsilon} (x, t)
+$$
+
+$$
+\vec {\varepsilon} (\vec {\mathrm {r}}, \mathrm {t}) = \varepsilon_ {\mathrm {x}} (\mathrm {x}, \mathrm {t}) \vec {\mathrm {i}} + \varepsilon_ {\mathrm {y}} (\mathrm {x}, \mathrm {t}) \vec {\mathrm {j}} + \varepsilon_ {\mathrm {z}} (\mathrm {x}, \mathrm {t}) \vec {\mathrm {k}}
+$$
+
+[Descripción de imagen: La imagen muestra un sistema de coordenadas cartesianas tridimensional con ejes x, y, z. Los ejes x e y forman un plano horizontal, mientras que el eje z se extiende perpendicularmente hacia abajo desde el origen. No se observan vectores ni fuerzas explícitas representadas en la imagen.]
+
+[Descripción de imagen: En la imagen se observa una esfera y un bloque que se encuentran en una superficie con múltiples planos inclinados que actúan como canales por donde pueden rodar. Se identifican fuerzas como la gravedad y la normal, actuando sobre los objetos en diferentes puntos de aplicación. No se aprecian vectores explícitos, pero se puede inferir su dirección según la orientación de los planos inclinados.]
+
+────────────────────────────────────────────────────────────
+Chunk 5 (1957 chars)
+────────────────────────────────────────────────────────────
+929fa294cc0e727bb9bb08b55706.jpg)
+
+[Descripción de imagen: La imagen muestra un objeto esférico y uno cúbico que se encuentran en una superficie con ranuras longitudinales. Sobre los objetos actúan fuerzas como la gravedad y la normal, que pueden descomponerse en componentes a lo largo de los ejes x e y, con puntos de aplicación en el centro de masa de cada objeto; además, se observan fuerzas de rozamiento que se oponen al movimiento de los objetos en la dirección del eje x.]
+
+En cambio cuando los puntos en la misma fase de la deformación definen superficies esféricas, como se sugiere en la figura siguiente, diremos que estamos en presencia de un frente esférico, en cuyo caso las deformaciones en el medio estarán caracterizadas mediante una función del tipo:
+
+$$
+\vec {\varepsilon} = \vec {\varepsilon} (r, t)
+$$
+
+[Descripción de imagen: La imagen muestra un sistema de fuerzas concurrentes que se encuentran en el centro de las circunferencias concéntricas. Los vectores de fuerza representados mediante flechas azules se orientan en diferentes direcciones y se aplican en el mismo punto. El sistema de ejes no se encuentra explícitamente definido, pero se puede asumir un sistema de coordenadas cartesiano con origen en el centro de las circunferencias.]
+
+Con lo que las ondas en la superficie de un fluido que pudimos apreciar en el video sugerido inicialmente son en realidad un caso particular del recientemente mencionado, que conocemos como frente circular, como se puede apreciar en la imagen que se muestra nuevamente.
+
+[Descripción de imagen: La imagen muestra un patrón de ondas concéntricas que se propagan radialmente desde un punto de origen en el lado inferior izquierdo de la imagen. No se observan vectores, fuerzas ni ejes explícitos, pero las líneas oscuras representan frentes de onda. El punto de aplicación de la perturbación inicial parece estar en el centro de las ondas concéntricas, cerca del extremo inferior izquierdo.]
+
+────────────────────────────────────────────────────────────
+Chunk 6 (2065 chars)
+────────────────────────────────────────────────────────────
+u.openxlab.org.cn/result/2026-04-06/c40be333-95ac-495e-879e-fff49c19b540/1c75fe2997dd554b5b2efae9b385422a710de7cdebe6440995af693f28ffccf1.jpg)
+
+Finalmente si en el caso de una onda transversal el vector que caracteriza las deformaciones está contenido en un plano, diremos que la onda está polarizada linealmente y en ese caso a dicho plano lo identificaremos como el plano de polarización. 
+
+En lo que continúa y hasta que digamos lo contrario, limitaremos nuestra presentación al caso de un frente plano, polarizado linealmente, en cuyo caso, orientando adecuadamente las direcciones del sistema de coordenadas, las deformaciones en el medio estarán caracterizadas por una función del tipo que se indica a continuación y para un instante determinado, podrán representarse gráficamente como se sugiere cualitativamente en la figura siguiente.
+
+$$
+\vec {\varepsilon} = \varepsilon (\mathrm {x}, \mathrm {t}) \vec {\mathrm {j}}
+$$
+
+[Descripción de imagen: La imagen muestra una onda sinusoidal que se propaga a lo largo del eje x, con vectores representando fuerzas o desplazamientos en diferentes puntos de la onda, tanto en dirección positiva como negativa del eje y. Los vectores son perpendiculares al eje de propagación de la onda, lo que indica que se trata de una onda transversal. El punto de aplicación de cada vector se encuentra sobre la curva sinusoidal.]
+
+# 4.02 ECUACIÓN DE ONDA
+
+Consideremos un frente plano polarizado linealmente que se propaga hacia la derecha con una velocidad ( c ) generando en el medio deformaciones como las mostradas en la figura siguiente, para 
+
+dos instantes particulares, el primero, identificado como instante inicial y otro cualquiera posterior al mismo.
+
+[Descripción de imagen: La imagen representa gráficamente la propagación de una onda en dos instantes diferentes, t=0 y t=t. En el eje horizontal se observa la posición x y en el vertical la amplitud de la onda,  en x=0 hay un punto de aplicación de una fuerza o perturbación que genera la onda. La distancia de propagación de la onda entre ambos instantes es ct.]
+
+────────────────────────────────────────────────────────────
+Chunk 7 (1557 chars)
+────────────────────────────────────────────────────────────
+[Descripción de imagen: La imagen muestra dos curvas que representan una onda en dos instantes diferentes, t = 0 y t = t. El eje horizontal representa la posición x, y el desplazamiento de la onda está representado en el eje vertical. Se observa que la onda se ha desplazado hacia la derecha una distancia ct,  entre los puntos (x-ct) y x en el intervalo de tiempo t.]
+
+Si la perturbación se propaga hacia la derecha, entonces para un instante (t) posterior al inicial, las deformaciones observadas en un punto de coordenada (x) estarán caracterizadas por una función del tipo:
+
+$$
+\varepsilon = \varepsilon (\mathrm {x} - \mathrm {c t}) \quad \rightarrow
+$$
+
+Análogamente, suponiendo que la perturbación se propaga en sentido opuesto, entonces para un instante posterior al inicial, las deformaciones observadas en un punto de coordenada (x) estarán caracterizadas por una función:
+
+$$
+\varepsilon = \varepsilon (\mathrm {x} + \mathrm {c t}) \quad \leftarrow
+$$
+
+Definiendo la nueva variable:
+
+$$
+\xi = x \pm c t \quad \text {c o n l o q u e} \quad \varepsilon = \varepsilon (\xi)
+$$
+
+La función que nos caracteriza las deformaciones en un medio elástico en el que se propaga un frente plano polarizado linealmente, en la dirección espacial asociada con la coordenada (x) deberá ser tal que sus derivadas espaciales y temporales satisfagan las relaciones que se indican a continuación.
+
+$$
+\frac {\partial \varepsilon}{\partial x} = \frac {\partial \varepsilon}{\partial \xi} \frac {\partial \xi}{\partial x} = \frac {\partial \varepsilon}{\partial \xi}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 8 (1544 chars)
+────────────────────────────────────────────────────────────
+$$
+\frac {\partial \varepsilon}{\partial x} = \frac {\partial \varepsilon}{\partial \xi} \frac {\partial \xi}{\partial x} = \frac {\partial \varepsilon}{\partial \xi}
+$$
+
+$$
+\frac {\partial^ {2} \varepsilon}{\partial x ^ {2}} = \frac {\partial}{\partial \xi} \left(\frac {\partial \varepsilon}{\partial x}\right) \frac {\partial \xi}{\partial x} = \frac {\partial}{\partial \xi} \left(\frac {\partial \varepsilon}{\partial \xi}\right) = \frac {\partial^ {2} \varepsilon}{\partial \xi^ {2}}
+$$
+
+$$
+\frac {\partial \varepsilon}{\partial t} = \frac {\partial \varepsilon}{\partial \xi} \frac {\partial \xi}{\partial t} = \pm c \frac {\partial \varepsilon}{\partial \xi}
+$$
+
+$$
+\frac {\partial^ {2} \varepsilon}{\partial t ^ {2}} = \frac {\partial}{\partial \xi} \left(\frac {\partial \varepsilon}{\partial t}\right) \frac {\partial \xi}{\partial t} = \frac {\partial}{\partial \xi} \left(\pm c \frac {\partial \varepsilon}{\partial \xi}\right) \pm c \frac {\partial \varepsilon}{\partial \xi} = c ^ {2} \frac {\partial^ {2} \varepsilon}{\partial \xi^ {2}} = c ^ {2} \frac {\partial^ {2} \varepsilon}{\partial x ^ {2}}
+$$
+
+Por lo tanto, de la última igualdad, resulta que la función que nos caracteriza las deformaciones generadas en un medio como consecuencia de la presencia de una onda plana, transversal y polarizada linealmente, que se propaga en dicho medio, deberá ser solución de la ecuación diferencial:
+
+$$
+\frac {\partial^ {2} \varepsilon}{\partial x ^ {2}} - \frac {1}{c ^ {2}} \frac {\partial^ {2} \varepsilon}{\partial t ^ {2}} = 0
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 9 (1661 chars)
+────────────────────────────────────────────────────────────
+opaga en dicho medio, deberá ser solución de la ecuación diferencial:
+
+$$
+\frac {\partial^ {2} \varepsilon}{\partial x ^ {2}} - \frac {1}{c ^ {2}} \frac {\partial^ {2} \varepsilon}{\partial t ^ {2}} = 0
+$$
+
+Que en adelante reconoceremos como ecuación de onda, pudiendo demostrarse que en general, para una situación libre de amortiguamiento, la función que caracterizará las deformaciones de medio un medio en el que se propaga una onda, deberá ser solución de la ecuación diferencial:
+
+$$
+\nabla^ {2} \vec {\varepsilon} - \frac {1}{c ^ {2}} \frac {\partial^ {2} \vec {\varepsilon}}{\partial t ^ {2}} = 0
+$$
+
+Que incluye tres ecuaciones diferenciales, una para cada componente del vector que caracteriza las deformaciones del medio, que si se trabaja en un sistema cartesiano tendrán la forma que se indica a continuación:
+
+$$
+\nabla^ {2} \varepsilon_ {\mathrm {x}} - \frac {1}{\mathrm {c} ^ {2}} \frac {\partial^ {2} \varepsilon_ {\mathrm {x}}}{\partial \mathrm {t} ^ {2}} = 0 \qquad \nabla^ {2} \varepsilon_ {\mathrm {y}} - \frac {1}{\mathrm {c} ^ {2}} \frac {\partial^ {2} \varepsilon_ {\mathrm {y}}}{\partial \mathrm {t} ^ {2}} = 0 \qquad \nabla^ {2} \varepsilon_ {\mathrm {z}} - \frac {1}{\mathrm {c} ^ {2}} \frac {\partial^ {2} \varepsilon_ {\mathrm {z}}}{\partial \mathrm {t} ^ {2}} = 0
+$$
+
+# 4.03 ONDAS SENOIDALES.
+
+Considerando una función de la forma:
+
+$$
+\varepsilon = \varepsilon_ {\circ} \operatorname {s e n} (\mathrm {k x} - \mathrm {w t})
+$$
+
+Por simple sustitución podemos verificar que la misma será solución de la ecuación de onda correspondiente a un frente plano polarizado linealmente que se propaga en la dirección del eje x, siempre que:
+
+────────────────────────────────────────────────────────────
+Chunk 10 (1890 chars)
+────────────────────────────────────────────────────────────
+thrm {w t})
+$$
+
+Por simple sustitución podemos verificar que la misma será solución de la ecuación de onda correspondiente a un frente plano polarizado linealmente que se propaga en la dirección del eje x, siempre que:
+
+$$
+\frac {\mathrm {w}}{\mathrm {k}} = \mathrm {c}
+$$
+
+Donde recordemos que (c) es la velocidad con la que se propaga la perturbación, en función de la cual, la solución considerada anteriormente puede expresarse como:
+
+$$
+\varepsilon = \varepsilon_ {\circ} \operatorname {s e n} k (x - c t)
+$$
+
+Por lo tanto la función en consideración nos caracteriza las deformaciones en el medio como consecuencia de la presencia de una onda propagándose en el sentido en que crece la coordenada espacial, y cuya representación gráfica, en función de dicha coordenada, para un instante determinado (que para facilitar la representación lo hemos considerado nulo) se muestran a continuación.
+
+$$
+\varepsilon = \varepsilon_ {\circ} \operatorname {s e n} (\mathrm {k x})
+$$
+
+[Descripción de imagen: La imagen muestra una onda sinusoidal periódica en función de la posición, con una longitud de onda λ indicada. No se observan vectores ni fuerzas explícitas, pero se puede inferir que la amplitud de la onda es de aproximadamente 4 unidades y el eje horizontal representa la posición (X) mientras que el eje vertical representa la amplitud o desplazamiento de la onda.]
+
+Donde podemos identificar los parámetros que se indican a continuación.
+
+# Longitud de Onda ( λ )
+
+Distancia entre dos puntos consecutivos que se encuentran en la misma fase de la deformación, que por lo tanto deberán ser tales que:
+
+$$
+\varepsilon_ {\circ} \operatorname {s e n} (\mathrm {k x}) = \varepsilon_ {\circ} \operatorname {s e n} \mathrm {k} (\mathrm {x} + \lambda)
+$$
+
+$$
+\lambda = \frac {2 \pi}{k}
+$$
+
+De donde obtenemos que el parámetro ( k ) vendrá dado por:
+
+$$
+\mathbf {k} = \frac {2 \pi}{\lambda}
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 11 (1637 chars)
+────────────────────────────────────────────────────────────
+repsilon_ {\circ} \operatorname {s e n} \mathrm {k} (\mathrm {x} + \lambda)
+$$
+
+$$
+\lambda = \frac {2 \pi}{k}
+$$
+
+De donde obtenemos que el parámetro ( k ) vendrá dado por:
+
+$$
+\mathbf {k} = \frac {2 \pi}{\lambda}
+$$
+
+Que nos proporciona el número de ondas en una longitud de $2 \pi$ , motivo por el que en adelante lo reconoceremos como número de onda. 
+
+Realizando ahora una representación de las deformaciones en función del tiempo, para un determinado valor de la coordenada espacial que para simplificar podemos suponer nula, resulta:
+
+$$
+\varepsilon = \varepsilon_ {\circ} \operatorname {s e n} (- \mathrm {w t}) = - \varepsilon_ {\circ} \operatorname {s e n} (\mathrm {w t})
+$$
+
+[Descripción de imagen: La imagen muestra una representación gráfica de una función sinusoidal en función del tiempo, donde el eje horizontal representa el tiempo (t) y el eje vertical la amplitud o desplazamiento. El período (T) de la onda sinusoidal está indicado en la parte superior, representando el tiempo necesario para completar un ciclo completo de la onda.]
+
+De donde resulta que el período asociado con las oscilaciones deberá ser tal que:
+
+$$
+\varepsilon_ {\circ} \operatorname {s e n} (\mathrm {w t}) = \varepsilon_ {\circ} \operatorname {s e n} \mathrm {w} (\mathrm {t} + \mathrm {T})
+$$
+
+$$
+\mathrm {T} = \frac {2 \pi}{\mathrm {w}}
+$$
+
+Con lo que el parámetro ( w ) resulta ser la frecuencia angular, dado por:
+
+$$
+w = \frac {2 \pi}{T}
+$$
+
+Teniendo en cuenta las conclusiones anteriores es claro que la frecuencia, la longitud de onda y la velocidad con que se propaga la perturbación estarán relacionadas mediante:
+
+$$
+\lambda v = c
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 12 (1433 chars)
+────────────────────────────────────────────────────────────
+uenta las conclusiones anteriores es claro que la frecuencia, la longitud de onda y la velocidad con que se propaga la perturbación estarán relacionadas mediante:
+
+$$
+\lambda v = c
+$$
+
+Siendo importante destacar que la frecuencia esta determinada por la fuente que introduce la perturbación y la velocidad con que se propaga la perturbación, por las características del medio en que se propaga, con lo que la longitud de la onda resultará también dependiente del medio en consideración y de la frecuencia, como se indica a continuación:
+
+$$
+\lambda = \frac {c}{v}
+$$
+
+Con lo que un incremento en la frecuencia estará asociado con una disminución en la longitud de onda y viceversa, una disminución en la frecuencia, con un incremento en la longitud de onda, como se puede apreciar en la última de las simulaciones ofrecidas en la página OndaArmonica mencionada anteriormente. 
+
+Finalmente, puede resultar conveniente tener presente que en términos de estos nuevos parámetros la función en consideración puede expresarse como:
+
+$$
+\varepsilon = \varepsilon_ {\circ} \operatorname {s e n} \frac {2 \pi}{\lambda} (\mathrm {x} - \mathrm {c t}) \quad \varepsilon = \varepsilon_ {\circ} \operatorname {s e n} \frac {2 \pi}{\mathrm {T}} \left(\frac {\mathrm {x}}{\mathrm {c}} - \mathrm {t}\right) \quad \varepsilon = \varepsilon_ {\circ} \operatorname {s e n} 2 \pi \mathrm {v} \left(\frac {\mathrm {x}}{\mathrm {c}} - \mathrm {t}\right)
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 13 (963 chars)
+────────────────────────────────────────────────────────────
+thrm {x}}{\mathrm {c}} - \mathrm {t}\right) \quad \varepsilon = \varepsilon_ {\circ} \operatorname {s e n} 2 \pi \mathrm {v} \left(\frac {\mathrm {x}}{\mathrm {c}} - \mathrm {t}\right)
+$$
+
+# 4.04 ONDAS ACUSTICAS
+
+El sonido también es una onda, en la que, a diferencia de las observadas en la superficie de un fluido, las partículas del medio en el que se propaga con una velocidad aproximada a los $1 0 0 0 ~ \mathrm { k m / h }$ , oscilan alrededor de la posición de equilibrio, en la misma dirección en que se propaga la perturbación, y por lo tanto se trata de una onda longitudinal, como se sugieren en la figura siguiente, y como puede apreciarlo en la simulación indicada anteriormente.
+
+[Descripción de imagen: La imagen muestra un objeto circular con un eje central y un vector que representa una fuerza o dirección, aplicada en el punto de intersección del eje horizontal con el objeto. El sistema parece estar referido a un contexto de simetría radial.]
+
+────────────────────────────────────────────────────────────
+Chunk 14 (1511 chars)
+────────────────────────────────────────────────────────────
+33-95ac-495e-879e-fff49c19b540/613856b1db0804899295495153c0514cdcc3c2b7bf586e91e35fc4a2c6681cf4.jpg)
+
+Resulta oportuno mencionar que, la intensidad de un sonido estará directamente relacionado con la amplitud con que oscilan las partículas alrededor de su posición de equilibrio y el tono, con la frecuencia que llega la onda a nuestros oídos. Un sonido grave estará asociado con una frecuencia baja y a una frecuencia elevada la percibiremos como un sonido agudo, tal como lo podrá apreciar en el video Sonido.avi, que en primer término le permitirá apreciar un sonido grave de 300 ciclos/segundo y luego un agudo de 500 ciclos/segundo, unidad de frecuencia que se abrevia con Hz (Hertz). 
+
+Al respecto resulta oportuno indicar que nuestro oído, cuya estructura se muestra en la figura siguiente, es sensible al rango de frecuencia que se indica en el gráfico de barras incluido posteriormente, donde además se muestra el rango de frecuencias al que son sensibles los oídos de varios animales, algunos de los cuales suponemos se comunican a través de frecuencias muy superiores al límite del oído humano (ultrasonido), como en el caso del delfín. 
+
+Las ondas sonoras hacen vibrar el tímpano, estas vibraciones se amplifican y son transmitidas por el martillo y el yunque al estribo, que las transmite al líquido en la cóclea, cuyas vibraciones son captadas por el nervio auditivo y transmitidas al cerebro, tal como lo podrá apreciar en el video Oido.dcr que se recomienda como apoyo del tema en consideración.
+
+────────────────────────────────────────────────────────────
+Chunk 15 (2892 chars)
+────────────────────────────────────────────────────────────
+e al líquido en la cóclea, cuyas vibraciones son captadas por el nervio auditivo y transmitidas al cerebro, tal como lo podrá apreciar en el video Oido.dcr que se recomienda como apoyo del tema en consideración.
+
+[Descripción de imagen: La imagen muestra una sección transversal del oído humano, donde se puede apreciar el pabellón auricular, el conducto auditivo y su relación con el hueso temporal. No se observan vectores ni fuerzas en la imagen, solo una representación anatómica.]
+
+[Descripción de imagen: La imagen muestra una sección transversal del oído interno, donde se pueden identificar varios componentes anatómicos. 
+
+No se observan vectores ni fuerzas, pero si se puede apreciar los diferentes partes del oído interno, como el martillo, el yunque, el estribo, la cóclea, los canales semicirculares, el nervio auditivo, la trompa de Eustaquio y el tímpano.]
+
+[Descripción de imagen: La imagen muestra un gráfico de barras que representa la frecuencia de ultrasonidos  en Hertzios (Hz)  que varios animales y el ser humano pueden generar o percibir. El eje horizontal lista los nombres de diferentes especies incluyendo Murciélago, Gato, Perro, Delfín, Saltamontes y Ser humano. El eje vertical representa la frecuencia en Hertzios (Hz) en escala logarítmica, variando desde 0 hasta 100.000 Hz. Cada animal tiene una barra asociada que indica la frecuencia de ultrasonido que puede generar o percibir, pudiendo compararse entre sí.]
+
+# Efecto Doppler.
+
+Como una adecuada introducción al tema se recomienda ejecutar el video Doppler-1.dcr de donde fueron extraídas las imágenes siguientes, resultando que como consecuencia del movimiento relativo entre una fuente y un receptor, cuando la fuente de sonido se acerca al receptor, este percibe un frecuencia mayor que la frecuencia con que fue emitida la señal y por lo tanto un sonido mas agudo, en cambio cuando la fuente se aleja del receptor, este percibe una frecuencia menor y por lo tanto un sonido mas grave.
+
+[Descripción de imagen: La imagen muestra un vehículo en movimiento que genera ondas de presión, representadas por círculos concéntricos, mientras pasa cerca de una persona que se encuentra sobre una tabla de skate. En el punto de aplicación de la persona, se puede considerar la fuerza de reacción del suelo sobre ella, así como la tensión en la mano que sostiene la caja. No se observan vectores explícitos, pero se puede inferir la dirección de propagación de las ondas sonoras.]
+
+[Descripción de imagen: La imagen representa un observador en una tabla de skate y un vehículo en movimiento, evidenciando el efecto Doppler. Las líneas azules curvas simbolizan las ondas sonoras emitidas por el auto, que se comprimen delante de éste y se dispersan detrás. El punto de aplicación de las fuerzas y vectores relevantes no están explícitamente definidos, pero podemos inferir que el eje de movimiento es horizontal.]
+
+────────────────────────────────────────────────────────────
+Chunk 16 (1947 chars)
+────────────────────────────────────────────────────────────
+070939c4c23422aee90813e107d299e.jpg)
+
+[Descripción de imagen: La imagen muestra a un hombre sobre una tabla de skate que parece desplazarse hacia la derecha, con un vector de movimiento que podemos asumir paralelo al eje x positivo. A su derecha se observa un automóvil que se encuentra en movimiento respecto al hombre, con un vector de movimiento que también podemos asumir paralelo al eje x positivo pero con una magnitud mayor.  Entre el hombre y el automóvil se observan líneas curvas que representan frentes de onda de sonido, generadas por el automóvil en movimiento.]
+
+También se recomienda ejecutar el archivo Doppler.htm incluido en la carpeta del mismo nombre, que le permitirá acceder a una simulación destinada a ilustrar diferentes aspectos relacionados con el fenómeno en consideración y donde además encontrara demostrado que la relación entre la frecuencia emitida $( \nu _ { \mathrm { o } } )$ , la frecuencia recibida (ν), la velocidad (v) con que se mueve la fuente y la velocidad (c) con que se propaga la perturbación, vienen dadas por: 
+
+Cuando la fuente se acerca al receptor
+
+$$
+\mathbf {v} = \mathbf {v} _ {\circ} \left(\frac {\mathbf {c}}{\mathbf {c} - \mathbf {v}}\right)
+$$
+
+Cuando la fuente se aleja del receptor
+
+$$
+\mathbf {v} = \mathbf {v} _ {\circ} \left(\frac {\mathbf {c}}{\mathbf {c} + \mathbf {v}}\right)
+$$
+
+Expresiones válidas cuando la velocidad de la fuente es inferior a la velocidad con la que se propaga la perturbación.
+
+[Descripción de imagen: La imagen representa la propagación de ondas sonoras generadas por una fuente en movimiento a gran velocidad, creando un frente de choque. Las círculos concéntricos indican las crestas de las ondas sonoras, cuyo frente de onda se deforma debido a la velocidad supersónica de la fuente, representada por la bola roja. La persona, representada por la figura en negro, se encuentra en la región donde el sonido llega después de pasar por el frente de choque.]
+
+────────────────────────────────────────────────────────────
+Chunk 17 (1565 chars)
+────────────────────────────────────────────────────────────
+ttps://cdn-mineru.openxlab.org.cn/result/2026-04-06/c40be333-95ac-495e-879e-fff49c19b540/2b29917e4bcb7236c1bc7015c59aa0fcd0c42154ea557e31310a3d4b4652b9eb.jpg)
+
+Suponiendo que la velocidad con la que se mueve la fuente supera la velocidad del sonido, tendremos una situación como la sugerida en la figura lateral. 
+
+En este caso, el cono que resulta ser la envolvente de las ondas generadas por la fuente se comporta como un frente de alta presión, conocido como frente de choque, por lo que, al moverse la fuente, la transición del receptor a través de dicho frente estará asociada con un brusco cambio de presión que percibiremos como un estallido, precisamente conocido como estallido sónico. 
+
+Como una ilustración final del tema considerado, se recomiendan el video Doppler-2.wmv.
+
+# 4.05 SUPERPOSICIÓN DE ONDAS
+
+# Principio de Superposición.
+
+Según este principio, la superposición en un medio de señales u ondas que individualmente generarían deformaciones caracterizadas por funciones del tipo:
+
+$$
+\vec {\varepsilon} _ {\mathrm {i}} = \vec {\varepsilon} _ {\mathrm {i}} (\vec {\mathrm {r}}, t)
+$$
+
+Darán lugar a deformaciones caracterizadas por la función:
+
+$$
+\vec {\varepsilon} (\vec {\mathrm {r}}, \mathrm {t}) = \sum \vec {\varepsilon} _ {\mathrm {i}} (\vec {\mathrm {r}}, \mathrm {t})
+$$
+
+En particular cuando se superponen frentes planos, transversales y polarizados linealmente, generaran deformaciones caracterizadas por una función del tipo:
+
+$$
+\varepsilon (\mathrm {x}, \mathrm {t}) = \sum \varepsilon_ {\mathrm {i}} (\mathrm {x}, \mathrm {t})
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 18 (1667 chars)
+────────────────────────────────────────────────────────────
+ansversales y polarizados linealmente, generaran deformaciones caracterizadas por una función del tipo:
+
+$$
+\varepsilon (\mathrm {x}, \mathrm {t}) = \sum \varepsilon_ {\mathrm {i}} (\mathrm {x}, \mathrm {t})
+$$
+
+# Interferencia de Ondas Senoidales.
+
+Consideremos la superposición de ondas que se propagan en la misma dirección y tales que las deformaciones que generarían individualmente en dicho medio, estarían caracterizadas por las funciones que se indican a continuación:
+
+$$
+\varepsilon_ {1} (\mathrm {x}, \mathrm {t}) = \varepsilon_ {\circ} \operatorname {s e n} \left[ (\mathrm {k x} - \mathrm {w t}) + \phi_ {1} \right]
+$$
+
+$$
+\varepsilon_ {2} (\mathrm {x}, \mathrm {t}) = \varepsilon_ {\circ} \operatorname {s e n} \left[ (\mathrm {k x} - \mathrm {w t}) + \phi_ {2} \right]
+$$
+
+De acuerdo con el principio de superposición y teniendo en cuenta que:
+
+$$
+\operatorname {s e n} \alpha + \operatorname {s e n} \beta = 2 \operatorname {s e n} \frac {\alpha + \beta}{2} \cos \frac {\alpha - \beta}{2}
+$$
+
+La deformación en los puntos del medio donde se superponen las señales, estará caracterizada la función:
+
+$$
+\varepsilon (\mathrm {x}, \mathrm {t}) = 2 \varepsilon_ {\circ} \cos \frac {\Delta \phi}{2} \operatorname {s e n} \left[ (\mathrm {k x} - \mathrm {w t}) + \frac {\phi_ {1} + \phi_ {2}}{2} \right]
+$$
+
+Que definiendo las magnitudes:
+
+$$
+\varepsilon_ {\circ} ^ {*} = 2 \varepsilon_ {\circ} \cos \frac {\Delta \phi}{2}
+$$
+
+$$
+\phi^ {*} = \frac {\phi_ {1} + \phi_ {2}}{2}
+$$
+
+Puede expresarse como:
+
+$$
+\varepsilon (\mathrm {x}, \mathrm {t}) = \varepsilon_ {\circ} ^ {*} \operatorname {s e n} \left[ (\mathrm {k x} - \mathrm {w t}) + \phi^ {*} \right]
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 19 (1540 chars)
+────────────────────────────────────────────────────────────
+= \frac {\phi_ {1} + \phi_ {2}}{2}
+$$
+
+Puede expresarse como:
+
+$$
+\varepsilon (\mathrm {x}, \mathrm {t}) = \varepsilon_ {\circ} ^ {*} \operatorname {s e n} \left[ (\mathrm {k x} - \mathrm {w t}) + \phi^ {*} \right]
+$$
+
+Por lo tanto la superposición de ambas señales dará lugar a una nueva señal con las situaciones extremas que se indican seguidamente.
+
+# Interferencia Destructiva.
+
+Cuando la diferencia de fase entre las señales que se superponen es tal que:
+
+$$
+\frac {\Delta \phi}{2} = (2 n + 1) \frac {\pi}{2}
+$$
+
+O sea cuando:
+
+$$
+\Delta \phi = (2 n + 1) \pi
+$$
+
+De las anteriores obtenemos que la amplitud de la señal resultante será nula.
+
+$$
+\varepsilon_ {\circ} ^ {*} = 0
+$$
+
+En cuyo caso diremos que estamos en presencia de una interferencia destructiva.
+
+# Interferencia Constructiva.
+
+Cuando la diferencia de fase entre las señales que se superponen es tal que:
+
+$$
+\frac {\Delta \phi}{2} = n \pi
+$$
+
+O sea cuando:
+
+$$
+\Delta \phi = 2 n \pi
+$$
+
+De las anteriores obtenemos que la amplitud de la señal resultante vendrá dada por:
+
+$$
+\varepsilon_ {\circ} ^ {*} = 2 \varepsilon_ {\circ}
+$$
+
+En cuyo caso diremos que estamos en presencia de una interferencia constructiva. 
+
+Notemos que las alternativas mencionadas están directamente relacionadas con la diferencia de fase entre las señales en la zona de superposición, la que podría resultar como una consecuencia de una diferencia de camino recorrido señales que se generaron en fase desde dos puntos diferentes, como podremos observar en el caso que se tratara a continuación.
+
+────────────────────────────────────────────────────────────
+Chunk 20 (1894 chars)
+────────────────────────────────────────────────────────────
+ía resultar como una consecuencia de una diferencia de camino recorrido señales que se generaron en fase desde dos puntos diferentes, como podremos observar en el caso que se tratara a continuación.
+
+# Interferencia de Dos Frentes Esféricos Emitidos en Fase.
+
+Consideremos dos frentes esféricos que se originan en fase y en dos puntos S1 y S2 separados una distancia (a) como se sugiere en la figura siguiente, en cuyo caso las funciones que caracterizan los frentes en punto del espacio con las coordenadas radiales que se indican en la figura, vendrán dadas por:
+
+$$
+\varepsilon_ {1} = \varepsilon_ {1} (\mathbf {r} _ {1}) \mathrm {s e n} (\mathbf {k r} _ {1} - \mathbf {w t})
+$$
+
+$$
+\varepsilon_ {2} = \varepsilon_ {2} (\mathrm {r} _ {2}) \mathrm {s e n (k r} _ {2} - \mathrm {w t)}
+$$
+
+[Descripción de imagen: La imagen muestra dos puntos S1 y S2, con vectores r1 y r2 que se extienden desde cada punto hacia la parte superior derecha del plano. Los vectores r1 y r2 representan probablemente distancias o desplazamientos desde los puntos de aplicación S1 y S2. No se observan fuerzas explícitamente representadas en la imagen.]
+
+Puesto que, como es posible demostrarlo, la energía asociada con una onda dependerá del cuadrado de su amplitud y teniendo en cuenta que las amplitudes de las señales dependerán de la distancia a la fuente de manera que el flujo de energía a través de esferas concéntricas permanezca constante, resulta que la amplitud de las señales variará con la inversa de la distancia a la fuente, con lo que considerando la superposición de ambas señales en puntos muy alejados de las fuentes, comparado con la distancia entre las mismas, podemos suponer que en esos puntos:
+
+$$
+\varepsilon_ {1} (\mathbf {r} _ {1}) \approx \varepsilon_ {2} (\mathbf {r} _ {2}) = \varepsilon_ {\circ}
+$$
+
+En cuyo caso en dichos puntos deberemos considerar la superposición de las señales:
+
+────────────────────────────────────────────────────────────
+Chunk 21 (1718 chars)
+────────────────────────────────────────────────────────────
+mos suponer que en esos puntos:
+
+$$
+\varepsilon_ {1} (\mathbf {r} _ {1}) \approx \varepsilon_ {2} (\mathbf {r} _ {2}) = \varepsilon_ {\circ}
+$$
+
+En cuyo caso en dichos puntos deberemos considerar la superposición de las señales:
+
+$$
+\varepsilon_ {1} = \varepsilon_ {\circ} \mathrm {s e n} (\mathrm {k r} _ {1} - \mathrm {w t})
+$$
+
+$$
+\varepsilon_ {2} = \varepsilon_ {\circ} \operatorname {s e n} \left(\mathrm {k r} _ {2} - \mathrm {w t}\right)
+$$
+
+Teniendo en cuenta que la diferencia de camino (R) recorrida por ambas señales puede expresarse como:
+
+$$
+\mathbf {R} = \mathbf {r} _ {2} - \mathbf {r} _ {1}
+$$
+
+De donde:
+
+$$
+\mathrm {r} _ {2} = \mathrm {r} _ {1} + \mathrm {R}
+$$
+
+La señal generada por la segunda fuente en el punto de superposición puede expresarse como:
+
+$$
+\varepsilon_ {2} = \varepsilon_ {\circ} \mathrm {s e n} \big [ (\mathrm {k r} _ {1} - \mathrm {w t}) + \mathrm {k R} \big ]
+$$
+
+Con lo que en el punto considerado tendremos entre ambas señales una diferencia de fase consecuencia de la diferencia de camino recorrido, dada por:
+
+$$
+\Delta \phi = k R
+$$
+
+Que en términos de la longitud de onda puede expresarse como:
+
+$$
+\Delta \phi = \frac {2 \pi}{\lambda} R
+$$
+
+Y por lo tanto, en dicho punto podremos observar las situaciones extremas que se indican a continuación: 
+
+Cuando la diferencia de camino recorrido por ambas señales sea tal que:
+
+$$
+\frac {2 \pi}{\lambda} R = (2 n + 1) \pi
+$$
+
+O sea, cuando la diferencia de camino recorrido por las señales sea:
+
+$$
+R = (2 n + 1) \frac {\lambda}{2}
+$$
+
+Estaremos en presencia de una interferencia destructiva, en cambio para aquellos puntos del medio donde la diferencia de camino recorrido es tal que:
+
+$$
+\frac {2 \pi}{\lambda} R = 2 n \pi
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 22 (1810 chars)
+────────────────────────────────────────────────────────────
+2 n + 1) \frac {\lambda}{2}
+$$
+
+Estaremos en presencia de una interferencia destructiva, en cambio para aquellos puntos del medio donde la diferencia de camino recorrido es tal que:
+
+$$
+\frac {2 \pi}{\lambda} R = 2 n \pi
+$$
+
+O sea en aquellos puntos donde:
+
+$$
+\mathbf {R} = \mathbf {n} \lambda
+$$
+
+Estaremos en presencia de una interferencia constructiva, como se puede observar en la figura lateral, donde es posible identificar claramente las zonas de interferencia destructiva y constructiva, asociadas con la superposición de dos frentes circulares emitidos en fase y que fuera extraída del video Interferencia.avi que se recomienda ejecutar como una ilustración del tema en consideración.
+
+[Descripción de imagen: La imagen muestra dos fuentes puntuales de ondas, representadas por dos bolas oscuras, que generan frentes de onda concéntricos que se propagan radialmente. Los frentes de onda se representan mediante líneas curvas que emanan de cada fuente, ilustrando la propagación de una perturbación en un medio, presumiblemente agua. No se observan vectores de fuerza explícitos, pero se puede inferir la dirección de propagación de las ondas perpendicular a los frentes de onda.]
+
+Finalmente y teniendo en cuenta que, en aquellos puntos donde las señales se superponen, la amplitud de la señal resultante venía dada por:
+
+$$
+\varepsilon_ {\circ} ^ {*} = 2 \varepsilon_ {\circ} \cos \frac {\Delta \phi}{2}
+$$
+
+Que en función de la diferencia de camino recorrido por las señales podemos expresar como:
+
+$$
+\varepsilon_ {\circ} ^ {*} = 2 \varepsilon_ {\circ} \cos \frac {\mathrm {k R}}{2}
+$$
+
+Expresando la diferencia de camino en función del ángulo (θ) indicado en la figura siguiente, que para puntos muy alejados comparados con la distancia entre las fuentes vendrá dada por:
+
+$$
+R = a \sin \theta
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 23 (2100 chars)
+────────────────────────────────────────────────────────────
+cia de camino en función del ángulo (θ) indicado en la figura siguiente, que para puntos muy alejados comparados con la distancia entre las fuentes vendrá dada por:
+
+$$
+R = a \sin \theta
+$$
+
+La amplitud de la señal resultante en dichos puntos puede expresarse, en términos de la coordenada angular y de la longitud de onda de las señales involucradas, como:
+
+[Descripción de imagen: La imagen muestra un sistema de fuerzas o campos representado por líneas que convergen en un punto. Se observan vectores o líneas de acción que forman un ángulo $\theta$ con respecto al eje horizontal, con un brazo de palanca de longitud $a$ y distancia $R$ que podría representar una distancia focal o de aplicación de fuerzas. El sistema parece relacionarse con conceptos de óptica, electromagnetismo o mecánica clásica.]
+
+$$
+\varepsilon_ {\circ} ^ {*} = 2 \varepsilon_ {\circ} \cos \left(\pi \frac {\text {a s e n} \theta}{\lambda}\right)
+$$
+
+Resultando una amplitud máxima (interferencia constructiva) para los puntos que equidistan de la fuente y nuevos máximos de igual amplitud en aquellos puntos con coordenadas angulares tales que:
+
+$$
+\mathrm {a s e n} \theta = \mathrm {n} \lambda
+$$
+
+Y puntos donde la amplitud será nula (interferencia destructiva) cuando la coordenada angular sea tal que:
+
+$$
+\mathrm {a s e n} \theta = (2 n + 1) \frac {\lambda}{2}
+$$
+
+Con lo que para el caso de un frente circular en la superficie de un fluido como el mostrado en el video anteriormente recomendado y considerando puntos muy alejados de las fuentes pertenecientes a una línea paralela a la que une dichas fuentes, la distancia entre dos máximos consecutivos vendrá dada por:
+
+$$
+\mathrm {D} = \frac {\mathrm {H}}{\mathrm {a}} \lambda
+$$
+
+Donde (H) es la distancia entre la línea que une ambas fuentes y aquella línea paralela a la que hacemos referencia anteriormente.
+
+# 3.06 ONDAS ESTACIONARIAS.
+
+Consideraremos a continuación la superposición de dos señales iguales, que se propagan en sentido opuesto y tales que las deformaciones que individualmente generarían en el medio vienen caracterizadas por las funciones:
+
+────────────────────────────────────────────────────────────
+Chunk 24 (2014 chars)
+────────────────────────────────────────────────────────────
+Consideraremos a continuación la superposición de dos señales iguales, que se propagan en sentido opuesto y tales que las deformaciones que individualmente generarían en el medio vienen caracterizadas por las funciones:
+
+$$
+\varepsilon_ {1} = \varepsilon_ {\circ} \operatorname {s e n} (\mathrm {k x - w t})
+$$
+
+$$
+\varepsilon_ {2} = \varepsilon_ {\circ} \operatorname {s e n} (\mathrm {k x} + \mathrm {w t})
+$$
+
+Teniendo en cuenta el principio de superposición y la misma relación trigonométrica considerada en el tema anterior, resulta que las deformaciones en aquellos puntos del medio como consecuencia de la superposición de ambas señales, estarán caracterizadas por la función:
+
+$$
+\varepsilon = 2 \varepsilon_ {\circ} \operatorname {s e n} (\mathrm {k x}) \cos (\mathrm {w t})
+$$
+
+Donde podemos observar que en la función que caracteriza la señal resultante se han desacoplados la parte espacial de la temporal y que podemos expresarla como:
+
+$$
+\varepsilon (\mathrm {x}, \mathrm {t}) = \varepsilon_ {\circ} ^ {*} (\mathrm {x}) \cos (\mathrm {w t})
+$$
+
+Donde
+
+$$
+\varepsilon_ {\circ} ^ {*} (\mathrm {x}) = 2 \varepsilon_ {\circ} \operatorname {s e n} (\mathrm {k x})
+$$
+
+Resultando así que los diferentes puntos de la cuerda oscilarán alrededor de su posición de equilibrio con una amplitud que dependerá de su posición con lo que, las deformaciones observadas variaran con el tiempo con una amplitud que dependerá de la coordenada espacial, como se sugiere en la figura siguiente, para diferentes instantes indicados con diferentes colores.
+
+[Descripción de imagen: La imagen muestra tres ondas sinusoidales de diferentes amplitudes, representadas por curvas de colores negro, azul y rojo. No se observan vectores ni fuerzas explícitas, pero podríamos interpretar las curvas como desplazamientos en función del tiempo o la posición, donde el eje horizontal podría representar el tiempo o la distancia (x) y el eje vertical el desplazamiento.  Las curvas tienen puntos de intersección en el eje horizontal.]
+
+────────────────────────────────────────────────────────────
+Chunk 25 (1704 chars)
+────────────────────────────────────────────────────────────
+[Descripción de imagen: La imagen muestra tres ondas sinusoidales de diferentes amplitudes. No se observan vectores ni fuerzas, pero sí la representación gráfica de las funciones en el plano cartesiano con los ejes x e y.  Las curvas de color negro, azul y rojo tienen sus máximos y mínimos en los puntos de aplicación donde alcanzan sus valores pico.]
+
+Resultando entonces que existen puntos para los cuales la amplitud de la deformación será constantemente nula, que en adelante identificaremos como puntos nodales y cuyas posiciones serán tales que:
+
+$$
+\mathrm {k x} _ {\mathrm {n}} = \mathrm {n} \pi
+$$
+
+De donde resulta que las coordenadas de dichos puntos vendrán dadas por:
+
+$$
+\mathrm {x} _ {\mathrm {n}} = \frac {1}{2} \mathrm {n} \lambda
+$$
+
+Con lo que la distancia entre nodos consecutivos resulta:
+
+$$
+\Delta \mathbf {x} = \frac {1}{2} \lambda
+$$
+
+Se recomienda ejecutar el archivo Estacionarias.htm incluido en la carpeta del mismo nombre, con lo que podrá acceder a una simulación destinada a ilustrar el tema recientemente considerado y que le permitirá observar lentamente la formación de la onda estacionaria sobre una cuerda como consecuencia de la interferencia entre las señales que se propagan en sentido opuesto.
+
+# 3.07 MODULACIÓN EN AMPLITUD.
+
+Consideraremos ahora la superposición de dos señales que se propagan con la misma velocidad y con frecuencias próximas, dadas por:
+
+$$
+\varepsilon_ {1} (\mathbf {x}, t) = \varepsilon_ {\circ} \mathrm {s e n} (\mathbf {k} _ {1} \mathbf {x} - \mathbf {w} _ {1} t)
+$$
+
+$$
+\varepsilon_ {2} (\mathrm {x}, \mathrm {t}) = \varepsilon_ {\circ} \operatorname {s e n} \left(\mathrm {k} _ {2} \mathrm {x} - \mathrm {w} _ {2} \mathrm {t}\right)
+$$
+
+────────────────────────────────────────────────────────────
+Chunk 26 (1778 chars)
+────────────────────────────────────────────────────────────
+f {x} - \mathbf {w} _ {1} t)
+$$
+
+$$
+\varepsilon_ {2} (\mathrm {x}, \mathrm {t}) = \varepsilon_ {\circ} \operatorname {s e n} \left(\mathrm {k} _ {2} \mathrm {x} - \mathrm {w} _ {2} \mathrm {t}\right)
+$$
+
+Procediendo de manera semejante a los casos anteriores, las deformaciones asociadas con la onda resultante vendrán caracterizadas por una función del tipo:
+
+$$
+\varepsilon (\mathrm {x}, \mathrm {t}) = 2 \varepsilon_ {\circ} \cos (\mathrm {K x} - \Omega \mathrm {t}) \operatorname {s e n} (\mathrm {k x} - \mathrm {w t})
+$$
+
+Donde:
+
+$$
+\mathrm {K} = \frac {\mathrm {k} _ {1} - \mathrm {k} _ {2}}{2}
+$$
+
+$$
+k = \frac {k _ {1} + k _ {2}}{2}
+$$
+
+$$
+\Omega = \frac {\mathrm {w} _ {1} - \mathrm {w} _ {2}}{2}
+$$
+
+$$
+\mathrm {w} = \frac {\mathrm {w} _ {1} + \mathrm {w} _ {2}}{2}
+$$
+
+Con lo que la señal resultante puede expresarse como:
+
+$$
+\varepsilon (\mathrm {x}, \mathrm {t}) = \varepsilon^ {*} (\mathrm {x}, \mathrm {t}) \operatorname {s e n} (\mathrm {k x} - \mathrm {w t})
+$$
+
+Donde:
+
+$$
+\varepsilon^ {*} (\mathrm {x}, \mathrm {t}) = 2 \varepsilon_ {\circ} \cos (\mathrm {K x} - \Omega \mathrm {t})
+$$
+
+Por lo tanto podemos interpretar la anterior como la expresión de una señal con número de onda y frecuencia alta, cuya amplitud está modulada por una señal con número de onda pequeño comparado con los originales y por lo tanto con una longitud de onda grande como se sugiere en la figura siguiente.
+
+[Descripción de imagen: La imagen muestra una grafica de una funcion matematica que representa una onda con caracteristicas de amplitud modulada. El eje horizontal (eje x) representa el tiempo o la posicion, mientras que el eje vertical (eje y) representa la amplitud de la onda. No se observan vectores ni fuerzas, solo una representacion grafica de una onda compleja.]
+
+────────────────────────────────────────────────────────────
+Chunk 27 (1891 chars)
+────────────────────────────────────────────────────────────
+[Descripción de imagen: La imagen muestra una gráfica de una función matemática que representa una onda con modulación de amplitud. La onda tiene un eje de simetría horizontal que actúa como línea de equilibrio en y=0, y las amplitudes varían sinusoidalmente a lo largo del eje x. No se observan vectores ni fuerzas explícitas, pero la gráfica sugiere una función senoidal con envolventes que varían sinusoidalmente.]
+
+Resultando interesante observar que cuanto mas próximos sean los números de onda y las frecuencias de las señales originalmente involucradas mayor será la longitud de onda asociada con la modulación de la amplitud de la señal resultante, como lo podrá apreciar en la simulación a la que puede acceder ejecutando el archivo Moduladas.htm incluido en la carpeta del mismo nombre.
+
+# 3.08 DIFRACCIÓN
+
+Finalmente, la imagen siguiente nos muestra las deformaciones producidas en un medio elástico luego de que un frente plano interactúa con una ranura de dimensiones comparables con la longitud de la onda incidente, fenómeno que conocemos como difracción, y que podrá visualizar con mas 
+
+claridad en el video Difraccion.avi que se ofrece en este volumen. 
+
+Si bien este fenómeno es de naturaleza distinta al de interferencia, considerado anteriormente, se puede dar una adecuada explicación del mismo teniendo en cuenta lo previsto por el principio de Huygens, según el cual, cuando un frente alcanza los diferentes puntos de un medio estos emiten frentes esféricos que posteriormente interfieren entre ellos. 
+
+Teniendo en cuenta este principio, cuando los diferentes puntos de la ranura son alcanzados por el frente plano, emitirán frentes esféricos en fase que van a interferir en los diferentes puntos del medio, a la derecha de la ranura, dando lugar al fenómeno en consideración, que se estudiará con mas detalles al considerar la difracción de ondas electromagnéticas.
+
+────────────────────────────────────────────────────────────
+Chunk 28 (572 chars)
+────────────────────────────────────────────────────────────
+fase que van a interferir en los diferentes puntos del medio, a la derecha de la ranura, dando lugar al fenómeno en consideración, que se estudiará con mas detalles al considerar la difracción de ondas electromagnéticas.
+
+[Descripción de imagen: La imagen muestra un patrón de ondas producido por una fuente puntual, presumiblemente una rendija, ubicada en el borde izquierdo de la imagen. Las líneas concéntricas representan frentes de onda, y se observa la difracción de las ondas al pasar a través de una abertura, lo que resulta en un patrón de interferencia visible.]
