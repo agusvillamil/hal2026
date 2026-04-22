@@ -2,6 +2,8 @@
 
 Asistente conversacional para la materia Física I (UNS), con soporte para fórmulas LaTeX y consultas sobre el material bibliográfico del curso. Las respuestas se generan mediante un pipeline RAG (*Retrieval-Augmented Generation*) que busca contexto relevante en la bibliografía indexada antes de responder.
 
+hal2026.dev.ar
+
 ## Estructura del proyecto
 
 ```
