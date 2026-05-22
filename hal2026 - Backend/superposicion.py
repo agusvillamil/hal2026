@@ -1,50 +1,79 @@
 """
-Fase 4 – Superposición (overlap).
+Fase 4 – Superposición (overlap) consciente de bloques.
 
-Antepone el final del chunk anterior al inicio del chunk actual para
-que el modelo RAG tenga contexto en los límites de cada fragmento.
-El punto de corte se ajusta al inicio de una oración completa.
+Antepone los últimos bloques del chunk anterior al inicio del chunk
+actual, sin romper jamás un bloque por la mitad. Garantiza que el
+overlap nunca arranque a mitad de fórmula, oración, header o imagen.
 """
 
-import re
 from typing import List
 
+from tokenizacion import Block, bloquesATexto
 
-def aplicarSuperposicion(texts: List[str], ratio: float) -> List[str]:
+
+def aplicarSuperposicion(grupos: List[List[Block]], ratio: float) -> List[str]:
     """
-    Antepone el último ``ratio * len(prev)`` caracteres del chunk
-    anterior al chunk actual.
+    Anexa al inicio de cada chunk los últimos bloques del chunk anterior
+    cuya longitud combinada quepa en ``ratio * len(prev_texto)``.
 
-    El punto de corte retrocede hasta el inicio de una oración para
-    no arrancar a mitad de frase.
+    Si el primer bloque del chunk actual es ``ejercicio_header``, no se
+    aplica overlap (límite semántico duro).
 
     Args:
-        texts: Lista de chunks como strings.
-        ratio: Fracción del chunk anterior a reutilizar (0–1).
+        grupos: Lista de chunks, cada uno como lista de bloques atómicos.
+        ratio:  Fracción del chunk anterior a reutilizar (0–1).
 
     Returns:
-        Nueva lista de chunks con overlap aplicado.
+        Lista de strings (texto plano de cada chunk con overlap aplicado).
     """
-    if not texts:
-        return texts
+    if not grupos:
+        return []
 
-    result = [texts[0]]
+    resultado: List[str] = [bloquesATexto(grupos[0])]
 
-    for i in range(1, len(texts)):
-        prev        = texts[i - 1]
-        longitudSuperposicion = int(len(prev) * ratio)
+    for i in range(1, len(grupos)):
+        actual = grupos[i]
 
-        if longitudSuperposicion <= 0:
-            result.append(texts[i])
+        if not actual:
             continue
 
-        cola = prev[-longitudSuperposicion:]
+        # Ejercicio: límite duro, no contaminar con cola previa.
+        if actual[0].tipo == 'ejercicio_header':
+            resultado.append(bloquesATexto(actual))
+            continue
 
-        # Retroceder hasta el inicio de una oración completa
-        m = re.search(r'(?<=[.!?])\s+\S', cola)
-        if m:
-            cola = cola[m.start() + len(m.group()) - 1:]
+        prev = grupos[i - 1]
+        textoPrev = bloquesATexto(prev)
+        presupuesto = int(len(textoPrev) * ratio)
 
-        result.append(cola.strip() + '\n\n' + texts[i])
+        if presupuesto <= 0 or not prev:
+            resultado.append(bloquesATexto(actual))
+            continue
 
-    return result
+        # Recolectar bloques del final hacia atrás hasta agotar presupuesto.
+        # Nunca se corta un bloque: si no entra entero, se descarta.
+        bloquesOverlap: List[Block] = []
+        usado = 0
+        for bloque in reversed(prev):
+            costo = len(bloque.texto) + 2  # +2 por separador '\n\n'
+            if usado + costo > presupuesto:
+                break
+            bloquesOverlap.insert(0, bloque)
+            usado += costo
+
+        # Dedup: si el primer bloque del chunk actual es idéntico al
+        # último del overlap (caso típico tras procesado.deduplicarFormulas),
+        # evitar repetirlo.
+        if (bloquesOverlap
+                and actual
+                and bloquesOverlap[-1].texto.strip() == actual[0].texto.strip()):
+            bloquesOverlap.pop()
+
+        if bloquesOverlap:
+            combinado = bloquesATexto(bloquesOverlap) + '\n\n' + bloquesATexto(actual)
+        else:
+            combinado = bloquesATexto(actual)
+
+        resultado.append(combinado)
+
+    return resultado

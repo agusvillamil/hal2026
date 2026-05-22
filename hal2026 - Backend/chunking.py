@@ -13,9 +13,9 @@ from pathlib import Path
 from typing import List
 
 from conseguirRutas import conseguirRutasPDF
-from tokenizacion import tokenizar, bloquesATexto
+from tokenizacion import tokenizar
 from agrupacion import agruparEnChunks
-from procesado import arreglarEncabezadosSolos, arreglarContextoImagenes, deduplicarFormulas
+from procesado import arreglarEncabezadosSolos, arreglarContextoImagenes, deduplicarFormulas, arreglarEjercicios
 from superposicion import aplicarSuperposicion
 from enriquecimiento import enriquecerChunk
 
@@ -77,13 +77,14 @@ def chunkear(
     gruposChunks = arreglarEncabezadosSolos(gruposChunks)
     gruposChunks = arreglarContextoImagenes(gruposChunks)
     gruposChunks = deduplicarFormulas(gruposChunks)
+    gruposChunks = arreglarEjercicios(gruposChunks)
 
-    texto = [bloquesATexto(g) for g in gruposChunks if g]
-    texto = aplicarSuperposicion(texto, ratio)
+    texto = aplicarSuperposicion([g for g in gruposChunks if g], ratio)
     texto = [t for t in texto if t.strip()]
 
     if enriquecer:
-        texto = [enriquecerChunk(t) for t in texto]
+        total = len(texto)
+        texto = [enriquecerChunk(t, i + 1, total) for i, t in enumerate(texto)]
 
     guardarChunks(ruta, texto)
     return texto

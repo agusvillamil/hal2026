@@ -13,7 +13,7 @@ import re
 
 import requests
 
-from modelos import llamarGroq, MODELO_GROQ_VIS
+from modelos import llamarVision
 
 # Regex que captura cualquier ![image](url) dentro del chunk
 ETIQUETA_IMG = re.compile(r'!\[image\]\((https?://[^\)]+)\)')
@@ -46,18 +46,20 @@ def describirImagen(url: str) -> str:
         ],
     }]
 
-    descripcion = llamarGroq(mensajes, modelo=MODELO_GROQ_VIS, max_tokens=256, temperature=0.2)
-    print('  [Groq] Imagen descrita')
+    descripcion = llamarVision(mensajes, max_tokens=256, temperature=0.2)
+    print('  [vision] Imagen descrita')
     return descripcion.strip()
 
 
-def enriquecerChunk(chunk: str) -> str:
+def enriquecerChunk(chunk: str, chunk_idx: int | None = None, total: int | None = None) -> str:
     """
     Reemplaza cada tag ![image](url) dentro de `chunk` por una descripción
     textual generada por Llama 4 Scout via Groq.
 
     Args:
-        chunk: Texto Markdown de un chunk, posiblemente con imágenes.
+        chunk:     Texto Markdown de un chunk, posiblemente con imágenes.
+        chunk_idx: Índice (1-based) del chunk dentro del archivo, para logs.
+        total:     Total de chunks del archivo, para logs.
 
     Returns:
         El mismo chunk con los tags de imagen sustituidos por
@@ -65,6 +67,9 @@ def enriquecerChunk(chunk: str) -> str:
     """
     def reemplazar(match: re.Match) -> str:
         url = match.group(1)
+        if chunk_idx is not None:
+            etiqueta = f'chunk {chunk_idx}/{total}' if total else f'chunk {chunk_idx}'
+            print(f'  [vision] Describiendo imagen ({etiqueta})...')
         try:
             descripcion = describirImagen(url)
             return f'[Descripción de imagen: {descripcion}]'

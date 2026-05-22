@@ -1,11 +1,13 @@
 """
 Fase 1 – Tokenización.
 
-Divide un Markdown generado por MinerU en bloques atómicos:
-  'header'  → líneas con # / ## / ###
-  'formula' → bloques $$...$$  (pueden ser multilínea)
-  'image'   → líneas con ![...](...)
-  'text'    → todo lo demás (párrafos)
+Divide un Markdown en bloques atómicos:
+  'header'             → líneas con # / ## / ###  (genérico)
+  'formula'            → bloques $$...$$  (pueden ser multilínea)
+  'image'              → líneas con ![...](...)
+  'text'               → todo lo demás (párrafos)
+  'ejercicio_header'   → # Ejercicio N.M  (límite semántico duro)
+  'ejercicio_seccion'  → ## IDENTIFICAR / PLANTEAMIENTO / EJECUCIÓN / EVALUACIÓN
 """
 
 import re
@@ -16,7 +18,7 @@ from typing import List
 @dataclass
 class Block:
     texto: str
-    tipo: str  # 'header' | 'formula' | 'image' | 'text'
+    tipo: str  # 'header' | 'formula' | 'image' | 'text' | 'ejercicio_header' | 'ejercicio_seccion'
 
 
 def tokenizar(markdown: str) -> List[Block]:
@@ -46,7 +48,19 @@ def tokenizar(markdown: str) -> List[Block]:
         for linea in seg.splitlines():
             stripped = linea.strip()
 
-            if re.match(r'^#{1,3}\s+\S', stripped):          # encabezado
+            if stripped == '':
+                # Línea en blanco: flush para preservar límite de párrafo
+                limpiarTexto(lineaPendiente, bloques)
+
+            elif re.match(r'^#\s+Ejercicio\s+\d+\.\d+', stripped):
+                limpiarTexto(lineaPendiente, bloques)
+                bloques.append(Block(texto=stripped, tipo='ejercicio_header'))
+
+            elif re.match(r'^##\s+(IDENTIFICAR|PLANTEAMIENTO|EJECUCIÓN|EVALUACIÓN)\s*$', stripped):
+                limpiarTexto(lineaPendiente, bloques)
+                bloques.append(Block(texto=stripped, tipo='ejercicio_seccion'))
+
+            elif re.match(r'^#{1,3}\s+\S', stripped):          # encabezado
                 limpiarTexto(lineaPendiente, bloques)
                 bloques.append(Block(texto=stripped, tipo='header'))
 
@@ -54,12 +68,30 @@ def tokenizar(markdown: str) -> List[Block]:
                 limpiarTexto(lineaPendiente, bloques)
                 bloques.append(Block(texto=stripped, tipo='image'))
 
+            elif esLineaFormulaInline(stripped):
+                # Línea dominada por una fórmula $...$ (con sufijo opcional)
+                # → bloque atómico para que la agrupación nunca la corte.
+                limpiarTexto(lineaPendiente, bloques)
+                bloques.append(Block(texto=stripped, tipo='formula'))
+
             else:
                 lineaPendiente.append(linea)
 
         limpiarTexto(lineaPendiente, bloques)
 
     return bloques
+
+
+PATRON_FORMULA_LINEA = re.compile(r'^\$[^$\n]+\$\s*\S{0,15}\s*$')
+
+
+def esLineaFormulaInline(stripped: str) -> bool:
+    """
+    Detecta líneas dominadas por una sola fórmula inline `$...$`,
+    posiblemente seguidas de una unidad o sufijo corto (≤15 chars sin espacios).
+    Ej.: "$1 m = 100 cm$", "$1 \\mathrm{ft}^2 = 0.0929 m^2$ 2"
+    """
+    return bool(PATRON_FORMULA_LINEA.match(stripped))
 
 
 def limpiarTexto(lines: List[str], bloques: List[Block]) -> None:

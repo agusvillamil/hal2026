@@ -1,4 +1,5 @@
 import os
+import re
 from pathlib import Path
 
 import chromadb
@@ -7,7 +8,7 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
-from modelos import llamarModelo
+from modelos import llamarRespuesta
 
 load_dotenv(dotenv_path=Path(__file__).parent.parent / '.env')
 
@@ -31,9 +32,12 @@ coleccion = clienteChroma.get_or_create_collection(
 PROMPT_SISTEMA = (
     'Eres un asistente experto en Física I universitaria. '
     'Responde la pregunta del usuario basándote ÚNICAMENTE en los fragmentos '
-    'de contexto proporcionados. Si el contexto no contiene información suficiente '
-    'para responder, indícalo claramente. '
-    'Usa notación LaTeX para fórmulas matemáticas. Responde en español.'
+    'de contexto proporcionados. En caso de que el contexto no contenga información suficiente '
+    'intenta inferir la respuesta usando tu conocimiento general de física'
+    'para responder, indícalo claramente y responde que no hay suficiente información. '
+    'Usa notación LaTeX para fórmulas matemáticas: '
+    '$...$ para fórmulas en línea y $$...$$ para fórmulas en bloque. '
+    'Nunca uses \\(...\\) ni \\[...\\]. Responde en español. Responde de manera concisa'
 )
 
 
@@ -68,6 +72,16 @@ def chat(pregunta: Pregunta):
         {'role': 'system', 'content': PROMPT_SISTEMA},
         {'role': 'user',   'content': f'Contexto:\n{contexto}\n\nPregunta: {pregunta.mensaje}'},
     ]
-    texto = llamarModelo(mensajes, max_tokens=1024, temperature=0.2)
+    texto = llamarRespuesta(mensajes, max_tokens=1024, temperature=0.2)
+
+    texto = re.sub(r'\\\[(.+?)\\\]', r'$$\1$$', texto, flags=re.DOTALL)
+    texto = re.sub(r'\\\((.+?)\\\)', r'$\1$', texto, flags=re.DOTALL)
+
+    print(f"\n{'='*60}")
+    print(f"[PROMPT SISTEMA]\n{PROMPT_SISTEMA}")
+    print(f"[CONTEXTO]\n{contexto}")
+    print(f"[PREGUNTA] {pregunta.mensaje}")
+    print(f"[RESPUESTA RAW]\n{texto}")
+    print(f"{'='*60}\n")
 
     return {'respuesta': texto.strip()}

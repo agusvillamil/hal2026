@@ -34,6 +34,10 @@ def agruparEnChunks(
         largoActual = 0
 
     for block in bloques:
+        # Ejercicio: límite semántico duro → siempre inicia chunk nuevo
+        if block.tipo == 'ejercicio_header' and actual:
+            sumarChunk()
+
         blen = len(block.texto)
 
         # Bloque de texto demasiado grande: dividir por oraciones

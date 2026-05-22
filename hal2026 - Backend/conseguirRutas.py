@@ -6,5 +6,8 @@ from dotenv import load_dotenv
 load_dotenv(dotenv_path=Path(__file__).parent.parent / ".env")
 
 def conseguirRutasPDF():
-    carpeta = Path(os.getenv("PDF_DIR", str(Path(__file__).parent / "Libros/Libros_Markdown")))
+    carpeta = Path(os.getenv(
+        "ZEMANSKY_DIR",
+        str(Path(__file__).parent / "Sears-Zemansky" / "Capitulos Completos")
+    ))
     return [str(p) for p in carpeta.glob("*.md")]

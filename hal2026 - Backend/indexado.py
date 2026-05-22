@@ -21,7 +21,7 @@ import chromadb
 
 from conseguirRutas import conseguirRutasPDF
 from chunking import chunkear, nombreTxt, guardarChunks
-from modelos import llamarModelo, MODELO_GROQ
+from modelos import llamarMetadatos, avanzarPool
 
 # Patrón de nombre de archivo MinerU:
 # MinerU_markdown_Ochoa-{num}-{topic}-{start}-{end}_{id}.md
@@ -31,7 +31,8 @@ PATRON_ARCHIVO = re.compile(
 
 PROMPT_METADATOS = (
     'Eres un experto en física universitaria. '
-    'Analiza el siguiente fragmento de texto de un libro de Física I y responde '
+    'Analiza el siguiente fragmento de texto de un libro de Física I, en caso de que'
+    'el texto contenga fragmentos en ingles traducelos al español y responde '
     'ÚNICAMENTE con un objeto JSON (sin markdown, sin explicaciones) con estos campos:\n'
     '- "tipo_contenido": uno de ["definicion", "teorema", "demostracion", '
     '"ejemplo", "ejercicio", "introduccion", "otro"]\n'
@@ -66,7 +67,28 @@ def extraerMetadatosArchivo(ruta: str) -> dict:
             'file_id':      m.group(5),
         }
 
-    # Fallback si el nombre no coincide con el patrón esperado
+    # Fallbacks para archivos Sears-Zemansky
+    patrones_zemansky = [
+        (r'Problemas-y-Soluciones-(\d+)-Intercalado-Sears-Zemansky', 'intercalado'),
+        (r'Problemas-Capitulo-(\d+)-Sears-Zemansky',                 'problemas'),
+        (r'Soluciones-Capitulo-(\d+)-Sears-Zemansky',                'soluciones'),
+        (r'Capitulo-(\d+)-Sears-Zemansky',                           'capitulo'),
+    ]
+    for patron, tipo in patrones_zemansky:
+        mz = re.search(patron, nombre)
+        if mz:
+            cap = int(mz.group(1))
+            return {
+                'source':       Path(ruta).stem,
+                'source_path':  str(Path(ruta).resolve()),
+                'chapter_num':  cap,
+                'topic':        f'Sears-Zemansky-{tipo}-{cap}',
+                'page_start':   0,
+                'page_end':     0,
+                'file_id':      Path(ruta).stem,
+            }
+
+    # Fallback genérico
     file_id = Path(ruta).stem.replace(' ', '_')
     return {
         'source':       Path(ruta).stem,
@@ -93,18 +115,23 @@ def extraerMetadatosGroq(chunk: str) -> dict:
         Dict con: tipo_contenido (str), conceptos (str)
     """
     mensajes = [{'role': 'user', 'content': PROMPT_METADATOS + chunk[:2000]}]
-    try:
-        texto = llamarModelo(mensajes, modelo_groq=MODELO_GROQ, max_tokens=128, temperature=0)
-        texto = re.sub(r'^```(?:json)?\s*|\s*```$', '', texto, flags=re.MULTILINE).strip()
-        datos = json.loads(texto)
-        print('  [modelo] Metadatos extraídos')
-        return {
-            'tipo_contenido': str(datos.get('tipo_contenido', 'otro')),
-            'conceptos':      str(datos.get('conceptos', '')),
-        }
-    except Exception as e:
-        print(f'  [modelo] Error extrayendo metadatos: {e}')
-        return {'tipo_contenido': 'otro', 'conceptos': ''}
+    for _ in range(4):  # máximo 4 intentos rotando modelos
+        try:
+            texto = llamarMetadatos(mensajes, max_tokens=128, temperature=0)
+            texto = re.sub(r'^```(?:json)?\s*|\s*```$', '', texto, flags=re.MULTILINE).strip()
+            datos = json.loads(texto)
+            print('  [modelo] Metadatos extraídos')
+            return {
+                'tipo_contenido': str(datos.get('tipo_contenido', 'otro')),
+                'conceptos':      str(datos.get('conceptos', '')),
+            }
+        except json.JSONDecodeError as e:
+            print(f'  [modelo] JSON inválido ({e}), rotando modelo de metadatos...')
+            avanzarPool('metadatos')
+        except Exception as e:
+            print(f'  [modelo] Error extrayendo metadatos: {e}')
+            return {'tipo_contenido': 'otro', 'conceptos': ''}
+    return {'tipo_contenido': 'otro', 'conceptos': ''}
 
 
 def leerChunksDesdeTxt(ruta_txt: Path) -> list:
@@ -165,7 +192,7 @@ def indexarTodos(
         idArchivo      = metaArchivo['file_id']
         tema        = metaArchivo['topic']
 
-        print(f'[{i}/{len(rutas)}] Ochoa-{metaArchivo["chapter_num"]}-{tema}')
+        print(f'[{i}/{len(rutas)}] {idArchivo}  (cap. {metaArchivo["chapter_num"]} – {tema})')
 
         # Si el .txt existe, el chunking completó correctamente en una ejecución
         # anterior → leer chunks desde disco sin llamar Groq para imágenes.
@@ -187,22 +214,27 @@ def indexarTodos(
 
         docs, metas, ids = [], [], []
 
-        for idx, chunk in enumerate(chunks):
-            docID = f'{idArchivo}_{idx:04d}'
+        pendientes = [(idx, chunk) for idx, chunk in enumerate(chunks)
+                      if f'{idArchivo}_{idx:04d}' not in ids_existentes]
+        totalPendientes = len(pendientes)
 
-            if docID in ids_existentes:
-                continue
+        for n, (idx, chunk) in enumerate(pendientes, 1):
+            docID = f'{idArchivo}_{idx:04d}'
+            print(f'  [{n}/{totalPendientes}] chunk {idx+1}/{len(chunks)}')
 
             # Metadatos detectados desde el texto (sin API)
             tieneFormulas  = '$$' in chunk
             tieneImagenes  = '[Descripción de imagen:' in chunk
+            matchEjercicio = re.search(r'#\s+Ejercicio\s+(\d+\.\d+)', chunk)
 
             meta = {
                 **metaArchivo,
-                'chunk_index':     idx,
-                'char_count':      len(chunk),
-                'tiene_formulas':  tieneFormulas,
-                'tiene_imagenes':  tieneImagenes,
+                'chunk_index':      idx,
+                'char_count':       len(chunk),
+                'tiene_formulas':   tieneFormulas,
+                'tiene_imagenes':   tieneImagenes,
+                'es_ejercicio':     bool(matchEjercicio),
+                'numero_ejercicio': matchEjercicio.group(1) if matchEjercicio else '',
             }
 
             if extraerConGroq:
