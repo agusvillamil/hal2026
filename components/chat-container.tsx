@@ -15,18 +15,19 @@ const initialMessages: Message[] = [
   {
     id: "1",
     role: "assistant",
-    content: `Hola, soy HAL-2026, tu asistente inteligente de física. \n 
-    Puedo ayudarte a resolver cualquier problema de física clásica, \n
-    siempre y cuando pertenezca a un tema dado en la materia. \n
+    content: `Hola, soy HAL-2026, tu asistente inteligente de física.
+Puedo ayudarte a resolver cualquier problema de física clásica,
+siempre y cuando pertenezca a un tema dado en la materia.
 
-    Puedo explicarte conceptos complejos de forma clara. \n
-    Por ejemplo, las ecuaciones de Movimiento Rectilíneo Uniforme Acelerado (MRUA): \n
+Puedo explicarte conceptos complejos de forma clara. Por ejemplo, las **ecuaciones generales de movimiento**:
 
-    $$x = x_0 + v_0 \\cdot t + \\frac{1}{2} a t^2$$ \n
-    $$v = v_0 + a \\cdot t$$ \n
-    $$v^2 = v_0^2 + 2 a (x - x_0)$$ \n
-    
-    ¿Qué te gustaría aprender hoy?`,
+Posición: $$x(t) = x_0 + v_0\\, t + \\tfrac{1}{2} a t^2$$
+
+Velocidad: $$v(t) = \\frac{dx(t)}{dt} = v_0 + a\\, t$$
+
+Aceleración: $$a(t) = \\frac{dv(t)}{dt} = \\frac{d^2 x(t)}{dt^2} = a$$
+
+¿Qué te gustaría aprender hoy?`,
   },
 ]
 
