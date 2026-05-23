@@ -15,19 +15,18 @@ const initialMessages: Message[] = [
   {
     id: "1",
     role: "assistant",
-    content: `Hola, Soy HAL-2026, tu asistente de física. Puedo ayudarte con cualquier tema de física, mientras que pertenezca a los temas dados en la materia Fisica I.
+    content: `Hola, soy HAL-2026, tu asistente inteligente de física. 
+    Puedo ayudarte a resolver cualquier problema de física clásica, 
+    siempre y cuando pertenezca a un tema dado en la materia.
 
-Puedo explicarte conceptos complejos y mostrarte las ecuaciones matemáticas de forma clara. Por ejemplo, las **ecuaciones de Maxwell** que describen el electromagnetismo:
+    Puedo explicarte conceptos complejos de forma clara. 
+    Por ejemplo, las ecuaciones de Movimiento Rectilíneo Uniforme Acelerado (MRUA):
 
-$$\\nabla \\cdot \\mathbf{E} = \\frac{\\rho}{\\varepsilon_0}$$
-
-$$\\nabla \\cdot \\mathbf{B} = 0$$
-
-$$\\nabla \\times \\mathbf{E} = -\\frac{\\partial \\mathbf{B}}{\\partial t}$$
-
-$$\\nabla \\times \\mathbf{B} = \\mu_0\\mathbf{J} + \\mu_0\\varepsilon_0\\frac{\\partial \\mathbf{E}}{\\partial t}$$
-
-¿Sobre qué tema de física te gustaría aprender hoy?`,
+    $$x = x_0 + v \\cdot t$$
+    $$v = \\frac{\\Delta x}{\\t} = \\frac{x - x_0}{t}$$
+    $$t = \\frac{x - x_0}{v}$$
+    
+    ¿Que te gustaria aprender hoy?`,
   },
 ]
 
