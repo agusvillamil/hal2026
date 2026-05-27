@@ -40,8 +40,8 @@ PROMPT_SISTEMA = (
     'Nunca uses \\(...\\) ni \\[...\\]. '
     'Nunca envuelvas fórmulas en bloques de código (```), ni siquiera con ```latex o ```math; '
     'usa solo $...$ o $$...$$. '
-    'Nunca dejes delimitadores $ o $$ sin cerrar. '
-    'Para cantidades de dinero escribe "USD 5" en vez de "$5". '
+    'Nunca dejes delimitadores $ o $$ sin cerrar — cada $ de apertura debe tener su $ de cierre en el mismo párrafo. '
+    'Si una fórmula contiene texto con unidades (m/s, km/h, etc.), incluí las unidades DENTRO de la fórmula usando \\text{...} o \\,\\mathrm{...}, no las dejes mezcladas con texto plano. '
     'Responde en español. Responde de manera concisa'
 )
 
@@ -96,9 +96,6 @@ def chat(pregunta: Pregunta):
     # Convierte delimitadores \[...\] y \(...\) a $$...$$ y $...$
     texto = re.sub(r'\\\[(.+?)\\\]', r'$$\1$$', texto, flags=re.DOTALL)
     texto = re.sub(r'\\\((.+?)\\\)', r'$\1$', texto, flags=re.DOTALL)
-
-    # Escapa "$5", "$10", etc. para que no se confundan con delimitadores de fórmula inline
-    texto = re.sub(r'(?<![\\$])\$(\d)', r'\\$\1', texto)
 
     print(f"\n{'='*60}")
     print(f"[PROMPT SISTEMA]\n{PROMPT_SISTEMA}")
