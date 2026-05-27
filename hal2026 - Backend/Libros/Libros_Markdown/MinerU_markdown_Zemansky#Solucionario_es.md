@@ -7375,7 +7375,7 @@ EVALUACIÓN: Dado que el atleta empuja hacia arriba en la barra de pesas con una
 
 
 
-Figura 4.554.56. IDENTIFICAR: Aplicar $\sum { \vec { F } } = m { \vec { \pmb { a } } }$ al globo y sus pasajeros y carga, tanto antes como después de que los objetos sean lanzados por la borda.
+Figura 4.55. IDENTIFICAR: Aplicar $\sum { \vec { F } } = m { \vec { \pmb { a } } }$ al globo y sus pasajeros y carga, tanto antes como después de que los objetos sean lanzados por la borda.
 
 PLANTEAMIENTO: Cuando la aceleración es hacia abajo, tomar $+ y$ hacia abajo y cuando la aceleración es hacia arriba, tomar $+ y$ hacia arriba.
 

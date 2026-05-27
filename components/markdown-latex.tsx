@@ -3,7 +3,21 @@
 import ReactMarkdown from "react-markdown"
 import remarkMath from "remark-math"
 import rehypeKatex from "rehype-katex"
+import katex from "katex"
 import "katex/dist/katex.min.css"
+
+const LATEX_HINT = /\\(frac|begin|sqrt|sum|int|vec|hat|alpha|beta|gamma|theta|omega|cdot|times|pi|infty|partial)\b|\^\{|_\{/
+
+function extractText(node: unknown): string {
+  if (typeof node === "string") return node
+  if (typeof node === "number") return String(node)
+  if (Array.isArray(node)) return node.map(extractText).join("")
+  if (node && typeof node === "object" && "props" in node) {
+    // @ts-expect-error - react node shape
+    return extractText(node.props?.children)
+  }
+  return ""
+}
 
 interface MarkdownLatexProps {
   content: string
@@ -40,6 +54,28 @@ export function MarkdownLatex({ content, className = "" }: MarkdownLatexProps) {
           ),
           code: ({ children, className }) => {
             const isInline = !className
+            const raw = extractText(children)
+            const lang = className?.replace(/^language-/, "").toLowerCase() ?? ""
+            const looksLikeLatex =
+              ["latex", "math", "tex"].includes(lang) || LATEX_HINT.test(raw)
+
+            if (!isInline && looksLikeLatex) {
+              try {
+                const html = katex.renderToString(raw, {
+                  displayMode: true,
+                  throwOnError: false,
+                })
+                return (
+                  <div
+                    className="my-3 overflow-x-auto"
+                    dangerouslySetInnerHTML={{ __html: html }}
+                  />
+                )
+              } catch {
+                // cae al render normal
+              }
+            }
+
             return isInline ? (
               <code className="rounded bg-muted px-1.5 py-0.5 font-mono text-sm">
                 {children}

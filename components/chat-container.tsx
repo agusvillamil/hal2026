@@ -19,7 +19,7 @@ const initialMessages: Message[] = [
 Puedo ayudarte a resolver cualquier problema de física clásica,
 siempre y cuando pertenezca a un tema dado en la materia.
 
-Puedo explicarte conceptos complejos de forma clara. Por ejemplo, las **ecuaciones generales de movimiento**:
+Puedo explicarte conceptos complejos de forma clara. Por ejemplo, las **ecuaciones generales de movimiento rectilíneo uniforme acelerado (MRUA)**:
 
 Posición: $$x(t) = x_0 + v_0\\, t + \\tfrac{1}{2} a t^2$$
 

@@ -37,7 +37,12 @@ PROMPT_SISTEMA = (
     'para responder, indícalo claramente y responde que no hay suficiente información. '
     'Usa notación LaTeX para fórmulas matemáticas: '
     '$...$ para fórmulas en línea y $$...$$ para fórmulas en bloque. '
-    'Nunca uses \\(...\\) ni \\[...\\]. Responde en español. Responde de manera concisa'
+    'Nunca uses \\(...\\) ni \\[...\\]. '
+    'Nunca envuelvas fórmulas en bloques de código (```), ni siquiera con ```latex o ```math; '
+    'usa solo $...$ o $$...$$. '
+    'Nunca dejes delimitadores $ o $$ sin cerrar. '
+    'Para cantidades de dinero escribe "USD 5" en vez de "$5". '
+    'Responde en español. Responde de manera concisa'
 )
 
 
@@ -74,14 +79,33 @@ def chat(pregunta: Pregunta):
     ]
     texto = llamarRespuesta(mensajes, max_tokens=1024, temperature=0.2)
 
+    texto_raw = texto
+
+    # Desenvuelve fences de código que contengan LaTeX (```latex, ```math, ```tex o ``` con \frac/\begin/etc.)
+    def _desenvolver_fence(match: re.Match) -> str:
+        lang = (match.group(1) or '').lower()
+        cuerpo = match.group(2)
+        if lang in ('latex', 'math', 'tex'):
+            return f'$$\n{cuerpo.strip()}\n$$'
+        if re.search(r'\\(frac|begin|sqrt|sum|int|vec|hat|alpha|beta|gamma|theta|omega|cdot|times)\b|\^\{|_\{', cuerpo):
+            return f'$$\n{cuerpo.strip()}\n$$'
+        return match.group(0)
+
+    texto = re.sub(r'```(\w+)?\s*\n?(.+?)\n?```', _desenvolver_fence, texto, flags=re.DOTALL)
+
+    # Convierte delimitadores \[...\] y \(...\) a $$...$$ y $...$
     texto = re.sub(r'\\\[(.+?)\\\]', r'$$\1$$', texto, flags=re.DOTALL)
     texto = re.sub(r'\\\((.+?)\\\)', r'$\1$', texto, flags=re.DOTALL)
+
+    # Escapa "$5", "$10", etc. para que no se confundan con delimitadores de fórmula inline
+    texto = re.sub(r'(?<![\\$])\$(\d)', r'\\$\1', texto)
 
     print(f"\n{'='*60}")
     print(f"[PROMPT SISTEMA]\n{PROMPT_SISTEMA}")
     print(f"[CONTEXTO]\n{contexto}")
     print(f"[PREGUNTA] {pregunta.mensaje}")
-    print(f"[RESPUESTA RAW]\n{texto}")
+    print(f"[RESPUESTA RAW]\n{texto_raw}")
+    print(f"[RESPUESTA PROCESADA]\n{texto}")
     print(f"{'='*60}\n")
 
     return {'respuesta': texto.strip()}
