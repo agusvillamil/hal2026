@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useRef, useEffect } from "react"
-import Image from "next/image"
+import { HalEye } from "./hal-eye"
 import { ChatMessage } from "./chat-message"
 import { ChatInput } from "./chat-input"
 
@@ -15,11 +15,9 @@ const initialMessages: Message[] = [
   {
     id: "1",
     role: "assistant",
-    content: `Hola, soy HAL-2026, tu asistente inteligente de física.
-Puedo ayudarte a resolver cualquier problema de física clásica,
-siempre y cuando pertenezca a un tema dado en la materia.
+    content: `¡Hola! Soy HAL-2026, tu asistente de Física I. Contame qué tema estás viendo y lo resolvemos juntos, conceptos, ecuaciones y demostraciones.
 
-Puedo explicarte conceptos complejos de forma clara. Por ejemplo, las **ecuaciones generales de movimiento rectilíneo uniforme acelerado (MRUA)**:
+Por ejemplo, las ecuaciones generales del movimiento rectilíneo uniformemente acelerado (MRUA):
 
 Posición: $$x(t) = x_0 + v_0\\, t + \\tfrac{1}{2} a t^2$$
 
@@ -29,6 +27,13 @@ Aceleración: $$a(t) = \\frac{dv(t)}{dt} = \\frac{d^2 x(t)}{dt^2} = a$$
 
 ¿Qué te gustaría aprender hoy?`,
   },
+]
+
+const DEFAULT_SUGGESTIONS = [
+  "¿Qué es el campo eléctrico?",
+  "Ley de Newton aplicada",
+  "Movimiento armónico simple",
+  "Primera ley de la termodinámica",
 ]
 
 interface SavedQuestion {
@@ -93,7 +98,7 @@ export function ChatContainer() {
     if (scrollRef.current) {
       scrollRef.current.scrollTop = scrollRef.current.scrollHeight
     }
-  }, [messages])
+  }, [messages, isLoading])
 
   const handleSendMessage = async (content: string) => {
     const userMessage: Message = {
@@ -120,7 +125,7 @@ export function ChatContainer() {
         id: (Date.now() + 1).toString(),
         role: "assistant",
         content:
-          "Hubo un error al procesar tu pregunta en el flujo pregunta -> base de datos -> contexto -> IA. Revisa la configuracion del backend.",
+          "Uy, hubo un error al procesar tu pregunta en el flujo pregunta → base de datos → contexto → IA. Revisá la configuración del backend.",
       }
 
       setMessages((prev) => [...prev, errorMessage])
@@ -130,47 +135,82 @@ export function ChatContainer() {
   }
 
   return (
-    <main className="flex h-full min-h-0 flex-1 flex-col overflow-hidden">
+    <div className="hal-app">
       {/* Header */}
-      <header className="flex items-center gap-3 border-b border-border bg-card/80 backdrop-blur-sm px-6 py-4">
-        <div className="flex h-10 w-10 items-center justify-center rounded-xl overflow-hidden">
-          <Image src="/hal2026.png" alt="HAL-2026" width={40} height={40} />
+      <header className="hal-header">
+        <HalEye size={48} />
+        <div className="hal-header__meta">
+          <div className="hal-title">HAL-2026</div>
+          <div className="hal-tagline">
+            Tu asistente de Física I. Preguntame acerca de física o te vas por la escotilla de ventilación.
+          </div>
         </div>
-        <div>
-          <h1 className="font-semibold text-foreground">HAL-2026</h1>
-          <p className="text-sm text-muted-foreground">
-            Pregunte solo acerca de Fisica, o se va por la escotilla de ventilacion
-          </p>
+        <div className="hal-hud-block">
+          <div className={isLoading ? "" : "hud-online"}>
+            <span
+              style={{
+                display: "inline-block",
+                width: 5,
+                height: 5,
+                borderRadius: "50%",
+                background: isLoading ? "var(--halo-flare)" : "var(--halo)",
+                boxShadow: `0 0 6px ${isLoading ? "var(--halo-flare)" : "var(--halo)"}`,
+                marginRight: 8,
+                verticalAlign: "middle",
+                animation: isLoading
+                  ? "hal-pulse 1.2s ease-in-out infinite"
+                  : "hal-pulse 2.4s ease-in-out infinite",
+              }}
+            />
+            {isLoading ? "Pensando…" : "En línea"}
+          </div>
+          <div>Física I · UNS</div>
+          <div>Modo RAG</div>
         </div>
       </header>
 
-      {/* Messages */}
-      <div ref={scrollRef} className="min-h-0 flex-1 overflow-y-auto px-4 py-6">
-        <div className="mx-auto max-w-3xl space-y-6 pb-24">
+      {/* Stream */}
+      <div ref={scrollRef} className="hal-stream">
+        <div className="hal-stream__inner">
           {messages.map((message) => (
             <ChatMessage key={message.id} message={message} />
           ))}
           {isLoading && (
-            <div className="flex items-center gap-3">
-              <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-ai-bubble border border-border">
-                <Image src="/hal2026.png" alt="HAL-2026" width={20} height={20} className="animate-pulse" />
-              </div>
-              <div className="flex items-center gap-1 rounded-2xl rounded-bl-md bg-ai-bubble border border-border/50 px-4 py-3 shadow-sm">
-                <span className="h-2 w-2 animate-bounce rounded-full bg-muted-foreground [animation-delay:-0.3s]" />
-                <span className="h-2 w-2 animate-bounce rounded-full bg-muted-foreground [animation-delay:-0.15s]" />
-                <span className="h-2 w-2 animate-bounce rounded-full bg-muted-foreground" />
+            <div className="hal-turn hal-turn--assistant">
+              <HalEye size={34} />
+              <div className="hal-bubble">
+                <div className="hal-bubble__head">HAL-2026 · pensando</div>
+                <div className="hal-bubble__body hal-thinking">
+                  <span />
+                  <span />
+                  <span />
+                </div>
               </div>
             </div>
           )}
         </div>
       </div>
 
-      {/* Input */}
-      <div className="sticky bottom-0 z-20 border-t border-border bg-card/90 p-4 backdrop-blur-sm">
-        <div className="mx-auto max-w-3xl">
-          <ChatInput onSendMessage={handleSendMessage} isLoading={isLoading} />
+      {/* Footer */}
+      <footer className="hal-footer">
+        <div className="hal-chips">
+          {DEFAULT_SUGGESTIONS.map((s) => (
+            <button
+              key={s}
+              type="button"
+              className="hal-chip"
+              onClick={() => handleSendMessage(s)}
+              disabled={isLoading}
+            >
+              {s}
+            </button>
+          ))}
         </div>
-      </div>
-    </main>
+        <ChatInput onSendMessage={handleSendMessage} isLoading={isLoading} />
+        <div className="hal-disclaimer">
+          HAL-2026 puede cometer errores. Verificá siempre la información importante.
+        </div>
+      </footer>
+    </div>
   )
 }

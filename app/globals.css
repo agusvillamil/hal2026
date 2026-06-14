@@ -3,87 +3,138 @@
 
 @custom-variant dark (&:is(.dark *));
 
+/* ───────────────────────────────────────────────────────────────
+   HAL-2026 — Design Tokens
+   Brand DNA: friendly blue "halo" eye with a chrome bezel, cool
+   night-blue surfaces, warm geometric type. Calm, encouraging.
+   Synced from claude.ai/design · HAL-2026 Design System.
+   ─────────────────────────────────────────────────────────────── */
 :root {
-  /* Steel Blue Academic Palette */
-  --background: oklch(0.98 0.005 240);
-  --foreground: oklch(0.20 0.02 240);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.20 0.02 240);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.20 0.02 240);
-  --primary: oklch(0.35 0.08 240);
-  --primary-foreground: oklch(0.98 0 0);
-  --secondary: oklch(0.96 0.01 240);
-  --secondary-foreground: oklch(0.25 0.03 240);
-  --muted: oklch(0.94 0.01 240);
-  --muted-foreground: oklch(0.50 0.02 240);
-  --accent: oklch(0.55 0.10 240);
-  --accent-foreground: oklch(0.98 0 0);
-  --destructive: oklch(0.577 0.245 27.325);
-  --destructive-foreground: oklch(0.577 0.245 27.325);
-  --border: oklch(0.88 0.02 240);
-  --input: oklch(0.92 0.01 240);
-  --ring: oklch(0.45 0.08 240);
-  --chart-1: oklch(0.45 0.12 240);
-  --chart-2: oklch(0.55 0.10 200);
-  --chart-3: oklch(0.40 0.08 220);
-  --chart-4: oklch(0.65 0.08 240);
-  --chart-5: oklch(0.50 0.06 260);
-  --radius: 0.75rem;
-  --sidebar: oklch(0.97 0.005 240);
-  --sidebar-foreground: oklch(0.20 0.02 240);
-  --sidebar-primary: oklch(0.35 0.08 240);
-  --sidebar-primary-foreground: oklch(0.98 0 0);
-  --sidebar-accent: oklch(0.94 0.01 240);
-  --sidebar-accent-foreground: oklch(0.25 0.03 240);
-  --sidebar-border: oklch(0.88 0.02 240);
-  --sidebar-ring: oklch(0.45 0.08 240);
-  
-  /* Chat specific colors */
-  --user-bubble: oklch(0.30 0.08 240);
-  --user-bubble-foreground: oklch(0.98 0 0);
-  --ai-bubble: oklch(0.96 0.01 240);
-  --ai-bubble-foreground: oklch(0.20 0.02 240);
-}
+  /* ── Surface / structure (cool night-blue, never harsh black) ── */
+  --void:   rgb(7, 11, 22);     /* #070B16  deepest bg, math cards */
+  --hull:   rgb(14, 19, 34);    /* #0E1322  header & input chrome */
+  --plate:  rgb(22, 29, 49);    /* #161D31  chip / button rest */
+  --rivet:  rgb(36, 48, 75);    /* #24304B  hairline borders */
 
-.dark {
-  --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
-  --card: oklch(0.145 0 0);
-  --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.145 0 0);
-  --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.985 0 0);
-  --primary-foreground: oklch(0.205 0 0);
-  --secondary: oklch(0.269 0 0);
-  --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.269 0 0);
-  --accent-foreground: oklch(0.985 0 0);
-  --destructive: oklch(0.396 0.141 25.723);
-  --destructive-foreground: oklch(0.637 0.237 25.331);
-  --border: oklch(0.269 0 0);
-  --input: oklch(0.269 0 0);
-  --ring: oklch(0.439 0 0);
-  --chart-1: oklch(0.488 0.243 264.376);
-  --chart-2: oklch(0.696 0.17 162.48);
-  --chart-3: oklch(0.769 0.188 70.08);
-  --chart-4: oklch(0.627 0.265 303.9);
-  --chart-5: oklch(0.645 0.246 16.439);
-  --sidebar: oklch(0.205 0 0);
-  --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.269 0 0);
-  --sidebar-accent-foreground: oklch(0.985 0 0);
-  --sidebar-border: oklch(0.269 0 0);
-  --sidebar-ring: oklch(0.439 0 0);
+  /* ── Foreground / type ───────────────────────────────────── */
+  --fg-1:         rgb(231, 235, 243); /* #E7EBF3  soft white body */
+  --fg-2:         rgb(140, 151, 178); /* #8C97B2  secondary, placeholders */
+  --fg-3:         rgb(85, 97, 124);   /* #55617C  tertiary, disclaimers */
+  --fg-on-accent: rgb(255, 255, 255); /* #FFFFFF  text on the blue button */
+
+  /* ── HAL eye — the brand color ramp ("halo") ─────────────── */
+  --halo-core:   rgb(207, 244, 255); /* #CFF4FF  hot cyan-white center */
+  --halo-flare:  rgb(94, 197, 255);  /* #5EC5FF  bright sky flare */
+  --halo-bright: rgb(56, 160, 255);  /* #38A0FF  title glow / bright text */
+  --halo:        rgb(26, 115, 240);  /* #1A73F0  PRIMARY — buttons, accents */
+  --halo-deep:   rgb(17, 70, 160);   /* #1146A0  dividers, hover trails */
+  --halo-shade:  rgb(11, 42, 110);   /* #0B2A6E  shadow edges */
+  --halo-abyss:  rgb(6, 26, 58);     /* #061A3A  outer edge of the eye */
+
+  /* ── Chrome bezel — the polished rim around the eye ──────── */
+  --chrome-hi:  rgb(238, 243, 248); /* #EEF3F8 */
+  --chrome:     rgb(174, 184, 198); /* #AEB8C6 */
+  --chrome-mid: rgb(108, 119, 135); /* #6C7787 */
+  --chrome-lo:  rgb(44, 51, 62);    /* #2C333E */
+
+  /* ── Semantic aliases ────────────────────────────────────── */
+  --accent-hover: rgb(59, 134, 255);  /* #3B86FF */
+  --accent-press: rgb(15, 87, 200);   /* #0F57C8 */
+
+  /* ── HAL eye shadow stack (the friendly blue glow) ───────── */
+  --eye-glow-far:  0 0 60px rgba(26, 115, 240, 0.20);
+  --eye-glow-mid:  0 0 30px rgba(26, 115, 240, 0.32);
+  --eye-glow-near: 0 0 14px rgba(56, 160, 255, 0.45);
+  --eye-rim:       0 0 0 1px rgba(94, 197, 255, 0.30);
+  --eye-shadow:    var(--eye-glow-far), var(--eye-glow-mid), var(--eye-glow-near), var(--eye-rim);
+  --eye-shadow-sm: 0 0 24px rgba(26, 115, 240, 0.26), 0 0 10px rgba(56, 160, 255, 0.50);
+
+  --shadow-soft: 0 4px 22px rgba(2, 6, 18, 0.45);
+  --text-glow:   0 0 18px rgba(56, 160, 255, 0.42);
+
+  /* Gradients */
+  --halo-radial: radial-gradient(circle at 50% 40%, rgb(207,244,255) 0%, rgb(94,197,255) 18%, rgb(26,115,240) 44%, rgb(17,70,160) 70%, rgb(6,26,58) 100%);
+  --chrome-rim:  conic-gradient(from 215deg, #EEF3F8, #AEB8C6 22%, #2C333E 42%, #6C7787 58%, #EEF3F8 78%, #6C7787 90%, #EEF3F8 100%);
+  --divider-h:   linear-gradient(90deg, rgba(17,70,160,0) 0%, rgb(17,70,160) 50%, rgba(17,70,160,0) 100%);
+  --divider-fade: linear-gradient(90deg, rgb(17,70,160) 0%, rgba(17,70,160,0) 100%);
+  --ambient-glow: radial-gradient(120% 80% at 50% -12%, rgba(26,115,240,0.10) 0%, transparent 60%);
+  --scanlines:   repeating-linear-gradient(0deg, rgba(94,197,255,0.014) 0px, rgba(94,197,255,0.014) 1px, transparent 1px, transparent 4px);
+
+  /* ── Type families (next/font variables, set in layout.tsx) ── */
+  --font-display: var(--font-space-grotesk), "Space Grotesk", system-ui, sans-serif;
+  --font-body:    var(--font-dm-sans), "DM Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono:    var(--font-jetbrains), "JetBrains Mono", ui-monospace, monospace;
+  --font-math:    "KaTeX_Main", "Latin Modern Math", "Cambria Math", serif;
+
+  /* ── Type scale ──────────────────────────────────────────── */
+  --t-xs: 11px; --t-sm: 13px; --t-base: 15px; --t-md: 16px;
+  --t-lg: 22px; --t-xl: 32px; --t-2xl: 52px;
+
+  --tracking-tight: -0.015em;
+  --tracking-wide:  0.06em;
+  --tracking-xwide: 0.10em;
+
+  --lh-body: 1.7;
+
+  /* ── Spacing (4-base) ────────────────────────────────────── */
+  --space-1: 4px;  --space-2: 8px;  --space-3: 12px; --space-4: 16px;
+  --space-5: 20px; --space-6: 24px; --space-8: 32px;
+
+  /* ── Radii (rounded & friendly) ──────────────────────────── */
+  --radius-xs: 4px;  --radius-sm: 8px;  --radius-md: 10px; --radius-lg: 16px;
+  --radius-bubble: 6px 18px 18px 18px;
+  --radius-pill: 999px;
+
+  /* ── Motion ──────────────────────────────────────────────── */
+  --ease-out: cubic-bezier(0.22, 0.7, 0.25, 1);
+  --ease-soft: cubic-bezier(0.34, 1.2, 0.5, 1);
+  --dur-fast: 140ms; --dur-base: 240ms; --dur-slow: 520ms; --dur-pulse: 3200ms;
+
+  /* ── shadcn / Tailwind theme tokens, remapped to HAL palette ── */
+  --background: var(--void);
+  --foreground: var(--fg-1);
+  --card: var(--hull);
+  --card-foreground: var(--fg-1);
+  --popover: var(--hull);
+  --popover-foreground: var(--fg-1);
+  --primary: var(--halo);
+  --primary-foreground: var(--fg-on-accent);
+  --secondary: var(--plate);
+  --secondary-foreground: var(--fg-1);
+  --muted: var(--plate);
+  --muted-foreground: var(--fg-2);
+  --accent: var(--halo);
+  --accent-foreground: var(--fg-on-accent);
+  --destructive: rgb(231, 76, 76);
+  --destructive-foreground: rgb(255, 255, 255);
+  --border: var(--rivet);
+  --input: var(--rivet);
+  --ring: var(--halo);
+  --chart-1: var(--halo);
+  --chart-2: var(--halo-flare);
+  --chart-3: var(--halo-deep);
+  --chart-4: var(--halo-bright);
+  --chart-5: var(--halo-core);
+  --radius: 0.625rem;
+  --sidebar: var(--hull);
+  --sidebar-foreground: var(--fg-1);
+  --sidebar-primary: var(--halo);
+  --sidebar-primary-foreground: var(--fg-on-accent);
+  --sidebar-accent: var(--plate);
+  --sidebar-accent-foreground: var(--fg-1);
+  --sidebar-border: var(--rivet);
+  --sidebar-ring: var(--halo);
+
+  /* Chat-specific (used by lingering Tailwind classes) */
+  --user-bubble: var(--plate);
+  --user-bubble-foreground: var(--fg-1);
+  --ai-bubble: var(--hull);
+  --ai-bubble-foreground: var(--fg-1);
 }
 
 @theme inline {
-  --font-sans: var(--font-inter), 'Inter', system-ui, sans-serif;
-  --font-mono: var(--font-mono), 'Geist Mono', monospace;
+  --font-sans: var(--font-body);
+  --font-mono: var(--font-mono);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
@@ -130,7 +181,315 @@
   * {
     @apply border-border outline-ring/50;
   }
+  html, body, #__next {
+    height: 100%;
+  }
   body {
-    @apply bg-background text-foreground;
+    background: var(--ambient-glow), var(--void);
+    color: var(--fg-1);
+    font-family: var(--font-body);
+    font-size: var(--t-base);
+    line-height: var(--lh-body);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    overflow: hidden;
+    position: relative;
+  }
+  /* Whisper-faint scanline — texture you feel, not see */
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: var(--scanlines);
+    pointer-events: none;
+    z-index: 100;
+    opacity: 0.6;
+  }
+  ::selection { background: var(--halo); color: #fff; }
+}
+
+/* ───────────────────────────────────────────────────────────────
+   HAL-2026 — chatbot UI kit
+   ─────────────────────────────────────────────────────────────── */
+
+/* App shell — 3-row grid: header / stream / footer */
+.hal-app {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  position: relative;
+  z-index: 1;
+}
+
+/* ─── Header ─────────────────────────────────────────────── */
+.hal-header {
+  background: var(--hull);
+  border-bottom: 1px solid var(--rivet);
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 14px 24px;
+  position: relative;
+}
+.hal-header::after {
+  content: "";
+  position: absolute;
+  left: 0; right: 0; bottom: -1px;
+  height: 1px;
+  background: var(--divider-h);
+}
+.hal-header__meta { flex: 1; min-width: 0; padding-left: 4px; }
+.hal-title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 22px;
+  letter-spacing: var(--tracking-xwide);
+  color: var(--halo-bright);
+  text-shadow: var(--text-glow);
+  line-height: 1.2;
+  text-transform: uppercase;
+  margin: 0;
+}
+.hal-tagline {
+  font-family: var(--font-body);
+  font-size: 13px;
+  color: var(--fg-2);
+  letter-spacing: 0;
+  margin-top: 3px;
+}
+.hal-hud-block {
+  text-align: right;
+  font-family: var(--font-display);
+  font-size: 11px;
+  letter-spacing: var(--tracking-wide);
+  color: var(--fg-2);
+  line-height: 1.7;
+  font-weight: 500;
+}
+.hal-hud-block .hud-online { color: var(--halo-flare); }
+.hal-hud-block > div { white-space: nowrap; }
+
+/* ─── Stream / messages ──────────────────────────────────── */
+.hal-stream {
+  overflow-y: auto;
+  padding: 28px 20px;
+}
+.hal-stream__inner {
+  max-width: 820px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.hal-turn { display: flex; gap: 14px; align-items: flex-start; }
+.hal-turn--user { flex-direction: row-reverse; }
+
+/* Bubble */
+.hal-bubble {
+  flex: 1;
+  min-width: 0;
+  max-width: calc(100% - 48px);
+  background: var(--hull);
+  border: 1px solid var(--rivet);
+  border-radius: var(--radius-bubble);
+  overflow: hidden;
+  position: relative;
+}
+.hal-bubble::before {
+  content: "";
+  position: absolute;
+  left: 1px; right: 1px; top: 1px;
+  height: 1px;
+  background: var(--divider-fade);
+  opacity: 0.5;
+}
+.hal-bubble__head {
+  font-family: var(--font-display);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: var(--tracking-wide);
+  color: var(--halo-flare);
+  padding: 14px 22px 4px;
+}
+.hal-bubble__body {
+  padding: 0 22px 16px;
+  font-family: var(--font-body);
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--fg-1);
+}
+.hal-bubble__body p { margin: 6px 0; }
+.hal-bubble__body p:first-child { margin-top: 6px; }
+
+/* User bubble — mirror corner, slightly darker */
+.hal-bubble--user {
+  background: var(--plate);
+  border-radius: 18px 6px 18px 18px;
+  max-width: 70%;
+  flex: 0 1 auto;
+}
+.hal-bubble--user::before {
+  background: linear-gradient(270deg, rgb(17,70,160) 0%, rgba(17,70,160,0) 100%);
+}
+.hal-bubble--user .hal-bubble__body { padding: 14px 22px; color: var(--fg-1); }
+
+/* Math card — block math rendered by KaTeX inside chat bubbles */
+.hal-bubble__body .katex-display,
+.hal-mathcard {
+  background: var(--void);
+  border-left: 3px solid var(--halo);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  padding: 12px 22px;
+  margin: 8px 0;
+  color: var(--fg-1);
+  font-size: 16px;
+  overflow-x: auto;
+}
+.hal-bubble__body .katex-display > .katex { color: var(--fg-1); }
+.hal-bubble__body .katex-display { margin: 8px 0; }
+
+/* Thinking dots */
+.hal-thinking { padding: 6px 22px 18px; display: inline-flex; gap: 6px; align-items: center; }
+.hal-thinking span {
+  width: 6px; height: 6px; border-radius: 50%;
+  background: var(--halo);
+  animation: hal-bounce 1.2s ease-in-out infinite;
+}
+.hal-thinking span:nth-child(2) { animation-delay: 0.15s; }
+.hal-thinking span:nth-child(3) { animation-delay: 0.30s; }
+
+/* ─── Footer ─────────────────────────────────────────────── */
+.hal-footer {
+  background: var(--hull);
+  border-top: 1px solid var(--rivet);
+  padding: 16px 20px 14px;
+  position: relative;
+}
+.hal-footer::before {
+  content: "";
+  position: absolute;
+  left: 0; right: 0; top: -1px;
+  height: 1px;
+  background: var(--divider-h);
+}
+.hal-footer > * + * { margin-top: 7px; }
+.hal-footer .hal-chips,
+.hal-footer .hal-composer,
+.hal-footer .hal-disclaimer {
+  max-width: 820px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Suggestion chips */
+.hal-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.hal-chip {
+  height: 30px;
+  padding: 0 14px;
+  background: var(--plate);
+  border: 1px solid var(--rivet);
+  border-radius: var(--radius-sm);
+  font-family: var(--font-body);
+  font-size: 13px;
+  color: var(--fg-2);
+  cursor: pointer;
+  transition: border-color var(--dur-fast) var(--ease-out), color var(--dur-fast) var(--ease-out), background var(--dur-fast) var(--ease-out);
+}
+.hal-chip:hover { border-color: var(--halo); color: var(--fg-1); background: var(--rivet); }
+.hal-chip:active { transform: scale(.98); }
+
+/* Composer */
+.hal-composer {
+  display: flex;
+  gap: 10px;
+  align-items: flex-end;
+}
+.hal-textarea {
+  flex: 1;
+  background: var(--void);
+  border: 1px solid var(--rivet);
+  border-radius: var(--radius-md);
+  padding: 11px 16px;
+  font-family: var(--font-body);
+  font-size: 15px;
+  color: var(--fg-1);
+  resize: none;
+  min-height: 46px;
+  max-height: 200px;
+  outline: none;
+  transition: border-color var(--dur-fast) var(--ease-out), box-shadow var(--dur-fast) var(--ease-out);
+}
+.hal-textarea::placeholder { color: var(--fg-2); }
+.hal-textarea:focus {
+  border-color: var(--halo-deep);
+  box-shadow: 0 0 0 1px var(--halo-deep), 0 0 12px rgba(26,115,240,0.18);
+}
+.hal-send {
+  height: 46px;
+  padding: 0 24px;
+  background: var(--halo);
+  border: none;
+  border-radius: var(--radius-md);
+  color: #fff;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: var(--tracking-wide);
+  cursor: pointer;
+  transition: background var(--dur-fast) var(--ease-out), transform var(--dur-fast) var(--ease-out);
+}
+.hal-send:hover:not(:disabled) { background: var(--accent-hover); }
+.hal-send:active:not(:disabled) { transform: scale(.98); background: var(--accent-press); }
+.hal-send:disabled { background: var(--plate); color: var(--fg-3); cursor: not-allowed; }
+
+.hal-disclaimer {
+  text-align: center;
+  font-family: var(--font-body);
+  font-size: 12px;
+  color: var(--fg-3);
+  letter-spacing: 0.01em;
+}
+
+/* ─── HAL eye ────────────────────────────────────────────── */
+.hal-eye { flex: 0 0 auto; }
+
+/* ─── Keyframes ──────────────────────────────────────────── */
+@keyframes hal-breathe {
+  0%, 100% {
+    box-shadow:
+      0 0 40px rgba(26,115,240,0.06),
+      0 0 24px rgba(26,115,240,0.15),
+      0 0 10px rgba(26,115,240,0.32),
+      0 0 0 1px rgba(26,115,240,0.18);
+  }
+  50% {
+    box-shadow:
+      0 0 60px rgba(26,115,240,0.13),
+      0 0 32px rgba(26,115,240,0.26),
+      0 0 14px rgba(26,115,240,0.46),
+      0 0 0 1px rgba(26,115,240,0.24);
   }
 }
+@keyframes hal-pulse {
+  0%, 100% { opacity: 1; }
+  50%      { opacity: 0.45; }
+}
+@keyframes hal-bounce {
+  0%, 60%, 100% { transform: translateY(0); opacity: .5; }
+  30%           { transform: translateY(-4px); opacity: 1; }
+}
+@keyframes hal-blink { 50% { opacity: 0; } }
+@media (prefers-reduced-motion: reduce) {
+  .hal-eye, .hal-thinking span { animation: none !important; }
+}
+
+/* Scrollbar */
+.hal-stream::-webkit-scrollbar { width: 10px; }
+.hal-stream::-webkit-scrollbar-track { background: transparent; }
+.hal-stream::-webkit-scrollbar-thumb { background: var(--rivet); border-radius: 5px; }
+.hal-stream::-webkit-scrollbar-thumb:hover { background: var(--halo-deep); }
+
+/* Markdown content inside assistant bubbles inherits HAL type */
+.markdown-content { font-family: var(--font-body); }
+.markdown-content a { color: var(--halo-flare); text-decoration: underline; }
+.markdown-content code { font-family: var(--font-mono); }

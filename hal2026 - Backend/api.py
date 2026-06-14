@@ -77,7 +77,7 @@ def chat(pregunta: Pregunta):
         {'role': 'system', 'content': PROMPT_SISTEMA},
         {'role': 'user',   'content': f'Contexto:\n{contexto}\n\nPregunta: {pregunta.mensaje}'},
     ]
-    texto = llamarRespuesta(mensajes, max_tokens=1024, temperature=0.2)
+    texto = llamarRespuesta(mensajes, max_tokens=4096, temperature=0.2)
 
     texto_raw = texto
 

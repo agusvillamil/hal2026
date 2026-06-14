@@ -1,20 +1,25 @@
 import type { Metadata } from 'next'
-import { Inter, Geist_Mono } from 'next/font/google'
+import { Space_Grotesk, DM_Sans, JetBrains_Mono } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
-const inter = Inter({ 
-  subsets: ["latin"],
-  variable: "--font-inter",
-});
-const geistMono = Geist_Mono({ 
-  subsets: ["latin"],
-  variable: "--font-mono",
-});
+const spaceGrotesk = Space_Grotesk({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700'],
+  variable: '--font-space-grotesk',
+})
+const dmSans = DM_Sans({
+  subsets: ['latin'],
+  variable: '--font-dm-sans',
+})
+const jetbrainsMono = JetBrains_Mono({
+  subsets: ['latin'],
+  variable: '--font-jetbrains',
+})
 
 export const metadata: Metadata = {
   title: 'HAL-2026',
-  description: 'Pregunte solo acerca de Fisica, o se va por la escotilla de ventilacion',
+  description: 'Tu asistente de Física I. Preguntame lo que quieras o te vas por la escotilla de ventilación.',
   icons: {
     icon: [
       { url: '/favicon.ico', sizes: 'any' },
@@ -31,8 +36,10 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
-      <body className={`${inter.variable} ${geistMono.variable} font-sans antialiased`}>
+    <html lang="es">
+      <body
+        className={`${spaceGrotesk.variable} ${dmSans.variable} ${jetbrainsMono.variable} antialiased`}
+      >
         {children}
         <Analytics />
       </body>

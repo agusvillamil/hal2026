@@ -67,7 +67,7 @@ export function MarkdownLatex({ content, className = "" }: MarkdownLatexProps) {
                 })
                 return (
                   <div
-                    className="my-3 overflow-x-auto"
+                    className="hal-mathcard"
                     dangerouslySetInnerHTML={{ __html: html }}
                   />
                 )
