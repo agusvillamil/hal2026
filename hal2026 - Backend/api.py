@@ -10,6 +10,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 
 from modelos import llamarRespuesta
+from puntaje_contexto import rerankear_por_metadata
 
 load_dotenv(dotenv_path=Path(__file__).parent.parent / '.env')
 
@@ -23,6 +24,7 @@ app.add_middleware(
 )
 
 N_RESULTADOS = 5
+N_CANDIDATOS_BUSQUEDA = 25
 MAX_HISTORIAL_MENSAJES = 6
 MAX_HISTORIAL_CARACTERES = 1200
 MAX_PREGUNTAS_HISTORIAL_BUSQUEDA = 2
@@ -37,7 +39,7 @@ PROMPT_SISTEMA = (
     'Eres un asistente experto en Física I universitaria. '
     'Responde la pregunta del usuario basándote ÚNICAMENTE en los fragmentos '
     'de contexto proporcionados. En caso de que el contexto no contenga información suficiente '
-    'intenta inferir la respuesta usando tu conocimiento general de física'
+    'intenta inferir la respuesta usando tu conocimiento general de física '
     'para responder. '
     'Usa notación LaTeX para fórmulas matemáticas: '
     '$...$ para fórmulas en línea y $$...$$ para fórmulas en bloque. '
@@ -110,22 +112,34 @@ def chat(pregunta: Pregunta):
     consulta_busqueda = _construir_consulta_busqueda(pregunta)
     historial = _formatear_historial(pregunta.historial)
 
-    # 1. Buscar chunks similares en ChromaDB
+    # 1. Buscar más candidatos que los necesarios: Chroma aporta la señal
+    # semántica inicial y luego los metadatos ayudan a reordenar.
     resultados = coleccion.query(
         query_texts=[consulta_busqueda],
-        n_results=N_RESULTADOS,
-        include=['documents', 'metadatas'],
+        n_results=N_CANDIDATOS_BUSQUEDA,
+        include=['documents', 'metadatas', 'distances'],
     )
 
     documentos = resultados['documents'][0]
     metadatas  = resultados['metadatas'][0]
+    distancias = resultados.get('distances', [[]])[0]
 
     if not documentos:
         raise HTTPException(status_code=404, detail='Sin resultados en la base de datos.')
 
+    candidatos = rerankear_por_metadata(
+        documentos=documentos,
+        metadatas=metadatas,
+        distancias=distancias,
+        pregunta=consulta_busqueda,
+    )
+    candidatos_contexto = candidatos[:N_RESULTADOS]
+
     # 2. Construir bloque de contexto con fuente de cada chunk
     bloques = []
-    for doc, meta in zip(documentos, metadatas):
+    for candidato in candidatos_contexto:
+        doc = candidato['documento']
+        meta = candidato['metadata']
         fuente = f"{meta.get('topic', '?')} (p. {meta.get('page_start', '?')}–{meta.get('page_end', '?')})"
         bloques.append(f'[{fuente}]\n{doc}')
     contexto = '\n\n---\n\n'.join(bloques)
@@ -168,6 +182,17 @@ def chat(pregunta: Pregunta):
     print(f"\n{'='*60}")
     print(f"[PROMPT SISTEMA]\n{PROMPT_SISTEMA}")
     print(f"[CONSULTA BUSQUEDA]\n{consulta_busqueda}")
+    print("[RERANKING]")
+    for i, candidato in enumerate(candidatos_contexto, 1):
+        meta = candidato['metadata']
+        print(
+            f"  {i}. score={candidato['score']:.3f} "
+            f"metadata={candidato['score_metadata']:.3f} "
+            f"dist={candidato['distancia']} "
+            f"tipo={meta.get('tipo_contenido', '?')} "
+            f"tema={meta.get('topic', '?')} "
+            f"conceptos={meta.get('conceptos', '')}"
+        )
     print(f"[CONTEXTO]\n{contexto}")
     print(f"[HISTORIAL]\n{historial}")
     print(f"[PREGUNTA] {pregunta.mensaje}")

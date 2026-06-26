@@ -136,7 +136,7 @@ export function ChatContainer() {
         <div className="hal-header__meta">
           <div className="hal-title">HAL-2026</div>
           <div className="hal-tagline">
-            Tu asistente inteligente de Física I. Pregunte solo acerca de física, o se va por la escotilla de ventilación.
+            Tu asistente inteligente de Física I. Preguntá solo acerca de física, o te vas por la escotilla de ventilación.
           </div>
         </div>
         <div className="hal-hud-block">
