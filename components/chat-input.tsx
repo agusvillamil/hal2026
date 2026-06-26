@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, type FormEvent, type KeyboardEvent } from "react"
+import { useEffect, useRef, useState, type FormEvent, type KeyboardEvent } from "react"
 
 interface ChatInputProps {
   onSendMessage: (message: string) => void
@@ -9,6 +9,15 @@ interface ChatInputProps {
 
 export function ChatInput({ onSendMessage, isLoading = false }: ChatInputProps) {
   const [input, setInput] = useState("")
+  const textareaRef = useRef<HTMLTextAreaElement>(null)
+
+  useEffect(() => {
+    const textarea = textareaRef.current
+    if (!textarea) return
+
+    textarea.style.height = "auto"
+    textarea.style.height = input ? `${Math.min(textarea.scrollHeight, 200)}px` : ""
+  }, [input])
 
   const handleSubmit = (e?: FormEvent) => {
     e?.preventDefault()
@@ -28,6 +37,7 @@ export function ChatInput({ onSendMessage, isLoading = false }: ChatInputProps) 
   return (
     <div className="hal-composer">
       <textarea
+        ref={textareaRef}
         className="hal-textarea"
         value={input}
         onChange={(e) => setInput(e.target.value)}
@@ -35,11 +45,6 @@ export function ChatInput({ onSendMessage, isLoading = false }: ChatInputProps) 
         placeholder="Escribí tu pregunta sobre Física I..."
         disabled={isLoading}
         rows={1}
-        onInput={(e) => {
-          const target = e.target as HTMLTextAreaElement
-          target.style.height = "auto"
-          target.style.height = `${Math.min(target.scrollHeight, 200)}px`
-        }}
       />
       <button
         type="button"

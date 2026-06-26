@@ -11,13 +11,23 @@ interface Message {
   content: string
 }
 
+type ChatHistoryMessage = Pick<Message, "role" | "content">
+
+const MAX_HISTORY_MESSAGES = 6
+const MAX_HISTORY_MESSAGE_CHARS = 1200
+
 const initialMessages: Message[] = [
   {
     id: "1",
     role: "assistant",
-    content: `¡Hola! Soy HAL-2026, tu asistente de Física I. Contame qué tema estás viendo y lo resolvemos juntos, conceptos, ecuaciones y demostraciones.
+    content: 
+`¡Hola! Soy HAL-2026, tu asistente inteligente de Física I. 
+Puedo ayudarte a resolver cualquier problema de física clásica, 
+siempre y cuando pertenezca a un tema dado en la materia.
 
-Por ejemplo, las ecuaciones generales del movimiento rectilíneo uniformemente acelerado (MRUA):
+Puedo explicarte conceptos complejos de forma clara. 
+Por ejemplo, las ecuaciones generales 
+del movimiento rectilíneo uniformemente acelerado (MRUA):
 
 Posición: $$x(t) = x_0 + v_0\\, t + \\tfrac{1}{2} a t^2$$
 
@@ -30,51 +40,39 @@ Aceleración: $$a(t) = \\frac{dv(t)}{dt} = \\frac{d^2 x(t)}{dt^2} = a$$
 ]
 
 const DEFAULT_SUGGESTIONS = [
-  "¿Qué es el campo eléctrico?",
+  "¿Puede una partícula tener aceleración si se mueve a una rapidez constante?",
   "Ley de Newton aplicada",
   "Movimiento armónico simple",
-  "Primera ley de la termodinámica",
+  "¿Qué papel juega la inercia cuando se aplica una fuerza sobre un cuerpo para alterar su movimiento?",
 ]
 
-interface SavedQuestion {
-  id: string
-  text: string
-  createdAt: string
+function truncateHistoryContent(content: string): string {
+  if (content.length <= MAX_HISTORY_MESSAGE_CHARS) return content
+  return `${content.slice(0, MAX_HISTORY_MESSAGE_CHARS).trim()}...`
 }
 
-interface RetrievedContext {
-  source: string
-  content: string
+function buildChatHistory(messages: Message[]): ChatHistoryMessage[] {
+  return messages
+    .filter((message) => message.id !== initialMessages[0].id)
+    .slice(-MAX_HISTORY_MESSAGES)
+    .map((message) => ({
+      role: message.role,
+      content: truncateHistoryContent(message.content),
+    }))
 }
 
-async function saveQuestionToDatabase(question: string): Promise<SavedQuestion> {
-  // TODO: Reemplazar por insercion real en base de datos.
-  return {
-    id: crypto.randomUUID(),
-    text: question,
-    createdAt: new Date().toISOString(),
-  }
-}
-
-async function searchContextInDatabase(_savedQuestion: SavedQuestion): Promise<RetrievedContext[]> {
-  // TODO: Reemplazar por busqueda semantica/contextual en base de datos.
-  return []
-}
-
-async function generateAnswerWithAI(
-  question: SavedQuestion,
-  _context: RetrievedContext[]
-): Promise<string> {
+async function fetchAnswer(question: string, history: ChatHistoryMessage[]): Promise<string> {
   const apiUrl = process.env.NEXT_PUBLIC_API_URL
   if (!apiUrl) throw new Error("NEXT_PUBLIC_API_URL no está configurada en .env")
 
+  // El backend hace el flujo completo de RAG: búsqueda de contexto + generación.
   const res = await fetch(`${apiUrl}/chat`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
       "ngrok-skip-browser-warning": "true",
     },
-    body: JSON.stringify({ mensaje: question.text }),
+    body: JSON.stringify({ mensaje: question, historial: history }),
   })
 
   if (!res.ok) throw new Error(`Error del servidor: ${res.status}`)
@@ -83,16 +81,11 @@ async function generateAnswerWithAI(
   return data.respuesta
 }
 
-async function runQuestionPipeline(questionText: string): Promise<string> {
-  const savedQuestion = await saveQuestionToDatabase(questionText)
-  const context = await searchContextInDatabase(savedQuestion)
-  return generateAnswerWithAI(savedQuestion, context)
-}
-
 export function ChatContainer() {
   const [messages, setMessages] = useState<Message[]>(initialMessages)
   const [isLoading, setIsLoading] = useState(false)
   const scrollRef = useRef<HTMLDivElement>(null)
+  const showSuggestions = !messages.some((message) => message.role === "user")
 
   useEffect(() => {
     if (scrollRef.current) {
@@ -101,6 +94,7 @@ export function ChatContainer() {
   }, [messages, isLoading])
 
   const handleSendMessage = async (content: string) => {
+    const history = buildChatHistory(messages)
     const userMessage: Message = {
       id: Date.now().toString(),
       role: "user",
@@ -111,7 +105,7 @@ export function ChatContainer() {
     setIsLoading(true)
 
     try {
-      const answer = await runQuestionPipeline(content)
+      const answer = await fetchAnswer(content, history)
 
       const assistantMessage: Message = {
         id: (Date.now() + 1).toString(),
@@ -142,7 +136,7 @@ export function ChatContainer() {
         <div className="hal-header__meta">
           <div className="hal-title">HAL-2026</div>
           <div className="hal-tagline">
-            Tu asistente de Física I. Preguntame acerca de física o te vas por la escotilla de ventilación.
+            Tu asistente inteligente de Física I. Pregunte solo acerca de física, o se va por la escotilla de ventilación.
           </div>
         </div>
         <div className="hal-hud-block">
@@ -165,7 +159,6 @@ export function ChatContainer() {
             {isLoading ? "Pensando…" : "En línea"}
           </div>
           <div>Física I · UNS</div>
-          <div>Modo RAG</div>
         </div>
       </header>
 
@@ -193,19 +186,21 @@ export function ChatContainer() {
 
       {/* Footer */}
       <footer className="hal-footer">
-        <div className="hal-chips">
-          {DEFAULT_SUGGESTIONS.map((s) => (
-            <button
-              key={s}
-              type="button"
-              className="hal-chip"
-              onClick={() => handleSendMessage(s)}
-              disabled={isLoading}
-            >
-              {s}
-            </button>
-          ))}
-        </div>
+        {showSuggestions && (
+          <div className="hal-chips">
+            {DEFAULT_SUGGESTIONS.map((s) => (
+              <button
+                key={s}
+                type="button"
+                className="hal-chip"
+                onClick={() => handleSendMessage(s)}
+                disabled={isLoading}
+              >
+                {s}
+              </button>
+            ))}
+          </div>
+        )}
         <ChatInput onSendMessage={handleSendMessage} isLoading={isLoading} />
         <div className="hal-disclaimer">
           HAL-2026 puede cometer errores. Verificá siempre la información importante.

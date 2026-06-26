@@ -30,12 +30,11 @@ export function HalEye({ size = 48, breathing = true }: HalEyeProps) {
         alt="HAL-2026"
         width={size}
         height={size}
-        priority={size >= 40}
+        priority
         style={{
           width: "100%",
           height: "100%",
           objectFit: "cover",
-          // slight bleed so the bezel reaches the circular edge cleanly
           transform: "scale(1.04)",
         }}
       />

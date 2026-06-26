@@ -1,12 +1,13 @@
 import os
 import re
 from pathlib import Path
+from typing import Literal
 
 import chromadb
 from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 
 from modelos import llamarRespuesta
 
@@ -22,6 +23,9 @@ app.add_middleware(
 )
 
 N_RESULTADOS = 5
+MAX_HISTORIAL_MENSAJES = 6
+MAX_HISTORIAL_CARACTERES = 1200
+MAX_PREGUNTAS_HISTORIAL_BUSQUEDA = 2
 
 clienteChroma = chromadb.PersistentClient(path='./chroma_db')
 coleccion = clienteChroma.get_or_create_collection(
@@ -34,7 +38,7 @@ PROMPT_SISTEMA = (
     'Responde la pregunta del usuario basándote ÚNICAMENTE en los fragmentos '
     'de contexto proporcionados. En caso de que el contexto no contenga información suficiente '
     'intenta inferir la respuesta usando tu conocimiento general de física'
-    'para responder, indícalo claramente y responde que no hay suficiente información. '
+    'para responder. '
     'Usa notación LaTeX para fórmulas matemáticas: '
     '$...$ para fórmulas en línea y $$...$$ para fórmulas en bloque. '
     'Nunca uses \\(...\\) ni \\[...\\]. '
@@ -46,15 +50,69 @@ PROMPT_SISTEMA = (
 )
 
 
+class MensajeHistorial(BaseModel):
+    role: Literal['user', 'assistant']
+    content: str
+
+
 class Pregunta(BaseModel):
     mensaje: str
+    historial: list[MensajeHistorial] = Field(default_factory=list)
+
+
+def _recortar_texto(texto: str, max_caracteres: int) -> str:
+    texto = re.sub(r'\s+', ' ', texto).strip()
+    if len(texto) <= max_caracteres:
+        return texto
+    return texto[:max_caracteres].rstrip() + '...'
+
+
+def _formatear_historial(historial: list[MensajeHistorial]) -> str:
+    mensajes = [
+        mensaje for mensaje in historial[-MAX_HISTORIAL_MENSAJES:]
+        if mensaje.content.strip()
+    ]
+
+    if not mensajes:
+        return 'Sin historial reciente.'
+
+    etiquetas = {
+        'user': 'Usuario',
+        'assistant': 'HAL-2026',
+    }
+
+    return '\n'.join(
+        f'{etiquetas[mensaje.role]}: '
+        f'{_recortar_texto(mensaje.content, MAX_HISTORIAL_CARACTERES)}'
+        for mensaje in mensajes
+    )
+
+
+def _construir_consulta_busqueda(pregunta: Pregunta) -> str:
+    preguntas_previas = [
+        _recortar_texto(mensaje.content, 500)
+        for mensaje in pregunta.historial
+        if mensaje.role == 'user' and mensaje.content.strip()
+    ][-MAX_PREGUNTAS_HISTORIAL_BUSQUEDA:]
+
+    if not preguntas_previas:
+        return pregunta.mensaje
+
+    return (
+        f'Pregunta actual:\n{pregunta.mensaje}\n\n'
+        'Preguntas recientes del usuario para desambiguar referencias:\n'
+        + '\n'.join(f'- {texto}' for texto in preguntas_previas)
+    )
 
 
 @app.post('/chat')
 def chat(pregunta: Pregunta):
+    consulta_busqueda = _construir_consulta_busqueda(pregunta)
+    historial = _formatear_historial(pregunta.historial)
+
     # 1. Buscar chunks similares en ChromaDB
     resultados = coleccion.query(
-        query_texts=[pregunta.mensaje],
+        query_texts=[consulta_busqueda],
         n_results=N_RESULTADOS,
         include=['documents', 'metadatas'],
     )
@@ -75,7 +133,17 @@ def chat(pregunta: Pregunta):
     # 3. Enviar pregunta + contexto al modelo configurado
     mensajes = [
         {'role': 'system', 'content': PROMPT_SISTEMA},
-        {'role': 'user',   'content': f'Contexto:\n{contexto}\n\nPregunta: {pregunta.mensaje}'},
+        {
+            'role': 'user',
+            'content': (
+                'Contexto RAG (fuente principal):\n'
+                f'{contexto}\n\n'
+                'Historial reciente de conversación '
+                '(solo para continuidad y referencias del usuario; no reemplaza al contexto RAG):\n'
+                f'{historial}\n\n'
+                f'Pregunta actual: {pregunta.mensaje}'
+            ),
+        },
     ]
     texto = llamarRespuesta(mensajes, max_tokens=4096, temperature=0.2)
 
@@ -99,7 +167,9 @@ def chat(pregunta: Pregunta):
 
     print(f"\n{'='*60}")
     print(f"[PROMPT SISTEMA]\n{PROMPT_SISTEMA}")
+    print(f"[CONSULTA BUSQUEDA]\n{consulta_busqueda}")
     print(f"[CONTEXTO]\n{contexto}")
+    print(f"[HISTORIAL]\n{historial}")
     print(f"[PREGUNTA] {pregunta.mensaje}")
     print(f"[RESPUESTA RAW]\n{texto_raw}")
     print(f"[RESPUESTA PROCESADA]\n{texto}")
