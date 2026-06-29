@@ -5,6 +5,7 @@ import remarkMath from "remark-math"
 import rehypeKatex from "rehype-katex"
 import katex from "katex"
 import "katex/dist/katex.min.css"
+import { FreeBodyDiagram, parseFbdSpec } from "./free-body-diagram"
 
 const LATEX_HINT = /\\(frac|begin|sqrt|sum|int|vec|hat|alpha|beta|gamma|theta|omega|cdot|times|pi|infty|partial)\b|\^\{|_\{/
 
@@ -56,6 +57,13 @@ export function MarkdownLatex({ content, className = "" }: MarkdownLatexProps) {
             const isInline = !className
             const raw = extractText(children)
             const lang = className?.replace(/^language-/, "").toLowerCase() ?? ""
+
+            if (!isInline && lang === "fbd") {
+              const spec = parseFbdSpec(raw)
+              if (spec) return <FreeBodyDiagram spec={spec} />
+              // JSON inválido: cae al render normal del bloque de código.
+            }
+
             const looksLikeLatex =
               ["latex", "math", "tex"].includes(lang) || LATEX_HINT.test(raw)
 

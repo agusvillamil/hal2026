@@ -48,6 +48,17 @@ PROMPT_SISTEMA = (
     'usa solo $...$ o $$...$$. '
     'Nunca dejes delimitadores $ o $$ sin cerrar — cada $ de apertura debe tener su $ de cierre en el mismo párrafo. '
     'Si una fórmula contiene texto con unidades (m/s, km/h, etc.), incluí las unidades DENTRO de la fórmula usando \\text{...} o \\,\\mathrm{...}, no las dejes mezcladas con texto plano. '
+    'Cuando el usuario pida un diagrama de cuerpo libre (DCL) o un diagrama de fuerzas, '
+    'además de la explicación y los cálculos, agregá UN bloque de código con lenguaje "fbd" que contenga JSON con este esquema: '
+    '{"objeto": "<nombre del cuerpo>", "inclinacion": <grados del plano de apoyo, 0 si es horizontal>, '
+    '"fuerzas": [{"etiqueta": "<texto>", "angulo": <grados>, "color": "<opcional>"}]}. '
+    'La convención angular es matemática: 0 = derecha, 90 = arriba, 180 = izquierda, 270 = abajo; '
+    'se admite cualquier ángulo (por ejemplo la normal en un plano inclinado o una tensión inclinada). '
+    'Reglas físicas: el peso siempre apunta hacia abajo (270°); la normal es perpendicular a la superficie de apoyo; '
+    'la fricción se opone al deslizamiento inminente (si un objeto sobre un vehículo que frena tiende a ir hacia adelante, '
+    'la fricción sobre el objeto apunta hacia atrás). '
+    'El bloque "fbd" es ADICIONAL: nunca reemplaza la explicación ni el cálculo, y solo se incluye si se pide un diagrama. '
+    'Ejemplo de bloque: ```fbd\n{"objeto": "caja", "inclinacion": 0, "fuerzas": [{"etiqueta": "N", "angulo": 90}, {"etiqueta": "mg", "angulo": 270}, {"etiqueta": "f_s", "angulo": 180}]}\n``` '
     'Responde en español. Responde de manera concisa'
 )
 
@@ -167,6 +178,9 @@ def chat(pregunta: Pregunta):
     def _desenvolver_fence(match: re.Match) -> str:
         lang = (match.group(1) or '').lower()
         cuerpo = match.group(2)
+        if lang == 'fbd':
+            # Diagrama de cuerpo libre: el frontend lo parsea como JSON. No tocar.
+            return match.group(0)
         if lang in ('latex', 'math', 'tex'):
             return f'$$\n{cuerpo.strip()}\n$$'
         if re.search(r'\\(frac|begin|sqrt|sum|int|vec|hat|alpha|beta|gamma|theta|omega|cdot|times)\b|\^\{|_\{', cuerpo):
